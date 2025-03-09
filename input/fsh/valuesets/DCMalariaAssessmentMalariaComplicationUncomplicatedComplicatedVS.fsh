@@ -1,3 +1,0 @@
-ValueSet: DCMalariaAssessmentMalariaComplicationUncomplicatedComplicatedVS
-Title: "DC-Malaria-Assessment Malaria Complication-Uncomplicated/Complicated value set"
-* codes from system DCMalariaAssessmentMalariaComplicationUncomplicatedComplicatedCS

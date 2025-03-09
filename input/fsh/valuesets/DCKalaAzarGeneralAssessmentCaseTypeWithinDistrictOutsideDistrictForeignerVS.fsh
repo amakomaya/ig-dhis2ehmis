@@ -1,3 +1,0 @@
-ValueSet: DCKalaAzarGeneralAssessmentCaseTypeWithinDistrictOutsideDistrictForeignerVS
-Title: "DC-Kala Azar-General Assessment Case type-Within district/Outside district/Foreigner value set"
-* codes from system DCKalaAzarGeneralAssessmentCaseTypeWithinDistrictOutsideDistrictForeignerCS
