@@ -1,0 +1,13 @@
+CodeSystem: CODInfantMortalityCauseCS
+Title: "COD-Infant Mortality-Cause"
+* #"1" "ARI/Pneumonia"
+* #"2" "Diarrhoea"
+* #"3" "Severe Malnutrition"
+* #"4" "Malaria"
+* #"5" "Sepsis or Severe Infection"
+* #"6" "Tuberculosis"
+* #"7" "Meningitis/Enchphalitis"
+* #"8" "Trauma and Injuries"
+* #"9" "Poisoning"
+* #"10" "Drowning"
+* #"11" "Other Cause"

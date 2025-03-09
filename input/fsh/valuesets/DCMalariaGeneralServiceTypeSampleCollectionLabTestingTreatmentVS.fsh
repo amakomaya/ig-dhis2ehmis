@@ -1,0 +1,3 @@
+ValueSet: DCMalariaGeneralServiceTypeSampleCollectionLabTestingTreatmentVS
+Title: "DC-Malaria-General Service type-Sample Collection/Lab testing/Treatment value set"
+* codes from system DCMalariaGeneralServiceTypeSampleCollectionLabTestingTreatmentCS

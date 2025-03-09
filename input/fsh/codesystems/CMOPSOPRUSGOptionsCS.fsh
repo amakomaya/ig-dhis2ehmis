@@ -1,0 +1,12 @@
+CodeSystem: CMOPSOPRUSGOptionsCS
+Title: "CM-OPS-OPR-USG options"
+* #"1" "Normal"
+* #"2" "Cholelithiasis"
+* #"3" "Liver Fibrosis"
+* #"4" "KUB Stone"
+* #"5" "Fatty Liver (Grade II or more)"
+* #"6" "Ovarian Cyst"
+* #"7" "Fibroid Uterus"
+* #"8" "BEP (Benign Enlargement of Prostate)"
+* #"9" "Ascitis"
+* #"10" "Other"

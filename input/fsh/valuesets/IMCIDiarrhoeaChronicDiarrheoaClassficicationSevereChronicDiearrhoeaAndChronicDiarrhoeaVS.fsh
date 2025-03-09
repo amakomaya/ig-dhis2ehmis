@@ -1,0 +1,3 @@
+ValueSet: IMCIDiarrhoeaChronicDiarrheoaClassficicationSevereChronicDiearrhoeaAndChronicDiarrhoeaVS
+Title: "IMCI-Diarrhoea-Chronic Diarrheoa Classficication-Severe Chronic diearrhoea and Chronic Diarrhoea value set"
+* codes from system IMCIDiarrhoeaChronicDiarrheoaClassficicationSevereChronicDiearrhoeaAndChronicDiarrhoeaCS

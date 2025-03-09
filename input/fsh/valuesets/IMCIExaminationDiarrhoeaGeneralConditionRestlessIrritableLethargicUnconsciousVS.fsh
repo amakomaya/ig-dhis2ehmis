@@ -1,0 +1,3 @@
+ValueSet: IMCIExaminationDiarrhoeaGeneralConditionRestlessIrritableLethargicUnconsciousVS
+Title: "IMCI-Examination-Diarrhoea-General Condition-restless/irritable Lethargic/unconscious value set"
+* codes from system IMCIExaminationDiarrhoeaGeneralConditionRestlessIrritableLethargicUnconsciousCS

@@ -1,0 +1,10 @@
+CodeSystem: OPDFrequencyCS
+Title: "OPD Frequency"
+* #"SOS" "SOS"
+* #"OD" "OD"
+* #"BD" "BD"
+* #"TDS" "TDS"
+* #"QID" "QID"
+* #"HS" "HS"
+* #"STAT" "STAT"
+* #"QWK" "QWK"

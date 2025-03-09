@@ -1,0 +1,13 @@
+CodeSystem: TotalVaccineCollectionCS
+Title: "Total Vaccine Collection "
+* #"1" "BCG (वि.सि.जी.)"
+* #"2" "bOPV (ओ.पि.भी.)"
+* #"3" "DPT-Hep B-Hib (डि.पि.टि डेप वि हिव)"
+* #"4" "Rotavirus Vaccine (रोटा)"
+* #"5" "FIPV (एफ/आई. पि.भी.)"
+* #"6" "PCV (पि.सि.भी.)"
+* #"7" "Measles-Rubella (दादुरा-रुवेला)"
+* #"8" "JE (जे.ई)"
+* #"9" "TCV (टाइफाईड)"
+* #"10" "Td (टी.डी.)"
+* #"11" "HPV  (एच.पि.भि.)"

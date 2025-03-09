@@ -1,0 +1,10 @@
+CodeSystem: CODNeonatalDeathCauseCS
+Title: "COD-Neonatal Death-Cause"
+* #"1" "ARI (स्वास प्रस्वास रोग)"
+* #"2" "Preterm Birth Complications"
+* #"3" "Asphyxia"
+* #"4" "Diarrhoea"
+* #"5" "Intrapartum Complications"
+* #"6" "Congenital Anomalies"
+* #"7" "Sepsis"
+* #"8" "Other"
