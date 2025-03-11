@@ -1,5 +1,5 @@
 Logical: OPD
-Title: "बहिरङ्ग सेवा (OPD)"
+Title: "OPD"
 Parent: Base
 * enrollmentDate 1..1 date "दर्ता मिति"
 * incidentDate 0..1 date ""

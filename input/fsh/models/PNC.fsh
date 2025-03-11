@@ -1,5 +1,5 @@
 Logical: PNC
-Title: "सुत्केरी पछिको सेवा (PNC)"
+Title: "PNC"
 Parent: Base
 * executionDate 0..1 date ""
 * mnhPncDeliveryTreatmentServiceTaken 0..1 code "MNH - PNC - Delivery Treatment Service Taken"

@@ -1,5 +1,5 @@
 Logical: TBLeprosyMalariaKalaAzar
-Title: "रोग नियन्त्रण (TB, Leprosy,Malaria,Kala-azar)"
+Title: "TB, Leprosy,Malaria,Kala-azar"
 Parent: Base
 * enrollmentDate 1..1 date ""
 * incidentDate 0..1 date ""

@@ -1,5 +1,5 @@
 Logical: EmergencyContraception
-Title: "आकस्मिक गर्भ निरोध (Emergency Contraception)"
+Title: "Emergency Contraception"
 Parent: Base
 * executionDate 0..1 date ""
 * fppEmergencyContraceptionProvided 0..1 code "FPP- Emergency contraception provided"

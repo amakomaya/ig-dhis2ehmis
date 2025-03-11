@@ -1,5 +1,5 @@
-Logical: 
-Title: "खोप, पोषण र अन्य कार्यक्रम"
+Logical: VMEVaccineImmunizationAndOthers
+Title: "VME Vaccine Immunization and others"
 Parent: Base
 * executionDate 0..1 date ""
 * campaignHwMobilized 0..1 decimal "VME-EPI-campaign-HW mobilized"

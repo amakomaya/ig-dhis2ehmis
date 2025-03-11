@@ -1,5 +1,5 @@
 Logical: LaboratoryServices
-Title: "प्रयोगशाला सेवा (Laboratory Services)"
+Title: "Laboratory Services"
 Parent: Base
 * enrollmentDate 1..1 date ""
 * incidentDate 0..1 date ""
