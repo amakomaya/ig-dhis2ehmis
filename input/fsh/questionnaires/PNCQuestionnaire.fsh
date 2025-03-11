@@ -15,7 +15,6 @@ Usage: #definition
 * contained[+] = IMNCIExaminationFeedingBFContactTwoOptionsVS
 * contained[+] = MNPlaceOfDeliveryVS
 * contained[+] = GENVS
-* contained[+] = GENVS
 * contained[+] = PNCProtocolWiseVisitVS
 
 * item[+].linkId = "pnc"
