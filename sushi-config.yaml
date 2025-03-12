@@ -54,7 +54,8 @@ pages:
     title: Value Sets
   codesystems.md:
     title: Code Systems
-
+  terminology.md:
+    title: Terminology Server
 
   # email: test@example.org
 
@@ -82,9 +83,12 @@ pages:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-  Data Elements: data-elements.html
-  Value Sets: valuesets.html
-  Code Systems: codesystems.html
+  Data Elements: data-elements.html  
+  Terminology:
+    Value Sets: valuesets.html
+    Code Systems: codesystems.html
+    Terminology Server: terminology.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
