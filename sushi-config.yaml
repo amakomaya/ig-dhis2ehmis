@@ -48,6 +48,14 @@ pages:
     title: Home
     license.md:
       title: License
+  data-elements.md:
+    title: Data Elements
+  valuesets.md:
+    title: Value Sets
+  codesystems.md:
+    title: Code Systems
+
+
   # email: test@example.org
 
   # The parameters property represents IG.definition.parameter. Rather
@@ -74,6 +82,9 @@ pages:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Data Elements: data-elements.html
+  Value Sets: valuesets.html
+  Code Systems: codesystems.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
