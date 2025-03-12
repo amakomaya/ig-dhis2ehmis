@@ -15,4 +15,4 @@ Parent: Base
 * organisationUnitGroups 0..* Identifier "organisation unit groups that contains this organisation unit"
 * dataSets 0..* Identifier "data sets associated with this organisation unit"
 * programs 0..* Identifier "programs associated with this organisation unit"
-* attributeValues 0..* D2AttributeValue "additional attributes" 
+* attributeValues 0..* AttributeValue "additional attributes" 
