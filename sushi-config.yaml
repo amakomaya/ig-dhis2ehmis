@@ -6,8 +6,17 @@
 id: dhis2mis.fhir.ig
 canonical: https://fhir.dhis2mis.org
 name: DHIS2MISFHIRIG
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: DHIS2MIS EHMIS Core FHIR Implementation Guide
+flag: |
+  <div style="text-align: center;">
+    <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" style="height:30px; margin-top:10px;">
+  </div>
+description: >-
+  The DHIS2MIS FHIR Implementation Guide is based on FHIR R4 and defines the minimum conformance requirements for interoperable health data exchange in Nepal. This guide aligns with DHIS2 Tracker, EHMIS, and national digital health priorities, ensuring standardized data sharing between health facilities, national registries, and partner systems.
+
+  The requirements for this guide are informed by global FHIR best practices, Digital Public Goods (DPGs) principles, and interoperability frameworks such as WHO SMART Guidelines and OpenHIE architecture. The profiles and terminology defined here will serve as a foundation for future FHIR-based digital health initiatives in Nepal.
+
+  Originally developed as part of the DHIS2 Tracker and EHMIS FHIR standardization efforts, this guide evolves with stakeholder input and aligns with national health information exchange (HIE) policies. Future versions will expand to support additional use cases, analytics, and real-time data sharing capabilities for Nepal’s health sector.
 status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -17,7 +26,12 @@ license: CC-BY-SA-3.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: https://dhis2mis.org
-  url: https://dhis2mis.org/
+  url: https://dhis2mis.org
+  email: rmchndrapdl@gmail.com
+
+copyright: >-
+  Used by permission of HL7 International, all rights reserved Creative Commons License
+
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
