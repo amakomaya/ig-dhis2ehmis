@@ -56,7 +56,7 @@ copyright: >-
 pages:
   index.md:
     title: Home
-    license.md:
+  license.md:
       title: License
   data-elements.md:
     title: Data Elements
@@ -94,10 +94,9 @@ menu:
   Home: index.html
   Artifacts: artifacts.html
   Data Elements: data-elements.html  
-  Terminology:
-    Value Sets: valuesets.html
-    Code Systems: codesystems.html
-    Terminology Server: terminology.html
+  Value Sets: valuesets.html
+  Code Systems: codesystems.html
+  Terminology Server: terminology.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
