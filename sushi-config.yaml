@@ -7,10 +7,6 @@ id: dhis2mis.fhir.ig
 canonical: https://fhir.dhis2mis.org
 name: DHIS2MISFHIRIG
 title: DHIS2MIS EHMIS Core FHIR Implementation Guide
-flag: |
-  <div style="text-align: center;">
-    <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" style="height:30px; margin-top:10px;">
-  </div>
 description: >-
   The DHIS2MIS FHIR Implementation Guide is based on FHIR R4 and defines the minimum conformance requirements for interoperable health data exchange in Nepal. This guide aligns with DHIS2 Tracker, EHMIS, and national digital health priorities, ensuring standardized data sharing between health facilities, national registries, and partner systems.
 
