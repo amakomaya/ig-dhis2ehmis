@@ -20,7 +20,7 @@ Description: "Defines an ANC visit encounter in Nepal's maternal health program.
 * gravida 0..1 integer "Total number of pregnancies"
 * para 0..1 integer "Number of live births"
 * pastComplications 0..* CodeableConcept "History of complications"
-  * ^binding.valueSet = "http://example.org/fhir/ValueSet/anc-past-complications"
+  * ^binding.valueSet = "https://fhir.dhis2mis.org/CodeSystem-PregnancyComplicationsCS.html"
 
 // Current Pregnancy
 * presentation 0..1 CodeableConcept "Fetal presentation"
@@ -35,12 +35,12 @@ Description: "Defines an ANC visit encounter in Nepal's maternal health program.
 
 // Complaints
 * complaints 0..* CodeableConcept "Patient-reported complaints"
-  * ^binding.valueSet = "http://example.org/fhir/ValueSet/anc-complaints"
+  * ^binding.valueSet = "https://fhir.dhis2mis.org/CodeSystem-PregnancyComplicationsCS.html"
 
 // Lab Results
 * hbLevel 0..1 decimal "Hemoglobin level (g/dL)"
 * hivTestResult 0..1 CodeableConcept "HIV test result"
-  * ^binding.valueSet = "http://example.org/fhir/ValueSet/hiv-results"
+  * ^binding.valueSet = "https://fhir.dhis2mis.org/CodeSystem-HIVPositiveNegativeNotTestedCS.html"
 * syphilisTestResult 0..1 CodeableConcept "Syphilis test result"
 * urineAlbumin 0..1 CodeableConcept "Urine albumin test result"
 
@@ -54,8 +54,8 @@ Description: "Defines an ANC visit encounter in Nepal's maternal health program.
 
 // Referrals and Actions
 * referredForComplication 0..1 boolean "Referred due to complication"
-* referralType 0..1 CodeableConcept "Referral reason"
-  * ^binding.valueSet = "http://example.org/fhir/ValueSet/anc-referral-reasons"
+// * referralType 0..1 CodeableConcept "Referral reason"
+//  * ^binding.valueSet = "http://example.org/fhir/ValueSet/anc-referral-reasons"
 
 // Protocol Compliance
 * protocol4VisitsCompleted 0..1 boolean "Four-visit ANC protocol completed"
