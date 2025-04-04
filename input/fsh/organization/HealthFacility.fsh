@@ -1,6 +1,7 @@
 // Alias Definitions
 Alias: $org = http://hl7.org/fhir/StructureDefinition/Organization
 Alias: $location = http://hl7.org/fhir/StructureDefinition/Location
+Alias: $dhis2Facility = https://fhir.dhis2mis.org/StructureDefinition-DHIS2Facility.html
 
 // Health Facility Profile
 Instance: HealthFacility
@@ -8,9 +9,6 @@ InstanceOf: Organization
 Title: "Health Facility Profile"
 Description: "FHIR Profile for healthcare facilities integrated with DHIS2."
 Usage: #definition
-Status: draft
-Kind: resource
-Date: 2025-04-03
 
 * identifier.system = "http://nhfr.mohp.gov.np/"
 * identifier.value = "FAC12345"
@@ -57,10 +55,10 @@ Usage: #definition
 
 // Implementation Guidance for DHIS2 Integration
 RuleSet: DHIS2-HealthFacility-Validation
-* identifier 1..1 MS "Must have a unique identifier"
-* name 1..1 MS "Must have an official name"
-* address 0..1 "Recommended to specify physical address"
-* dhis2FacilityData 0..1 "Should include DHIS2 specific data"
+* identifier 1..1 MS // Must have a unique identifier
+* name 1..1 MS // Must have an official name
+* address 0..1 // Recommended to specify physical address
+* dhis2FacilityData 0..1 // Should include DHIS2 specific data
 
 // Profile Definitions for DHIS2 Integration
 Profile: DHIS2HealthFacilityProfile
@@ -68,6 +66,5 @@ Parent: Organization
 Id: dhis2-health-facility-profile
 Title: "DHIS2 Health Facility Profile"
 Description: "A structured profile for representing health facilities in DHIS2."
-
 
 * obeys DHIS2-HealthFacility-Validation
