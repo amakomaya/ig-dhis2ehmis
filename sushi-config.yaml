@@ -78,19 +78,9 @@ pages:
   # For parameters defined by the FHIR Tools IG see:
   # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
   #
-  parameters:
+  # parameters:
   #   excludettl: true
   #   validation: [allow-any-extensions, no-broken-links]
-    show-inherited-invariants: false
-    apply-jurisdiction: true
-    apply-publisher: true
-    active-tables: false
-    apply-contact: true
-    apply-version: true
-    usage-stats-opt-out: true
-    excludexml: false
-    excludettl: true
-    excludemap: true
 
   #
   # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
