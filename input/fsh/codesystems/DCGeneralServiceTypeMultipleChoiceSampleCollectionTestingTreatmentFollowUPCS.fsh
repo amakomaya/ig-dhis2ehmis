@@ -1,4 +1,5 @@
 CodeSystem: DCGeneralServiceTypeMultipleChoiceSampleCollectionTestingTreatmentFollowUPCS
+Id: dc-general-service-type
 Title: "DC-General-Service Type-Multiple Choice-Sample Collection/Testing/Treatment/Follow UP"
 * #"1" "नमूना संकलन"
 * #"2" "नमूना जाँच (testing)"

@@ -18,16 +18,16 @@ Description: "A FHIR Patient profile that maps DHIS2 Tracked Entity Instance (TE
 * identifier.value 1..1 MS
 
 // Extensions
-* extension contains
-    http://example.org/fhir/StructureDefinition/dhis2-tei-uid named teiUid 0..1 and
-    http://example.org/fhir/StructureDefinition/dhis2-orgunit named orgUnit 0..1 and
-    http://example.org/fhir/StructureDefinition/dhis2-program named program 0..1
-    http://fhir.dhis2mis.org/ig/fhir/StructureDefinition/ethnic-code named ethnicCode 0..1
+// * extension contains
+//     http://example.org/fhir/StructureDefinition/dhis2-tei-uid named teiUid 0..1 and
+//     http://example.org/fhir/StructureDefinition/dhis2-orgunit named orgUnit 0..1 and
+//     http://example.org/fhir/StructureDefinition/dhis2-program named program 0..1
+//     https://fhir.dhis2mis.org/ig/fhir/StructureDefinition/ethnic-code named ethnicCode 0..1
 
-* extension[teiUid].valueString 1..1
-* extension[orgUnit].valueString 1..1
-* extension[program].valueString 1..1
-* extension[ethnicCode].valueCoding from EthnicCodeVS (required)
+// * extension[teiUid].valueString 1..1
+// * extension[orgUnit].valueString 1..1
+// * extension[program].valueString 1..1
+// * extension[ethnicCode].valueCoding from EthnicCodeVS (required)
 
 // ──────────────────────────────────────────────────────
 // EXAMPLE INSTANCE: One DHIS2 TEI mapped as a FHIR Patient
@@ -55,14 +55,14 @@ Description: "An example patient record mapped from a DHIS2 Tracked Entity Insta
 * gender = #male
 * birthDate = "2000-05-20"
 
-* extension[ethnicCode].url = "http://example.org/fhir/StructureDefinition/ethnic-code"
-* extension[ethnicCode].valueCoding = EthnicCodeCS#2 "2 जनजाती (२)"
+// * extension[ethnicCode].url = "http://example.org/fhir/StructureDefinition/ethnic-code"
+// * extension[ethnicCode].valueCoding = EthnicCodeCS#2 "2 जनजाती (२)"
 
-* extension[teiUid].url = "http://example.org/fhir/StructureDefinition/dhis2-tei-uid"
-* extension[teiUid].valueString = "TEI123456"
+// * extension[teiUid].url = "http://example.org/fhir/StructureDefinition/dhis2-tei-uid"
+// * extension[teiUid].valueString = "TEI123456"
 
-* extension[orgUnit].url = "http://example.org/fhir/StructureDefinition/dhis2-orgunit"
-* extension[orgUnit].valueString = "Health Facility Hospital"
+// * extension[orgUnit].url = "http://example.org/fhir/StructureDefinition/dhis2-orgunit"
+// * extension[orgUnit].valueString = "Health Facility Hospital"
 
-* extension[program].url = "http://example.org/fhir/StructureDefinition/dhis2-program"
-* extension[program].valueString = "Immunization System"
+// * extension[program].url = "http://example.org/fhir/StructureDefinition/dhis2-program"
+// * extension[program].valueString = "Immunization System"

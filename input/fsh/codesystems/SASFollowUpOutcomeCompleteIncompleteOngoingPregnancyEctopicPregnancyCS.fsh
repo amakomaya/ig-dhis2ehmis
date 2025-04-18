@@ -1,4 +1,5 @@
 CodeSystem: SASFollowUpOutcomeCompleteIncompleteOngoingPregnancyEctopicPregnancyCS
+Id: sas-followup-outcome
 Title: "SAS-Follow Up-Outcome-Complete/Incomplete/Ongoing pregnancy/Ectopic Pregnancy"
 * #"1" "Complete"
 * #"2" "Incomplete"

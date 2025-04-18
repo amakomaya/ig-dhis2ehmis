@@ -1,4 +1,5 @@
 CodeSystem: DCLeprosyAssessmentCaseTypeNewPatientReferredInReStarterRelapsedOtherCS
+Id: dc-leprosy-assessment-case-type
 Title: "DC-Leprosy-Assessment Case type-New Patient/Referred in/Re-starter/Relapsed/Other"
 * #"1" "New Patient"
 * #"2" "Transfer In"

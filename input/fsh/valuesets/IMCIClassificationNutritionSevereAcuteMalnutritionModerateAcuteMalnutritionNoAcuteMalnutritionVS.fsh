@@ -1,3 +1,4 @@
 ValueSet: IMCIClassificationNutritionSevereAcuteMalnutritionModerateAcuteMalnutritionNoAcuteMalnutritionVS
+Id: imci-classification-nutrition
 Title: "IMCI-Classification-Nutrition-Severe Acute malnutrition/Moderate Acute malnutrition/No Acute malnutrition value set"
 * codes from system IMCIClassificationNutritionSevereAcuteMalnutritionModerateAcuteMalnutritionNoAcuteMalnutritionCS

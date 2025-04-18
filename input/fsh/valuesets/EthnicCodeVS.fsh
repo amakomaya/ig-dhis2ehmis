@@ -1,3 +1,3 @@
-ValueSet: EthnicCodeVS
-Title: "Ethnic Code value set"
-* codes from system EthnicCodeCS
+// ValueSet: EthnicCodeVS
+// Title: "Ethnic Code value set"
+// * codes from system EthnicCodeCS

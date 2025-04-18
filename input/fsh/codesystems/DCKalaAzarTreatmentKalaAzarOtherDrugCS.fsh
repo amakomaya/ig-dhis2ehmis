@@ -1,4 +1,5 @@
 CodeSystem: DCKalaAzarTreatmentKalaAzarOtherDrugCS
+Id: dc-kalaazar-treatment
 Title: "DC-Kala Azar-Treatment Kala Azar other drug"
 * #"1" "Miltefosin"
 * #"2" "Paromomycin"

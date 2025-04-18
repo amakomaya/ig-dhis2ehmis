@@ -1,4 +1,5 @@
 CodeSystem: IMCIEarProblemClassificationFourOptionsMastoiditisASOMCSOMAndNoEarInfectionCS
+Id: imci-ear-problem-classification
 Title: "IMCI-Ear Problem-Classification- four options-Mastoiditis/ASOM/CSOM and No ear Infection"
 * #"1" "मास्टोइडाइटिस"
 * #"2" "कानको एक्यूट संक्रमण"

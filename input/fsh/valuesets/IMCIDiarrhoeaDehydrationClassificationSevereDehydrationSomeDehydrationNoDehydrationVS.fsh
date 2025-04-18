@@ -1,3 +1,4 @@
 ValueSet: IMCIDiarrhoeaDehydrationClassificationSevereDehydrationSomeDehydrationNoDehydrationVS
+Id: imci-diarrhoea-dehydration-classification
 Title: "IMCI-Diarrhoea-Dehydration-classification-Severe dehydration/Some dehydration/no dehydration value set"
 * codes from system IMCIDiarrhoeaDehydrationClassificationSevereDehydrationSomeDehydrationNoDehydrationCS
