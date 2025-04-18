@@ -16,6 +16,10 @@ Description: "A FHIR Patient profile that maps DHIS2 Tracked Entity Instance (TE
 * identifier 3..* MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
+* telecom 2..* MS
+* telecom.system 1..1 MS
+* telecom.value 1..1 MS
+* telecom.use MS
 
 // Extensions
 // * extension contains
@@ -54,6 +58,14 @@ Description: "An example patient record mapped from a DHIS2 Tracked Entity Insta
 * name[0].family = "Poudel"
 * gender = #male
 * birthDate = "2000-05-20"
+
+* telecom[0].system = #phone
+* telecom[0].value = "+9779800000000"
+* telecom[0].use = #mobile
+
+* telecom[1].system = #email
+* telecom[1].value = "rc.poudel@dhis2mis.com"
+* telecom[1].use = #home
 
 // * extension[ethnicCode].url = "http://example.org/fhir/StructureDefinition/ethnic-code"
 // * extension[ethnicCode].valueCoding = EthnicCodeCS#2 "2 जनजाती (२)"
