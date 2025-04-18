@@ -15,7 +15,7 @@ description: >-
   Originally developed as part of the DHIS2 Tracker and EHMIS FHIR standardization efforts, this guide evolves with stakeholder input and aligns with national health information exchange (HIE) policies. Future versions will expand to support additional use cases, analytics, and real-time data sharing capabilities for Nepal’s health sector.
 status: active # draft | active | retired | unknown
 version: 1.0.1
-fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
 license: CC-BY-SA-3.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
