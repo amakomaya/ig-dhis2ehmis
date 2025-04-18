@@ -19,7 +19,7 @@ fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
 license: CC-BY-SA-3.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#NP "Nepal" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: https://dhis2mis.org
   url: https://dhis2mis.org
@@ -78,9 +78,20 @@ pages:
   # For parameters defined by the FHIR Tools IG see:
   # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
   #
-  # parameters:
+  parameters:
   #   excludettl: true
   #   validation: [allow-any-extensions, no-broken-links]
+    show-inherited-invariants: false
+    apply-jurisdiction: true
+    apply-publisher: true
+    active-tables: false
+    apply-contact: true
+    apply-version: true
+    usage-stats-opt-out: true
+    excludexml: false
+    excludettl: true
+    excludemap: true
+
   #
   # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
   # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
