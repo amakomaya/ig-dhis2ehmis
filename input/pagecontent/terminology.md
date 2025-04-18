@@ -2,7 +2,7 @@
 
 This Implementation Guide supports terminology services for validation, expansion, and lookup.
 
-![Condition profile with Condition.code slice bound to "SNOMED CT fracture codes" value set](../../local-template/package/content/assets/images/terminology-module-relationships.pngimage.png)
+![Condition profile with Condition.code slice bound to "SNOMED CT fracture codes" value set](../../local-template/package/content/assets/images/terminology-module-relationships.png)
 
 ## **Terminology Server**
 The terminology server used is:
