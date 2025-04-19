@@ -2,12 +2,7 @@
 
 This Implementation Guide supports terminology services for validation, expansion, and lookup.
 
-<!-- ![Condition profile with Condition.code slice bound to "SNOMED CT fracture codes" value set](assets/images/terminology-module-relationships.png) -->
-
-<p align="center">
-  <img src="assets/images/terminology-module-relationships.png" alt="Terminology relationships" style="width:60%;" />
-</p>
-
+{% include img.html img="terminology-module-relationships.png" caption="Figure 1: Terminology Module Relationships" width="70%" %}
 
 ## **Terminology Server**
 The terminology server used is:
