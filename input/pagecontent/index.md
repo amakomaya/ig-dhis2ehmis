@@ -40,7 +40,7 @@ This site serves as the central hub for the Fast Healthcare Interoperability Res
   <tr>
     <td>🏷️ <strong><a href="https://www.hl7.org/fhir/terminology-service.html" target="_blank">Terminology</a></strong>
     </td>
-    <td>CodeSystem, ValueSet, ConceptMap, Terminology Services</td>
+    <td>CodeSystem, ValueSet, ConceptMap, <a href="terminology.html">Terminology Services</a></td>
   </tr>
   <tr>
     <td>🔄 <strong><a href="https://www.hl7.org/fhir/http.html" target="_blank">Exchange</a></strong></td>
