@@ -22,6 +22,7 @@ This page lists all metadata mapped to FHIR resources.
 
 
 ## ANC Data Elements
+
 | DHIS2 Data Element | FHIR Resource | FHIR Element |
 |--------------------|----------------|----------------|
 | GEN-MasterRegisterType | `Encounter` / `Questionnaire` | `Encounter.class` or `Questionnaire.group` |
@@ -107,6 +108,7 @@ This page lists all metadata mapped to FHIR resources.
 
 
 ## EPI Immunization
+
 | Label | FHIR Resource | FHIR Element / Mapping Notes |
 |-------|---------------|------------------------------|
 | EPI-After birth-Place | `Location` | Location where BCG given |
