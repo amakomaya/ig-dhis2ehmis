@@ -15,10 +15,6 @@ The terminology server used is:
 The following FHIR terminology operations are supported:
 
 
-
-
-
-
 For more details, visit [FHIR Terminology Operations](https://hl7.org/fhir/terminology-service.html).
 
 ---
