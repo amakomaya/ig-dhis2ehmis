@@ -58,8 +58,8 @@ pages:
     title: Home
   license.md:
       title: License
-  data-elements.md:
-    title: Data Elements
+  metadata.md:
+    title: Metadata
   terminology.md:
     title: Terminology Server
 
@@ -90,7 +90,7 @@ pages:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-  Data Elements: data-elements.html  
+  Metadata: metadata.html  
   Terminology Server: terminology.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
