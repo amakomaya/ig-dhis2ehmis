@@ -7,8 +7,9 @@ Description: "CodeSystem for common pregnancy complications used in Nepal's Heal
 * ^date = "2025-04-25"
 * ^publisher = "Amakomaya Nepal"
 
-* ^property.code = #icd11
-* ^property.uri = "http://id.who.int/icd/release/11"
+* ^property[0].code = #icd11
+* ^property[0].uri = "http://id.who.int/icd/release/11"
+* ^property[0].type = #code
 
 * #preeclampsia "Preeclampsia"
   "A hypertensive disorder in pregnancy characterized by high blood pressure and often proteinuria, affecting both the mother and fetus."
