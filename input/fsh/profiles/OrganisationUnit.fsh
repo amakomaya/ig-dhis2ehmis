@@ -23,10 +23,10 @@ Description: "OrganisationUnit Location"
 * partOf MS
 * name 1..1 MS
 * managingOrganization 1..1
-* managingOrganization only Reference(OrganisationUnitOrganization)
+* managingOrganization only Reference(OrganisationUnit)
 * description 0..1 MS
 
-Profile: OrganisationUnitOrganization
+Profile: OrganisationUnit
 Parent: Organization
 Title: "OrganisationUnit Organization"
 Description: "OrganisationUnit Organization"
