@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>District - Nepal HMIS FHIR Implementation Guide v1.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
+<link rel="stylesheet" href="assets/css/app.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"7.2"}
+    h3,h4,h5,h6{--heading-prefix:"7.2"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="codesystems.html">Code Systems</a>
+  </li>
+  <li>
+    <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="identifiers.html">Identifier Systems</a>
+  </li>
+  <li>
+    <a href="external_terminologies.html">External Code Systems</a>
+  </li>
+  <li>
+    <a href="smart-index.html">SMART Guidelines</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+      <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+      <img src="assets/images/logo.png" alt="Project home" height="60"/>
+    </a>
+  </div>
+
+  <!-- Right logo - for example the FHIR logo -->
+  <!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+      <!-- <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" height="60"> -->
+    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+  </div>
+
+  <!-- search icon - if you want -->
+  <!-- <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div> -->
+
+        <div id="ig-status" class="ig-status-active">
+          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.1 - ci-build
+
+
+
+  <img src="assets/images/npl.svg" alt="Nepal flag" title="Nepal" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>District</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-district.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-district.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-district.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: District
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7.hmis.gov.np/ValueSet/district<button data-clipboard-text="https://hl7.hmis.gov.np/ValueSet/district" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.1<button data-clipboard-text="https://hl7.hmis.gov.np/ValueSet/district|1.0.1" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-08-06
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">DistrictVS</span></td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: Used by permission of HL7 International, all rights reserved Creative Commons License</p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>All district used in administrative divisions</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+  <!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div><p class="res-header-id"></p><a name="district"> </a><a name="hcdistrict"> </a>
+<ul><li>Include these codes as defined in <a href="CodeSystem-locations.html"><code>https://hl7.hmis.gov.np/CodeSystem/locations</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-locations.html#locations-106">106</a></td><td style="color: #cccccc">Bhojpur</td></tr><tr><td><a href="CodeSystem-locations.html#locations-107">107</a></td><td style="color: #cccccc">Dhankuta</td></tr><tr><td><a href="CodeSystem-locations.html#locations-110">110</a></td><td style="color: #cccccc">Ilam</td></tr><tr><td><a href="CodeSystem-locations.html#locations-111">111</a></td><td style="color: #cccccc">Jhapa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-105">105</a></td><td style="color: #cccccc">Khotang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-112">112</a></td><td style="color: #cccccc">Morang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-104">104</a></td><td style="color: #cccccc">Okhaldhunga</td></tr><tr><td><a href="CodeSystem-locations.html#locations-109">109</a></td><td style="color: #cccccc">Panchthar</td></tr><tr><td><a href="CodeSystem-locations.html#locations-102">102</a></td><td style="color: #cccccc">Sankhuwasabha</td></tr><tr><td><a href="CodeSystem-locations.html#locations-103">103</a></td><td style="color: #cccccc">Solukhumbu</td></tr><tr><td><a href="CodeSystem-locations.html#locations-113">113</a></td><td style="color: #cccccc">Sunsari</td></tr><tr><td><a href="CodeSystem-locations.html#locations-101">101</a></td><td style="color: #cccccc">Taplejung</td></tr><tr><td><a href="CodeSystem-locations.html#locations-108">108</a></td><td style="color: #cccccc">Terhathum</td></tr><tr><td><a href="CodeSystem-locations.html#locations-114">114</a></td><td style="color: #cccccc">Udayapur</td></tr><tr><td><a href="CodeSystem-locations.html#locations-207">207</a></td><td style="color: #cccccc">Bara</td></tr><tr><td><a href="CodeSystem-locations.html#locations-203">203</a></td><td style="color: #cccccc">Dhanusa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-204">204</a></td><td style="color: #cccccc">Mahottari</td></tr><tr><td><a href="CodeSystem-locations.html#locations-208">208</a></td><td style="color: #cccccc">Parsa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-206">206</a></td><td style="color: #cccccc">Rautahat</td></tr><tr><td><a href="CodeSystem-locations.html#locations-201">201</a></td><td style="color: #cccccc">Saptari</td></tr><tr><td><a href="CodeSystem-locations.html#locations-205">205</a></td><td style="color: #cccccc">Sarlahi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-202">202</a></td><td style="color: #cccccc">Siraha</td></tr><tr><td><a href="CodeSystem-locations.html#locations-307">307</a></td><td style="color: #cccccc">Bhaktapur</td></tr><tr><td><a href="CodeSystem-locations.html#locations-313">313</a></td><td style="color: #cccccc">Chitwan</td></tr><tr><td><a href="CodeSystem-locations.html#locations-304">304</a></td><td style="color: #cccccc">Dhading</td></tr><tr><td><a href="CodeSystem-locations.html#locations-301">301</a></td><td style="color: #cccccc">Dolakha</td></tr><tr><td><a href="CodeSystem-locations.html#locations-306">306</a></td><td style="color: #cccccc">Kathmandu</td></tr><tr><td><a href="CodeSystem-locations.html#locations-309">309</a></td><td style="color: #cccccc">Kavrepalanchok</td></tr><tr><td><a href="CodeSystem-locations.html#locations-308">308</a></td><td style="color: #cccccc">Lalitpur</td></tr><tr><td><a href="CodeSystem-locations.html#locations-312">312</a></td><td style="color: #cccccc">Makwanpur</td></tr><tr><td><a href="CodeSystem-locations.html#locations-305">305</a></td><td style="color: #cccccc">Nuwakot</td></tr><tr><td><a href="CodeSystem-locations.html#locations-310">310</a></td><td style="color: #cccccc">Ramechhap</td></tr><tr><td><a href="CodeSystem-locations.html#locations-303">303</a></td><td style="color: #cccccc">Rasuwa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-311">311</a></td><td style="color: #cccccc">Sindhuli</td></tr><tr><td><a href="CodeSystem-locations.html#locations-302">302</a></td><td style="color: #cccccc">Sindhupalchok</td></tr><tr><td><a href="CodeSystem-locations.html#locations-411">411</a></td><td style="color: #cccccc">Baglung</td></tr><tr><td><a href="CodeSystem-locations.html#locations-401">401</a></td><td style="color: #cccccc">Gorkha</td></tr><tr><td><a href="CodeSystem-locations.html#locations-405">405</a></td><td style="color: #cccccc">Kaski</td></tr><tr><td><a href="CodeSystem-locations.html#locations-406">406</a></td><td style="color: #cccccc">Lamjung</td></tr><tr><td><a href="CodeSystem-locations.html#locations-402">402</a></td><td style="color: #cccccc">Manang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-403">403</a></td><td style="color: #cccccc">Mustang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-404">404</a></td><td style="color: #cccccc">Myagdi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-408">408</a></td><td style="color: #cccccc">Nawalparasi East</td></tr><tr><td><a href="CodeSystem-locations.html#locations-410">410</a></td><td style="color: #cccccc">Parbat</td></tr><tr><td><a href="CodeSystem-locations.html#locations-409">409</a></td><td style="color: #cccccc">Syangja</td></tr><tr><td><a href="CodeSystem-locations.html#locations-407">407</a></td><td style="color: #cccccc">Tanahu</td></tr><tr><td><a href="CodeSystem-locations.html#locations-505">505</a></td><td style="color: #cccccc">Arghakhanchi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-511">511</a></td><td style="color: #cccccc">Banke</td></tr><tr><td><a href="CodeSystem-locations.html#locations-512">512</a></td><td style="color: #cccccc">Bardiya</td></tr><tr><td><a href="CodeSystem-locations.html#locations-510">510</a></td><td style="color: #cccccc">Dang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-504">504</a></td><td style="color: #cccccc">Gulmi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-509">509</a></td><td style="color: #cccccc">Kapilbastu</td></tr><tr><td><a href="CodeSystem-locations.html#locations-507">507</a></td><td style="color: #cccccc">Nawalparasi West</td></tr><tr><td><a href="CodeSystem-locations.html#locations-506">506</a></td><td style="color: #cccccc">Palpa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-503">503</a></td><td style="color: #cccccc">Pyuthan</td></tr><tr><td><a href="CodeSystem-locations.html#locations-502">502</a></td><td style="color: #cccccc">Rolpa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-501">501</a></td><td style="color: #cccccc">Rukum East</td></tr><tr><td><a href="CodeSystem-locations.html#locations-508">508</a></td><td style="color: #cccccc">Rupandehi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-606">606</a></td><td style="color: #cccccc">Dailekh</td></tr><tr><td><a href="CodeSystem-locations.html#locations-601">601</a></td><td style="color: #cccccc">Dolpa</td></tr><tr><td><a href="CodeSystem-locations.html#locations-603">603</a></td><td style="color: #cccccc">Humla</td></tr><tr><td><a href="CodeSystem-locations.html#locations-607">607</a></td><td style="color: #cccccc">Jajarkot</td></tr><tr><td><a href="CodeSystem-locations.html#locations-604">604</a></td><td style="color: #cccccc">Jumla</td></tr><tr><td><a href="CodeSystem-locations.html#locations-605">605</a></td><td style="color: #cccccc">Kalikot</td></tr><tr><td><a href="CodeSystem-locations.html#locations-602">602</a></td><td style="color: #cccccc">Mugu</td></tr><tr><td><a href="CodeSystem-locations.html#locations-608">608</a></td><td style="color: #cccccc">Rukum West</td></tr><tr><td><a href="CodeSystem-locations.html#locations-609">609</a></td><td style="color: #cccccc">Salyan</td></tr><tr><td><a href="CodeSystem-locations.html#locations-610">610</a></td><td style="color: #cccccc">Surkhet</td></tr><tr><td><a href="CodeSystem-locations.html#locations-707">707</a></td><td style="color: #cccccc">Achham</td></tr><tr><td><a href="CodeSystem-locations.html#locations-704">704</a></td><td style="color: #cccccc">Baitadi</td></tr><tr><td><a href="CodeSystem-locations.html#locations-702">702</a></td><td style="color: #cccccc">Bajhang</td></tr><tr><td><a href="CodeSystem-locations.html#locations-701">701</a></td><td style="color: #cccccc">Bajura</td></tr><tr><td><a href="CodeSystem-locations.html#locations-705">705</a></td><td style="color: #cccccc">Dadeldhura</td></tr><tr><td><a href="CodeSystem-locations.html#locations-703">703</a></td><td style="color: #cccccc">Darchula</td></tr><tr><td><a href="CodeSystem-locations.html#locations-706">706</a></td><td style="color: #cccccc">Doti</td></tr><tr><td><a href="CodeSystem-locations.html#locations-708">708</a></td><td style="color: #cccccc">Kailali</td></tr><tr><td><a href="CodeSystem-locations.html#locations-709">709</a></td><td style="color: #cccccc">Kanchanpur</td></tr></table></li></ul></div>
+
+  <p>&nbsp;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div><p class="res-header-id"></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v1.0.1 (CodeSystem)</a></p><p>This value set contains 77 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-106"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-106">106</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bhojpur</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-107"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-107">107</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dhankuta</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-110"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-110">110</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Ilam</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-111"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-111">111</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Jhapa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-105"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-105">105</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Khotang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-112"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-112">112</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Morang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-104"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-104">104</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Okhaldhunga</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-109"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-109">109</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Panchthar</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-102"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-102">102</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Sankhuwasabha</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-103"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-103">103</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Solukhumbu</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-113"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-113">113</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Sunsari</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-101"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-101">101</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Taplejung</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-108"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-108">108</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Terhathum</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-114"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-114">114</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Udayapur</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-207"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-207">207</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bara</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-203"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-203">203</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dhanusa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-204"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-204">204</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Mahottari</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-208"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-208">208</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Parsa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-206"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-206">206</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rautahat</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-201"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-201">201</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Saptari</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-205"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-205">205</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Sarlahi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-202"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-202">202</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Siraha</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-307"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-307">307</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bhaktapur</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-313"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-313">313</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Chitwan</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-304"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-304">304</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dhading</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-301"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-301">301</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dolakha</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-306"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-306">306</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kathmandu</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-309"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-309">309</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kavrepalanchok</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-308"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-308">308</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Lalitpur</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-312"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-312">312</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Makwanpur</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-305"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-305">305</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Nuwakot</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-310"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-310">310</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Ramechhap</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-303"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-303">303</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rasuwa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-311"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-311">311</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Sindhuli</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-302"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-302">302</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Sindhupalchok</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-411"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-411">411</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Baglung</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-401"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-401">401</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Gorkha</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-405"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-405">405</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kaski</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-406"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-406">406</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Lamjung</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-402"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-402">402</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Manang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-403"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-403">403</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Mustang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-404"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-404">404</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Myagdi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-408"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-408">408</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Nawalparasi East</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-410"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-410">410</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Parbat</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-409"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-409">409</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Syangja</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-407"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-407">407</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Tanahu</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-505"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-505">505</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Arghakhanchi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-511"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-511">511</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Banke</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-512"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-512">512</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bardiya</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-510"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-510">510</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-504"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-504">504</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Gulmi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-509"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-509">509</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kapilbastu</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-507"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-507">507</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Nawalparasi West</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-506"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-506">506</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Palpa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-503"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-503">503</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Pyuthan</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-502"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-502">502</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rolpa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-501"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-501">501</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rukum East</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-508"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-508">508</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rupandehi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-606"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-606">606</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dailekh</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-601"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-601">601</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dolpa</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-603"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-603">603</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Humla</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-607"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-607">607</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Jajarkot</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-604"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-604">604</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Jumla</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-605"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-605">605</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kalikot</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-602"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-602">602</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Mugu</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-608"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-608">608</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Rukum West</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-609"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-609">609</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Salyan</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-610"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-610">610</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Surkhet</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-707"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-707">707</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Achham</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-704"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-704">704</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Baitadi</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-702"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-702">702</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bajhang</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-701"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-701">701</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Bajura</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-705"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-705">705</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Dadeldhura</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-703"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-703">703</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Darchula</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-706"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-706">706</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Doti</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-708"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-708">708</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kailali</td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7.hmis.gov.np/CodeSystem/locations-709"> </a>&nbsp;&nbsp;<a href="CodeSystem-locations.html#locations-709">709</a></td><td>https://hl7.hmis.gov.np/CodeSystem/locations</td><td>Kanchanpur</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R5/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
+
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<a name="bottom"> </a>
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1896">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    </span>
+  </p>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Analytics Below
+================================================== -->
+
+
+
+
+</body></html>

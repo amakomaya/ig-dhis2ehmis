@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/NamingSystem/NationalID> a fhir:NamingSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "NationalID"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem NationalID</b></p><a name=\"NationalID\"> </a><a name=\"hcNationalID\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>https://hl7.hmis.gov.np/NamingSystem/NationalID</td></tr><tr><td>Version</td><td>1.0.1</td></tr><tr><td>Name</td><td>NationalID</td></tr><tr><td>Title</td><td>National ID of the National</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>The official National Identification Number assigned by the Government of Nepal.</p>\n</div></td></tr><tr><td>Publisher</td><td>Integrated Health Information Management Section</td></tr><tr><td>Copyright</td><td><div><p>Used by permission of HL7 International, all rights reserved Creative Commons License</p>\n</div></td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>Other</td><td>1234567890123456</td><td>true</td></tr><tr><td>URI</td><td>https://mofa.gov.np</td><td>true</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://hl7.hmis.gov.np/NamingSystem/NationalID"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "NationalID"] ; # 
+  fhir:title [ fhir:v "National ID of the National"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:kind [ fhir:v "identifier"] ; # 
+  fhir:date [ fhir:v "2025-07-28"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://hmis.gov.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "it@hmis.gov.np" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The official National Identification Number assigned by the Government of Nepal."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:usage [ fhir:v "Used to uniquely identify individuals within the National System."] ; # 
+  fhir:uniqueId ( [
+     fhir:type [ fhir:v "other" ] ;
+     fhir:value [ fhir:v "1234567890123456" ] ;
+     fhir:preferred [ fhir:v true ]
+  ] [
+     fhir:type [ fhir:v "uri" ] ;
+     fhir:value [ fhir:v "https://mofa.gov.np" ] ;
+     fhir:preferred [ fhir:v true ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "service-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://hl7.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
+  "version" : "1.0.1",
+  "name" : "ServiceTypeVS",
+  "title" : "सेवाको किसिमको मान सेट",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-06T16:26:51+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.hmis.gov.np/CodeSystem/service-type"
+    }]
+  }
+}

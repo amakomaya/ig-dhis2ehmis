@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ethnic-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ethnic-code</b></p><a name="ethnic-code"> </a><a name="hcethnic-code"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ethnic-code.html"><code>https://hl7.hmis.gov.np/CodeSystem/ethnic-code</code></a></li></ul></div>
+  </text>
+  <url value="https://hl7.hmis.gov.np/ValueSet/ethnic-code"/>
+  <version value="1.0.1"/>
+  <name value="EthnicCodeVS"/>
+  <title value="Ethnic Code"/>
+  <status value="active"/>
+  <date value="2025-08-06T16:26:51+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet for जाति कोड (Ethnic Codes in Nepal)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,13 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis.json	6802	-	0	0	0	0	0	0	5	55	0	0	1	0	0	0	0	1	0	0	48	57	0	0	0	2	0	0
+fsh-generated/resources/CodeSystem-ethnic-code.json	1623	12	0	0	0	0	0	0	0	11	0	0	1	0	0	0	0	0	0	0	15	309	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-locations.json	95611	34	0	0	0	0	0	0	22	57	0	0	1	0	0	0	0	2	0	0	352	245	0	1	0	11	0	1
+fsh-generated/resources/CodeSystem-service-type.json	2629	11	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	13	23	0	0	0	1	0	0
+fsh-generated/resources/NamingSystem-HealthID.json	924	12	7	0	0	0	0	0	1	8	1626	0	0	0	0	0	0	0	0	0	9	12	0	0	0	0	0	0
+fsh-generated/resources/NamingSystem-NationalID.json	876	11	7	0	0	0	0	0	0	7	7	0	0	0	0	0	0	0	0	0	8	7	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-administrative-gender.json	442	10	0	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0	0	6	57	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-district.json	4324	12	0	0	1	0	0	0	0	16	0	0	0	0	0	0	0	1	0	0	26	81	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ethnic-code.json	393	10	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	6	47	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-localbody.json	40311	18	0	0	0	0	0	0	3	54	0	0	0	0	0	0	0	1	0	0	213	377	0	0	0	5	0	1
+fsh-generated/resources/ValueSet-province.json	1046	11	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	10	23	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-service-type.json	532	10	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	6	22	0	0	0	0	0	0

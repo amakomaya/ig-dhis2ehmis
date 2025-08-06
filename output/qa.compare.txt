@@ -1,0 +1,255 @@
+NPCoreImplementationGuide : Validation Results
+=========================================
+
+err = 26, warn = 20, info = 27
+$--
+Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = https://hl7.hmis.gov.np)
+ Build Errors : 74 / 79 / 0
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 18 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-locations : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis : 0 / 1 / 17
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID : 0 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID : 0 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender : 2 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-district : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-ethnic-code : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-localbody : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-province : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-service-type : 0 / 1 / 2
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 373, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.html#/html/body/div/div/div/p/span/a at Line 2830, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.json.html#/html/body/div/div/div/p/span/a at Line 3851, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.ttl.html#/html/body/div/div/div/p/span/a at Line 2094, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.xml.html#/html/body/div/div/div/p/span/a at Line 3673, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.json.html#/html/body/div/div/div/p/span/a at Line 444, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 394, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 411, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.json.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.xml.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.json.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.json.html#/html/body/div/div/div/p/span/a at Line 569, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.ttl.html#/html/body/div/div/div/p/span/a at Line 406, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.xml.html#/html/body/div/div/div/p/span/a at Line 556, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.json.html#/html/body/div/div/div/p/span/a at Line 2597, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.ttl.html#/html/body/div/div/div/p/span/a at Line 1082, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.xml.html#/html/body/div/div/div/p/span/a at Line 2584, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.json.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.ttl.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.xml.html#/html/body/div/div/div/p/span/a at Line 353, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.json.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: artifacts.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 344, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: codesystems.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 251, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: external_terminologies.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: identifiers.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 254, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: index.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+WARNING: index.html#/html/body/div/div/div/div/div/p/a at Line 286, column 80: The link 'https://hl7.hmis.gov.np' for "https://hl7.hmis.gov.np" is a canonical link and is therefore unsafe with regard to versions
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: smart-index.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: smart-index.html#/html/body/div/div/div/p/span/a at Line 424, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: toc.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 209, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: valuesets.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: valuesets.html#/html/body/div/div/div/p/span/a at Line 273, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-ethnic-code.json ==
+INFORMATION: CodeSystem/ethnic-code: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[0].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[0].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[0].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[1].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[1].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[1].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[2].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[2].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[2].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[3].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[3].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[3].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[4].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[4].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[4].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
+ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+WARNING: CodeSystem/ethnic-code: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/CodeSystem-locations.json ==
+INFORMATION: CodeSystem/locations: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: CodeSystem/locations: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/locations: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/CodeSystem-service-type.json ==
+INFORMATION: CodeSystem/service-type: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: CodeSystem/service-type: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/service-type: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[4].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[5].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[6].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[7].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[8].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[9].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[10].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[11].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[12].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[13].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[14].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/NamingSystem-HealthID.json ==
+INFORMATION: NamingSystem/HealthID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/NamingSystem-NationalID.json ==
+INFORMATION: NamingSystem/NationalID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ValueSet-administrative-gender.json ==
+ERROR: ValueSet.where(url = 'http://example.org/fhir/ValueSet/administrative-gender-vs'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender.json - the canonical URL (https://hl7.hmis.gov.np/ValueSet/administrative-gender) does not match the URL (http://example.org/fhir/ValueSet/administrative-gender-vs)
+INFORMATION: ValueSet/administrative-gender: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet/administrative-gender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender: URL Mismatch https://hl7.hmis.gov.np/ValueSet/administrative-gender vs http://example.org/fhir/ValueSet/administrative-gender-vs
+== fsh-generated/resources/ValueSet-district.json ==
+INFORMATION: ValueSet/district: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/district: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ValueSet-ethnic-code.json ==
+INFORMATION: ValueSet/ethnic-code: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/ethnic-code: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ValueSet-localbody.json ==
+INFORMATION: ValueSet/localbody: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/localbody: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ValueSet-province.json ==
+INFORMATION: ValueSet/province: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/province: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/ValueSet-service-type.json ==
+INFORMATION: ValueSet/service-type: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')

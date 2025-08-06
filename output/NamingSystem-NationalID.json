@@ -1,0 +1,55 @@
+{
+  "resourceType" : "NamingSystem",
+  "id" : "NationalID",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem NationalID</b></p><a name=\"NationalID\"> </a><a name=\"hcNationalID\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>https://hl7.hmis.gov.np/NamingSystem/NationalID</td></tr><tr><td>Version</td><td>1.0.1</td></tr><tr><td>Name</td><td>NationalID</td></tr><tr><td>Title</td><td>National ID of the National</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>The official National Identification Number assigned by the Government of Nepal.</p>\n</div></td></tr><tr><td>Publisher</td><td>Integrated Health Information Management Section</td></tr><tr><td>Copyright</td><td><div><p>Used by permission of HL7 International, all rights reserved Creative Commons License</p>\n</div></td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>Other</td><td>1234567890123456</td><td>true</td></tr><tr><td>URI</td><td>https://mofa.gov.np</td><td>true</td></tr></table></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/NamingSystem/NationalID",
+  "version" : "1.0.1",
+  "name" : "NationalID",
+  "title" : "National ID of the National",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2025-07-28",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "The official National Identification Number assigned by the Government of Nepal.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "usage" : "Used to uniquely identify individuals within the National System.",
+  "uniqueId" : [{
+    "type" : "other",
+    "value" : "1234567890123456",
+    "preferred" : true
+  },
+  {
+    "type" : "uri",
+    "value" : "https://mofa.gov.np",
+    "preferred" : true
+  }]
+}

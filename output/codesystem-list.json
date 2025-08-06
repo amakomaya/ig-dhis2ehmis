@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "EthnicCodeCS",
+      "title" : "Ethnic Code",
+      "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "LocationsCS",
+      "title" : "Nepal Administrative Location Codes",
+      "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities."
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ServiceTypeCS",
+      "title" : "सेवाको किसिम कोड सिस्टम",
+      "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।"
+    }
+  ]
+}

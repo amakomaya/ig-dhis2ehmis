@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/administrative-gender,5.0.0,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/administrative-gender"
+https://hl7.hmis.gov.np/CodeSystem/ethnic-code,1.0.1,active,,EthnicCodeCS,Ethnic Code,"जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य","ValueSet/ethnic-code"
+https://hl7.hmis.gov.np/CodeSystem/locations,1.0.1,active,,LocationsCS,Nepal Administrative Location Codes,"Comprehensive code system for Nepals provinces, districts, and municipalities.","ValueSet/localbody,ValueSet/district,ValueSet/province"
+https://hl7.hmis.gov.np/CodeSystem/service-type,1.0.1,active,,ServiceTypeCS,सेवाको किसिम कोड सिस्टम,"स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।","ValueSet/service-type"

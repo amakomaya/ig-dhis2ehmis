@@ -1,0 +1,86 @@
+[
+  {
+    "id" : "administrative-gender",
+    "type" : "ValueSet",
+    "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
+    "version" : "1.0.1",
+    "name" : "AdministrativeGenderVS"
+  },
+  {
+    "id" : "ethnic-code",
+    "type" : "CodeSystem",
+    "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+    "version" : "1.0.1",
+    "name" : "EthnicCodeCS"
+  },
+  {
+    "id" : "locations",
+    "type" : "CodeSystem",
+    "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+    "version" : "1.0.1",
+    "name" : "LocationsCS"
+  },
+  {
+    "id" : "service-type",
+    "type" : "CodeSystem",
+    "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+    "version" : "1.0.1",
+    "name" : "ServiceTypeCS"
+  },
+  {
+    "id" : "hl7.fhir.hmis",
+    "type" : "ImplementationGuide",
+    "url" : "https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
+    "version" : "1.0.1",
+    "name" : "NPCoreImplementationGuide"
+  },
+  {
+    "id" : "HealthID",
+    "type" : "NamingSystem",
+    "url" : "https://hl7.hmis.gov.np/NamingSystem/HealthID",
+    "version" : "1.0.1",
+    "name" : "HealthID"
+  },
+  {
+    "id" : "NationalID",
+    "type" : "NamingSystem",
+    "url" : "https://hl7.hmis.gov.np/NamingSystem/NationalID",
+    "version" : "1.0.1",
+    "name" : "NationalID"
+  },
+  {
+    "id" : "district",
+    "type" : "ValueSet",
+    "url" : "https://hl7.hmis.gov.np/ValueSet/district",
+    "version" : "1.0.1",
+    "name" : "DistrictVS"
+  },
+  {
+    "id" : "ethnic-code",
+    "type" : "ValueSet",
+    "url" : "https://hl7.hmis.gov.np/ValueSet/ethnic-code",
+    "version" : "1.0.1",
+    "name" : "EthnicCodeVS"
+  },
+  {
+    "id" : "localbody",
+    "type" : "ValueSet",
+    "url" : "https://hl7.hmis.gov.np/ValueSet/localbody",
+    "version" : "1.0.1",
+    "name" : "LocalBodyVS"
+  },
+  {
+    "id" : "province",
+    "type" : "ValueSet",
+    "url" : "https://hl7.hmis.gov.np/ValueSet/province",
+    "version" : "1.0.1",
+    "name" : "ProvinceVS"
+  },
+  {
+    "id" : "service-type",
+    "type" : "ValueSet",
+    "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
+    "version" : "1.0.1",
+    "name" : "ServiceTypeVS"
+  }
+]

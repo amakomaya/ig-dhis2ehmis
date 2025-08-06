@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "province",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet province</b></p><a name=\"province\"> </a><a name=\"hcprovince\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-locations.html\"><code>https://hl7.hmis.gov.np/CodeSystem/locations</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-1\">1</a></td><td>Koshi Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-2\">2</a></td><td>Madhesh Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-3\">3</a></td><td>Bagmati Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-4\">4</a></td><td>Gandaki Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-5\">5</a></td><td>Lumbini Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-6\">6</a></td><td>Karnali Province</td></tr><tr><td><a href=\"CodeSystem-locations.html#locations-7\">7</a></td><td>Sudurpashchim Province</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/province",
+  "version" : "1.0.1",
+  "name" : "ProvinceVS",
+  "title" : "Province",
+  "status" : "active",
+  "date" : "2025-08-06T16:26:51+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "All provinces used in administrative divisions",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Koshi Province"
+      },
+      {
+        "code" : "2",
+        "display" : "Madhesh Province"
+      },
+      {
+        "code" : "3",
+        "display" : "Bagmati Province"
+      },
+      {
+        "code" : "4",
+        "display" : "Gandaki Province"
+      },
+      {
+        "code" : "5",
+        "display" : "Lumbini Province"
+      },
+      {
+        "code" : "6",
+        "display" : "Karnali Province"
+      },
+      {
+        "code" : "7",
+        "display" : "Sudurpashchim Province"
+      }]
+    }]
+  }
+}

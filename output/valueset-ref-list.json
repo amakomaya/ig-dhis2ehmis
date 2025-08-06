@@ -1,0 +1,58 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGenderVS",
+      "title" : "Administrative Gender",
+      "description" : "A value set containing administrative gender codes from the FHIR core.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/district",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "DistrictVS",
+      "title" : "District",
+      "description" : "All district used in administrative divisions",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/ethnic-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "EthnicCodeVS",
+      "title" : "Ethnic Code",
+      "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/ethnic-code"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/localbody",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "LocalBodyVS",
+      "title" : "LocalBody",
+      "description" : "All LocalBody used in administrative divisions",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/province",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ProvinceVS",
+      "title" : "Province",
+      "description" : "All provinces used in administrative divisions",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ServiceTypeVS",
+      "title" : "सेवाको किसिमको मान सेट",
+      "description" : "सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/service-type"]
+    }
+  ]
+}

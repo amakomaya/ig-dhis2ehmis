@@ -1,0 +1,51 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "ValueSet-administrative-gender.html" : "Administrative Gender"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "EthnicCodeCS",
+      "title" : "Ethnic Code",
+      "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य",
+      "uses" : {
+      },
+      "ValueSet-ethnic-code.html" : "Ethnic Code"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "LocationsCS",
+      "title" : "Nepal Administrative Location Codes",
+      "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
+      "uses" : {
+      },
+      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-district.html" : "District",
+      "ValueSet-province.html" : "Province"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ServiceTypeCS",
+      "title" : "सेवाको किसिम कोड सिस्टम",
+      "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।",
+      "uses" : {
+      },
+      "ValueSet-service-type.html" : "सेवाको किसिमको मान सेट"
+    }
+  ]
+}

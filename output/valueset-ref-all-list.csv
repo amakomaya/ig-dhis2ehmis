@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/fhir/ValueSet/administrative-gender-vs,1.0.1,active,,AdministrativeGenderVS,Administrative Gender,"A value set containing administrative gender codes from the FHIR core.",,"hl7.fhir.r5.core"
+https://hl7.hmis.gov.np/ValueSet/district,1.0.1,active,,DistrictVS,District,"All district used in administrative divisions",,"Internal"
+https://hl7.hmis.gov.np/ValueSet/ethnic-code,1.0.1,active,,EthnicCodeVS,Ethnic Code,"ValueSet for जाति कोड (Ethnic Codes in Nepal)",,"Internal"
+https://hl7.hmis.gov.np/ValueSet/localbody,1.0.1,active,,LocalBodyVS,LocalBody,"All LocalBody used in administrative divisions",,"Internal"
+https://hl7.hmis.gov.np/ValueSet/province,1.0.1,active,,ProvinceVS,Province,"All provinces used in administrative divisions",,"Internal"
+https://hl7.hmis.gov.np/ValueSet/service-type,1.0.1,active,,ServiceTypeVS,सेवाको किसिमको मान सेट,"सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।",,"Internal"

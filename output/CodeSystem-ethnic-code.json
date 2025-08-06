@@ -1,0 +1,95 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ethnic-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethnic-code</b></p><a name=\"ethnic-code\"> </a><a name=\"hcethnic-code\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/ethnic-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>np</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ethnic-code-1\"> </a></td><td>Dalit</td><td>दलित (१)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ethnic-code-2\"> </a></td><td>Janajati</td><td>जनजाती (२)</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ethnic-code-3\"> </a></td><td>Madhesi</td><td>मधेसी (३)</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ethnic-code-4\"> </a></td><td>Muslim</td><td>मुस्लिम (४)</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ethnic-code-5\"> </a></td><td>Brahmin/Chettri</td><td>ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"ethnic-code-6\"> </a></td><td>Other</td><td>अन्य (६)</td></tr></table></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+  "version" : "1.0.1",
+  "name" : "EthnicCodeCS",
+  "title" : "Ethnic Code",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-06T16:26:51+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Dalit",
+    "designation" : [{
+      "language" : "np",
+      "value" : "दलित (१)"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Janajati",
+    "designation" : [{
+      "language" : "np",
+      "value" : "जनजाती (२)"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Madhesi",
+    "designation" : [{
+      "language" : "np",
+      "value" : "मधेसी (३)"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Muslim",
+    "designation" : [{
+      "language" : "np",
+      "value" : "मुस्लिम (४)"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Brahmin/Chettri",
+    "designation" : [{
+      "language" : "np",
+      "value" : "ब्राह्मण/क्षेत्री (५)"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Other",
+    "designation" : [{
+      "language" : "np",
+      "value" : "अन्य (६)"
+    }]
+  }]
+}

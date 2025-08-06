@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ethnic-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ethnic-code</b></p><a name="ethnic-code"> </a><a name="hcethnic-code"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/ethnic-code</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>np</b></td></tr><tr><td style="white-space:nowrap">1<a name="ethnic-code-1"> </a></td><td>Dalit</td><td>दलित (१)</td></tr><tr><td style="white-space:nowrap">2<a name="ethnic-code-2"> </a></td><td>Janajati</td><td>जनजाती (२)</td></tr><tr><td style="white-space:nowrap">3<a name="ethnic-code-3"> </a></td><td>Madhesi</td><td>मधेसी (३)</td></tr><tr><td style="white-space:nowrap">4<a name="ethnic-code-4"> </a></td><td>Muslim</td><td>मुस्लिम (४)</td></tr><tr><td style="white-space:nowrap">5<a name="ethnic-code-5"> </a></td><td>Brahmin/Chettri</td><td>ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style="white-space:nowrap">6<a name="ethnic-code-6"> </a></td><td>Other</td><td>अन्य (६)</td></tr></table></div>
+  </text>
+  <url value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code"/>
+  <version value="1.0.1"/>
+  <name value="EthnicCodeCS"/>
+  <title value="Ethnic Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-08-06T16:26:51+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="1"/>
+    <display value="Dalit"/>
+    <designation>
+      <language value="np"/>
+      <value value="दलित (१)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Janajati"/>
+    <designation>
+      <language value="np"/>
+      <value value="जनजाती (२)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Madhesi"/>
+    <designation>
+      <language value="np"/>
+      <value value="मधेसी (३)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Muslim"/>
+    <designation>
+      <language value="np"/>
+      <value value="मुस्लिम (४)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Brahmin/Chettri"/>
+    <designation>
+      <language value="np"/>
+      <value value="ब्राह्मण/क्षेत्री (५)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Other"/>
+    <designation>
+      <language value="np"/>
+      <value value="अन्य (६)"/>
+    </designation>
+  </concept>
+</CodeSystem>

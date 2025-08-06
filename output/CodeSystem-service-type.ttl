@@ -1,0 +1,132 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/CodeSystem/service-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "service-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/service-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"service-type-1\"> </a></td><td>General Care</td><td>सामान्य उपचार</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"service-type-2\"> </a></td><td>IMNCI</td><td>IMNCI</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"service-type-3\"> </a></td><td>Nutrition</td><td>पोषण</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"service-type-4\"> </a></td><td>Safe Motherhood</td><td>सुरक्षित मातृत्व</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"service-type-5\"> </a></td><td>Family Planning</td><td>परिवार नियोजन</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"service-type-6\"> </a></td><td>Tuberculosis</td><td>क्षयरोग</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"service-type-7\"> </a></td><td>Leprosy</td><td>कुष्ठरोग</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"service-type-8\"> </a></td><td>Vector-borne Disease</td><td>कीटजन्य रोग</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"service-type-9\"> </a></td><td>Sexually Transmitted Disease</td><td>यौनरोग</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"service-type-10\"> </a></td><td>Non-communicable Disease</td><td>नसर्ने रोग</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"service-type-11\"> </a></td><td>Other (Specify)</td><td>अन्य (खुलाउने)</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://hl7.hmis.gov.np/CodeSystem/service-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "ServiceTypeCS"] ; # 
+  fhir:title [ fhir:v "सेवाको किसिम कोड सिस्टम"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-08-06T16:26:51+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://hmis.gov.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "it@hmis.gov.np" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "General Care" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "सामान्य उपचार" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "IMNCI" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "IMNCI" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Nutrition" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "पोषण" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Safe Motherhood" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "सुरक्षित मातृत्व" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Family Planning" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "परिवार नियोजन" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Tuberculosis" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "क्षयरोग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Leprosy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "कुष्ठरोग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Vector-borne Disease" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "कीटजन्य रोग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Sexually Transmitted Disease" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "यौनरोग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Non-communicable Disease" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "नसर्ने रोग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Other (Specify)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "अन्य (खुलाउने)" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
