@@ -95,6 +95,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/encounter-ehmis"
+      },
+      "name" : "Encounter Profile for EHMIS",
+      "description" : "Each service interaction or visit by a patient",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -119,6 +131,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/ExampleLocation"
+      },
+      "name" : "Example Location for EHMIS",
+      "isExample" : true,
+      "profile" : ["https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/ExamplePatient"
+      },
+      "name" : "Example Patient for EHMIS",
+      "isExample" : true,
+      "profile" : ["https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -126,6 +162,18 @@
       },
       "name" : "LocalBody",
       "description" : "All LocalBody used in administrative divisions",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/location-ehmis"
+      },
+      "name" : "Location Profile for EHMIS",
+      "description" : "Healthcare delivery location (e.g., facility, ward)",
       "isExample" : false
     },
     {
@@ -162,6 +210,42 @@
       },
       "name" : "Nepal Administrative Location Codes",
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-ehmis"
+      },
+      "name" : "Patient Profile for EHMIS",
+      "description" : "Demographics and identifiers for patients in Nepal EHMIS",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/practitioner-ehmis"
+      },
+      "name" : "Practitioner Profile for EHMIS",
+      "description" : "Basic identity for health worker",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/practitionerrole-ehmis"
+      },
+      "name" : "Practitioner Role Profile for EHMIS",
+      "description" : "Defines a practitioner's role and location",
       "isExample" : false
     },
     {
@@ -239,6 +323,18 @@
         "sourceUrl" : "smart-index.html",
         "name" : "smart-index.html",
         "title" : "SMART Guidelines",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "profiles.html",
+        "name" : "profiles.html",
+        "title" : "Profiles",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "examples.html",
+        "name" : "examples.html",
+        "title" : "Examples",
         "generation" : "markdown"
       }]
     },

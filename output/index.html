@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="assets/css/who.css"/>
     <link rel="stylesheet" href="assets/css/lforms.min.css"/>
 
-  <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/colors.css"/>
 <link rel="stylesheet" href="assets/css/app.css"/>
 
@@ -86,6 +85,12 @@
     <a href="smart-index.html">SMART Guidelines</a>
   </li>
   <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
+  </li>
+  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
@@ -113,25 +118,15 @@
 
       <div style=" justify-content: space-between; align-items: left;" class="container">
 
-          <!-- Left logo - typically the publisher's logo - project or affiliate -->
-<div id="project-nav">
-    <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
-      <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
-      <img src="assets/images/logo.png" alt="Project home" height="60"/>
-    </a>
-  </div>
-
-  <!-- Right logo - for example the FHIR logo -->
-  <!-- Make sure you have authorization to use the FHIR logo -->
-  <div id="family-nav">
-      <!-- <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" height="60"> -->
-    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
-  </div>
-
-  <!-- search icon - if you want -->
-  <!-- <div id="hl7-search">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div> -->
+        <div id="project-nav">
+  <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+</div>
 
         <div id="ig-status" class="ig-status-active">
           <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
@@ -243,6 +238,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="#key-features" id="markdown-toc-key-features">Key Features</a></li>
   <li><a href="#implementation-guide" id="markdown-toc-implementation-guide">Implementation Guide</a></li>
   <li><a href="#get-involved" id="markdown-toc-get-involved">Get Involved</a></li>
+  <li><a href="#authors-and-contributors" id="markdown-toc-authors-and-contributors">Authors and Contributors</a></li>
 </ul>
 
 </div>
@@ -302,6 +298,84 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><strong>Contact</strong>: &#x1F4E7; it@hmis.gov.np</li>
 </ul>
 
+<h3 id="authors-and-contributors">Authors and Contributors</h3>
+<p>This Implementation Guide has been developed and maintained as part of the <strong>Integrated Health Information Management System (IHMIS)</strong> for Nepal’s <strong>electronic Health Management Information System (EHMIS)</strong>.</p>
+
+<h4 id="lead-organization">Lead Organization:</h4>
+<p><strong>Ministry of Health and Population (MoHP), Government of Nepal</strong></p>
+<ul>
+  <li>Department of Health Services</li>
+  <li>Management Division</li>
+  <li>Health Management Information System (HMIS) Section</li>
+</ul>
+
+<h4 id="technical-lead">Technical Lead:</h4>
+<ul>
+  <li><strong>Integrated Health Information Management System (IHMIS) Team</strong></li>
+  <li><strong>Amakomaya Team</strong></li>
+</ul>
+
+<h4 id="key-contributors">Key Contributors:</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Organization</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Editor, FHIR Lead</td>
+      <td>RC Poudel</td>
+      <td>Software Engineer, Health Informatics Specialist, AMK</td>
+      <td>rcpoudel@amakomaya.com</td>
+    </tr>
+    <tr>
+      <td>Computer Engineer, Editor</td>
+      <td>Prabin Chauhan</td>
+      <td>IHIMS</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Public Health Officer, Subject Matter Expert (SME)</td>
+      <td>Basanta Gaire</td>
+      <td>Government of Nepal (GoN)</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Technical Lead</td>
+      <td>Rajendra Prasad Poudel</td>
+      <td>Independent</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Digital Health Specialist</td>
+      <td>Padam Dahal</td>
+      <td>GIZ</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Advisor</td>
+      <td>Nirmal Dhakal</td>
+      <td>GIZ</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Section Head</td>
+      <td>Ritu Pantha</td>
+      <td>IHIMS</td>
+      <td>[email/phone]</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="supporting-organizations">Supporting Organizations:</h4>
+<ul>
+  <li>GIZ – Support to the Health Sector Programme</li>
+  <li>Amakomaya Nepal</li>
+</ul>
+
 <hr/>
 
 <p><em>Last Updated: August 05, 2025</em></p>
@@ -324,9 +398,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l623">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l814">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

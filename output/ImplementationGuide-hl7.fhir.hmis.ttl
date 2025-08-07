@@ -123,6 +123,21 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis> ;
+         fhir:reference [ fhir:v "StructureDefinition/encounter-ehmis" ]
+       ] ;
+       fhir:name [ fhir:v "Encounter Profile for EHMIS" ] ;
+       fhir:description [ fhir:v "Each service interaction or visit by a patient" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -153,6 +168,42 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Location"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Location/ExampleLocation> ;
+         fhir:reference [ fhir:v "Location/ExampleLocation" ]
+       ] ;
+       fhir:name [ fhir:v "Example Location for EHMIS" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Patient/ExamplePatient> ;
+         fhir:reference [ fhir:v "Patient/ExamplePatient" ]
+       ] ;
+       fhir:name [ fhir:v "Example Patient for EHMIS" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis"^^xsd:anyURI ;
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -162,6 +213,21 @@
        ] ;
        fhir:name [ fhir:v "LocalBody" ] ;
        fhir:description [ fhir:v "All LocalBody used in administrative divisions" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis> ;
+         fhir:reference [ fhir:v "StructureDefinition/location-ehmis" ]
+       ] ;
+       fhir:name [ fhir:v "Location Profile for EHMIS" ] ;
+       fhir:description [ fhir:v "Healthcare delivery location (e.g., facility, ward)" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -207,6 +273,51 @@
        ] ;
        fhir:name [ fhir:v "Nepal Administrative Location Codes" ] ;
        fhir:description [ fhir:v "Comprehensive code system for Nepals provinces, districts, and municipalities." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-ehmis" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Profile for EHMIS" ] ;
+       fhir:description [ fhir:v "Demographics and identifiers for patients in Nepal EHMIS" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis> ;
+         fhir:reference [ fhir:v "StructureDefinition/practitioner-ehmis" ]
+       ] ;
+       fhir:name [ fhir:v "Practitioner Profile for EHMIS" ] ;
+       fhir:description [ fhir:v "Basic identity for health worker" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis> ;
+         fhir:reference [ fhir:v "StructureDefinition/practitionerrole-ehmis" ]
+       ] ;
+       fhir:name [ fhir:v "Practitioner Role Profile for EHMIS" ] ;
+       fhir:description [ fhir:v "Defines a practitioner's role and location" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -309,6 +420,22 @@
          ] ;
          fhir:name [ fhir:v "smart-index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "SMART Guidelines" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "profiles.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "profiles.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Profiles" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "examples.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "examples.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Examples" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

@@ -4,8 +4,54 @@
   "fhirVersion": "5.0.0",
   "jurisdiction": "NP",
   "extensions": [],
-  "profiles": {},
+  "profiles": {
+    "Encounter": [
+      {
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis",
+        "title": "Encounter Profile for EHMIS"
+      }
+    ],
+    "Location": [
+      {
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis",
+        "title": "Location Profile for EHMIS"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis",
+        "title": "Patient Profile for EHMIS"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis",
+        "title": "Practitioner Profile for EHMIS"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis",
+        "title": "Practitioner Role Profile for EHMIS"
+      }
+    ]
+  },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],
@@ -14,6 +60,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ]
   }
 }

@@ -1,16 +1,23 @@
 NPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 26, warn = 20, info = 27
-IG Publisher Version: 2.0.12
-Generated Wed Aug 06 16:27:59 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#1.0.1 (canonical = https://hl7.hmis.gov.np)
- Build Errors : 74 / 79 / 0
+err = 33, warn = 30, info = 33
+IG Publisher Version: 2.0.12 Out of date - current version is 2.0.13
+Generated Thu Aug 07 10:20:08 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#1.0.1 (canonical = https://hl7.hmis.gov.np)
+ Build Errors : 138 / 138 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 18 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-locations : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis : 0 / 1 / 17
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Location-ExampleLocation : 2 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID : 0 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID : 0 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-ExamplePatient : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-encounter-ehmis : 1 / 5 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-location-ehmis : 1 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-patient-ehmis : 1 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-practitioner-ehmis : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-practitionerrole-ehmis : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-district : 1 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-ethnic-code : 1 / 1 / 2
@@ -20,155 +27,278 @@ Generated Wed Aug 06 16:27:59 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#1.0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-WARNING: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-ethnic-code.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 373, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations.html#/html/body/div/div/div/p/span/a at Line 2830, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations.json.html#/html/body/div/div/div/p/span/a at Line 3851, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations.ttl.html#/html/body/div/div/div/p/span/a at Line 2094, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-locations.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-locations.xml.html#/html/body/div/div/div/p/span/a at Line 3673, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type.json.html#/html/body/div/div/div/p/span/a at Line 444, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 394, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: CodeSystem-service-type.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: CodeSystem-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 411, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID.json.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-HealthID.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-HealthID.xml.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: NamingSystem-NationalID.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender.json.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district.json.html#/html/body/div/div/div/p/span/a at Line 569, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district.ttl.html#/html/body/div/div/div/p/span/a at Line 406, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-district.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-district.xml.html#/html/body/div/div/div/p/span/a at Line 556, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody.json.html#/html/body/div/div/div/p/span/a at Line 2597, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody.ttl.html#/html/body/div/div/div/p/span/a at Line 1082, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-localbody.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-localbody.xml.html#/html/body/div/div/div/p/span/a at Line 2584, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province.json.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province.ttl.html#/html/body/div/div/div/p/span/a at Line 343, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-province.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-province.xml.html#/html/body/div/div/div/p/span/a at Line 353, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type-testing.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type.change.history.html#/html/body/div/div/div/a at Line 122, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 253, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type.json.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type.json.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type.ttl.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: ValueSet-service-type.xml.html#/html/body/div/div/div/a at Line 120, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: ValueSet-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: artifacts.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 344, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: codesystems.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 251, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: external_terminologies.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: identifiers.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 254, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: index.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-WARNING: index.html#/html/body/div/div/div/div/div/p/a at Line 286, column 80: The link 'https://hl7.hmis.gov.np' for "https://hl7.hmis.gov.np" is a canonical link and is therefore unsafe with regard to versions
-ERROR: index.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: smart-index.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: smart-index.html#/html/body/div/div/div/p/span/a at Line 424, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: toc.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 209, column 113: The link 'license.html' for "License" cannot be resolved
-WARNING: valuesets.html#/html/body/div/div/div/a at Line 118, column 7: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: valuesets.html#/html/body/div/div/div/p/span/a at Line 273, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/ExampleLocation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ExamplePatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.html#/html/body/div/div/div/p/span/a at Line 2824, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.json.html#/html/body/div/div/div/p/span/a at Line 3845, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.ttl.html#/html/body/div/div/div/p/span/a at Line 2088, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-locations.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-locations.xml.html#/html/body/div/div/div/p/span/a at Line 3667, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.html#/html/body/div/div/div/p/span/a at Line 344, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.json.html#/html/body/div/div/div/p/span/a at Line 438, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-service-type.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 405, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-ExampleLocation.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-ExampleLocation.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-ExampleLocation.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-ExampleLocation.html#/html/body/div/div/div/div/div/div/p/a at Line 224, column 670: The link 'Organization/example-org' for "Organization/example-org" cannot be resolved
+ERROR: Location-ExampleLocation.html#/html/body/div/div/div/p/span/a at Line 256, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-ExampleLocation.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-ExampleLocation.json.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-ExampleLocation.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-ExampleLocation.ttl.html#/html/body/div/div/div/p/span/a at Line 295, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-ExampleLocation.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-ExampleLocation.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 310, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.json.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-HealthID.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-HealthID.xml.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 310, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: NamingSystem-NationalID.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-ExamplePatient.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-ExamplePatient.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-ExamplePatient.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-ExamplePatient.html#/html/body/div/div/div/p/span/a at Line 256, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-ExamplePatient.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-ExamplePatient.json.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-ExamplePatient.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-ExamplePatient.ttl.html#/html/body/div/div/div/p/span/a at Line 295, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-ExamplePatient.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-ExamplePatient.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis-definitions.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis-definitions.html#/html/body/div/div/div/p/span/a at Line 678, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis-examples.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis-examples.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis-mappings.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis-mappings.html#/html/body/div/div/div/p/span/a at Line 936, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis-testing.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis-testing.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/span/div/div/div/p/span/a at Line 2041, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis.profile.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis.profile.history.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis.profile.json.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis.profile.json.html#/html/body/div/div/div/p/span/a at Line 3667, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis.profile.ttl.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2782, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-encounter-ehmis.profile.xml.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-encounter-ehmis.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3353, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis-definitions.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis-definitions.html#/html/body/div/div/div/p/span/a at Line 512, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis-examples.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis-examples.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis-mappings.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis-mappings.html#/html/body/div/div/div/p/span/a at Line 544, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis-testing.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis-testing.html#/html/body/div/div/div/p/span/a at Line 311, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis.html#/html/body/div/div/div/p/span/a at Line 1237, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis.profile.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis.profile.history.html#/html/body/div/div/div/p/span/a at Line 293, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis.profile.json.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis.profile.json.html#/html/body/div/div/div/p/span/a at Line 1848, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis.profile.ttl.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1459, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-location-ehmis.profile.xml.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-location-ehmis.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1715, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis-definitions.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis-examples.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis-examples.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis-mappings.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis-mappings.html#/html/body/div/div/div/p/span/a at Line 907, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis-testing.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis-testing.html#/html/body/div/div/div/p/span/a at Line 311, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis.html#/html/body/div/div/div/p/span/a at Line 1609, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis.profile.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis.profile.history.html#/html/body/div/div/div/p/span/a at Line 293, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis.profile.json.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis.profile.json.html#/html/body/div/div/div/p/span/a at Line 2633, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis.profile.ttl.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1979, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-patient-ehmis.profile.xml.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-patient-ehmis.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2443, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis-definitions.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis-definitions.html#/html/body/div/div/div/p/span/a at Line 519, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis-examples.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis-examples.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis-mappings.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis-mappings.html#/html/body/div/div/div/p/span/a at Line 662, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis-testing.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis-testing.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis.html#/html/body/div/div/div/p/span/a at Line 1271, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis.profile.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis.profile.history.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis.profile.json.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis.profile.json.html#/html/body/div/div/div/p/span/a at Line 1890, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis.profile.ttl.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1454, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitioner-ehmis.profile.xml.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitioner-ehmis.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1761, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis-definitions.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis-definitions.html#/html/body/div/div/div/p/span/a at Line 461, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis-examples.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis-examples.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis-mappings.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis-mappings.html#/html/body/div/div/div/p/span/a at Line 554, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis-testing.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis-testing.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis.html#/html/body/div/div/div/p/span/a at Line 1133, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis.profile.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis.profile.history.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis.profile.json.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis.profile.json.html#/html/body/div/div/div/p/span/a at Line 1484, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis.profile.ttl.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1183, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: StructureDefinition-practitionerrole-ehmis.profile.xml.html#/html/body/div/div/div/a at Line 130, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-practitionerrole-ehmis.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1394, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.json.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.json.html#/html/body/div/div/div/p/span/a at Line 563, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.ttl.html#/html/body/div/div/div/p/span/a at Line 400, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-district.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-district.xml.html#/html/body/div/div/div/p/span/a at Line 550, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.json.html#/html/body/div/div/div/p/span/a at Line 2591, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.ttl.html#/html/body/div/div/div/p/span/a at Line 1076, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-localbody.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-localbody.xml.html#/html/body/div/div/div/p/span/a at Line 2578, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.json.html#/html/body/div/div/div/p/span/a at Line 360, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.ttl.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-province.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-province.xml.html#/html/body/div/div/div/p/span/a at Line 347, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type-testing.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 278, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.change.history.html#/html/body/div/div/div/a at Line 126, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 247, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.json.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.json.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.ttl.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 323, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: ValueSet-service-type.xml.html#/html/body/div/div/div/a at Line 124, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: artifacts.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 415, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: codesystems.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 245, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: examples.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 198, column 8: The link 'Encounter-ExampleEncounter.html' for "Example Encounter" cannot be resolved
+ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 227, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: external_terminologies.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 272, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: identifiers.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 248, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: index.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+WARNING: index.html#/html/body/div/div/div/div/div/p/a at Line 281, column 80: The link 'https://hl7.hmis.gov.np' for "https://hl7.hmis.gov.np" is a canonical link and is therefore unsafe with regard to versions
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 409, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: profiles.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 229, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: smart-index.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 306, column 14: The link 'smart-resources/family-planning/digital-adaption-kit-eng.pdf' for "Digital Adaptation Kit for Family Planning" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 307, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx' for "Core data dictionary" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 308, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.14-eng.xlsx' for "Decision support logic" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 309, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.15-eng.xlsx' for "Indicator table" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 310, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.16-eng.xlsx' for "Functional and non-functional requirements" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/p/span/a at Line 420, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: toc.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 203, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: valuesets.html#/html/body/div/div/div/a at Line 122, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: valuesets.html#/html/body/div/div/div/p/span/a at Line 267, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
@@ -222,12 +352,40 @@ INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.p
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/Location-ExampleLocation.json ==
+ERROR: Location/ExampleLocation: Location.managingOrganization: Unable to resolve resource with reference 'Organization/example-org'
+ERROR: Location.text.div: Hyperlink 'Organization/example-org' at 'div/p/a' for 'Organization/example-org' does not resolve
 == fsh-generated/resources/NamingSystem-HealthID.json ==
 INFORMATION: NamingSystem/HealthID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 == fsh-generated/resources/NamingSystem-NationalID.json ==
 INFORMATION: NamingSystem/NationalID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/Patient-ExamplePatient.json ==
+== fsh-generated/resources/StructureDefinition-encounter-ehmis.json ==
+INFORMATION: StructureDefinition/encounter-ehmis: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/encounter-ehmis: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/encounter-ehmis: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/encounter-ehmis: StructureDefinition.snapshot.element[10].binding: The definition for the element 'Encounter.status' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/encounter-ehmis: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/encounter-ehmis: StructureDefinition.snapshot.element[40].binding: The definition for the element 'Encounter.reason.value' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-reason' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+WARNING: StructureDefinition.where(url = 'https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-location-ehmis.json ==
+INFORMATION: StructureDefinition/location-ehmis: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/StructureDefinition-patient-ehmis.json ==
+INFORMATION: StructureDefinition/patient-ehmis: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/StructureDefinition-practitioner-ehmis.json ==
+INFORMATION: StructureDefinition/practitioner-ehmis: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+WARNING: StructureDefinition.where(url = 'https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-practitionerrole-ehmis.json ==
+INFORMATION: StructureDefinition/practitionerrole-ehmis: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/practitionerrole-ehmis: StructureDefinition.snapshot.element[15].binding: The definition for the element 'PractitionerRole.specialty' binds to the value set 'http://hl7.org/fhir/ValueSet/c80-practice-codes' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+WARNING: StructureDefinition.where(url = 'https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-administrative-gender.json ==
 ERROR: ValueSet.where(url = 'http://example.org/fhir/ValueSet/administrative-gender-vs'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender.json - the canonical URL (https://hl7.hmis.gov.np/ValueSet/administrative-gender) does not match the URL (http://example.org/fhir/ValueSet/administrative-gender-vs)
 INFORMATION: ValueSet/administrative-gender: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

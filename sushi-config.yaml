@@ -69,6 +69,10 @@ pages:
     title: External Code Systems
   smart-index.md:
     title: SMART Guidelines
+  profiles.md:
+    title: Profiles
+  examples.md:
+    title: Examples
 
 
   # email: test@example.org
@@ -102,7 +106,10 @@ menu:
   Identifier Systems: identifiers.html
   External Code Systems: external_terminologies.html
   SMART Guidelines: smart-index.html
+  Profiles: profiles.html
+  Examples: examples.html
   Artifacts: artifacts.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="assets/css/who.css"/>
     <link rel="stylesheet" href="assets/css/lforms.min.css"/>
 
-  <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/colors.css"/>
 <link rel="stylesheet" href="assets/css/app.css"/>
 
@@ -86,6 +85,12 @@
     <a href="smart-index.html">SMART Guidelines</a>
   </li>
   <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
+  </li>
+  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
@@ -113,25 +118,15 @@
 
       <div style=" justify-content: space-between; align-items: left;" class="container">
 
-          <!-- Left logo - typically the publisher's logo - project or affiliate -->
-<div id="project-nav">
-    <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
-      <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
-      <img src="assets/images/logo.png" alt="Project home" height="60"/>
-    </a>
-  </div>
-
-  <!-- Right logo - for example the FHIR logo -->
-  <!-- Make sure you have authorization to use the FHIR logo -->
-  <div id="family-nav">
-      <!-- <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" height="60"> -->
-    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
-  </div>
-
-  <!-- search icon - if you want -->
-  <!-- <div id="hl7-search">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div> -->
+        <div id="project-nav">
+  <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+</div>
 
         <div id="ig-status" class="ig-status-active">
           <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
@@ -306,11 +301,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <tr>
       <td><strong>Family Planning</strong></td>
       <td>
-        - Digital Adaptation Kit for Family Planning: Operational requirements for implementing WHO recommendations in digital systems<br/>
-        - Core data dictionary<br/>
-        - Decision support logic<br/>
-        - Indicator table<br/>
-        - Functional and non-functional requirements
+<ul>
+        <li><a name="l592">​</a><a href="smart-resources/family-planning/digital-adaption-kit-eng.pdf" target="_blank">Digital Adaptation Kit for Family Planning</a></li>
+      <li><a name="l596">​</a><a href="smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx" target="_blank">Core data dictionary</a></li>
+      <li><a name="l600">​</a><a href="smart-resources/family-planning/WHO-SRH-21.14-eng.xlsx" target="_blank">Decision support logic</a></li>
+      <li><a name="l604">​</a><a href="smart-resources/family-planning/WHO-SRH-21.15-eng.xlsx" target="_blank">Indicator table</a></li>
+      <li><a name="l608">​</a><a href="smart-resources/family-planning/WHO-SRH-21.16-eng.xlsx" target="_blank">Functional and non-functional requirements</a></li>
+</ul>
       </td>
       <td><em>Coming soon!</em></td>
     </tr>
@@ -412,9 +409,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l810">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l823">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

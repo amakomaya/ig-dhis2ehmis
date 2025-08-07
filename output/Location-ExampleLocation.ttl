@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/Location/ExampleLocation> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleLocation"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
+       fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location ExampleLocation</b></p><a name=\"ExampleLocation\"> </a><a name=\"hcExampleLocation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-location-ehmis.html\">Location Profile for EHMIS</a></p></div><p><b>name</b>: Health Post 12, Sunsari</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\">Hospital</span></p><p><b>address</b>: Ward No. 5 Inaruwa Province 1 56700 </p><p><b>managingOrganization</b>: <a href=\"Organization/example-org\">Organization/example-org</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:name [ fhir:v "Health Post 12, Sunsari"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HOSP" ]
+     ] )
+  ] ) ; # 
+  fhir:address [
+     fhir:line ( [ fhir:v "Ward No. 5" ] ) ;
+     fhir:city [ fhir:v "Inaruwa" ] ;
+     fhir:district [ fhir:v "Sunsari" ] ;
+     fhir:state [ fhir:v "Province 1" ] ;
+     fhir:postalCode [ fhir:v "56700" ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:link <https://hl7.hmis.gov.np/Organization/example-org> ;
+     fhir:reference [ fhir:v "Organization/example-org" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

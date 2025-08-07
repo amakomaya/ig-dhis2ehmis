@@ -49,6 +49,41 @@
     "name" : "NationalID"
   },
   {
+    "id" : "encounter-ehmis",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis",
+    "version" : "1.0.1",
+    "name" : "EncounterEHMIS"
+  },
+  {
+    "id" : "location-ehmis",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis",
+    "version" : "1.0.1",
+    "name" : "LocationEHMIS"
+  },
+  {
+    "id" : "patient-ehmis",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis",
+    "version" : "1.0.1",
+    "name" : "PatientEHMIS"
+  },
+  {
+    "id" : "practitioner-ehmis",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis",
+    "version" : "1.0.1",
+    "name" : "PractitionerEHMIS"
+  },
+  {
+    "id" : "practitionerrole-ehmis",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis",
+    "version" : "1.0.1",
+    "name" : "PractitionerRoleEHMIS"
+  },
+  {
     "id" : "district",
     "type" : "ValueSet",
     "url" : "https://hl7.hmis.gov.np/ValueSet/district",

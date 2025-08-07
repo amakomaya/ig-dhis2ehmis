@@ -30,9 +30,9 @@ ISO maintains the copyright on the country codes, and controls its use carefully
 :                 <a href="ValueSet-administrative-gender.html">AdministrativeGenderVS</a>
 ,                 <a href="ValueSet-district.html">DistrictVS</a>
                 <span onClick="document.getElementById('ips_1').innerHTML = document.getElementById('ips2_1').innerHTML" id="ips_1">
-... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 10 more</span>                </span>
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 15 more</span>                </span>
                 <span style="display: none" id="ips2_1">
-, <a href="CodeSystem-ethnic-code.html">EthnicCodeCS</a>, <a href="ValueSet-ethnic-code.html">EthnicCodeVS</a>, <a href="NamingSystem-HealthID.html">HealthID</a>, <a href="ValueSet-localbody.html">LocalBodyVS</a>, <a href="CodeSystem-locations.html">LocationsCS</a>, <a href="index.html">NPCoreImplementationGuide</a>, <a href="NamingSystem-NationalID.html">NationalID</a>, <a href="ValueSet-province.html">ProvinceVS</a>, <a href="CodeSystem-service-type.html">ServiceTypeCS</a> and <a href="ValueSet-service-type.html">ServiceTypeVS</a>                </span>
+, <a href="StructureDefinition-encounter-ehmis.html">EncounterEHMIS</a>, <a href="CodeSystem-ethnic-code.html">EthnicCodeCS</a>, <a href="ValueSet-ethnic-code.html">EthnicCodeVS</a>, <a href="NamingSystem-HealthID.html">HealthID</a>, <a href="ValueSet-localbody.html">LocalBodyVS</a>, <a href="StructureDefinition-location-ehmis.html">LocationEHMIS</a>, <a href="CodeSystem-locations.html">LocationsCS</a>, <a href="index.html">NPCoreImplementationGuide</a>, <a href="NamingSystem-NationalID.html">NationalID</a>, <a href="StructureDefinition-patient-ehmis.html">PatientEHMIS</a>, <a href="StructureDefinition-practitioner-ehmis.html">PractitionerEHMIS</a>, <a href="StructureDefinition-practitionerrole-ehmis.html">PractitionerRoleEHMIS</a>, <a href="ValueSet-province.html">ProvinceVS</a>, <a href="CodeSystem-service-type.html">ServiceTypeCS</a> and <a href="ValueSet-service-type.html">ServiceTypeVS</a>                </span>
               </li>
 
 
@@ -43,10 +43,31 @@ ISO maintains the copyright on the country codes, and controls its use carefully
         </li>
 
         <li>
-Used by permission of HL7 International, all rights reserved Creative Commons License          <div onClick="if (document.getElementById('ipp2_2').innerHTML != '') {document.getElementById('ipp_2').innerHTML = document.getElementById('ipp2_2').innerHTML; document.getElementById('ipp2_2').innerHTML = ''}" id="ipp_2">
+This material derives from the HL7 Terminology (THO). THO is copyright &copy;1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see:           <a href="https://terminology.hl7.org/license.html">https://terminology.hl7.org/license.html</a>
+          <div onClick="if (document.getElementById('ipp2_2').innerHTML != '') {document.getElementById('ipp_2').innerHTML = document.getElementById('ipp2_2').innerHTML; document.getElementById('ipp2_2').innerHTML = ''}" id="ipp_2">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
           <div style="display: none" id="ipp2_2">
+
+            <ul>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html">RoleCode</a>
+:                 <a href="Location-ExampleLocation.html">Health Post 12, Sunsari</a>
+              </li>
+
+
+            </ul>
+
+
+          </div>
+        </li>
+
+        <li>
+Used by permission of HL7 International, all rights reserved Creative Commons License          <div onClick="if (document.getElementById('ipp2_3').innerHTML != '') {document.getElementById('ipp_3').innerHTML = document.getElementById('ipp2_3').innerHTML; document.getElementById('ipp2_3').innerHTML = ''}" id="ipp_3">
+             <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
+          </div>
+          <div style="display: none" id="ipp2_3">
 
             <ul>
 
@@ -91,7 +112,7 @@ Used by permission of HL7 International, all rights reserved Creative Commons Li
       </li>
       <li>
 
-    IG &copy; 2025+ Integrated Health Information Management Section.  Package hl7.fhir.hmis#1.0.1 based on FHIR 5.0.0. Generated 2025-08-06 
+    IG &copy; 2025+ Integrated Health Information Management Section.  Package hl7.fhir.hmis#1.0.1 based on FHIR 5.0.0. Generated 2025-08-07 
     
     
                 Links: Table of Contents |
@@ -130,14 +151,14 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
         </td>
         <td>
 
-              <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+            <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
 
-      <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
-      <img src="assets/images/logo.png" alt="Project home" height="60"/>
-    
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  
           </a>
 
-  
+
         </td>
       </tr>
       <tr>
@@ -151,12 +172,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -179,12 +200,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -207,12 +228,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l557">​</a>
+<a name="l555">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -235,12 +256,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l616">​</a>
+<a name="l614">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -263,12 +284,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l766">​</a>
+<a name="l764">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -291,12 +312,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l789">​</a>
+<a name="l787">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -319,12 +340,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -347,12 +368,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -375,12 +396,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l10537">​</a>
+<a name="l10535">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -403,12 +424,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l5800">​</a>
+<a name="l5798">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -431,12 +452,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l10899">​</a>
+<a name="l10897">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -459,12 +480,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l13164">​</a>
+<a name="l13162">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -487,12 +508,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -515,12 +536,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -543,12 +564,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l617">​</a>
+<a name="l615">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -571,12 +592,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l688">​</a>
+<a name="l686">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -599,12 +620,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l895">​</a>
+<a name="l893">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -627,12 +648,152 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l933">​</a>
+<a name="l931">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Location-ExampleLocation.change.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l388">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Location-ExampleLocation.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l428">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Location-ExampleLocation.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l470">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Location-ExampleLocation.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l503">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Location-ExampleLocation.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l502">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -655,12 +816,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -683,12 +844,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -711,12 +872,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l535">​</a>
+<a name="l533">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -739,12 +900,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l538">​</a>
+<a name="l536">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -767,12 +928,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l628">​</a>
+<a name="l626">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -795,12 +956,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l639">​</a>
+<a name="l637">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -823,12 +984,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -851,12 +1012,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -879,12 +1040,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l535">​</a>
+<a name="l533">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -907,12 +1068,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l538">​</a>
+<a name="l536">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -935,12 +1096,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l628">​</a>
+<a name="l626">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -963,12 +1124,1412 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l639">​</a>
+<a name="l637">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Patient-ExamplePatient.change.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l388">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Patient-ExamplePatient.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l417">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Patient-ExamplePatient.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l470">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Patient-ExamplePatient.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l506">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Patient-ExamplePatient.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l505">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l7482">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis-examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l413">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis-mappings.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l2525">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis-testing.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l435">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l9069">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis.profile.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l408">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis.profile.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l6909">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis.profile.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l12851">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-encounter-ehmis.profile.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l12644">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3956">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis-examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l445">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis-mappings.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l1295">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis-testing.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l441">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l4363">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis.profile.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l414">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis.profile.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3453">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis.profile.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l6200">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-location-ehmis.profile.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l6083">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l5947">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis-examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l445">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis-mappings.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l2234">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis-testing.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l441">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l5981">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis.profile.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l414">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis.profile.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l4884">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis.profile.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l8984">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-patient-ehmis.profile.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l9002">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3976">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis-examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l413">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis-mappings.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l1569">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis-testing.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l435">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l4183">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis.profile.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l408">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis.profile.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3492">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis.profile.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l6314">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitioner-ehmis.profile.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l6311">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3215">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis-examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l413">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis-mappings.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l1242">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis-testing.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l435">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l3955">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis.profile.history.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l408">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis.profile.json.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l2733">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis.profile.ttl.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l4838">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-practitionerrole-ehmis.profile.xml.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l4796">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -991,12 +2552,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1019,12 +2580,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1047,12 +2608,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l634">​</a>
+<a name="l632">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1075,12 +2636,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l520">​</a>
+<a name="l518">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1103,12 +2664,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l589">​</a>
+<a name="l587">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1131,12 +2692,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l597">​</a>
+<a name="l595">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1159,12 +2720,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1187,12 +2748,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1215,12 +2776,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l1896">​</a>
+<a name="l1894">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1243,12 +2804,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l754">​</a>
+<a name="l752">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1271,12 +2832,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l1054">​</a>
+<a name="l1052">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1299,12 +2860,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l1290">​</a>
+<a name="l1288">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1327,12 +2888,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1355,12 +2916,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1383,12 +2944,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l641">​</a>
+<a name="l639">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1411,12 +2972,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l520">​</a>
+<a name="l518">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1439,12 +3000,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l589">​</a>
+<a name="l587">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1467,12 +3028,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l597">​</a>
+<a name="l595">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1495,12 +3056,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1523,12 +3084,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1551,12 +3112,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l13388">​</a>
+<a name="l13386">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1579,12 +3140,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l2782">​</a>
+<a name="l2780">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1607,12 +3168,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l5109">​</a>
+<a name="l5107">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1635,12 +3196,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l7374">​</a>
+<a name="l7372">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1663,12 +3224,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1691,12 +3252,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1719,12 +3280,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l706">​</a>
+<a name="l704">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1747,12 +3308,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l565">​</a>
+<a name="l563">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1775,12 +3336,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l676">​</a>
+<a name="l674">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1803,12 +3364,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l702">​</a>
+<a name="l700">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1831,12 +3392,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l421">​</a>
+<a name="l419">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1859,12 +3420,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l390">​</a>
+<a name="l388">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1887,12 +3448,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l696">​</a>
+<a name="l694">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1915,12 +3476,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l523">​</a>
+<a name="l521">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1943,12 +3504,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l595">​</a>
+<a name="l593">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1971,12 +3532,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l603">​</a>
+<a name="l601">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -1999,12 +3560,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l613">​</a>
+<a name="l750">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2027,12 +3588,40 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l428">​</a>
+<a name="l426">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="examples.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l390">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2066,12 +3655,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l512">​</a>
+<a name="l510">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2094,12 +3683,12 @@ Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l432">​</a>
+<a name="l430">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2134,12 +3723,40 @@ Access the official           <strong>FHIR Implementation Guide (IG)</strong>
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l623">​</a>
+<a name="l814">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    
+          </span>
+
+  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="profiles.html">web</a>
+        </td>
+        <td>
+          <a href="https://hmis.gov.np">hmis.gov.np</a>
+        </td>
+        <td>
+
+    IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
+.  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
+
+              <br/>
+
+              <span style="color: var(--footer-highlight-text-color)">
+<a name="l394">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2191,12 +3808,12 @@ Access the official           <strong>FHIR Implementation Guide (IG)</strong>
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l810">​</a>
+<a name="l823">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2219,12 +3836,12 @@ Access the official           <strong>FHIR Implementation Guide (IG)</strong>
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l507">​</a>
+<a name="l575">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2247,12 +3864,12 @@ Access the official           <strong>FHIR Implementation Guide (IG)</strong>
 
     IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>
 .  Package hl7.fhir.hmis#1.0.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>
-. Generated           <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+. Generated           <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
 
               <br/>
 
               <span style="color: var(--footer-highlight-text-color)">
-<a name="l480">​</a>
+<a name="l478">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -2271,6 +3888,12 @@ Access the official           <strong>FHIR Implementation Guide (IG)</strong>
         <td>
 smart-guideline-component.png          <br/>
           <img src="smart-guideline-component.png" alt="smart-guideline-component.png" width="600px" height="auto"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+tree-filter.png          <br/>
+          <img src="tree-filter.png" alt="tree-filter.png" width="600px" height="auto"/>
         </td>
       </tr>
     </table>

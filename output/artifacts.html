@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="assets/css/who.css"/>
     <link rel="stylesheet" href="assets/css/lforms.min.css"/>
 
-  <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/colors.css"/>
 <link rel="stylesheet" href="assets/css/app.css"/>
 
@@ -45,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7"}
-    h3,h4,h5,h6{--heading-prefix:"7.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"9"}
+    h3,h4,h5,h6{--heading-prefix:"9.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -86,6 +85,12 @@
     <a href="smart-index.html">SMART Guidelines</a>
   </li>
   <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
+  </li>
+  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
@@ -113,25 +118,15 @@
 
       <div style=" justify-content: space-between; align-items: left;" class="container">
 
-          <!-- Left logo - typically the publisher's logo - project or affiliate -->
-<div id="project-nav">
-    <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
-      <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
-      <img src="assets/images/logo.png" alt="Project home" height="60"/>
-    </a>
-  </div>
-
-  <!-- Right logo - for example the FHIR logo -->
-  <!-- Make sure you have authorization to use the FHIR logo -->
-  <div id="family-nav">
-      <!-- <img src="https://flagcdn.com/w320/np.png" alt="Nepal Flag" height="60"> -->
-    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
-  </div>
-
-  <!-- search icon - if you want -->
-  <!-- <div id="hl7-search">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div> -->
+        <div id="project-nav">
+  <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+</div>
 
         <div id="ig-status" class="ig-status-active">
           <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
@@ -184,19 +179,73 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Terminology: Value Sets</a>
+         <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Terminology: Code Systems</a>
+         <a href="#2">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#3">Terminology: Naming Systems</a>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-encounter-ehmis.html" title="StructureDefinition/encounter-ehmis">Encounter Profile for EHMIS</a>
+            </td>
+            <td>
+<p>Each service interaction or visit by a patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-location-ehmis.html" title="StructureDefinition/location-ehmis">Location Profile for EHMIS</a>
+            </td>
+            <td>
+<p>Healthcare delivery location (e.g., facility, ward)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-patient-ehmis.html" title="StructureDefinition/patient-ehmis">Patient Profile for EHMIS</a>
+            </td>
+            <td>
+<p>Demographics and identifiers for patients in Nepal EHMIS</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-practitioner-ehmis.html" title="StructureDefinition/practitioner-ehmis">Practitioner Profile for EHMIS</a>
+            </td>
+            <td>
+<p>Basic identity for health worker</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-practitionerrole-ehmis.html" title="StructureDefinition/practitionerrole-ehmis">Practitioner Role Profile for EHMIS</a>
+            </td>
+            <td>
+<p>Defines a practitioner's role and location</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
    <h3>Terminology: Value Sets </h3>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -252,7 +301,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="2"> </a>
+   <a name="3"> </a>
    <h3>Terminology: Code Systems </h3>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -284,7 +333,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Terminology: Naming Systems </h3>
     <p>These define identifier and/or code system identities used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -308,6 +357,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Location-ExampleLocation.html" title="Location/ExampleLocation">Example Location for EHMIS</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-ExamplePatient.html" title="Patient/ExamplePatient">Example Patient for EHMIS</a>
+            </td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 
 </div>
@@ -326,9 +393,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 6, 2025 16:27+0545">2025-08-06</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 7, 2025 10:19+0545">2025-08-07</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l613">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l750">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

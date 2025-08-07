@@ -90,6 +90,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/encounter-ehmis"/>
+      </reference>
+      <name value="Encounter Profile for EHMIS"/>
+      <description value="Each service interaction or visit by a patient"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -112,6 +123,28 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/ExampleLocation"/>
+      </reference>
+      <name value="Example Location for EHMIS"/>
+      <isExample value="true"/>
+      <profile value="https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/ExamplePatient"/>
+      </reference>
+      <name value="Example Patient for EHMIS"/>
+      <isExample value="true"/>
+      <profile value="https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -119,6 +152,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="LocalBody"/>
       <description value="All LocalBody used in administrative divisions"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/location-ehmis"/>
+      </reference>
+      <name value="Location Profile for EHMIS"/>
+      <description value="Healthcare delivery location (e.g., facility, ward)"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -152,6 +196,39 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Nepal Administrative Location Codes"/>
       <description value="Comprehensive code system for Nepals provinces, districts, and municipalities."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-ehmis"/>
+      </reference>
+      <name value="Patient Profile for EHMIS"/>
+      <description value="Demographics and identifiers for patients in Nepal EHMIS"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/practitioner-ehmis"/>
+      </reference>
+      <name value="Practitioner Profile for EHMIS"/>
+      <description value="Basic identity for health worker"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/practitionerrole-ehmis"/>
+      </reference>
+      <name value="Practitioner Role Profile for EHMIS"/>
+      <description value="Defines a practitioner's role and location"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -226,6 +303,18 @@ It is developed to support routine service delivery programs such as Maternal an
         <sourceUrl value="smart-index.html"/>
         <name value="smart-index.html"/>
         <title value="SMART Guidelines"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="profiles.html"/>
+        <name value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="examples.html"/>
+        <name value="examples.html"/>
+        <title value="Examples"/>
         <generation value="markdown"/>
       </page>
     </page>

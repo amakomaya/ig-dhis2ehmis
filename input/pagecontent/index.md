@@ -44,6 +44,81 @@ We invite stakeholders, developers, and public health professionals to collabora
 - **Community Forum**: *Coming Soon*  
 - **Contact**: 📧 it@hmis.gov.np
 
+
+### Authors and Contributors
+This Implementation Guide has been developed and maintained as part of the **Integrated Health Information Management System (IHMIS)** for Nepal’s **electronic Health Management Information System (EHMIS)**.
+
+
+#### Lead Organization:
+**Ministry of Health and Population (MoHP), Government of Nepal**  
+- Department of Health Services
+- Management Division  
+- Health Management Information System (HMIS) Section
+
+#### Technical Lead:
+- **Integrated Health Information Management System (IHMIS) Team**
+- **Amakomaya Team**
+
+
+#### Key Contributors:
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Organization</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Editor, FHIR Lead</td>
+      <td>RC Poudel</td>
+      <td>Software Engineer, Health Informatics Specialist, AMK</td>
+      <td>rcpoudel@amakomaya.com</td>
+    </tr>
+    <tr>
+      <td>Computer Engineer, Editor</td>
+      <td>Prabin Chauhan</td>
+      <td>IHIMS</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Public Health Officer, Subject Matter Expert (SME)</td>
+      <td>Basanta Gaire</td>
+      <td>Government of Nepal (GoN)</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Technical Lead</td>
+      <td>Rajendra Prasad Poudel</td>
+      <td>Independent</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Digital Health Specialist</td>
+      <td>Padam Dahal</td>
+      <td>GIZ</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Advisor</td>
+      <td>Nirmal Dhakal</td>
+      <td>GIZ</td>
+      <td>[email/phone]</td>
+    </tr>
+    <tr>
+      <td>Section Head</td>
+      <td>Ritu Pantha</td>
+      <td>IHIMS</td>
+      <td>[email/phone]</td>
+    </tr>
+  </tbody>
+</table>
+#### Supporting Organizations:
+- GIZ – Support to the Health Sector Programme  
+- Amakomaya Nepal
+
 ---
 
 _Last Updated: August 05, 2025_
