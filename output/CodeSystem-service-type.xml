@@ -10,7 +10,7 @@
   <name value="ServiceTypeCS"/>
   <title value="सेवाको किसिम कोड सिस्टम"/>
   <status value="active"/>
-  <date value="2025-08-07T10:18:47+05:45"/>
+  <date value="2025-08-08T09:35:18+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -28,7 +28,14 @@
     <telecom>
       <system value="email"/>
       <value value="rcpoudel@amakomaya.com"/>
-      <use value="work"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
     </telecom>
   </contact>
   <description value="स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।"/>

@@ -31,7 +31,14 @@
     <telecom>
       <system value="email"/>
       <value value="rcpoudel@amakomaya.com"/>
-      <use value="work"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
     </telecom>
   </contact>
   <description value="The official National Health Identification Number assigned by the Government of Nepal."/>

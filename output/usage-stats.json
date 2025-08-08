@@ -8,7 +8,7 @@
     "Encounter": [
       {
         "url": "https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis",
-        "title": "Encounter Profile for EHMIS"
+        "title": "Encounter for EHMIS"
       }
     ],
     "Location": [
@@ -20,7 +20,7 @@
     "Patient": [
       {
         "url": "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis",
-        "title": "Patient Profile for EHMIS"
+        "title": "Patient for EHMIS"
       }
     ],
     "Practitioner": [

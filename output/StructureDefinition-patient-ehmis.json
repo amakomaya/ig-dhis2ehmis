@@ -8,9 +8,9 @@
   "url" : "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis",
   "version" : "1.0.1",
   "name" : "PatientEHMIS",
-  "title" : "Patient Profile for EHMIS",
+  "title" : "Patient for EHMIS",
   "status" : "active",
-  "date" : "2025-08-07T10:18:47+05:45",
+  "date" : "2025-08-08T09:35:18+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -27,8 +27,15 @@
     "name" : "RC Poudel",
     "telecom" : [{
       "system" : "email",
-      "value" : "rcpoudel@amakomaya.com",
-      "use" : "work"
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
     }]
   }],
   "description" : "Demographics and identifiers for patients in Nepal EHMIS",

@@ -33,8 +33,13 @@
      fhir:name [ fhir:v "RC Poudel" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ] ;
-       fhir:use [ fhir:v "work" ]
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms."] ; # 
@@ -130,7 +135,7 @@
          fhir:link <https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis> ;
          fhir:reference [ fhir:v "StructureDefinition/encounter-ehmis" ]
        ] ;
-       fhir:name [ fhir:v "Encounter Profile for EHMIS" ] ;
+       fhir:name [ fhir:v "Encounter for EHMIS" ] ;
        fhir:description [ fhir:v "Each service interaction or visit by a patient" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
@@ -286,7 +291,7 @@
          fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis> ;
          fhir:reference [ fhir:v "StructureDefinition/patient-ehmis" ]
        ] ;
-       fhir:name [ fhir:v "Patient Profile for EHMIS" ] ;
+       fhir:name [ fhir:v "Patient for EHMIS" ] ;
        fhir:description [ fhir:v "Demographics and identifiers for patients in Nepal EHMIS" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
@@ -424,6 +429,14 @@
        ] [
          fhir:source [
            a fhir:url ;
+           fhir:v "health-journey.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "health-journey.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Health Journey" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
            fhir:v "profiles.html"^^xsd:anyURI
          ] ;
          fhir:name [ fhir:v "profiles.html"^^xsd:anyURI ] ;
@@ -436,6 +449,30 @@
          ] ;
          fhir:name [ fhir:v "examples.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Examples" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "health-journey-mnch.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "health-journey-mnch.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Health Journey Mnch" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "health-journey-immunization.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "health-journey-immunization.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Health Journey Immunization" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "health-journey-opd.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "health-journey-opd.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Health Journey Opd" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

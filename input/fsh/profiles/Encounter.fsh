@@ -1,7 +1,7 @@
 Profile: EncounterEHMIS
 Parent: Encounter
 Id: encounter-ehmis
-Title: "Encounter Profile for EHMIS"
+Title: "Encounter for EHMIS"
 Description: "Each service interaction or visit by a patient"
 
 * status = #finished

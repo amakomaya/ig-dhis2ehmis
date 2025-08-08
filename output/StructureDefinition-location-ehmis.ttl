@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "LocationEHMIS"] ; # 
   fhir:title [ fhir:v "Location Profile for EHMIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-07T10:18:47+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-08T09:35:18+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -33,8 +33,13 @@
      fhir:name [ fhir:v "RC Poudel" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ] ;
-       fhir:use [ fhir:v "work" ]
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Healthcare delivery location (e.g., facility, ward)"] ; # 

@@ -34,8 +34,13 @@
      fhir:name [ fhir:v "RC Poudel" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ] ;
-       fhir:use [ fhir:v "work" ]
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The official National Health Identification Number assigned by the Government of Nepal."] ; # 

@@ -69,11 +69,16 @@ pages:
     title: External Code Systems
   smart-index.md:
     title: SMART Guidelines
+  health-journey.md:
+    title: Health Journey
   profiles.md:
     title: Profiles
   examples.md:
     title: Examples
 
+  health-journey-mnch.md:
+  health-journey-immunization.md:
+  health-journey-opd.md:
 
   # email: test@example.org
 
@@ -106,6 +111,7 @@ menu:
   Identifier Systems: identifiers.html
   External Code Systems: external_terminologies.html
   SMART Guidelines: smart-index.html
+  Health Journey: health-journey.html
   Profiles: profiles.html
   Examples: examples.html
   Artifacts: artifacts.html
@@ -123,9 +129,12 @@ menu:
 contact:
   - name: RC Poudel
     telecom:
-      - system: email # phone | fax | email | pager | url | sms | other
+      - system: email
         value: rcpoudel@amakomaya.com
-        use: work
+      - system: email
+        value: rmchndrapdl@gmail.com
+      - system: phone
+        value: "+977-9851341921"
 #
 #
 # The global property corresponds to the IG.global property, but it
@@ -244,6 +253,3 @@ instanceOptions:
   # if InstanceOf references a profile:
   #
   # setId: always # always | standalone-only
-
-
-

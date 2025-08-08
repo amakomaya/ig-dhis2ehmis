@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender",
-      "ValueSet-administrative-gender.html" : "Administrative Gender"
+      "ValueSet-administrative-gender.html" : "Administrative Gender",
+      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
       "url" : "http://hl7.org/fhir/encounter-diagnosis-use",
@@ -414,8 +414,8 @@
       "uses" : {
       },
       "ValueSet-district.html" : "District",
-      "ValueSet-province.html" : "Province",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",

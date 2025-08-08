@@ -27,8 +27,15 @@
     "name" : "RC Poudel",
     "telecom" : [{
       "system" : "email",
-      "value" : "rcpoudel@amakomaya.com",
-      "use" : "work"
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
     }]
   }],
   "description" : "The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.",
@@ -100,7 +107,7 @@
       "reference" : {
         "reference" : "StructureDefinition/encounter-ehmis"
       },
-      "name" : "Encounter Profile for EHMIS",
+      "name" : "Encounter for EHMIS",
       "description" : "Each service interaction or visit by a patient",
       "isExample" : false
     },
@@ -220,7 +227,7 @@
       "reference" : {
         "reference" : "StructureDefinition/patient-ehmis"
       },
-      "name" : "Patient Profile for EHMIS",
+      "name" : "Patient for EHMIS",
       "description" : "Demographics and identifiers for patients in Nepal EHMIS",
       "isExample" : false
     },
@@ -326,6 +333,12 @@
         "generation" : "markdown"
       },
       {
+        "sourceUrl" : "health-journey.html",
+        "name" : "health-journey.html",
+        "title" : "Health Journey",
+        "generation" : "markdown"
+      },
+      {
         "sourceUrl" : "profiles.html",
         "name" : "profiles.html",
         "title" : "Profiles",
@@ -335,6 +348,24 @@
         "sourceUrl" : "examples.html",
         "name" : "examples.html",
         "title" : "Examples",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "health-journey-mnch.html",
+        "name" : "health-journey-mnch.html",
+        "title" : "Health Journey Mnch",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "health-journey-immunization.html",
+        "name" : "health-journey-immunization.html",
+        "title" : "Health Journey Immunization",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "health-journey-opd.html",
+        "name" : "health-journey-opd.html",
+        "title" : "Health Journey Opd",
         "generation" : "markdown"
       }]
     },

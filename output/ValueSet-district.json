@@ -10,7 +10,7 @@
   "name" : "DistrictVS",
   "title" : "District",
   "status" : "active",
-  "date" : "2025-08-07T10:18:47+05:45",
+  "date" : "2025-08-08T09:35:18+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -27,8 +27,15 @@
     "name" : "RC Poudel",
     "telecom" : [{
       "system" : "email",
-      "value" : "rcpoudel@amakomaya.com",
-      "use" : "work"
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
     }]
   }],
   "description" : "All district used in administrative divisions",

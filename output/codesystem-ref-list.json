@@ -33,8 +33,8 @@
       "uses" : {
       },
       "ValueSet-district.html" : "District",
-      "ValueSet-province.html" : "Province",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",

@@ -1,7 +1,7 @@
 Profile: PatientEHMIS
 Parent: Patient
 Id: patient-ehmis
-Title: "Patient Profile for EHMIS"
+Title: "Patient for EHMIS"
 Description: "Demographics and identifiers for patients in Nepal EHMIS"
 
 * identifier 1..1 MS
