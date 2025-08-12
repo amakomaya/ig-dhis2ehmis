@@ -509,7 +509,7 @@ WARNING: identifiers.html#/html/body/div/div/div/a at Line 125, column 5: The li
 ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 251, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: index.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 WARNING: index.html#/html/body/div/div/div/div/div/p/a at Line 284, column 80: The link 'https://hl7.hmis.gov.np' for "https://hl7.hmis.gov.np" is a canonical link and is therefore unsafe with regard to versions
-ERROR: index.html#/html/body/div/div/div/p/span/a at Line 412, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: profiles.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: profiles.html#/html/body/div/div/div/div/div/ul/li/a at Line 199, column 8: The link 'StructureDefinition-patient-ehmis.html' for "Patient" cannot be resolved
 ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 231, column 113: The link 'license.html' for "License" cannot be resolved

@@ -507,9 +507,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-province.html" : "Province",
       "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-district.html" : "District",
-      "ValueSet-province.html" : "Province"
+      "ValueSet-district.html" : "District"
     },
     {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/period-range",

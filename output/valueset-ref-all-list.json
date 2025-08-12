@@ -39,11 +39,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
       "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS",
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)",
       "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS",
-      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
-      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
+      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -405,11 +405,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
       "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS",
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)",
       "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS",
-      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
-      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
+      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -461,8 +461,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.328"],
       "uses" : {
       },
-      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
-      "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS"
+      "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS",
+      "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",

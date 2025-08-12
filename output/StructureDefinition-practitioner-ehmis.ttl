@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "PractitionerEHMIS"] ; # 
   fhir:title [ fhir:v "Practitioner Profile for EHMIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-10T13:33:39+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-12T23:24:39+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
