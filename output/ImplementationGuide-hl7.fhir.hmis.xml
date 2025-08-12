@@ -9,7 +9,7 @@ It is developed to support routine service delivery programs such as Maternal an
 </div></div>
   </text>
   <url value="https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"/>
-  <version value="1.0.1"/>
+  <version value="0.0.1-ballot"/>
   <name value="NPCoreImplementationGuide"/>
   <title value="Nepal HMIS FHIR Implementation Guide"/>
   <status value="active"/>
@@ -67,7 +67,7 @@ It is developed to support routine service delivery programs such as Maternal an
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r5"/>
-    <version value="5.3.0-ballot-tc1"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
@@ -89,10 +89,54 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/age-range"/>
+      </reference>
+      <name value="Age Range"/>
+      <description value="ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/condition-severity"/>
+      </reference>
+      <name value="Condition / Diagnosis Severity"/>
+      <description value="Preferred value set for Condition/Diagnosis severity grading"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/district"/>
       </reference>
       <name value="District"/>
       <description value="All district used in administrative divisions"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/educational-level"/>
+      </reference>
+      <name value="Educational Level"/>
+      <description value="Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/employment-status"/>
+      </reference>
+      <name value="Employment (रोजगारी स्थिति)"/>
+      <description value="Codes representing employment status of a person."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -104,6 +148,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Encounter for EHMIS"/>
       <description value="Each service interaction or visit by a patient"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ethnic-code"/>
+      </reference>
+      <name value="Ethnic Code"/>
+      <description value="Extension to capture जाति कोड (ethnicity) based on Nepali classification"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -130,25 +185,36 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="Location/ExampleLocation"/>
+        <reference value="ValueSet/free-cost"/>
       </reference>
-      <name value="Example Location for EHMIS"/>
-      <isExample value="true"/>
-      <profile value="https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"/>
+      <name value="Free Cost"/>
+      <description value="ValueSet for Free Cost"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="Patient/ExamplePatient"/>
+        <reference value="ValueSet/free-service-eligibility"/>
       </reference>
-      <name value="Example Patient for EHMIS"/>
-      <isExample value="true"/>
-      <profile value="https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis"/>
+      <name value="Free Service Eligibility"/>
+      <description value="ValueSet representing individuals eligible for free health services"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/free-service-eligibility"/>
+      </reference>
+      <name value="Free Service Eligibility"/>
+      <description value="Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -163,6 +229,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/ExampleLocation"/>
+      </reference>
+      <name value="Location"/>
+      <isExample value="true"/>
+      <profile value="https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -170,6 +247,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Location Profile for EHMIS"/>
       <description value="Healthcare delivery location (e.g., facility, ward)"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/marital-status"/>
+      </reference>
+      <name value="Marital Status (वैवाहिक स्थिति)"/>
+      <description value="Codes representing marital status of a person."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -207,13 +295,68 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/option-set-yes-no"/>
+      </reference>
+      <name value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
+      <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, &#xA;हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PatientExample"/>
+      </reference>
+      <name value="Patient"/>
+      <description value="ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-ehmis"/>
+        <reference value="StructureDefinition/patient-profile"/>
       </reference>
-      <name value="Patient for EHMIS"/>
-      <description value="Demographics and identifiers for patients in Nepal EHMIS"/>
+      <name value="Patient (स्वास्थ्य सेवाग्राही)"/>
+      <description value="Demographics and identifiers for patients in Nepal"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-registration-type"/>
+      </reference>
+      <name value="Patient Registration Type"/>
+      <description value="Patient registration types mapped to SNOMED CT concepts with Nepali display."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/visit-ordinal"/>
+      </reference>
+      <name value="Patient Visit Ordinal"/>
+      <description value="ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/period-range"/>
+      </reference>
+      <name value="Period Range"/>
+      <description value="HMIS period ranges codes based on IHE ADX Range Coding System. &#xA;Reference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78&#xA;&#xA;Durations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:&#xA;&#xA;P is the duration designator (for period) placed at the start of the duration representation.&#xA;Y is the year designator that follows the value for the number of years.&#xA;M is the month designator that follows the value for the number of months.&#xA;W is the week designator that follows the value for the number of weeks.&#xA;D is the day designator that follows the value for the number of days.&#xA;T is the time designator that precedes the time components of the representation.&#xA;H is the hour designator that follows the value for the number of hours.&#xA;M is the minute designator that follows the value for the number of minutes.&#xA;S is the second designator that follows the value for the number of seconds."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -251,13 +394,13 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/service-type"/>
+        <reference value="ValueSet/service-area-address"/>
       </reference>
-      <name value="सेवाको किसिम कोड सिस्टम"/>
-      <description value="स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।"/>
+      <name value="Service Area Address Classification"/>
+      <description value="Classification of address locations relative to the organization's service area and referral context, using SNOMED CT concepts to specify whether the address is inside or outside the service area and the type of location involved."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -267,8 +410,41 @@ It is developed to support routine service delivery programs such as Maternal an
       <reference>
         <reference value="ValueSet/service-type"/>
       </reference>
-      <name value="सेवाको किसिमको मान सेट"/>
-      <description value="सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।"/>
+      <name value="Service Type"/>
+      <description value="Service Type"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/yes-no"/>
+      </reference>
+      <name value="Yes / No CodeSystem"/>
+      <description value="For representing Yes and No values in Nepali."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/free-cost"/>
+      </reference>
+      <name value="निशुल्क/शुल्क रू"/>
+      <description value="निशुल्क/शुल्क रू"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/service-type"/>
+      </reference>
+      <name value="सेवाको किसिम कोड सिस्टम"/>
+      <description value="स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची"/>
       <isExample value="false"/>
     </resource>
     <page>

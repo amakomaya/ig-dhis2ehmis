@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "age-range",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet age-range</b></p><a name=\"age-range\"> </a><a name=\"hcage-range\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-period-range.html\"><code>https://hl7.hmis.gov.np/CodeSystem/period-range</code></a></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/age-range",
+  "version" : "0.0.1-ballot",
+  "name" : "AgeRangeVS",
+  "title" : "Age Range",
+  "status" : "active",
+  "date" : "2025-08-10T13:33:39+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.hmis.gov.np/CodeSystem/period-range"
+    }]
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="free-service-eligibility"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet free-service-eligibility</b></p><a name="free-service-eligibility"> </a><a name="hcfree-service-eligibility"> </a><ul><li>Include all codes defined in <a href="CodeSystem-free-service-eligibility.html"><code>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</code></a></li></ul></div>
+  </text>
+  <url value="https://hl7.hmis.gov.np/ValueSet/free-service-eligibility"/>
+  <version value="0.0.1-ballot"/>
+  <name value="FreeServiceEligibilityVS"/>
+  <title value="Free Service Eligibility"/>
+  <status value="active"/>
+  <date value="2025-08-10T13:33:39+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet representing individuals eligible for free health services"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e6edd723-4111-4366-91bc-c221b68e1f49"/>
+  <id value="cbf68448-069f-4658-a6de-ccbcd5b8ed93"/>
   <meta>
-    <lastUpdated value="2025-08-08T09:36:02.284+05:45"/>
+    <lastUpdated value="2025-08-10T13:34:14.118+05:45"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -27,7 +27,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -73,11 +73,11 @@
           </div>
         </text>
         <url value="http://example.org/fhir/ValueSet/administrative-gender-vs"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="AdministrativeGenderVS"/>
         <title value="Administrative Gender"/>
         <status value="active"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -86,14 +86,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9c242e86-527f-436e-8789-a428d6e16c33"/>
-          <timestamp value="2025-08-08T09:36:52+05:45"/>
+          <identifier value="urn:uuid:216aa183-4b31-4fbe-b067-9a045615e1cd"/>
+          <timestamp value="2025-08-10T13:34:44+05:45"/>
           <total value="4"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -135,6 +131,756 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/age-range"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-period-range.html">codesystem Period Range v0.0.1-ballot (CodeSystem)</a>
+            </p>
+            <p>This value set contains 38 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0M--P24M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0M--P24M">P0M--P24M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>0-23 Months</td>
+                <td>An age greater or equal to 0 and less than 24 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P24M--P60M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P24M--P60M">P24M--P60M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>24-59 Months</td>
+                <td>An age greater or equal to 24 and less than 60 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P28D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P28D">P28D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>Within 28 Days</td>
+                <td>Age less than or equal to 28 days</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P1M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P1M">P1M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>1 Month</td>
+                <td>Age equal to 1 month</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P2M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P2M">P2M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>2 Months</td>
+                <td>Age equal to 2 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P3M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P3M">P3M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>3 Months</td>
+                <td>Age equal to 3 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P4M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P4M">P4M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>4 Months</td>
+                <td>Age equal to 4 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P5M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P5M">P5M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>5 Months</td>
+                <td>Age equal to 5 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P6M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P6M">P6M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>6 Months</td>
+                <td>Age equal to 6 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P7M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P7M">P7M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>7 Months</td>
+                <td>Age equal to 7 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P8M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P8M">P8M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>8 Months</td>
+                <td>Age equal to 8 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P9M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P9M">P9M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>9 Months</td>
+                <td>Age equal to 9 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P10M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P10M">P10M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>10 Months</td>
+                <td>Age equal to 10 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P11M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P11M">P11M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>11 Months</td>
+                <td>Age equal to 11 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P12M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P12M">P12M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>12 Months</td>
+                <td>Age equal to 12 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P13M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P13M">P13M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>13 Months</td>
+                <td>Age equal to 13 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P14M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P14M">P14M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>14 Months</td>
+                <td>Age equal to 14 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P15M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P15M">P15M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>15 Months</td>
+                <td>Age equal to 15 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P16M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P16M">P16M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>16 Months</td>
+                <td>Age equal to 16 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P17M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P17M">P17M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>17 Months</td>
+                <td>Age equal to 17 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P18M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P18M">P18M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>18 Months</td>
+                <td>Age equal to 18 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P19M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P19M">P19M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>19 Months</td>
+                <td>Age equal to 19 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P20M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P20M">P20M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>20 Months</td>
+                <td>Age equal to 20 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P21M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P21M">P21M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>21 Months</td>
+                <td>Age equal to 21 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P22M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P22M">P22M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>22 Months</td>
+                <td>Age equal to 22 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P23M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P23M">P23M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>23 Months</td>
+                <td>Age equal to 23 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P6M--P12M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P6M--P12M">P6M--P12M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>6-11 Months</td>
+                <td>Age greater or equal to 6 months and less than 12 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P12M--P18M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P12M--P18M">P12M--P18M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>12-17 Months</td>
+                <td>Age greater or equal to 12 months and less than 18 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P18M--P24M"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P18M--P24M">P18M--P24M</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>18-23 Months</td>
+                <td>Age greater or equal to 18 months and less than 24 months</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0W--P13W"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0W--P13W">P0W--P13W</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>&lt;=13 Weeks</td>
+                <td>Age less than or equal to 13 weeks</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0W--P26W"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0W--P26W">P0W--P26W</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>&lt;=26 Weeks</td>
+                <td>Age less than or equal to 26 weeks</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0DT0H--P2DT0H"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0DT0H--P2DT0H">P0DT0H--P2DT0H</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>Within 48 Hours</td>
+                <td>Age greater or equal to 0 hours and less than 48 hours</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P2DT0H--P1Y"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P2DT0H--P1Y">P2DT0H--P1Y</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>48 Hours to 1 Year</td>
+                <td>Age greater or equal to 48 hours and less than 1 year</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0D--P1D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0D--P1D">P0D--P1D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>Within 24 Hours of Birth</td>
+                <td>Age from birth up to less than 24 hours</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0D--P3D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0D--P3D">P0D--P3D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>Within 3 Days Postpartum</td>
+                <td>Age from birth up to less than 3 days postpartum</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P7D--P14D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P7D--P14D">P7D--P14D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>7 to 14 Days Postpartum</td>
+                <td>Age greater or equal to 7 days and less than 14 days postpartum</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P0D--P42D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P0D--P42D">P0D--P42D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>Within 42 Days Postpartum</td>
+                <td>Age from birth up to less than 42 days postpartum</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/period-range-P2DT1H--P42D"> </a>  
+                  <a href="CodeSystem-period-range.html#period-range-P2DT1H--P42D">P2DT1H--P42D</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/period-range</td>
+                <td>49 Hours to 42 Days Postpartum</td>
+                <td>Age greater or equal to 49 hours and less than 42 days postpartum</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/age-range"/>
+        <version value="0.0.1-ballot"/>
+        <name value="AgeRangeVS"/>
+        <title value="Age Range"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c15691fc-8384-4a01-8ce9-13d0825587b8"/>
+          <timestamp value="2025-08-10T13:34:44+05:45"/>
+          <total value="38"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/period-range|0.0.1-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0M--P24M"/>
+            <display value="0-23 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P24M--P60M"/>
+            <display value="24-59 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P28D"/>
+            <display value="Within 28 Days"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P1M"/>
+            <display value="1 Month"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P2M"/>
+            <display value="2 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P3M"/>
+            <display value="3 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P4M"/>
+            <display value="4 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P5M"/>
+            <display value="5 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P6M"/>
+            <display value="6 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P7M"/>
+            <display value="7 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P8M"/>
+            <display value="8 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P9M"/>
+            <display value="9 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P10M"/>
+            <display value="10 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P11M"/>
+            <display value="11 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P12M"/>
+            <display value="12 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P13M"/>
+            <display value="13 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P14M"/>
+            <display value="14 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P15M"/>
+            <display value="15 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P16M"/>
+            <display value="16 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P17M"/>
+            <display value="17 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P18M"/>
+            <display value="18 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P19M"/>
+            <display value="19 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P20M"/>
+            <display value="20 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P21M"/>
+            <display value="21 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P22M"/>
+            <display value="22 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P23M"/>
+            <display value="23 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P6M--P12M"/>
+            <display value="6-11 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P12M--P18M"/>
+            <display value="12-17 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P18M--P24M"/>
+            <display value="18-23 Months"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0W--P13W"/>
+            <display value="&lt;=13 Weeks"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0W--P26W"/>
+            <display value="&lt;=26 Weeks"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0DT0H--P2DT0H"/>
+            <display value="Within 48 Hours"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P2DT0H--P1Y"/>
+            <display value="48 Hours to 1 Year"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0D--P1D"/>
+            <display value="Within 24 Hours of Birth"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0D--P3D"/>
+            <display value="Within 3 Days Postpartum"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P7D--P14D"/>
+            <display value="7 to 14 Days Postpartum"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P0D--P42D"/>
+            <display value="Within 42 Days Postpartum"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/period-range"/>
+            <code value="P2DT1H--P42D"/>
+            <display value="49 Hours to 42 Days Postpartum"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/condition-severity"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-24484000"> </a>  
+                  <a href="http://snomed.info/id/24484000">24484000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Severe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-6736007"> </a>  
+                  <a href="http://snomed.info/id/6736007">6736007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Midgrade</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-255604002"> </a>  
+                  <a href="http://snomed.info/id/255604002">255604002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mild</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-55929007"> </a>  
+                  <a href="http://snomed.info/id/55929007">55929007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Feeling irritable (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-418107008"> </a>  
+                  <a href="http://snomed.info/id/418107008">418107008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Unconscious (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-214264003"> </a>  
+                  <a href="http://snomed.info/id/214264003">214264003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lethargy</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/condition-severity"/>
+        <version value="0.0.1-ballot"/>
+        <name value="ConditionSeverityVS"/>
+        <title value="Condition / Diagnosis Severity"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ada22ab7-a3cf-4a8f-9f65-ca1405447803"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="24484000"/>
+            <display value="Severe"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6736007"/>
+            <display value="Midgrade"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255604002"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="55929007"/>
+            <display value="Feeling irritable (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="418107008"/>
+            <display value="Unconscious (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="214264003"/>
+            <display value="Lethargy"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7.hmis.gov.np/ValueSet/district"/>
     <resource>
       <ValueSet>
@@ -143,7 +889,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v0.0.1-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 77 concepts</p>
             <table class="codes">
@@ -155,7 +901,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -778,11 +1524,11 @@
           </div>
         </text>
         <url value="https://hl7.hmis.gov.np/ValueSet/district"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="DistrictVS"/>
         <title value="District"/>
         <status value="active"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -791,14 +1537,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b58abab7-658c-466a-b87a-a11ab2adb50e"/>
-          <timestamp value="2025-08-08T09:36:52+05:45"/>
+          <identifier value="urn:uuid:45215757-df35-4d8d-a2ec-6f254b805037"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
           <total value="77"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -813,7 +1555,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|1.0.1"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|0.0.1-ballot"/>
           </parameter>
           <contains>
             <system value="https://hl7.hmis.gov.np/CodeSystem/locations"/>
@@ -1205,6 +1947,223 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/educational-level"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>Loinc v2.80</li>
+                <li>SNOMED CT International edition 01-Feb 2025</li>
+                <li>
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html">codesystem Education Level v3.0.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-EducationLevel-ELEM"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-ELEM">ELEM</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-EducationLevel</td>
+                <td>Elementary school</td>
+                <td>Elementary School</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-EducationLevel-SEC"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-SEC">SEC</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-EducationLevel</td>
+                <td>Secondary school</td>
+                <td>Some secondary or high school education</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-82589-3"> </a>  
+                  <a href="https://loinc.org/82589-3/">82589-3</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Highest level of education</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/educational-level"/>
+        <version value="0.0.1-ballot"/>
+        <name value="EducationalLevelVS"/>
+        <title value="Educational Level"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1735ce91-468e-4c31-b392-bad7d1ad0417"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-EducationLevel|3.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EducationLevel"/>
+            <code value="ELEM"/>
+            <display value="Elementary school"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-EducationLevel"/>
+            <code value="SEC"/>
+            <display value="Secondary school"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="82589-3"/>
+            <display value="Highest level of education"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/employment-status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/employment-status"/>
+        <version value="0.0.1-ballot"/>
+        <name value="EmploymentStatusVS"/>
+        <title value="Employment (रोजगारी स्थिति)"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8b0dce37-6c8a-42d1-bc1a-f95be33e716e"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7.hmis.gov.np/ValueSet/ethnic-code"/>
     <resource>
       <ValueSet>
@@ -1213,7 +2172,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-ethnic-code.html">codesystem Ethnic Code v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-ethnic-code.html">codesystem Ethnic Code v0.0.1-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
             <table class="codes">
@@ -1225,7 +2184,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1280,11 +2239,11 @@
           </div>
         </text>
         <url value="https://hl7.hmis.gov.np/ValueSet/ethnic-code"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="EthnicCodeVS"/>
         <title value="Ethnic Code"/>
         <status value="active"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1293,14 +2252,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e46b1dc4-0335-44b0-8435-f156651b17f6"/>
-          <timestamp value="2025-08-08T09:36:52+05:45"/>
+          <identifier value="urn:uuid:e4615f0d-d88a-446a-b1b1-962bf26b3a5a"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
           <total value="6"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1315,7 +2270,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code|1.0.1"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code|0.0.1-ballot"/>
           </parameter>
           <contains>
             <system value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code"/>
@@ -1352,6 +2307,240 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/free-cost"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-free-cost.html">codesystem निशुल्क/शुल्क रू v0.0.1-ballot (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-cost-free"> </a>  
+                  <a href="CodeSystem-free-cost.html#free-cost-free">free</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-cost</td>
+                <td>Free</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-cost-cost"> </a>  
+                  <a href="CodeSystem-free-cost.html#free-cost-cost">cost</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-cost</td>
+                <td>Cost(RS)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/free-cost"/>
+        <version value="0.0.1-ballot"/>
+        <name value="FreeCostVS"/>
+        <title value="Free Cost"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1bc2d717-c007-44db-acd7-7051895c340f"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/free-cost|0.0.1-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-cost"/>
+            <code value="free"/>
+            <display value="Free"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-cost"/>
+            <code value="cost"/>
+            <display value="Cost(RS)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/free-service-eligibility"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-free-service-eligibility.html">codesystem Free Service Eligibility v0.0.1-ballot (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-poor"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-poor">poor</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Extremely Poor / Poor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-helpless"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-helpless">helpless</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Helpless</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-disabled"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-disabled">disabled</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Person with Disability</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-senior"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-senior">senior</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Senior Citizen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-female-health-volunteer"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-female-health-volunteer">female-health-volunteer</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Female Community Health Volunteer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility-other"> </a>  
+                  <a href="CodeSystem-free-service-eligibility.html#free-service-eligibility-other">other</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</td>
+                <td>Other</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/free-service-eligibility"/>
+        <version value="0.0.1-ballot"/>
+        <name value="FreeServiceEligibilityVS"/>
+        <title value="Free Service Eligibility"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:82eb9d30-d127-40ab-97a5-d8d5dc8d72c3"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility|0.0.1-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="poor"/>
+            <display value="Extremely Poor / Poor"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="helpless"/>
+            <display value="Helpless"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="disabled"/>
+            <display value="Person with Disability"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="senior"/>
+            <display value="Senior Citizen"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="female-health-volunteer"/>
+            <display value="Female Community Health Volunteer"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7.hmis.gov.np/ValueSet/localbody"/>
     <resource>
       <ValueSet>
@@ -1360,7 +2549,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v0.0.1-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 753 concepts</p>
             <table class="codes">
@@ -1372,7 +2561,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -7403,11 +8592,11 @@
           </div>
         </text>
         <url value="https://hl7.hmis.gov.np/ValueSet/localbody"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="LocalBodyVS"/>
         <title value="LocalBody"/>
         <status value="active"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7416,14 +8605,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:506cb64d-267c-4e79-b9a8-45d3ed11b02d"/>
-          <timestamp value="2025-08-08T09:36:53+05:45"/>
+          <identifier value="urn:uuid:3fc92eeb-b02a-4043-9920-06386e99691d"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
           <total value="753"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -7438,7 +8623,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|1.0.1"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|0.0.1-ballot"/>
           </parameter>
           <contains>
             <system value="https://hl7.hmis.gov.np/CodeSystem/locations"/>
@@ -11210,6 +12395,504 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/marital-status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-473022002"> </a>  
+                  <a href="http://snomed.info/id/473022002">473022002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Celibate</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-87915002"> </a>  
+                  <a href="http://snomed.info/id/87915002">87915002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Married</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-20295000"> </a>  
+                  <a href="http://snomed.info/id/20295000">20295000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Divorced state</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33553000"> </a>  
+                  <a href="http://snomed.info/id/33553000">33553000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Widowed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-13184001"> </a>  
+                  <a href="http://snomed.info/id/13184001">13184001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Separated state</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/marital-status"/>
+        <version value="0.0.1-ballot"/>
+        <name value="MaritalStatusVS"/>
+        <title value="Marital Status (वैवाहिक स्थिति)"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:af5d5496-e867-453a-a08a-b482622e0a47"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="473022002"/>
+            <display value="Celibate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="87915002"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="20295000"/>
+            <display value="Divorced state"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33553000"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13184001"/>
+            <display value="Separated state"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/option-set-yes-no"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT International edition 01-Feb 2025</li>
+                <li>
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-yes-no.html">codesystem Yes / No CodeSystem v0.0.1-ballot (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-373066001"> </a>  
+                  <a href="http://snomed.info/id/373066001">373066001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Yes (qualifier value)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-373067005"> </a>  
+                  <a href="http://snomed.info/id/373067005">373067005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>No (qualifier value)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-373068000"> </a>  
+                  <a href="http://snomed.info/id/373068000">373068000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Undetermined (qualifier value)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-373069008"> </a>  
+                  <a href="http://snomed.info/id/373069008">373069008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Infection caused by Mycobacterium simiae</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10828004"> </a>  
+                  <a href="http://snomed.info/id/10828004">10828004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Positive</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-260385009"> </a>  
+                  <a href="http://snomed.info/id/260385009">260385009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Negative</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/yes-no-yes"> </a>  
+                  <a href="CodeSystem-yes-no.html#yes-no-yes">yes</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/yes-no</td>
+                <td>Yes</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7.hmis.gov.np/CodeSystem/yes-no-no"> </a>  
+                  <a href="CodeSystem-yes-no.html#yes-no-no">no</a>
+                </td>
+                <td>https://hl7.hmis.gov.np/CodeSystem/yes-no</td>
+                <td>No</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-Y"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-N"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NA"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>Not applicable</td>
+                <td>not applicable</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/option-set-yes-no"/>
+        <version value="0.0.1-ballot"/>
+        <name value="OptionSetYesNoVS"/>
+        <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:def0f059-0ec8-4268-9e0f-c025940d0aa6"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/yes-no|0.0.1-ballot"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373066001"/>
+            <display value="Yes (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373067005"/>
+            <display value="No (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373068000"/>
+            <display value="Undetermined (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373069008"/>
+            <display value="Infection caused by Mycobacterium simiae"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10828004"/>
+            <display value="Positive"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260385009"/>
+            <display value="Negative"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/yes-no"/>
+            <code value="yes"/>
+            <display value="Yes"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.hmis.gov.np/CodeSystem/yes-no"/>
+            <code value="no"/>
+            <display value="No"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="Y"/>
+            <display value="Yes"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="N"/>
+            <display value="No"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NA"/>
+            <display value="Not applicable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/patient-registration-type"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-185349003"> </a>  
+                  <a href="http://snomed.info/id/185349003">185349003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Initial encounter</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308490002"> </a>  
+                  <a href="http://snomed.info/id/308490002">308490002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pathological developmental process</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-363346000"> </a>  
+                  <a href="http://snomed.info/id/363346000">363346000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malignant tumour</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/patient-registration-type"/>
+        <version value="0.0.1-ballot"/>
+        <name value="PatientRegistrationTypeVS"/>
+        <title value="Patient Registration Type"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:133fb9a0-53eb-4f14-bb0c-71a1dea2d25c"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="185349003"/>
+            <display value="Initial encounter"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308490002"/>
+            <display value="Pathological developmental process"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="363346000"/>
+            <display value="Malignant tumour"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7.hmis.gov.np/ValueSet/province"/>
     <resource>
       <ValueSet>
@@ -11218,7 +12901,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-locations.html">codesystem Nepal Administrative Location Codes v0.0.1-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
             <table class="codes">
@@ -11230,7 +12913,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -11293,11 +12976,11 @@
           </div>
         </text>
         <url value="https://hl7.hmis.gov.np/ValueSet/province"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="ProvinceVS"/>
         <title value="Province"/>
         <status value="active"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11306,14 +12989,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1d7cf17b-fb71-4026-adf7-46975ddfbfc2"/>
-          <timestamp value="2025-08-08T09:36:53+05:45"/>
+          <identifier value="urn:uuid:151938f6-d594-4598-9e9f-fd5dd7e7506c"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -11328,7 +13007,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|1.0.1"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/locations|0.0.1-ballot"/>
           </parameter>
           <contains>
             <system value="https://hl7.hmis.gov.np/CodeSystem/locations"/>
@@ -11370,6 +13049,211 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/service-area-address"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 10 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-255604002"> </a>  
+                  <a href="http://snomed.info/id/255604002">255604002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mild</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-255605001"> </a>  
+                  <a href="http://snomed.info/id/255605001">255605001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Minimal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-225294001"> </a>  
+                  <a href="http://snomed.info/id/225294001">225294001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Identifying goals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308335008"> </a>  
+                  <a href="http://snomed.info/id/308335008">308335008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Patient encounter procedure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-408729009"> </a>  
+                  <a href="http://snomed.info/id/408729009">408729009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finding context (attribute)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-309343006"> </a>  
+                  <a href="http://snomed.info/id/309343006">309343006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Physician</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-394814009"> </a>  
+                  <a href="http://snomed.info/id/394814009">394814009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>General practice (specialty) (qualifier value)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-386661006"> </a>  
+                  <a href="http://snomed.info/id/386661006">386661006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fever (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308490002"> </a>  
+                  <a href="http://snomed.info/id/308490002">308490002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pathological developmental process</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308489006"> </a>  
+                  <a href="http://snomed.info/id/308489006">308489006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pathological process</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/service-area-address"/>
+        <version value="0.0.1-ballot"/>
+        <name value="ServiceAreaAddressVS"/>
+        <title value="Service Area Address Classification"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:604db3a2-c1fb-431e-b3c8-2797c72a45f1"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="10"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255604002"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255605001"/>
+            <display value="Minimal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="225294001"/>
+            <display value="Identifying goals"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308335008"/>
+            <display value="Patient encounter procedure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="408729009"/>
+            <display value="Finding context (attribute)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309343006"/>
+            <display value="Physician"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="394814009"/>
+            <display value="General practice (specialty) (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386661006"/>
+            <display value="Fever (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308490002"/>
+            <display value="Pathological developmental process"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308489006"/>
+            <display value="Pathological process"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7.hmis.gov.np/ValueSet/service-type"/>
     <resource>
       <ValueSet>
@@ -11378,7 +13262,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-service-type.html">codesystem सेवाको किसिम कोड सिस्टम v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-service-type.html">codesystem सेवाको किसिम कोड सिस्टम v0.0.1-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 11 concepts</p>
             <table class="codes">
@@ -11390,7 +13274,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -11485,12 +13369,12 @@
           </div>
         </text>
         <url value="https://hl7.hmis.gov.np/ValueSet/service-type"/>
-        <version value="1.0.1"/>
+        <version value="0.0.1-ballot"/>
         <name value="ServiceTypeVS"/>
-        <title value="सेवाको किसिमको मान सेट"/>
+        <title value="Service Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-08-08T09:35:18+05:45"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11499,14 +13383,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cccad383-148c-4bd6-a0c8-a6421395259b"/>
-          <timestamp value="2025-08-08T09:36:53+05:45"/>
+          <identifier value="urn:uuid:c8e01100-8f2c-4412-aa07-8d90996b02bd"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
           <total value="11"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -11521,7 +13401,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/service-type|1.0.1"/>
+            <valueUri value="https://hl7.hmis.gov.np/CodeSystem/service-type|0.0.1-ballot"/>
           </parameter>
           <contains>
             <system value="https://hl7.hmis.gov.np/CodeSystem/service-type"/>
@@ -11577,6 +13457,103 @@
             <system value="https://hl7.hmis.gov.np/CodeSystem/service-type"/>
             <code value="11"/>
             <display value="Other (Specify)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.hmis.gov.np/ValueSet/visit-ordinal"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308335008"> </a>  
+                  <a href="http://snomed.info/id/308335008">308335008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Patient encounter procedure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-308646001"> </a>  
+                  <a href="http://snomed.info/id/308646001">308646001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Death certification</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.hmis.gov.np/ValueSet/visit-ordinal"/>
+        <version value="0.0.1-ballot"/>
+        <name value="VisitOrdinalVS"/>
+        <title value="Patient Visit Ordinal"/>
+        <status value="active"/>
+        <date value="2025-08-10T13:33:39+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+            <display value="Nepal"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:84d0ac2d-f5b6-4b3b-80e0-c1e1e16b44e3"/>
+          <timestamp value="2025-08-10T13:34:45+05:45"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308335008"/>
+            <display value="Patient encounter procedure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="308646001"/>
+            <display value="Death certification"/>
           </contains>
         </expansion>
       </ValueSet>

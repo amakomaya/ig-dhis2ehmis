@@ -14,7 +14,7 @@ description: >-
 
   It is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.
 status: active # draft | active | retired | unknown
-version: 1.0.1
+version: 0.0.1-ballot
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -253,3 +253,6 @@ instanceOptions:
   # if InstanceOf references a profile:
   #
   # setId: always # always | standalone-only
+
+paths:
+  history: https://hl7.hmis.gov.np/history.html

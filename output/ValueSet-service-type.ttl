@@ -14,12 +14,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://hl7.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://hl7.hmis.gov.np/ValueSet/service-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "ServiceTypeVS"] ; # 
-  fhir:title [ fhir:v "सेवाको किसिमको मान सेट"] ; # 
+  fhir:title [ fhir:v "Service Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-08T09:35:18+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-10T13:33:39+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -43,7 +43,7 @@
        fhir:value [ fhir:v "+977-9851341921" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।"] ; # 
+  fhir:description [ fhir:v "Service Type"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

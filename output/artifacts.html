@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Artifacts Summary - Nepal HMIS FHIR Implementation Guide v1.0.1</title>
+    <title>Artifacts Summary - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -134,7 +134,7 @@
         <div id="ig-status" class="ig-status-active">
           <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.1 - ci-build
+            <span style="display:inline-block;">0.0.1-ballot - ci-build
 
 
 
@@ -173,7 +173,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v1.0.1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Artifacts Summary</h2>
   
   
@@ -185,16 +185,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Terminology: Value Sets</a>
+         <a href="#2">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#3">Terminology: Code Systems</a>
+         <a href="#3">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#4">Terminology: Naming Systems</a>
+         <a href="#4">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#5">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -224,10 +227,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-patient-ehmis.html" title="StructureDefinition/patient-ehmis">Patient for EHMIS</a>
+               <a href="StructureDefinition-patient-profile.html" title="StructureDefinition/patient-profile">Patient (स्वास्थ्य सेवाग्राही)</a>
             </td>
             <td>
-<p>Demographics and identifiers for patients in Nepal EHMIS</p>
+<p>Demographics and identifiers for patients in Nepal</p>
 </td>
          </tr>
          <tr>
@@ -249,6 +252,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tbody>
    </table>
    <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ethnic-code.html" title="StructureDefinition/ethnic-code">Ethnic Code</a>
+            </td>
+            <td>
+<p>Extension to capture जाति कोड (ethnicity) based on Nepali classification</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
    <h3>Terminology: Value Sets </h3>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -264,10 +283,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-age-range.html" title="ValueSet/age-range">Age Range</a>
+            </td>
+            <td>
+<p>ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-condition-severity.html" title="ValueSet/condition-severity">Condition / Diagnosis Severity</a>
+            </td>
+            <td>
+<p>Preferred value set for Condition/Diagnosis severity grading</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-district.html" title="ValueSet/district">District</a>
             </td>
             <td>
 <p>All district used in administrative divisions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-educational-level.html" title="ValueSet/educational-level">Educational Level</a>
+            </td>
+            <td>
+<p>Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-employment-status.html" title="ValueSet/employment-status">Employment (रोजगारी स्थिति)</a>
+            </td>
+            <td>
+<p>Codes representing employment status of a person.</p>
 </td>
          </tr>
          <tr>
@@ -280,10 +331,72 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-free-cost.html" title="ValueSet/free-cost">Free Cost</a>
+            </td>
+            <td>
+<p>ValueSet for Free Cost</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-free-service-eligibility.html" title="ValueSet/free-service-eligibility">Free Service Eligibility</a>
+            </td>
+            <td>
+<p>ValueSet representing individuals eligible for free health services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-localbody.html" title="ValueSet/localbody">LocalBody</a>
             </td>
             <td>
 <p>All LocalBody used in administrative divisions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-marital-status.html" title="ValueSet/marital-status">Marital Status (वैवाहिक स्थिति)</a>
+            </td>
+            <td>
+<p>Codes representing marital status of a person.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-option-set-yes-no.html" title="ValueSet/option-set-yes-no">Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative</a>
+            </td>
+            <td>
+<p>Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, 
+हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको
+Used for:</p>
+<ul>
+  <li>Presumptive TB Case (सम्भावित क्षयरोग विरामी)</li>
+  <li>Gender Based Violence (लैंगिक हिंसा)</li>
+  <li>Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)</li>
+  <li>Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)</li>
+  <li>GDS Present (General Danger Sign Present)</li>
+  <li>Chest Indrawing (Yes only)</li>
+  <li>Stridor (Yes only)</li>
+  <li>Wheezing (Yes only)</li>
+  <li>Condom Use</li>
+  <li>Lab test results (Positive/Negative)</li>
+</ul>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-patient-registration-type.html" title="ValueSet/patient-registration-type">Patient Registration Type</a>
+            </td>
+            <td>
+<p>Patient registration types mapped to SNOMED CT concepts with Nepali display.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-visit-ordinal.html" title="ValueSet/visit-ordinal">Patient Visit Ordinal</a>
+            </td>
+            <td>
+<p>ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits.</p>
 </td>
          </tr>
          <tr>
@@ -296,15 +409,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-service-type.html" title="ValueSet/service-type">सेवाको किसिमको मान सेट</a>
+               <a href="ValueSet-service-area-address.html" title="ValueSet/service-area-address">Service Area Address Classification</a>
             </td>
             <td>
-<p>सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।</p>
+<p>Classification of address locations relative to the organization's service area and referral context, using SNOMED CT concepts to specify whether the address is inside or outside the service area and the type of location involved.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-service-type.html" title="ValueSet/service-type">Service Type</a>
+            </td>
+            <td>
+<p>Service Type</p>
 </td>
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Terminology: Code Systems </h3>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -320,6 +441,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-free-service-eligibility.html" title="CodeSystem/free-service-eligibility">Free Service Eligibility</a>
+            </td>
+            <td>
+<p>Categories of individuals eligible for free health services (निशुल्क सेवा कोड)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-locations.html" title="CodeSystem/locations">Nepal Administrative Location Codes</a>
             </td>
             <td>
@@ -328,15 +457,52 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-period-range.html" title="CodeSystem/period-range">Period Range</a>
+            </td>
+            <td>
+<p>HMIS period ranges codes based on IHE ADX Range Coding System. 
+Reference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78</p>
+
+<p>Durations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:</p>
+
+<p>P is the duration designator (for period) placed at the start of the duration representation.
+Y is the year designator that follows the value for the number of years.
+M is the month designator that follows the value for the number of months.
+W is the week designator that follows the value for the number of weeks.
+D is the day designator that follows the value for the number of days.
+T is the time designator that precedes the time components of the representation.
+H is the hour designator that follows the value for the number of hours.
+M is the minute designator that follows the value for the number of minutes.
+S is the second designator that follows the value for the number of seconds.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-yes-no.html" title="CodeSystem/yes-no">Yes / No CodeSystem</a>
+            </td>
+            <td>
+<p>For representing Yes and No values in Nepali.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-free-cost.html" title="CodeSystem/free-cost">निशुल्क/शुल्क रू</a>
+            </td>
+            <td>
+<p>निशुल्क/शुल्क रू</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-service-type.html" title="CodeSystem/service-type">सेवाको किसिम कोड सिस्टम</a>
             </td>
             <td>
-<p>स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।</p>
+<p>स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची</p>
 </td>
          </tr>
       </tbody>
    </table>
-   <a name="4"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Naming Systems </h3>
     <p>These define identifier and/or code system identities used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -360,7 +526,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -368,13 +534,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Location-ExampleLocation.html" title="Location/ExampleLocation">Example Location for EHMIS</a>
+               <a href="Location-ExampleLocation.html" title="Location/ExampleLocation">Location</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Patient-ExamplePatient.html" title="Patient/ExamplePatient">Example Patient for EHMIS</a>
+               <a href="Patient-PatientExample.html" title="Patient/PatientExample">Patient</a>
             </td>
+            <td>
+<p>ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।</p>
+</td>
          </tr>
       </tbody>
    </table>
@@ -396,9 +568,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 8, 2025 09:36+0545">2025-08-08</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Aug 10, 2025 13:34+0545">2025-08-10</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l756">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1067">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

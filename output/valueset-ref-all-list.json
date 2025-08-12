@@ -2,12 +2,15 @@
   "codeSystems" : [
     {
       "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "AdministrativeGenderVS",
       "title" : "Administrative Gender",
       "description" : "A value set containing administrative gender codes from the FHIR core.",
-      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -21,8 +24,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS",
-      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS"
+      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS",
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -36,11 +39,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS",
       "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
-      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
+      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS",
       "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS",
-      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS"
+      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -357,6 +360,34 @@
       "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierTypeCodes",
+      "title" : "Identifier Type Codes",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
       "version" : "5.0.0",
       "status" : "active",
@@ -374,11 +405,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS",
       "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS",
-      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
+      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS",
       "StructureDefinition-encounter-ehmis.html" : "Encounter for EHMIS",
-      "StructureDefinition-practitioner-ehmis.html" : "Practitioner Profile for EHMIS"
+      "StructureDefinition-practitionerrole-ehmis.html" : "Practitioner Role Profile for EHMIS",
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -400,7 +431,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS"
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-characteristic",
@@ -492,7 +523,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS"
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -506,7 +551,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-patient-ehmis.html" : "Patient for EHMIS"
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/practitioner-role",
@@ -650,8 +695,26 @@
       "StructureDefinition-location-ehmis.html" : "Location Profile for EHMIS"
     },
     {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/age-range",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "AgeRangeVS",
+      "title" : "Age Range",
+      "description" : "ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/period-range"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/condition-severity",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "ConditionSeverityVS",
+      "title" : "Condition / Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/ValueSet/district",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "DistrictVS",
       "title" : "District",
@@ -659,17 +722,62 @@
       "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
     },
     {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/educational-level",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "EducationalLevelVS",
+      "title" : "Educational Level",
+      "description" : "Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
+        "http://loinc.org",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/employment-status",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "EmploymentStatusVS",
+      "title" : "Employment (रोजगारी स्थिति)",
+      "description" : "Codes representing employment status of a person.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/ValueSet/ethnic-code",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "EthnicCodeVS",
       "title" : "Ethnic Code",
       "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
-      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/ethnic-code"]
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/ethnic-code"],
+      "uses" : {
+      },
+      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/free-cost",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "FreeCostVS",
+      "title" : "Free Cost",
+      "description" : "ValueSet for Free Cost",
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/free-cost"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/free-service-eligibility",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "FreeServiceEligibilityVS",
+      "title" : "Free Service Eligibility",
+      "description" : "ValueSet representing individuals eligible for free health services",
+      "systems" : [
+        "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"
+      ]
     },
     {
       "url" : "https://hl7.hmis.gov.np/ValueSet/localbody",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "LocalBodyVS",
       "title" : "LocalBody",
@@ -677,8 +785,39 @@
       "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
     },
     {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/marital-status",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "MaritalStatusVS",
+      "title" : "Marital Status (वैवाहिक स्थिति)",
+      "description" : "Codes representing marital status of a person.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/option-set-yes-no",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "OptionSetYesNoVS",
+      "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative",
+      "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "http://snomed.info/sct",
+        "https://hl7.hmis.gov.np/CodeSystem/yes-no"
+      ]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/patient-registration-type",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "PatientRegistrationTypeVS",
+      "title" : "Patient Registration Type",
+      "description" : "Patient registration types mapped to SNOMED CT concepts with Nepali display.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/ValueSet/province",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "ProvinceVS",
       "title" : "Province",
@@ -686,13 +825,31 @@
       "systems" : ["https://hl7.hmis.gov.np/CodeSystem/locations"]
     },
     {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/service-area-address",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "ServiceAreaAddressVS",
+      "title" : "Service Area Address Classification",
+      "description" : "Classification of address locations relative to the organization's service area and referral context, using SNOMED CT concepts to specify whether the address is inside or outside the service area and the type of location involved.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "ServiceTypeVS",
-      "title" : "सेवाको किसिमको मान सेट",
-      "description" : "सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।",
+      "title" : "Service Type",
+      "description" : "Service Type",
       "systems" : ["https://hl7.hmis.gov.np/CodeSystem/service-type"]
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/ValueSet/visit-ordinal",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "VisitOrdinalVS",
+      "title" : "Patient Visit Ordinal",
+      "description" : "ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits.",
+      "systems" : ["http://snomed.info/sct"]
     }
   ]
 }

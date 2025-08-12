@@ -1,7 +1,7 @@
 CodeSystem: ServiceTypeCS
 Id: service-type
 Title: "सेवाको किसिम कोड सिस्टम"
-Description: "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।"
+Description: "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची"
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true

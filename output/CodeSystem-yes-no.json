@@ -1,0 +1,84 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "yes-no",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem yes-no</b></p><a name=\"yes-no\"> </a><a name=\"hcyes-no\"> </a><p>This  code system <code>https://hl7.hmis.gov.np/CodeSystem/yes-no</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style=\"white-space:nowrap\">yes<a name=\"yes-no-yes\"> </a></td><td>हो</td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\">no<a name=\"yes-no-no\"> </a></td><td>होइन</td><td>No</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"yes-no-1\"> </a></td><td>हो</td><td>Yes (numeric)</td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"yes-no-0\"> </a></td><td>होइन</td><td>No (numeric)</td></tr></table></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/CodeSystem/yes-no",
+  "version" : "0.0.1-ballot",
+  "name" : "YesNoCS",
+  "title" : "Yes / No CodeSystem",
+  "status" : "active",
+  "date" : "2025-08-10T13:33:39+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "For representing Yes and No values in Nepali.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "yes",
+    "display" : "हो",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Yes"
+    }]
+  },
+  {
+    "code" : "no",
+    "display" : "होइन",
+    "designation" : [{
+      "language" : "en",
+      "value" : "No"
+    }]
+  },
+  {
+    "code" : "1",
+    "display" : "हो",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Yes (numeric)"
+    }]
+  },
+  {
+    "code" : "0",
+    "display" : "होइन",
+    "designation" : [{
+      "language" : "en",
+      "value" : "No (numeric)"
+    }]
+  }]
+}

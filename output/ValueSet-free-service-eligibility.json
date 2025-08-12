@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "free-service-eligibility",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet free-service-eligibility</b></p><a name=\"free-service-eligibility\"> </a><a name=\"hcfree-service-eligibility\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-free-service-eligibility.html\"><code>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</code></a></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/free-service-eligibility",
+  "version" : "0.0.1-ballot",
+  "name" : "FreeServiceEligibilityVS",
+  "title" : "Free Service Eligibility",
+  "status" : "active",
+  "date" : "2025-08-10T13:33:39+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "ValueSet representing individuals eligible for free health services",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"
+    }]
+  }
+}

@@ -1,9 +1,17 @@
 {
   "package": "hl7.fhir.hmis",
-  "version": "1.0.1",
+  "version": "0.0.1-ballot",
   "fhirVersion": "5.0.0",
   "jurisdiction": "NP",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code",
+      "title": "Ethnic Code",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
   "profiles": {
     "Encounter": [
       {
@@ -19,8 +27,8 @@
     ],
     "Patient": [
       {
-        "url": "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis",
-        "title": "Patient for EHMIS"
+        "url": "https://hl7.hmis.gov.np/StructureDefinition/patient-profile",
+        "title": "Patient (स्वास्थ्य सेवाग्राही)"
       }
     ],
     "Practitioner": [
@@ -52,6 +60,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],
@@ -63,6 +74,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
+    ],
+    "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code": [
+      "Patient"
     ]
   }
 }

@@ -69,6 +69,18 @@
       "http://hl7.org/fhir/R5/valueset-encounter-status.html" : "Encounter Status"
     },
     {
+      "url" : "http://hl7.org/fhir/identifier-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "oids" : ["2.16.840.1.113883.4.642.1.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-identifier-use.html" : "IdentifierUse"
+    },
+    {
       "url" : "http://hl7.org/fhir/link-type",
       "version" : "5.0.0",
       "status" : "active",
@@ -129,6 +141,18 @@
       "http://hl7.org/fhir/R5/valueset-location-status.html" : "Location Status"
     },
     {
+      "url" : "http://hl7.org/fhir/name-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "oids" : ["2.16.840.1.113883.4.642.4.66"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-name-use.html" : "NameUse"
+    },
+    {
       "url" : "http://hl7.org/fhir/service-mode",
       "version" : "5.0.0",
       "status" : "active",
@@ -139,6 +163,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R5/valueset-service-mode.html" : "Service Mode"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "3.1.0",
+      "status" : "active",
+      "name" : "LOINC",
+      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+      "oids" : ["2.16.840.1.113883.6.1"],
+      "uses" : {
+      },
+      "ValueSet-educational-level.html" : "Educational Level"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/admit-source",
@@ -297,6 +333,18 @@
       "http://hl7.org/fhir/R5/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0360",
       "version" : "2.0.0",
       "status" : "active",
@@ -307,6 +355,18 @@
       "uses" : {
       },
       "http://terminology.hl7.org/6.5.0/ValueSet-v2-0360.html" : "hl7VS-degreeLicenseCertificate"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ExpandedYesNoIndicator",
+      "title" : "expandedYes-NoIndicator",
+      "description" : "HL7-defined code system of concepts used to specify an expansion on the original Yes/No indicator table by including \"flavors of null\".  It is intended to be applied to fields where the response is not limited to \"yes\" or \"no\".  Used in numerous locations in HL7 Version 2.x messaging.",
+      "oids" : ["2.16.840.1.113883.18.347"],
+      "uses" : {
+      },
+      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -331,6 +391,18 @@
       "uses" : {
       },
       "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActPriority.html" : "ActPriority"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "EducationLevel",
+      "title" : "Education Level",
+      "description" : "Years of education that a person has completed",
+      "oids" : ["2.16.840.1.113883.5.1077"],
+      "uses" : {
+      },
+      "ValueSet-educational-level.html" : "Educational Level"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
@@ -395,7 +467,7 @@
     },
     {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "EthnicCodeCS",
       "title" : "Ethnic Code",
@@ -405,28 +477,72 @@
       "ValueSet-ethnic-code.html" : "Ethnic Code"
     },
     {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-cost",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "FreeCostCS",
+      "title" : "निशुल्क/शुल्क रू",
+      "description" : "निशुल्क/शुल्क रू",
+      "uses" : {
+      },
+      "ValueSet-free-cost.html" : "Free Cost"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "FreeServiceEligibilityCS",
+      "title" : "Free Service Eligibility",
+      "description" : "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)",
+      "uses" : {
+      },
+      "ValueSet-free-service-eligibility.html" : "Free Service Eligibility"
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "LocationsCS",
       "title" : "Nepal Administrative Location Codes",
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
-      "ValueSet-district.html" : "District",
       "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-district.html" : "District",
       "ValueSet-province.html" : "Province"
     },
     {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/period-range",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "PeriodRangeCS",
+      "title" : "Period Range",
+      "description" : "HMIS period ranges codes based on IHE ADX Range Coding System. \nReference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78\n\nDurations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:\n\nP is the duration designator (for period) placed at the start of the duration representation.\nY is the year designator that follows the value for the number of years.\nM is the month designator that follows the value for the number of months.\nW is the week designator that follows the value for the number of weeks.\nD is the day designator that follows the value for the number of days.\nT is the time designator that precedes the time components of the representation.\nH is the hour designator that follows the value for the number of hours.\nM is the minute designator that follows the value for the number of minutes.\nS is the second designator that follows the value for the number of seconds.",
+      "uses" : {
+      },
+      "ValueSet-age-range.html" : "Age Range"
+    },
+    {
       "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
-      "version" : "1.0.1",
+      "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "ServiceTypeCS",
       "title" : "सेवाको किसिम कोड सिस्टम",
-      "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।",
+      "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची",
       "uses" : {
       },
-      "ValueSet-service-type.html" : "सेवाको किसिमको मान सेट"
+      "ValueSet-service-type.html" : "Service Type"
+    },
+    {
+      "url" : "https://hl7.hmis.gov.np/CodeSystem/yes-no",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "YesNoCS",
+      "title" : "Yes / No CodeSystem",
+      "description" : "For representing Yes and No values in Nepali.",
+      "uses" : {
+      },
+      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"
     },
     {
       "url" : "urn:ietf:bcp:47",
@@ -438,8 +554,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     }
   ]
 }

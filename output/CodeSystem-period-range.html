@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Period Range - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+<link rel="stylesheet" href="assets/css/colors.css"/>
+<link rel="stylesheet" href="assets/css/app.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"13.27"}
+    h3,h4,h5,h6{--heading-prefix:"13.27"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="codesystems.html">Code Systems</a>
+  </li>
+  <li>
+    <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="identifiers.html">Identifier Systems</a>
+  </li>
+  <li>
+    <a href="external_terminologies.html">External Code Systems</a>
+  </li>
+  <li>
+    <a href="smart-index.html">SMART Guidelines</a>
+  </li>
+  <li>
+    <a href="health-journey.html">Health Journey</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+        <div id="project-nav">
+  <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+</div>
+
+        <div id="ig-status" class="ig-status-active">
+          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-ballot - ci-build
+
+
+
+  <img src="assets/images/npl.svg" alt="Nepal flag" title="Nepal" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Period Range</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-period-range.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-period-range.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-period-range.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Period Range
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7.hmis.gov.np/CodeSystem/period-range<button data-clipboard-text="https://hl7.hmis.gov.np/CodeSystem/period-range" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-ballot<button data-clipboard-text="https://hl7.hmis.gov.np/CodeSystem/period-range|0.0.1-ballot" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-08-10
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">PeriodRangeCS</span></td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: Used by permission of HL7 International, all rights reserved Creative Commons License</p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>HMIS period ranges codes based on IHE ADX Range Coding System. 
+Reference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78</p>
+
+<p>Durations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:</p>
+
+<p>P is the duration designator (for period) placed at the start of the duration representation.
+Y is the year designator that follows the value for the number of years.
+M is the month designator that follows the value for the number of months.
+W is the week designator that follows the value for the number of weeks.
+D is the day designator that follows the value for the number of days.
+T is the time designator that precedes the time components of the representation.
+H is the hour designator that follows the value for the number of hours.
+M is the minute designator that follows the value for the number of minutes.
+S is the second designator that follows the value for the number of seconds.</p>
+
+</p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-age-range.html">AgeRangeVS</a></li>
+</ul>
+
+
+  <div><p class="res-header-id"></p><a name="period-range"> </a><a name="hcperiod-range"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/period-range</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+<tr><td style="white-space:nowrap">P0M--P24M<a name="period-range-P0M--P24M"> </a></td>
+<td>0-23 Months</td>
+<td>An age greater or equal to 0 and less than 24 months</td></tr>
+<tr><td style="white-space:nowrap">P24M--P60M<a name="period-range-P24M--P60M"> </a></td>
+<td>24-59 Months</td>
+<td>An age greater or equal to 24 and less than 60 months</td></tr>
+<tr><td style="white-space:nowrap">P28D<a name="period-range-P28D"> </a></td>
+<td>Within 28 Days</td>
+<td>Age less than or equal to 28 days</td></tr>
+<tr><td style="white-space:nowrap">P1M<a name="period-range-P1M"> </a></td>
+<td>1 Month</td>
+<td>Age equal to 1 month</td></tr>
+<tr><td style="white-space:nowrap">P2M<a name="period-range-P2M"> </a></td>
+<td>2 Months</td>
+<td>Age equal to 2 months</td></tr>
+<tr><td style="white-space:nowrap">P3M<a name="period-range-P3M"> </a></td>
+<td>3 Months</td>
+<td>Age equal to 3 months</td></tr>
+<tr><td style="white-space:nowrap">P4M<a name="period-range-P4M"> </a></td>
+<td>4 Months</td>
+<td>Age equal to 4 months</td></tr>
+<tr><td style="white-space:nowrap">P5M<a name="period-range-P5M"> </a></td>
+<td>5 Months</td>
+<td>Age equal to 5 months</td></tr>
+<tr><td style="white-space:nowrap">P6M<a name="period-range-P6M"> </a></td>
+<td>6 Months</td>
+<td>Age equal to 6 months</td></tr>
+<tr><td style="white-space:nowrap">P7M<a name="period-range-P7M"> </a></td>
+<td>7 Months</td>
+<td>Age equal to 7 months</td></tr>
+<tr><td style="white-space:nowrap">P8M<a name="period-range-P8M"> </a></td>
+<td>8 Months</td>
+<td>Age equal to 8 months</td></tr>
+<tr><td style="white-space:nowrap">P9M<a name="period-range-P9M"> </a></td>
+<td>9 Months</td>
+<td>Age equal to 9 months</td></tr>
+<tr><td style="white-space:nowrap">P10M<a name="period-range-P10M"> </a></td>
+<td>10 Months</td>
+<td>Age equal to 10 months</td></tr>
+<tr><td style="white-space:nowrap">P11M<a name="period-range-P11M"> </a></td>
+<td>11 Months</td>
+<td>Age equal to 11 months</td></tr>
+<tr><td style="white-space:nowrap">P12M<a name="period-range-P12M"> </a></td>
+<td>12 Months</td>
+<td>Age equal to 12 months</td></tr>
+<tr><td style="white-space:nowrap">P13M<a name="period-range-P13M"> </a></td>
+<td>13 Months</td>
+<td>Age equal to 13 months</td></tr>
+<tr><td style="white-space:nowrap">P14M<a name="period-range-P14M"> </a></td>
+<td>14 Months</td>
+<td>Age equal to 14 months</td></tr>
+<tr><td style="white-space:nowrap">P15M<a name="period-range-P15M"> </a></td>
+<td>15 Months</td>
+<td>Age equal to 15 months</td></tr>
+<tr><td style="white-space:nowrap">P16M<a name="period-range-P16M"> </a></td>
+<td>16 Months</td>
+<td>Age equal to 16 months</td></tr>
+<tr><td style="white-space:nowrap">P17M<a name="period-range-P17M"> </a></td>
+<td>17 Months</td>
+<td>Age equal to 17 months</td></tr>
+<tr><td style="white-space:nowrap">P18M<a name="period-range-P18M"> </a></td>
+<td>18 Months</td>
+<td>Age equal to 18 months</td></tr>
+<tr><td style="white-space:nowrap">P19M<a name="period-range-P19M"> </a></td>
+<td>19 Months</td>
+<td>Age equal to 19 months</td></tr>
+<tr><td style="white-space:nowrap">P20M<a name="period-range-P20M"> </a></td>
+<td>20 Months</td>
+<td>Age equal to 20 months</td></tr>
+<tr><td style="white-space:nowrap">P21M<a name="period-range-P21M"> </a></td>
+<td>21 Months</td>
+<td>Age equal to 21 months</td></tr>
+<tr><td style="white-space:nowrap">P22M<a name="period-range-P22M"> </a></td>
+<td>22 Months</td>
+<td>Age equal to 22 months</td></tr>
+<tr><td style="white-space:nowrap">P23M<a name="period-range-P23M"> </a></td>
+<td>23 Months</td>
+<td>Age equal to 23 months</td></tr>
+<tr><td style="white-space:nowrap">P6M--P12M<a name="period-range-P6M--P12M"> </a></td>
+<td>6-11 Months</td>
+<td>Age greater or equal to 6 months and less than 12 months</td></tr>
+<tr><td style="white-space:nowrap">P12M--P18M<a name="period-range-P12M--P18M"> </a></td>
+<td>12-17 Months</td>
+<td>Age greater or equal to 12 months and less than 18 months</td></tr>
+<tr><td style="white-space:nowrap">P18M--P24M<a name="period-range-P18M--P24M"> </a></td>
+<td>18-23 Months</td>
+<td>Age greater or equal to 18 months and less than 24 months</td></tr>
+<tr><td style="white-space:nowrap">P0W--P13W<a name="period-range-P0W--P13W"> </a></td>
+<td>&lt;=13 Weeks</td>
+<td>Age less than or equal to 13 weeks</td></tr>
+<tr><td style="white-space:nowrap">P0W--P26W<a name="period-range-P0W--P26W"> </a></td>
+<td>&lt;=26 Weeks</td>
+<td>Age less than or equal to 26 weeks</td></tr>
+<tr><td style="white-space:nowrap">P0DT0H--P2DT0H<a name="period-range-P0DT0H--P2DT0H"> </a></td>
+<td>Within 48 Hours</td>
+<td>Age greater or equal to 0 hours and less than 48 hours</td></tr>
+<tr><td style="white-space:nowrap">P2DT0H--P1Y<a name="period-range-P2DT0H--P1Y"> </a></td>
+<td>48 Hours to 1 Year</td>
+<td>Age greater or equal to 48 hours and less than 1 year</td></tr>
+<tr><td style="white-space:nowrap">P0D--P1D<a name="period-range-P0D--P1D"> </a></td>
+<td>Within 24 Hours of Birth</td>
+<td>Age from birth up to less than 24 hours</td></tr>
+<tr><td style="white-space:nowrap">P0D--P3D<a name="period-range-P0D--P3D"> </a></td>
+<td>Within 3 Days Postpartum</td>
+<td>Age from birth up to less than 3 days postpartum</td></tr>
+<tr><td style="white-space:nowrap">P7D--P14D<a name="period-range-P7D--P14D"> </a></td>
+<td>7 to 14 Days Postpartum</td>
+<td>Age greater or equal to 7 days and less than 14 days postpartum</td></tr>
+<tr><td style="white-space:nowrap">P0D--P42D<a name="period-range-P0D--P42D"> </a></td>
+<td>Within 42 Days Postpartum</td>
+<td>Age from birth up to less than 42 days postpartum</td></tr>
+<tr><td style="white-space:nowrap">P2DT1H--P42D<a name="period-range-P2DT1H--P42D"> </a></td>
+<td>49 Hours to 42 Days Postpartum</td>
+<td>Age greater or equal to 49 hours and less than 42 days postpartum</td></tr></table><p><b>Additional Language Displays</b></p>
+<table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>np</b></td></tr>
+<tr><td>P0M--P24M</td>
+<td>0-23 Months</td>
+<td>०-२३ महिना</td></tr>
+<tr><td>P24M--P60M</td>
+<td>24-59 Months</td>
+<td>२४ देखि ५९ महिना</td></tr>
+<tr><td>P28D</td>
+<td>Within 28 Days</td>
+<td>२८ दिन भित्र</td></tr>
+<tr><td>P1M</td>
+<td>1 Month</td>
+<td>१ महिना</td></tr>
+<tr><td>P2M</td>
+<td>2 Months</td>
+<td>२ महिना</td></tr>
+<tr><td>P3M</td>
+<td>3 Months</td>
+<td>३ महिना</td></tr>
+<tr><td>P4M</td>
+<td>4 Months</td>
+<td>४ महिना</td></tr>
+<tr><td>P5M</td>
+<td>5 Months</td>
+<td>५ महिना</td></tr>
+<tr><td>P6M</td>
+<td>6 Months</td>
+<td>६ महिना</td></tr>
+<tr><td>P7M</td>
+<td>7 Months</td>
+<td>७ महिना</td></tr>
+<tr><td>P8M</td>
+<td>8 Months</td>
+<td>८ महिना</td></tr>
+<tr><td>P9M</td>
+<td>9 Months</td>
+<td>९ महिना</td></tr>
+<tr><td>P10M</td>
+<td>10 Months</td>
+<td>१० महिना</td></tr>
+<tr><td>P11M</td>
+<td>11 Months</td>
+<td>११ महिना</td></tr>
+<tr><td>P12M</td>
+<td>12 Months</td>
+<td>१२ महिना</td></tr>
+<tr><td>P13M</td>
+<td>13 Months</td>
+<td>१३ महिना</td></tr>
+<tr><td>P14M</td>
+<td>14 Months</td>
+<td>१४ महिना</td></tr>
+<tr><td>P15M</td>
+<td>15 Months</td>
+<td>१५ महिना</td></tr>
+<tr><td>P16M</td>
+<td>16 Months</td>
+<td>१६ महिना</td></tr>
+<tr><td>P17M</td>
+<td>17 Months</td>
+<td>१७ महिना</td></tr>
+<tr><td>P18M</td>
+<td>18 Months</td>
+<td>१८ महिना</td></tr>
+<tr><td>P19M</td>
+<td>19 Months</td>
+<td>१९ महिना</td></tr>
+<tr><td>P20M</td>
+<td>20 Months</td>
+<td>२० महिना</td></tr>
+<tr><td>P21M</td>
+<td>21 Months</td>
+<td>२१ महिना</td></tr>
+<tr><td>P22M</td>
+<td>22 Months</td>
+<td>२२ महिना</td></tr>
+<tr><td>P23M</td>
+<td>23 Months</td>
+<td>२३ महिना</td></tr>
+<tr><td>P6M--P12M</td>
+<td>6-11 Months</td>
+<td>६ देखि ११ महिना</td></tr>
+<tr><td>P12M--P18M</td>
+<td>12-17 Months</td>
+<td>१२ देखि १७ महिना</td></tr>
+<tr><td>P18M--P24M</td>
+<td>18-23 Months</td>
+<td>१८ देखि २३ महिना</td></tr>
+<tr><td>P0W--P13W</td>
+<td>Up to 13 Weeks</td>
+<td>१३ हप्ता सम्म</td></tr>
+<tr><td>P0W--P26W</td>
+<td>Up to 26 Weeks</td>
+<td>२६ हप्ता सम्म</td></tr>
+<tr><td>P0DT0H--P2DT0H</td>
+<td>Within 48 Hours</td>
+<td>४८ घण्टा भित्र</td></tr>
+<tr><td>P2DT0H--P1Y</td>
+<td>48 Hours to 1 Year</td>
+<td>४८ घण्टा देखि १ वर्ष</td></tr>
+<tr><td>P0D--P1D</td>
+<td>Within 24 Hours of Birth</td>
+<td>जन्मेको २४ घण्टामा</td></tr>
+<tr><td>P0D--P3D</td>
+<td>Within 3 Days Postpartum</td>
+<td>सुत्केरीको ३ दिनमा</td></tr>
+<tr><td>P7D--P14D</td>
+<td>7 to 14 Days Postpartum</td>
+<td>सुत्केरी ७ देखि १४ दिन भित्र</td></tr>
+<tr><td>P0D--P42D</td>
+<td>Within 42 Days Postpartum</td>
+<td>सुत्केरीको ४२ दिनमा</td></tr>
+<tr><td>P2DT1H--P42D</td>
+<td>49 Hours to 42 Days Postpartum</td>
+<td>सुत्केरी भएको ४९ घण्टा देखि ४२ दिन भित्र</td></tr></table></div>
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
+
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<a name="bottom"> </a>
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Aug 10, 2025 13:34+0545">2025-08-10</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1346">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    </span>
+  </p>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Analytics Below
+================================================== -->
+
+
+
+
+</body></html>

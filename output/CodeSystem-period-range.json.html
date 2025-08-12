@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Period Range - JSON Representation - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+<link rel="stylesheet" href="assets/css/colors.css"/>
+<link rel="stylesheet" href="assets/css/app.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"13.27"}
+    h3,h4,h5,h6{--heading-prefix:"13.27"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="codesystems.html">Code Systems</a>
+  </li>
+  <li>
+    <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="identifiers.html">Identifier Systems</a>
+  </li>
+  <li>
+    <a href="external_terminologies.html">External Code Systems</a>
+  </li>
+  <li>
+    <a href="smart-index.html">SMART Guidelines</a>
+  </li>
+  <li>
+    <a href="health-journey.html">Health Journey</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+        <div id="project-nav">
+  <a no-external="true" id="project-logo" href="https://hl7.hmis.gov.np">
+    <img src="assets/images/nepal.svg" alt="Project home" height="60"/>
+    <img src="assets/images/logo.png" alt="Project home" height="60"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="60"/> </a>
+</div>
+
+        <div id="ig-status" class="ig-status-active">
+          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-ballot - ci-build
+
+
+
+  <img src="assets/images/npl.svg" alt="Nepal flag" title="Nepal" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Period Range</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-period-range.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-period-range.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-period-range.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Period Range - JSON Representation</h2>
+
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2025-08-10
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-period-range.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-period-range.json">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="json"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.id">id</a>" : "period-range",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: CodeSystem period-range&lt;/b&gt;&lt;/p&gt;&lt;a name=\"period-range\"&gt; &lt;/a&gt;&lt;a name=\"hcperiod-range\"&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;https://hl7.hmis.gov.np/CodeSystem/period-range&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0M--P24M&lt;a name=\"period-range-P0M--P24M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;0-23 Months&lt;/td&gt;&lt;td&gt;An age greater or equal to 0 and less than 24 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P24M--P60M&lt;a name=\"period-range-P24M--P60M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;24-59 Months&lt;/td&gt;&lt;td&gt;An age greater or equal to 24 and less than 60 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P28D&lt;a name=\"period-range-P28D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Within 28 Days&lt;/td&gt;&lt;td&gt;Age less than or equal to 28 days&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P1M&lt;a name=\"period-range-P1M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;1 Month&lt;/td&gt;&lt;td&gt;Age equal to 1 month&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P2M&lt;a name=\"period-range-P2M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;2 Months&lt;/td&gt;&lt;td&gt;Age equal to 2 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P3M&lt;a name=\"period-range-P3M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;3 Months&lt;/td&gt;&lt;td&gt;Age equal to 3 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P4M&lt;a name=\"period-range-P4M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;4 Months&lt;/td&gt;&lt;td&gt;Age equal to 4 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P5M&lt;a name=\"period-range-P5M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;5 Months&lt;/td&gt;&lt;td&gt;Age equal to 5 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P6M&lt;a name=\"period-range-P6M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;6 Months&lt;/td&gt;&lt;td&gt;Age equal to 6 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P7M&lt;a name=\"period-range-P7M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;7 Months&lt;/td&gt;&lt;td&gt;Age equal to 7 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P8M&lt;a name=\"period-range-P8M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;8 Months&lt;/td&gt;&lt;td&gt;Age equal to 8 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P9M&lt;a name=\"period-range-P9M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;9 Months&lt;/td&gt;&lt;td&gt;Age equal to 9 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P10M&lt;a name=\"period-range-P10M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;10 Months&lt;/td&gt;&lt;td&gt;Age equal to 10 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P11M&lt;a name=\"period-range-P11M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;11 Months&lt;/td&gt;&lt;td&gt;Age equal to 11 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P12M&lt;a name=\"period-range-P12M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;12 Months&lt;/td&gt;&lt;td&gt;Age equal to 12 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P13M&lt;a name=\"period-range-P13M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;13 Months&lt;/td&gt;&lt;td&gt;Age equal to 13 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P14M&lt;a name=\"period-range-P14M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;14 Months&lt;/td&gt;&lt;td&gt;Age equal to 14 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P15M&lt;a name=\"period-range-P15M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;15 Months&lt;/td&gt;&lt;td&gt;Age equal to 15 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P16M&lt;a name=\"period-range-P16M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;16 Months&lt;/td&gt;&lt;td&gt;Age equal to 16 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P17M&lt;a name=\"period-range-P17M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;17 Months&lt;/td&gt;&lt;td&gt;Age equal to 17 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P18M&lt;a name=\"period-range-P18M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;18 Months&lt;/td&gt;&lt;td&gt;Age equal to 18 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P19M&lt;a name=\"period-range-P19M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;19 Months&lt;/td&gt;&lt;td&gt;Age equal to 19 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P20M&lt;a name=\"period-range-P20M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;20 Months&lt;/td&gt;&lt;td&gt;Age equal to 20 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P21M&lt;a name=\"period-range-P21M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;21 Months&lt;/td&gt;&lt;td&gt;Age equal to 21 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P22M&lt;a name=\"period-range-P22M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;22 Months&lt;/td&gt;&lt;td&gt;Age equal to 22 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P23M&lt;a name=\"period-range-P23M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;23 Months&lt;/td&gt;&lt;td&gt;Age equal to 23 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P6M--P12M&lt;a name=\"period-range-P6M--P12M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;6-11 Months&lt;/td&gt;&lt;td&gt;Age greater or equal to 6 months and less than 12 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P12M--P18M&lt;a name=\"period-range-P12M--P18M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;12-17 Months&lt;/td&gt;&lt;td&gt;Age greater or equal to 12 months and less than 18 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P18M--P24M&lt;a name=\"period-range-P18M--P24M\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;18-23 Months&lt;/td&gt;&lt;td&gt;Age greater or equal to 18 months and less than 24 months&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0W--P13W&lt;a name=\"period-range-P0W--P13W\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;&amp;lt;=13 Weeks&lt;/td&gt;&lt;td&gt;Age less than or equal to 13 weeks&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0W--P26W&lt;a name=\"period-range-P0W--P26W\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;&amp;lt;=26 Weeks&lt;/td&gt;&lt;td&gt;Age less than or equal to 26 weeks&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0DT0H--P2DT0H&lt;a name=\"period-range-P0DT0H--P2DT0H\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Within 48 Hours&lt;/td&gt;&lt;td&gt;Age greater or equal to 0 hours and less than 48 hours&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P2DT0H--P1Y&lt;a name=\"period-range-P2DT0H--P1Y\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;48 Hours to 1 Year&lt;/td&gt;&lt;td&gt;Age greater or equal to 48 hours and less than 1 year&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0D--P1D&lt;a name=\"period-range-P0D--P1D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Within 24 Hours of Birth&lt;/td&gt;&lt;td&gt;Age from birth up to less than 24 hours&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0D--P3D&lt;a name=\"period-range-P0D--P3D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Within 3 Days Postpartum&lt;/td&gt;&lt;td&gt;Age from birth up to less than 3 days postpartum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P7D--P14D&lt;a name=\"period-range-P7D--P14D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;7 to 14 Days Postpartum&lt;/td&gt;&lt;td&gt;Age greater or equal to 7 days and less than 14 days postpartum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P0D--P42D&lt;a name=\"period-range-P0D--P42D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Within 42 Days Postpartum&lt;/td&gt;&lt;td&gt;Age from birth up to less than 42 days postpartum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;P2DT1H--P42D&lt;a name=\"period-range-P2DT1H--P42D\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;49 Hours to 42 Days Postpartum&lt;/td&gt;&lt;td&gt;Age greater or equal to 49 hours and less than 42 days postpartum&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;English (English, en)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;np&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0M--P24M&lt;/td&gt;&lt;td&gt;0-23 Months&lt;/td&gt;&lt;td&gt;०-२३ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P24M--P60M&lt;/td&gt;&lt;td&gt;24-59 Months&lt;/td&gt;&lt;td&gt;२४ देखि ५९ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P28D&lt;/td&gt;&lt;td&gt;Within 28 Days&lt;/td&gt;&lt;td&gt;२८ दिन भित्र&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P1M&lt;/td&gt;&lt;td&gt;1 Month&lt;/td&gt;&lt;td&gt;१ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P2M&lt;/td&gt;&lt;td&gt;2 Months&lt;/td&gt;&lt;td&gt;२ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P3M&lt;/td&gt;&lt;td&gt;3 Months&lt;/td&gt;&lt;td&gt;३ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P4M&lt;/td&gt;&lt;td&gt;4 Months&lt;/td&gt;&lt;td&gt;४ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P5M&lt;/td&gt;&lt;td&gt;5 Months&lt;/td&gt;&lt;td&gt;५ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P6M&lt;/td&gt;&lt;td&gt;6 Months&lt;/td&gt;&lt;td&gt;६ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P7M&lt;/td&gt;&lt;td&gt;7 Months&lt;/td&gt;&lt;td&gt;७ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P8M&lt;/td&gt;&lt;td&gt;8 Months&lt;/td&gt;&lt;td&gt;८ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P9M&lt;/td&gt;&lt;td&gt;9 Months&lt;/td&gt;&lt;td&gt;९ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P10M&lt;/td&gt;&lt;td&gt;10 Months&lt;/td&gt;&lt;td&gt;१० महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P11M&lt;/td&gt;&lt;td&gt;11 Months&lt;/td&gt;&lt;td&gt;११ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P12M&lt;/td&gt;&lt;td&gt;12 Months&lt;/td&gt;&lt;td&gt;१२ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P13M&lt;/td&gt;&lt;td&gt;13 Months&lt;/td&gt;&lt;td&gt;१३ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P14M&lt;/td&gt;&lt;td&gt;14 Months&lt;/td&gt;&lt;td&gt;१४ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P15M&lt;/td&gt;&lt;td&gt;15 Months&lt;/td&gt;&lt;td&gt;१५ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P16M&lt;/td&gt;&lt;td&gt;16 Months&lt;/td&gt;&lt;td&gt;१६ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P17M&lt;/td&gt;&lt;td&gt;17 Months&lt;/td&gt;&lt;td&gt;१७ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P18M&lt;/td&gt;&lt;td&gt;18 Months&lt;/td&gt;&lt;td&gt;१८ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P19M&lt;/td&gt;&lt;td&gt;19 Months&lt;/td&gt;&lt;td&gt;१९ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P20M&lt;/td&gt;&lt;td&gt;20 Months&lt;/td&gt;&lt;td&gt;२० महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P21M&lt;/td&gt;&lt;td&gt;21 Months&lt;/td&gt;&lt;td&gt;२१ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P22M&lt;/td&gt;&lt;td&gt;22 Months&lt;/td&gt;&lt;td&gt;२२ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P23M&lt;/td&gt;&lt;td&gt;23 Months&lt;/td&gt;&lt;td&gt;२३ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P6M--P12M&lt;/td&gt;&lt;td&gt;6-11 Months&lt;/td&gt;&lt;td&gt;६ देखि ११ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P12M--P18M&lt;/td&gt;&lt;td&gt;12-17 Months&lt;/td&gt;&lt;td&gt;१२ देखि १७ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P18M--P24M&lt;/td&gt;&lt;td&gt;18-23 Months&lt;/td&gt;&lt;td&gt;१८ देखि २३ महिना&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0W--P13W&lt;/td&gt;&lt;td&gt;Up to 13 Weeks&lt;/td&gt;&lt;td&gt;१३ हप्ता सम्म&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0W--P26W&lt;/td&gt;&lt;td&gt;Up to 26 Weeks&lt;/td&gt;&lt;td&gt;२६ हप्ता सम्म&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0DT0H--P2DT0H&lt;/td&gt;&lt;td&gt;Within 48 Hours&lt;/td&gt;&lt;td&gt;४८ घण्टा भित्र&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P2DT0H--P1Y&lt;/td&gt;&lt;td&gt;48 Hours to 1 Year&lt;/td&gt;&lt;td&gt;४८ घण्टा देखि १ वर्ष&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0D--P1D&lt;/td&gt;&lt;td&gt;Within 24 Hours of Birth&lt;/td&gt;&lt;td&gt;जन्मेको २४ घण्टामा&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0D--P3D&lt;/td&gt;&lt;td&gt;Within 3 Days Postpartum&lt;/td&gt;&lt;td&gt;सुत्केरीको ३ दिनमा&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P7D--P14D&lt;/td&gt;&lt;td&gt;7 to 14 Days Postpartum&lt;/td&gt;&lt;td&gt;सुत्केरी ७ देखि १४ दिन भित्र&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P0D--P42D&lt;/td&gt;&lt;td&gt;Within 42 Days Postpartum&lt;/td&gt;&lt;td&gt;सुत्केरीको ४२ दिनमा&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P2DT1H--P42D&lt;/td&gt;&lt;td&gt;49 Hours to 42 Days Postpartum&lt;/td&gt;&lt;td&gt;सुत्केरी भएको ४९ घण्टा देखि ४२ दिन भित्र&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.url">url</a>" : "https://hl7.hmis.gov.np/CodeSystem/period-range",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.version">version</a>" : "0.0.1-ballot",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.name">name</a>" : "PeriodRangeCS",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.title">title</a>" : "Period Range",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.date">date</a>" : "2025-08-10T13:33:39+05:45",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.publisher">publisher</a>" : "Integrated Health Information Management Section",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Integrated Health Information Management Section",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://hmis.gov.np"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "it@hmis.gov.np"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "RC Poudel",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "rcpoudel@amakomaya.com"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "rmchndrapdl@gmail.com"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "+977-9851341921"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.description">description</a>" : "HMIS period ranges codes based on IHE ADX Range Coding System. \nReference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78\n\nDurations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:\n\nP is the duration designator (for period) placed at the start of the duration representation.\nY is the year designator that follows the value for the number of years.\nM is the month designator that follows the value for the number of months.\nW is the week designator that follows the value for the number of weeks.\nD is the day designator that follows the value for the number of days.\nT is the time designator that precedes the time components of the representation.\nH is the hour designator that follows the value for the number of hours.\nM is the minute designator that follows the value for the number of minutes.\nS is the second designator that follows the value for the number of seconds.",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "NP",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Nepal"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.copyright">copyright</a>" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.count">count</a>" : 38,
+  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0M--P24M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "0-23 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "An age greater or equal to 0 and less than 24 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "0-23 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "०-२३ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P24M--P60M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "24-59 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "An age greater or equal to 24 and less than 60 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "24-59 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२४ देखि ५९ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P28D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "Within 28 Days",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age less than or equal to 28 days",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Within 28 Days"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२८ दिन भित्र"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P1M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "1 Month",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 1 month",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "1 Month"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P2M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "2 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 2 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "2 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P3M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "3 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 3 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "3 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "३ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P4M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "4 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 4 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "4 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "४ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P5M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "5 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 5 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "5 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "५ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P6M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "6 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 6 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "6 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "६ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P7M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "7 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 7 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "7 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "७ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P8M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "8 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 8 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "8 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "८ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P9M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "9 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 9 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "9 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "९ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P10M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "10 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 10 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "10 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१० महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P11M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "11 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 11 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "11 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "११ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P12M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "12 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 12 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "12 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१२ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P13M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "13 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 13 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "13 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१३ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P14M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "14 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 14 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "14 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१४ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P15M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "15 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 15 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "15 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१५ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P16M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "16 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 16 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "16 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१६ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P17M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "17 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 17 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "17 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१७ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P18M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "18 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 18 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "18 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१८ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P19M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "19 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 19 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "19 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१९ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P20M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "20 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 20 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "20 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२० महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P21M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "21 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 21 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "21 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२१ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P22M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "22 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 22 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "22 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२२ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P23M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "23 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age equal to 23 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "23 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२३ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P6M--P12M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "6-11 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 6 months and less than 12 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "6-11 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "६ देखि ११ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P12M--P18M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "12-17 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 12 months and less than 18 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "12-17 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१२ देखि १७ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P18M--P24M",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "18-23 Months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 18 months and less than 24 months",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "18-23 Months"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१८ देखि २३ महिना"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0W--P13W",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "&lt;=13 Weeks",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age less than or equal to 13 weeks",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Up to 13 Weeks"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "१३ हप्ता सम्म"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0W--P26W",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "&lt;=26 Weeks",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age less than or equal to 26 weeks",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Up to 26 Weeks"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "२६ हप्ता सम्म"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0DT0H--P2DT0H",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "Within 48 Hours",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 0 hours and less than 48 hours",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Within 48 Hours"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "४८ घण्टा भित्र"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P2DT0H--P1Y",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "48 Hours to 1 Year",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 48 hours and less than 1 year",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "48 Hours to 1 Year"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "४८ घण्टा देखि १ वर्ष"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0D--P1D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "Within 24 Hours of Birth",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age from birth up to less than 24 hours",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Within 24 Hours of Birth"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "जन्मेको २४ घण्टामा"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0D--P3D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "Within 3 Days Postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age from birth up to less than 3 days postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Within 3 Days Postpartum"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "सुत्केरीको ३ दिनमा"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P7D--P14D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "7 to 14 Days Postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 7 days and less than 14 days postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "7 to 14 Days Postpartum"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "सुत्केरी ७ देखि १४ दिन भित्र"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P0D--P42D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "Within 42 Days Postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age from birth up to less than 42 days postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Within 42 Days Postpartum"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "सुत्केरीको ४२ दिनमा"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "P2DT1H--P42D",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "49 Hours to 42 Days Postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Age greater or equal to 49 hours and less than 42 days postpartum",
+      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "49 Hours to 42 Days Postpartum"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "np",
+          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "सुत्केरी भएको ४९ घण्टा देखि ४२ दिन भित्र"
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
+
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<a name="bottom"> </a>
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Aug 10, 2025 13:34+0545">2025-08-10</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1451">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://hl7.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    </span>
+  </p>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Analytics Below
+================================================== -->
+
+
+
+
+</body></html>

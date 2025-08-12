@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "marital-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet marital-status</b></p><a name=\"marital-status\"> </a><a name=\"hcmarital-status\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/473022002\">473022002</a></td><td>Unmarried</td></tr><tr><td><a href=\"http://snomed.info/id/87915002\">87915002</a></td><td>Married</td></tr><tr><td><a href=\"http://snomed.info/id/20295000\">20295000</a></td><td>Divorced</td></tr><tr><td><a href=\"http://snomed.info/id/33553000\">33553000</a></td><td>Widowed</td></tr><tr><td><a href=\"http://snomed.info/id/13184001\">13184001</a></td><td>Separated</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/marital-status",
+  "version" : "0.0.1-ballot",
+  "name" : "MaritalStatusVS",
+  "title" : "Marital Status (वैवाहिक स्थिति)",
+  "status" : "active",
+  "date" : "2025-08-10T13:33:39+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Codes representing marital status of a person.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "473022002",
+        "display" : "Unmarried"
+      },
+      {
+        "code" : "87915002",
+        "display" : "Married"
+      },
+      {
+        "code" : "20295000",
+        "display" : "Divorced"
+      },
+      {
+        "code" : "33553000",
+        "display" : "Widowed"
+      },
+      {
+        "code" : "13184001",
+        "display" : "Separated"
+      }]
+    }]
+  }
+}

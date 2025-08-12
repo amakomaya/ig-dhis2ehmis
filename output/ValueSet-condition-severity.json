@@ -1,0 +1,92 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "condition-severity",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet condition-severity</b></p><a name=\"condition-severity\"> </a><a name=\"hccondition-severity\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href=\"http://snomed.info/id/24484000\">24484000</a></td><td>Severe</td><td>गम्भीर / अति जोखिम</td></tr><tr><td><a href=\"http://snomed.info/id/6736007\">6736007</a></td><td>Midgrade</td><td>मध्यम / जोखिम</td></tr><tr><td><a href=\"http://snomed.info/id/255604002\">255604002</a></td><td>Mild</td><td>सामान्य</td></tr><tr><td><a href=\"http://snomed.info/id/55929007\">55929007</a></td><td>Feeling irritable (finding)</td><td/></tr><tr><td><a href=\"http://snomed.info/id/418107008\">418107008</a></td><td>Unconscious (finding)</td><td/></tr><tr><td><a href=\"http://snomed.info/id/214264003\">214264003</a></td><td>Lethargy (finding)</td><td/></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.hmis.gov.np/ValueSet/condition-severity",
+  "version" : "0.0.1-ballot",
+  "name" : "ConditionSeverityVS",
+  "title" : "Condition / Diagnosis Severity",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-10T13:33:39+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Preferred value set for Condition/Diagnosis severity grading",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "24484000",
+        "display" : "Severe",
+        "designation" : [{
+          "language" : "ne",
+          "value" : "गम्भीर / अति जोखिम"
+        }]
+      },
+      {
+        "code" : "6736007",
+        "display" : "Midgrade",
+        "designation" : [{
+          "language" : "ne",
+          "value" : "मध्यम / जोखिम"
+        }]
+      },
+      {
+        "code" : "255604002",
+        "display" : "Mild",
+        "designation" : [{
+          "language" : "ne",
+          "value" : "सामान्य"
+        }]
+      },
+      {
+        "code" : "55929007",
+        "display" : "Feeling irritable (finding)"
+      },
+      {
+        "code" : "418107008",
+        "display" : "Unconscious (finding)"
+      },
+      {
+        "code" : "214264003",
+        "display" : "Lethargy (finding)"
+      }]
+    }]
+  }
+}

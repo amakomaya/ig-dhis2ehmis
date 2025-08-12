@@ -14,7 +14,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name=\"hl7.fhir.hmis\"> </a><a name=\"hchl7.fhir.hmis\"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "NPCoreImplementationGuide"] ; # 
   fhir:title [ fhir:v "Nepal HMIS FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -83,7 +83,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r5" ] ;
-     fhir:version [ fhir:v "5.3.0-ballot-tc1" ]
+     fhir:version [ fhir:v "5.2.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -117,11 +117,71 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/age-range> ;
+         fhir:reference [ fhir:v "ValueSet/age-range" ]
+       ] ;
+       fhir:name [ fhir:v "Age Range" ] ;
+       fhir:description [ fhir:v "ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/condition-severity> ;
+         fhir:reference [ fhir:v "ValueSet/condition-severity" ]
+       ] ;
+       fhir:name [ fhir:v "Condition / Diagnosis Severity" ] ;
+       fhir:description [ fhir:v "Preferred value set for Condition/Diagnosis severity grading" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://hl7.hmis.gov.np/ValueSet/district> ;
          fhir:reference [ fhir:v "ValueSet/district" ]
        ] ;
        fhir:name [ fhir:v "District" ] ;
        fhir:description [ fhir:v "All district used in administrative divisions" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/educational-level> ;
+         fhir:reference [ fhir:v "ValueSet/educational-level" ]
+       ] ;
+       fhir:name [ fhir:v "Educational Level" ] ;
+       fhir:description [ fhir:v "Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/employment-status> ;
+         fhir:reference [ fhir:v "ValueSet/employment-status" ]
+       ] ;
+       fhir:name [ fhir:v "Employment (रोजगारी स्थिति)" ] ;
+       fhir:description [ fhir:v "Codes representing employment status of a person." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -137,6 +197,21 @@
        ] ;
        fhir:name [ fhir:v "Encounter for EHMIS" ] ;
        fhir:description [ fhir:v "Each service interaction or visit by a patient" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/ethnic-code> ;
+         fhir:reference [ fhir:v "StructureDefinition/ethnic-code" ]
+       ] ;
+       fhir:name [ fhir:v "Ethnic Code" ] ;
+       fhir:description [ fhir:v "Extension to capture जाति कोड (ethnicity) based on Nepali classification" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -173,37 +248,46 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Location"
+           fhir:v "ValueSet"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Location/ExampleLocation> ;
-         fhir:reference [ fhir:v "Location/ExampleLocation" ]
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/free-cost> ;
+         fhir:reference [ fhir:v "ValueSet/free-cost" ]
        ] ;
-       fhir:name [ fhir:v "Example Location for EHMIS" ] ;
-       fhir:isExample [ fhir:v true ] ;
-       fhir:profile ( [
-         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
-       ] )
+       fhir:name [ fhir:v "Free Cost" ] ;
+       fhir:description [ fhir:v "ValueSet for Free Cost" ] ;
+       fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Patient"
+           fhir:v "ValueSet"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Patient/ExamplePatient> ;
-         fhir:reference [ fhir:v "Patient/ExamplePatient" ]
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/free-service-eligibility> ;
+         fhir:reference [ fhir:v "ValueSet/free-service-eligibility" ]
        ] ;
-       fhir:name [ fhir:v "Example Patient for EHMIS" ] ;
-       fhir:isExample [ fhir:v true ] ;
-       fhir:profile ( [
-         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis"^^xsd:anyURI ;
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis>
-       ] )
+       fhir:name [ fhir:v "Free Service Eligibility" ] ;
+       fhir:description [ fhir:v "ValueSet representing individuals eligible for free health services" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility> ;
+         fhir:reference [ fhir:v "CodeSystem/free-service-eligibility" ]
+       ] ;
+       fhir:name [ fhir:v "Free Service Eligibility" ] ;
+       fhir:description [ fhir:v "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)" ] ;
+       fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -224,6 +308,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Location"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Location/ExampleLocation> ;
+         fhir:reference [ fhir:v "Location/ExampleLocation" ]
+       ] ;
+       fhir:name [ fhir:v "Location" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
@@ -233,6 +335,21 @@
        ] ;
        fhir:name [ fhir:v "Location Profile for EHMIS" ] ;
        fhir:description [ fhir:v "Healthcare delivery location (e.g., facility, ward)" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/marital-status> ;
+         fhir:reference [ fhir:v "ValueSet/marital-status" ]
+       ] ;
+       fhir:name [ fhir:v "Marital Status (वैवाहिक स्थिति)" ] ;
+       fhir:description [ fhir:v "Codes representing marital status of a person." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -284,15 +401,90 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/option-set-yes-no> ;
+         fhir:reference [ fhir:v "ValueSet/option-set-yes-no" ]
+       ] ;
+       fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative" ] ;
+       fhir:description [ fhir:v "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Patient/PatientExample> ;
+         fhir:reference [ fhir:v "Patient/PatientExample" ]
+       ] ;
+       fhir:name [ fhir:v "Patient" ] ;
+       fhir:description [ fhir:v "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।" ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-ehmis> ;
-         fhir:reference [ fhir:v "StructureDefinition/patient-ehmis" ]
+         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-profile" ]
        ] ;
-       fhir:name [ fhir:v "Patient for EHMIS" ] ;
-       fhir:description [ fhir:v "Demographics and identifiers for patients in Nepal EHMIS" ] ;
+       fhir:name [ fhir:v "Patient (स्वास्थ्य सेवाग्राही)" ] ;
+       fhir:description [ fhir:v "Demographics and identifiers for patients in Nepal" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/patient-registration-type> ;
+         fhir:reference [ fhir:v "ValueSet/patient-registration-type" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Registration Type" ] ;
+       fhir:description [ fhir:v "Patient registration types mapped to SNOMED CT concepts with Nepali display." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/visit-ordinal> ;
+         fhir:reference [ fhir:v "ValueSet/visit-ordinal" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Visit Ordinal" ] ;
+       fhir:description [ fhir:v "ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/CodeSystem/period-range> ;
+         fhir:reference [ fhir:v "CodeSystem/period-range" ]
+       ] ;
+       fhir:name [ fhir:v "Period Range" ] ;
+       fhir:description [ fhir:v "HMIS period ranges codes based on IHE ADX Range Coding System. \nReference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78\n\nDurations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:\n\nP is the duration designator (for period) placed at the start of the duration representation.\nY is the year designator that follows the value for the number of years.\nM is the month designator that follows the value for the number of months.\nW is the week designator that follows the value for the number of weeks.\nD is the day designator that follows the value for the number of days.\nT is the time designator that precedes the time components of the representation.\nH is the hour designator that follows the value for the number of hours.\nM is the minute designator that follows the value for the number of minutes.\nS is the second designator that follows the value for the number of seconds." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -344,15 +536,15 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "CodeSystem"
+           fhir:v "ValueSet"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/service-type> ;
-         fhir:reference [ fhir:v "CodeSystem/service-type" ]
+         fhir:link <https://hl7.hmis.gov.np/ValueSet/service-area-address> ;
+         fhir:reference [ fhir:v "ValueSet/service-area-address" ]
        ] ;
-       fhir:name [ fhir:v "सेवाको किसिम कोड सिस्टम" ] ;
-       fhir:description [ fhir:v "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची।" ] ;
+       fhir:name [ fhir:v "Service Area Address Classification" ] ;
+       fhir:description [ fhir:v "Classification of address locations relative to the organization's service area and referral context, using SNOMED CT concepts to specify whether the address is inside or outside the service area and the type of location involved." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -366,8 +558,53 @@
          fhir:link <https://hl7.hmis.gov.np/ValueSet/service-type> ;
          fhir:reference [ fhir:v "ValueSet/service-type" ]
        ] ;
-       fhir:name [ fhir:v "सेवाको किसिमको मान सेट" ] ;
-       fhir:description [ fhir:v "सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।" ] ;
+       fhir:name [ fhir:v "Service Type" ] ;
+       fhir:description [ fhir:v "Service Type" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/CodeSystem/yes-no> ;
+         fhir:reference [ fhir:v "CodeSystem/yes-no" ]
+       ] ;
+       fhir:name [ fhir:v "Yes / No CodeSystem" ] ;
+       fhir:description [ fhir:v "For representing Yes and No values in Nepali." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/CodeSystem/free-cost> ;
+         fhir:reference [ fhir:v "CodeSystem/free-cost" ]
+       ] ;
+       fhir:name [ fhir:v "निशुल्क/शुल्क रू" ] ;
+       fhir:description [ fhir:v "निशुल्क/शुल्क रू" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/CodeSystem/service-type> ;
+         fhir:reference [ fhir:v "CodeSystem/service-type" ]
+       ] ;
+       fhir:name [ fhir:v "सेवाको किसिम कोड सिस्टम" ] ;
+       fhir:description [ fhir:v "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची" ] ;
        fhir:isExample [ fhir:v false ]
      ] ) ;
      fhir:page [

@@ -14,12 +14,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethnic-code</b></p><a name=\"ethnic-code\"> </a><a name=\"hcethnic-code\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/ethnic-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>np</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ethnic-code-1\"> </a></td><td>Dalit</td><td>दलित (१)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ethnic-code-2\"> </a></td><td>Janajati</td><td>जनजाती (२)</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ethnic-code-3\"> </a></td><td>Madhesi</td><td>मधेसी (३)</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ethnic-code-4\"> </a></td><td>Muslim</td><td>मुस्लिम (४)</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ethnic-code-5\"> </a></td><td>Brahmin/Chettri</td><td>ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"ethnic-code-6\"> </a></td><td>Other</td><td>अन्य (६)</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://hl7.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "EthnicCodeCS"] ; # 
   fhir:title [ fhir:v "Ethnic Code"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-08T09:35:18+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-10T13:33:39+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

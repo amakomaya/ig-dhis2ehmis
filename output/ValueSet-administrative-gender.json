@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet administrative-gender</b></p><a name=\"administrative-gender\"> </a><a name=\"hcadministrative-gender\"> </a><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R5/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div>"
   },
   "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
-  "version" : "1.0.1",
+  "version" : "0.0.1-ballot",
   "name" : "AdministrativeGenderVS",
   "title" : "Administrative Gender",
   "status" : "active",
-  "date" : "2025-08-08T09:35:18+05:45",
+  "date" : "2025-08-10T13:33:39+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",

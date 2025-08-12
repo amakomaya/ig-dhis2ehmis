@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet service-type</b></p><a name="service-type"> </a><a name="hcservice-type"> </a><ul><li>Include all codes defined in <a href="CodeSystem-service-type.html"><code>https://hl7.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>
   </text>
   <url value="https://hl7.hmis.gov.np/ValueSet/service-type"/>
-  <version value="1.0.1"/>
+  <version value="0.0.1-ballot"/>
   <name value="ServiceTypeVS"/>
-  <title value="सेवाको किसिमको मान सेट"/>
+  <title value="Service Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-08T09:35:18+05:45"/>
+  <date value="2025-08-10T13:33:39+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -39,7 +39,7 @@
       <value value="+977-9851341921"/>
     </telecom>
   </contact>
-  <description value="सेवाको किसिम कोडहरू प्रयोग गर्ने मान्य सूचि।"/>
+  <description value="Service Type"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

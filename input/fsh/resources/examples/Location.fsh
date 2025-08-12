@@ -1,7 +1,7 @@
 Instance: ExampleLocation
 InstanceOf: LocationEHMIS
 Usage: #example
-Title: "Example Location for EHMIS"
+Title: "Location"
 
 * name = "Health Post 12, Sunsari"
 * type = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HOSP

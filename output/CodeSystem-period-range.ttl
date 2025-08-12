@@ -1,0 +1,479 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/CodeSystem/period-range> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "period-range"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem period-range</b></p><a name=\"period-range\"> </a><a name=\"hcperiod-range\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/period-range</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">P0M--P24M<a name=\"period-range-P0M--P24M\"> </a></td><td>0-23 Months</td><td>An age greater or equal to 0 and less than 24 months</td></tr><tr><td style=\"white-space:nowrap\">P24M--P60M<a name=\"period-range-P24M--P60M\"> </a></td><td>24-59 Months</td><td>An age greater or equal to 24 and less than 60 months</td></tr><tr><td style=\"white-space:nowrap\">P28D<a name=\"period-range-P28D\"> </a></td><td>Within 28 Days</td><td>Age less than or equal to 28 days</td></tr><tr><td style=\"white-space:nowrap\">P1M<a name=\"period-range-P1M\"> </a></td><td>1 Month</td><td>Age equal to 1 month</td></tr><tr><td style=\"white-space:nowrap\">P2M<a name=\"period-range-P2M\"> </a></td><td>2 Months</td><td>Age equal to 2 months</td></tr><tr><td style=\"white-space:nowrap\">P3M<a name=\"period-range-P3M\"> </a></td><td>3 Months</td><td>Age equal to 3 months</td></tr><tr><td style=\"white-space:nowrap\">P4M<a name=\"period-range-P4M\"> </a></td><td>4 Months</td><td>Age equal to 4 months</td></tr><tr><td style=\"white-space:nowrap\">P5M<a name=\"period-range-P5M\"> </a></td><td>5 Months</td><td>Age equal to 5 months</td></tr><tr><td style=\"white-space:nowrap\">P6M<a name=\"period-range-P6M\"> </a></td><td>6 Months</td><td>Age equal to 6 months</td></tr><tr><td style=\"white-space:nowrap\">P7M<a name=\"period-range-P7M\"> </a></td><td>7 Months</td><td>Age equal to 7 months</td></tr><tr><td style=\"white-space:nowrap\">P8M<a name=\"period-range-P8M\"> </a></td><td>8 Months</td><td>Age equal to 8 months</td></tr><tr><td style=\"white-space:nowrap\">P9M<a name=\"period-range-P9M\"> </a></td><td>9 Months</td><td>Age equal to 9 months</td></tr><tr><td style=\"white-space:nowrap\">P10M<a name=\"period-range-P10M\"> </a></td><td>10 Months</td><td>Age equal to 10 months</td></tr><tr><td style=\"white-space:nowrap\">P11M<a name=\"period-range-P11M\"> </a></td><td>11 Months</td><td>Age equal to 11 months</td></tr><tr><td style=\"white-space:nowrap\">P12M<a name=\"period-range-P12M\"> </a></td><td>12 Months</td><td>Age equal to 12 months</td></tr><tr><td style=\"white-space:nowrap\">P13M<a name=\"period-range-P13M\"> </a></td><td>13 Months</td><td>Age equal to 13 months</td></tr><tr><td style=\"white-space:nowrap\">P14M<a name=\"period-range-P14M\"> </a></td><td>14 Months</td><td>Age equal to 14 months</td></tr><tr><td style=\"white-space:nowrap\">P15M<a name=\"period-range-P15M\"> </a></td><td>15 Months</td><td>Age equal to 15 months</td></tr><tr><td style=\"white-space:nowrap\">P16M<a name=\"period-range-P16M\"> </a></td><td>16 Months</td><td>Age equal to 16 months</td></tr><tr><td style=\"white-space:nowrap\">P17M<a name=\"period-range-P17M\"> </a></td><td>17 Months</td><td>Age equal to 17 months</td></tr><tr><td style=\"white-space:nowrap\">P18M<a name=\"period-range-P18M\"> </a></td><td>18 Months</td><td>Age equal to 18 months</td></tr><tr><td style=\"white-space:nowrap\">P19M<a name=\"period-range-P19M\"> </a></td><td>19 Months</td><td>Age equal to 19 months</td></tr><tr><td style=\"white-space:nowrap\">P20M<a name=\"period-range-P20M\"> </a></td><td>20 Months</td><td>Age equal to 20 months</td></tr><tr><td style=\"white-space:nowrap\">P21M<a name=\"period-range-P21M\"> </a></td><td>21 Months</td><td>Age equal to 21 months</td></tr><tr><td style=\"white-space:nowrap\">P22M<a name=\"period-range-P22M\"> </a></td><td>22 Months</td><td>Age equal to 22 months</td></tr><tr><td style=\"white-space:nowrap\">P23M<a name=\"period-range-P23M\"> </a></td><td>23 Months</td><td>Age equal to 23 months</td></tr><tr><td style=\"white-space:nowrap\">P6M--P12M<a name=\"period-range-P6M--P12M\"> </a></td><td>6-11 Months</td><td>Age greater or equal to 6 months and less than 12 months</td></tr><tr><td style=\"white-space:nowrap\">P12M--P18M<a name=\"period-range-P12M--P18M\"> </a></td><td>12-17 Months</td><td>Age greater or equal to 12 months and less than 18 months</td></tr><tr><td style=\"white-space:nowrap\">P18M--P24M<a name=\"period-range-P18M--P24M\"> </a></td><td>18-23 Months</td><td>Age greater or equal to 18 months and less than 24 months</td></tr><tr><td style=\"white-space:nowrap\">P0W--P13W<a name=\"period-range-P0W--P13W\"> </a></td><td>&lt;=13 Weeks</td><td>Age less than or equal to 13 weeks</td></tr><tr><td style=\"white-space:nowrap\">P0W--P26W<a name=\"period-range-P0W--P26W\"> </a></td><td>&lt;=26 Weeks</td><td>Age less than or equal to 26 weeks</td></tr><tr><td style=\"white-space:nowrap\">P0DT0H--P2DT0H<a name=\"period-range-P0DT0H--P2DT0H\"> </a></td><td>Within 48 Hours</td><td>Age greater or equal to 0 hours and less than 48 hours</td></tr><tr><td style=\"white-space:nowrap\">P2DT0H--P1Y<a name=\"period-range-P2DT0H--P1Y\"> </a></td><td>48 Hours to 1 Year</td><td>Age greater or equal to 48 hours and less than 1 year</td></tr><tr><td style=\"white-space:nowrap\">P0D--P1D<a name=\"period-range-P0D--P1D\"> </a></td><td>Within 24 Hours of Birth</td><td>Age from birth up to less than 24 hours</td></tr><tr><td style=\"white-space:nowrap\">P0D--P3D<a name=\"period-range-P0D--P3D\"> </a></td><td>Within 3 Days Postpartum</td><td>Age from birth up to less than 3 days postpartum</td></tr><tr><td style=\"white-space:nowrap\">P7D--P14D<a name=\"period-range-P7D--P14D\"> </a></td><td>7 to 14 Days Postpartum</td><td>Age greater or equal to 7 days and less than 14 days postpartum</td></tr><tr><td style=\"white-space:nowrap\">P0D--P42D<a name=\"period-range-P0D--P42D\"> </a></td><td>Within 42 Days Postpartum</td><td>Age from birth up to less than 42 days postpartum</td></tr><tr><td style=\"white-space:nowrap\">P2DT1H--P42D<a name=\"period-range-P2DT1H--P42D\"> </a></td><td>49 Hours to 42 Days Postpartum</td><td>Age greater or equal to 49 hours and less than 42 days postpartum</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>np</b></td></tr><tr><td>P0M--P24M</td><td>0-23 Months</td><td>०-२३ महिना</td></tr><tr><td>P24M--P60M</td><td>24-59 Months</td><td>२४ देखि ५९ महिना</td></tr><tr><td>P28D</td><td>Within 28 Days</td><td>२८ दिन भित्र</td></tr><tr><td>P1M</td><td>1 Month</td><td>१ महिना</td></tr><tr><td>P2M</td><td>2 Months</td><td>२ महिना</td></tr><tr><td>P3M</td><td>3 Months</td><td>३ महिना</td></tr><tr><td>P4M</td><td>4 Months</td><td>४ महिना</td></tr><tr><td>P5M</td><td>5 Months</td><td>५ महिना</td></tr><tr><td>P6M</td><td>6 Months</td><td>६ महिना</td></tr><tr><td>P7M</td><td>7 Months</td><td>७ महिना</td></tr><tr><td>P8M</td><td>8 Months</td><td>८ महिना</td></tr><tr><td>P9M</td><td>9 Months</td><td>९ महिना</td></tr><tr><td>P10M</td><td>10 Months</td><td>१० महिना</td></tr><tr><td>P11M</td><td>11 Months</td><td>११ महिना</td></tr><tr><td>P12M</td><td>12 Months</td><td>१२ महिना</td></tr><tr><td>P13M</td><td>13 Months</td><td>१३ महिना</td></tr><tr><td>P14M</td><td>14 Months</td><td>१४ महिना</td></tr><tr><td>P15M</td><td>15 Months</td><td>१५ महिना</td></tr><tr><td>P16M</td><td>16 Months</td><td>१६ महिना</td></tr><tr><td>P17M</td><td>17 Months</td><td>१७ महिना</td></tr><tr><td>P18M</td><td>18 Months</td><td>१८ महिना</td></tr><tr><td>P19M</td><td>19 Months</td><td>१९ महिना</td></tr><tr><td>P20M</td><td>20 Months</td><td>२० महिना</td></tr><tr><td>P21M</td><td>21 Months</td><td>२१ महिना</td></tr><tr><td>P22M</td><td>22 Months</td><td>२२ महिना</td></tr><tr><td>P23M</td><td>23 Months</td><td>२३ महिना</td></tr><tr><td>P6M--P12M</td><td>6-11 Months</td><td>६ देखि ११ महिना</td></tr><tr><td>P12M--P18M</td><td>12-17 Months</td><td>१२ देखि १७ महिना</td></tr><tr><td>P18M--P24M</td><td>18-23 Months</td><td>१८ देखि २३ महिना</td></tr><tr><td>P0W--P13W</td><td>Up to 13 Weeks</td><td>१३ हप्ता सम्म</td></tr><tr><td>P0W--P26W</td><td>Up to 26 Weeks</td><td>२६ हप्ता सम्म</td></tr><tr><td>P0DT0H--P2DT0H</td><td>Within 48 Hours</td><td>४८ घण्टा भित्र</td></tr><tr><td>P2DT0H--P1Y</td><td>48 Hours to 1 Year</td><td>४८ घण्टा देखि १ वर्ष</td></tr><tr><td>P0D--P1D</td><td>Within 24 Hours of Birth</td><td>जन्मेको २४ घण्टामा</td></tr><tr><td>P0D--P3D</td><td>Within 3 Days Postpartum</td><td>सुत्केरीको ३ दिनमा</td></tr><tr><td>P7D--P14D</td><td>7 to 14 Days Postpartum</td><td>सुत्केरी ७ देखि १४ दिन भित्र</td></tr><tr><td>P0D--P42D</td><td>Within 42 Days Postpartum</td><td>सुत्केरीको ४२ दिनमा</td></tr><tr><td>P2DT1H--P42D</td><td>49 Hours to 42 Days Postpartum</td><td>सुत्केरी भएको ४९ घण्टा देखि ४२ दिन भित्र</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://hl7.hmis.gov.np/CodeSystem/period-range"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
+  fhir:name [ fhir:v "PeriodRangeCS"] ; # 
+  fhir:title [ fhir:v "Period Range"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-08-10T13:33:39+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://hmis.gov.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "it@hmis.gov.np" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "HMIS period ranges codes based on IHE ADX Range Coding System. \nReference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78\n\nDurations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:\n\nP is the duration designator (for period) placed at the start of the duration representation.\nY is the year designator that follows the value for the number of years.\nM is the month designator that follows the value for the number of months.\nW is the week designator that follows the value for the number of weeks.\nD is the day designator that follows the value for the number of days.\nT is the time designator that precedes the time components of the representation.\nH is the hour designator that follows the value for the number of hours.\nM is the minute designator that follows the value for the number of minutes.\nS is the second designator that follows the value for the number of seconds."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "38"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "P0M--P24M" ] ;
+     fhir:display [ fhir:v "0-23 Months" ] ;
+     fhir:definition [ fhir:v "An age greater or equal to 0 and less than 24 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "0-23 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "०-२३ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P24M--P60M" ] ;
+     fhir:display [ fhir:v "24-59 Months" ] ;
+     fhir:definition [ fhir:v "An age greater or equal to 24 and less than 60 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "24-59 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२४ देखि ५९ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P28D" ] ;
+     fhir:display [ fhir:v "Within 28 Days" ] ;
+     fhir:definition [ fhir:v "Age less than or equal to 28 days" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Within 28 Days" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२८ दिन भित्र" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P1M" ] ;
+     fhir:display [ fhir:v "1 Month" ] ;
+     fhir:definition [ fhir:v "Age equal to 1 month" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "1 Month" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P2M" ] ;
+     fhir:display [ fhir:v "2 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 2 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "2 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P3M" ] ;
+     fhir:display [ fhir:v "3 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 3 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "3 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "३ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P4M" ] ;
+     fhir:display [ fhir:v "4 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 4 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "4 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "४ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P5M" ] ;
+     fhir:display [ fhir:v "5 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 5 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "5 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "५ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P6M" ] ;
+     fhir:display [ fhir:v "6 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 6 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "6 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "६ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P7M" ] ;
+     fhir:display [ fhir:v "7 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 7 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "7 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "७ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P8M" ] ;
+     fhir:display [ fhir:v "8 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 8 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "8 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "८ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P9M" ] ;
+     fhir:display [ fhir:v "9 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 9 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "9 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "९ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P10M" ] ;
+     fhir:display [ fhir:v "10 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 10 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "10 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१० महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P11M" ] ;
+     fhir:display [ fhir:v "11 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 11 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "11 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "११ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P12M" ] ;
+     fhir:display [ fhir:v "12 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 12 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "12 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१२ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P13M" ] ;
+     fhir:display [ fhir:v "13 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 13 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "13 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१३ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P14M" ] ;
+     fhir:display [ fhir:v "14 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 14 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "14 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१४ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P15M" ] ;
+     fhir:display [ fhir:v "15 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 15 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "15 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१५ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P16M" ] ;
+     fhir:display [ fhir:v "16 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 16 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "16 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१६ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P17M" ] ;
+     fhir:display [ fhir:v "17 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 17 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "17 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१७ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P18M" ] ;
+     fhir:display [ fhir:v "18 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 18 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "18 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१८ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P19M" ] ;
+     fhir:display [ fhir:v "19 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 19 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "19 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१९ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P20M" ] ;
+     fhir:display [ fhir:v "20 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 20 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "20 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२० महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P21M" ] ;
+     fhir:display [ fhir:v "21 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 21 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "21 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२१ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P22M" ] ;
+     fhir:display [ fhir:v "22 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 22 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "22 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२२ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P23M" ] ;
+     fhir:display [ fhir:v "23 Months" ] ;
+     fhir:definition [ fhir:v "Age equal to 23 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "23 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२३ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P6M--P12M" ] ;
+     fhir:display [ fhir:v "6-11 Months" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 6 months and less than 12 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "6-11 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "६ देखि ११ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P12M--P18M" ] ;
+     fhir:display [ fhir:v "12-17 Months" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 12 months and less than 18 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "12-17 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१२ देखि १७ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P18M--P24M" ] ;
+     fhir:display [ fhir:v "18-23 Months" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 18 months and less than 24 months" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "18-23 Months" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१८ देखि २३ महिना" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0W--P13W" ] ;
+     fhir:display [ fhir:v "<=13 Weeks" ] ;
+     fhir:definition [ fhir:v "Age less than or equal to 13 weeks" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Up to 13 Weeks" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "१३ हप्ता सम्म" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0W--P26W" ] ;
+     fhir:display [ fhir:v "<=26 Weeks" ] ;
+     fhir:definition [ fhir:v "Age less than or equal to 26 weeks" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Up to 26 Weeks" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "२६ हप्ता सम्म" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0DT0H--P2DT0H" ] ;
+     fhir:display [ fhir:v "Within 48 Hours" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 0 hours and less than 48 hours" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Within 48 Hours" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "४८ घण्टा भित्र" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P2DT0H--P1Y" ] ;
+     fhir:display [ fhir:v "48 Hours to 1 Year" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 48 hours and less than 1 year" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "48 Hours to 1 Year" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "४८ घण्टा देखि १ वर्ष" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0D--P1D" ] ;
+     fhir:display [ fhir:v "Within 24 Hours of Birth" ] ;
+     fhir:definition [ fhir:v "Age from birth up to less than 24 hours" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Within 24 Hours of Birth" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "जन्मेको २४ घण्टामा" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0D--P3D" ] ;
+     fhir:display [ fhir:v "Within 3 Days Postpartum" ] ;
+     fhir:definition [ fhir:v "Age from birth up to less than 3 days postpartum" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Within 3 Days Postpartum" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "सुत्केरीको ३ दिनमा" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P7D--P14D" ] ;
+     fhir:display [ fhir:v "7 to 14 Days Postpartum" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 7 days and less than 14 days postpartum" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "7 to 14 Days Postpartum" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "सुत्केरी ७ देखि १४ दिन भित्र" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P0D--P42D" ] ;
+     fhir:display [ fhir:v "Within 42 Days Postpartum" ] ;
+     fhir:definition [ fhir:v "Age from birth up to less than 42 days postpartum" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Within 42 Days Postpartum" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "सुत्केरीको ४२ दिनमा" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P2DT1H--P42D" ] ;
+     fhir:display [ fhir:v "49 Hours to 42 Days Postpartum" ] ;
+     fhir:definition [ fhir:v "Age greater or equal to 49 hours and less than 42 days postpartum" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "49 Hours to 42 Days Postpartum" ]
+     ] [
+       fhir:language [ fhir:v "np" ] ;
+       fhir:value [ fhir:v "सुत्केरी भएको ४९ घण्टा देखि ४२ दिन भित्र" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

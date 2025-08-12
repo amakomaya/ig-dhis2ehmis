@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/Patient/PatientExample> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientExample"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient PatientExample</b></p><a name=\"PatientExample\"> </a><a name=\"hcPatientExample\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Sandesh Shrestha  Male, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:sandesh@hmis.com.np\">sandesh@hmis.com.np</a></li><li>Ward No. 12, Baneshwor Tole Kathmandu District Kathmandu Metropolitan City NP </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension to capture जाति कोड (ethnicity) based on Nepali classification\"><a href=\"StructureDefinition-ethnic-code.html\">Ethnic Code</a></td><td colspan=\"3\"><a href=\"CodeSystem-ethnic-code.html#ethnic-code-2\">Ethnic Code 2</a>: Janajati</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding ;
+       fhir:system [ fhir:v "https://hl7.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "Janajati" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ]
+       ] ) ;
+       fhir:text [ fhir:v "National ID" ]
+     ] ;
+     fhir:value [ fhir:v "1234567890" ]
+  ] [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ]
+       ] ) ;
+       fhir:text [ fhir:v "Health ID" ]
+     ] ;
+     fhir:value [ fhir:v "1234567890" ]
+  ] [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:type [
+       fhir:text [ fhir:v "Person System ID" ]
+     ] ;
+     fhir:value [ fhir:v "SYS-001234" ]
+  ] [
+     fhir:use [ fhir:v "secondary" ] ;
+     fhir:type [
+       fhir:text [ fhir:v "Custom Identifier" ]
+     ] ;
+     fhir:value [ fhir:v "MD-98765" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Shrestha" ] ;
+     fhir:given ( [ fhir:v "Sandesh" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+9779801234567" ] ;
+     fhir:use [ fhir:v "mobile" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "sandesh@hmis.com.np" ] ;
+     fhir:use [ fhir:v "home" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "2001-05-15"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Ward No. 12, Baneshwor Tole" ] [ fhir:v "Kathmandu District" ] ) ;
+     fhir:city [ fhir:v "Kathmandu Metropolitan City" ] ;
+     fhir:country [ fhir:v "NP" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

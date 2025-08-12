@@ -1,0 +1,102 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "free-service-eligibility"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem free-service-eligibility</b></p><a name=\"free-service-eligibility\"> </a><a name=\"hcfree-service-eligibility\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style=\"white-space:nowrap\">poor<a name=\"free-service-eligibility-poor\"> </a></td><td>Extremely Poor / Poor</td><td>अति गरिव/गरिव</td></tr><tr><td style=\"white-space:nowrap\">helpless<a name=\"free-service-eligibility-helpless\"> </a></td><td>Helpless</td><td>असहाय</td></tr><tr><td style=\"white-space:nowrap\">disabled<a name=\"free-service-eligibility-disabled\"> </a></td><td>Person with Disability</td><td>अपांग</td></tr><tr><td style=\"white-space:nowrap\">senior<a name=\"free-service-eligibility-senior\"> </a></td><td>Senior Citizen</td><td>जेष्ठ नागरिक</td></tr><tr><td style=\"white-space:nowrap\">female-health-volunteer<a name=\"free-service-eligibility-female-health-volunteer\"> </a></td><td>Female Community Health Volunteer</td><td>म.स्वा.स्व.से.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"free-service-eligibility-other\"> </a></td><td>Other</td><td>अन्य</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
+  fhir:name [ fhir:v "FreeServiceEligibilityCS"] ; # 
+  fhir:title [ fhir:v "Free Service Eligibility"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-08-10T13:33:39+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://hmis.gov.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "it@hmis.gov.np" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "poor" ] ;
+     fhir:display [ fhir:v "Extremely Poor / Poor" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "अति गरिव/गरिव" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "helpless" ] ;
+     fhir:display [ fhir:v "Helpless" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "असहाय" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "disabled" ] ;
+     fhir:display [ fhir:v "Person with Disability" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "अपांग" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "senior" ] ;
+     fhir:display [ fhir:v "Senior Citizen" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "जेष्ठ नागरिक" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "female-health-volunteer" ] ;
+     fhir:display [ fhir:v "Female Community Health Volunteer" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "म.स्वा.स्व.से." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "ne" ] ;
+       fhir:value [ fhir:v "अन्य" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
