@@ -81,42 +81,12 @@ This Implementation Guide has been developed and maintained as part of the **Int
       <td>Computer Engineer, Editor</td>
       <td>Prabin Chauhan</td>
       <td>IHIMS</td>
-      <td>[email/phone]</td>
-    </tr>
-    <tr>
-      <td>Public Health Officer, Subject Matter Expert (SME)</td>
-      <td>Basanta Gaire</td>
-      <td>Government of Nepal (GoN)</td>
-      <td>[email/phone]</td>
-    </tr>
-    <tr>
-      <td>Technical Lead</td>
-      <td>Rajendra Prasad Poudel</td>
-      <td>Independent</td>
-      <td>[email/phone]</td>
-    </tr>
-    <tr>
-      <td>Digital Health Specialist</td>
-      <td>Padam Dahal</td>
-      <td>GIZ</td>
-      <td>[email/phone]</td>
-    </tr>
-    <tr>
-      <td>Advisor</td>
-      <td>Nirmal Dhakal</td>
-      <td>GIZ</td>
-      <td>[email/phone]</td>
-    </tr>
-    <tr>
-      <td>Section Head</td>
-      <td>Ritu Pantha</td>
-      <td>IHIMS</td>
-      <td>[email/phone]</td>
+      <td>it@hmis.gov.np</td>
     </tr>
   </tbody>
 </table>
 #### Supporting Organizations:
-- GIZ – Support to the Health Sector Programme  
+- IHIMS  
 - Amakomaya Nepal
 
 ---
