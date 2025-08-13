@@ -102,6 +102,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/encounter-anc-visit"
+      },
+      "name" : "ANC Visit - Pregnant Woman",
+      "description" : "An antenatal care visit for a pregnant woman.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -230,6 +242,162 @@
       "name" : "Free Service Eligibility",
       "description" : "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-bcg"
+      },
+      "name" : "Immunization Record - BCG",
+      "description" : "An example of an immunization resource for BCG vaccine.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-dpt"
+      },
+      "name" : "Immunization Record - DPT",
+      "description" : "An example of an immunization resource for Diphtheria, Pertussis, and Tetanus (DPT) vaccine.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-fipv"
+      },
+      "name" : "Immunization Record - Fractional Injectable Polio Vaccine (fIPV)",
+      "description" : "Example immunization resource for fractional IPV, given intradermally at 14 weeks and 9 months (2 doses).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-hpv"
+      },
+      "name" : "Immunization Record - HPV Vaccine",
+      "description" : "Example immunization resource for Human Papillomavirus vaccine, given intramuscularly to adolescent girls in grades 6-10 and out-of-school girls aged 10+.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-je"
+      },
+      "name" : "Immunization Record - Japanese Encephalitis Vaccine",
+      "description" : "Example immunization resource for Japanese Encephalitis vaccine, given subcutaneously at 12 months.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-mr"
+      },
+      "name" : "Immunization Record - Measles-Rubella Vaccine",
+      "description" : "Example immunization resource for Measles-Rubella vaccine, given subcutaneously at 9 and 15 months.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-opv"
+      },
+      "name" : "Immunization Record - OPV",
+      "description" : "An example of an immunization resource for Oral Polio Vaccine (OPV).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-pcv"
+      },
+      "name" : "Immunization Record - PCV",
+      "description" : "An example of an immunization resource for Pneumococcal Conjugate Vaccine (PCV).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-penta"
+      },
+      "name" : "Immunization Record - Pentavalent Vaccine",
+      "description" : "An example of an immunization resource for the Pentavalent vaccine (DPT-HepB-Hib).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-polio"
+      },
+      "name" : "Immunization Record - Polio",
+      "description" : "An example of an immunization resource for Poliomyelitis vaccine (IPV/OPV).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-rota"
+      },
+      "name" : "Immunization Record - Rotavirus",
+      "description" : "An example of an immunization resource for Rotavirus vaccine.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-td"
+      },
+      "name" : "Immunization Record - Td",
+      "description" : "An example of an immunization resource for Tetanus and Diphtheria (Td) vaccine.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Immunization"
+      }],
+      "reference" : {
+        "reference" : "Immunization/immunization-typhoid"
+      },
+      "name" : "Immunization Record - Typhoid Vaccine",
+      "description" : "Example immunization resource for Typhoid vaccine, given intramuscularly at 15 months.",
+      "isExample" : true
     },
     {
       "extension" : [{
@@ -446,6 +614,18 @@
       "name" : "Service Type",
       "description" : "Service Type",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/observation-child-weight"
+      },
+      "name" : "Weight Measurement for Child",
+      "description" : "An example observation recording the weight of a child.",
+      "isExample" : true
     },
     {
       "extension" : [{

@@ -128,6 +128,21 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Encounter/encounter-anc-visit> ;
+         fhir:reference [ fhir:v "Encounter/encounter-anc-visit" ]
+       ] ;
+       fhir:name [ fhir:v "ANC Visit - Pregnant Woman" ] ;
+       fhir:description [ fhir:v "An antenatal care visit for a pregnant woman." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -288,6 +303,201 @@
        fhir:name [ fhir:v "Free Service Eligibility" ] ;
        fhir:description [ fhir:v "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)" ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-bcg> ;
+         fhir:reference [ fhir:v "Immunization/immunization-bcg" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - BCG" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for BCG vaccine." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-dpt> ;
+         fhir:reference [ fhir:v "Immunization/immunization-dpt" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - DPT" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Diphtheria, Pertussis, and Tetanus (DPT) vaccine." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-fipv> ;
+         fhir:reference [ fhir:v "Immunization/immunization-fipv" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Fractional Injectable Polio Vaccine (fIPV)" ] ;
+       fhir:description [ fhir:v "Example immunization resource for fractional IPV, given intradermally at 14 weeks and 9 months (2 doses)." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-hpv> ;
+         fhir:reference [ fhir:v "Immunization/immunization-hpv" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - HPV Vaccine" ] ;
+       fhir:description [ fhir:v "Example immunization resource for Human Papillomavirus vaccine, given intramuscularly to adolescent girls in grades 6-10 and out-of-school girls aged 10+." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-je> ;
+         fhir:reference [ fhir:v "Immunization/immunization-je" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Japanese Encephalitis Vaccine" ] ;
+       fhir:description [ fhir:v "Example immunization resource for Japanese Encephalitis vaccine, given subcutaneously at 12 months." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-mr> ;
+         fhir:reference [ fhir:v "Immunization/immunization-mr" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Measles-Rubella Vaccine" ] ;
+       fhir:description [ fhir:v "Example immunization resource for Measles-Rubella vaccine, given subcutaneously at 9 and 15 months." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-opv> ;
+         fhir:reference [ fhir:v "Immunization/immunization-opv" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - OPV" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Oral Polio Vaccine (OPV)." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-pcv> ;
+         fhir:reference [ fhir:v "Immunization/immunization-pcv" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - PCV" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Pneumococcal Conjugate Vaccine (PCV)." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-penta> ;
+         fhir:reference [ fhir:v "Immunization/immunization-penta" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Pentavalent Vaccine" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for the Pentavalent vaccine (DPT-HepB-Hib)." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-polio> ;
+         fhir:reference [ fhir:v "Immunization/immunization-polio" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Polio" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Poliomyelitis vaccine (IPV/OPV)." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-rota> ;
+         fhir:reference [ fhir:v "Immunization/immunization-rota" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Rotavirus" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Rotavirus vaccine." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-td> ;
+         fhir:reference [ fhir:v "Immunization/immunization-td" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Td" ] ;
+       fhir:description [ fhir:v "An example of an immunization resource for Tetanus and Diphtheria (Td) vaccine." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Immunization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-typhoid> ;
+         fhir:reference [ fhir:v "Immunization/immunization-typhoid" ]
+       ] ;
+       fhir:name [ fhir:v "Immunization Record - Typhoid Vaccine" ] ;
+       fhir:description [ fhir:v "Example immunization resource for Typhoid vaccine, given intramuscularly at 15 months." ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -561,6 +771,21 @@
        fhir:name [ fhir:v "Service Type" ] ;
        fhir:description [ fhir:v "Service Type" ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Observation/observation-child-weight> ;
+         fhir:reference [ fhir:v "Observation/observation-child-weight" ]
+       ] ;
+       fhir:name [ fhir:v "Weight Measurement for Child" ] ;
+       fhir:description [ fhir:v "An example observation recording the weight of a child." ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

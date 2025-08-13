@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunization-bcg"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-bcg</b></p><a name="immunization-bcg"> </a><a name="hcimmunization-bcg"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 390840006}">BCG Vaccine</span></p><p><b>lotNumber</b>: BCG2021A</p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/bcg-admin-1">Encounter/bcg-admin-1</a></p><p><b>occurrence</b>: 2025-08-01 09:57:34+0000</p><p><b>primarySource</b>: true</p><p><b>location</b>: <a href="Location/clinic-abc">Location/clinic-abc</a></p><p><b>site</b>: <span title="Codes:{http://snomed.info/sct 368209003}">Right upper arm</span></p></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="390840006"/>
+      <display value="Bacillus Calmette-Guérin vaccine"/>
+    </coding>
+    <text value="BCG Vaccine"/>
+  </vaccineCode>
+  <lotNumber value="BCG2021A"/>
+  <patient>
+    <reference value="Patient/example"/>
+  </patient>
+  <encounter>
+    <reference value="Encounter/bcg-admin-1"/>
+  </encounter>
+  <occurrenceDateTime value="2025-08-01T09:57:34.2112Z"/>
+  <primarySource value="true"/>
+  <location>
+    <reference value="Location/clinic-abc"/>
+  </location>
+  <site>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="368209003"/>
+      <display value="Structure of right upper arm"/>
+    </coding>
+    <text value="Right upper arm"/>
+  </site>
+</Immunization>

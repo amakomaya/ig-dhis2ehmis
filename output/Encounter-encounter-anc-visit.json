@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Encounter",
+  "id" : "encounter-anc-visit",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name=\"encounter-anc-visit\"> </a><a name=\"hcencounter-anc-visit\"> </a><p><b>status</b>: Completed</p><p><b>class</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}\">Ambulatory</span></p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 4241000179101}\">Antenatal care visit</span></p><p><b>subject</b>: <a href=\"Patient/pregnant-woman-1\">Patient/pregnant-woman-1</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location/clinic-abc\">Location/clinic-abc</a></td></tr></table></div>"
+  },
+  "status" : "completed",
+  "class" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code" : "AMB",
+      "display" : "Ambulatory"
+    }]
+  }],
+  "type" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "4241000179101",
+      "display" : "Antenatal care visit"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/pregnant-woman-1"
+  },
+  "location" : [{
+    "location" : {
+      "reference" : "Location/clinic-abc"
+    }
+  }]
+}

@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/Encounter/encounter-anc-visit> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "encounter-anc-visit"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name=\"encounter-anc-visit\"> </a><a name=\"hcencounter-anc-visit\"> </a><p><b>status</b>: Completed</p><p><b>class</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}\">Ambulatory</span></p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 4241000179101}\">Antenatal care visit</span></p><p><b>subject</b>: <a href=\"Patient/pregnant-woman-1\">Patient/pregnant-woman-1</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location/clinic-abc\">Location/clinic-abc</a></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:class ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "AMB" ] ;
+       fhir:display [ fhir:v "Ambulatory" ]
+     ] )
+  ] ) ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       a sct:4241000179101 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "4241000179101" ] ;
+       fhir:display [ fhir:v "Antenatal care visit" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <https://hl7.hmis.gov.np/Patient/pregnant-woman-1> ;
+     fhir:reference [ fhir:v "Patient/pregnant-woman-1" ]
+  ] ; # 
+  fhir:location ( [
+     fhir:location [
+       fhir:link <https://hl7.hmis.gov.np/Location/clinic-abc> ;
+       fhir:reference [ fhir:v "Location/clinic-abc" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

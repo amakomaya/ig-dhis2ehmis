@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunization-je"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-je</b></p><a name="immunization-je"> </a><a name="hcimmunization-je"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 416471000124102}">Japanese Encephalitis Vaccine</span></p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/je-admin-1">Encounter/je-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="416471000124102"/>
+      <display value="Japanese encephalitis vaccine"/>
+    </coding>
+    <text value="Japanese Encephalitis Vaccine"/>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/example"/>
+  </patient>
+  <encounter>
+    <reference value="Encounter/je-admin-1"/>
+  </encounter>
+  <occurrenceDateTime value="2025-08-01"/>
+  <primarySource value="true"/>
+</Immunization>

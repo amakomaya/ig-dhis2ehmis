@@ -1,10 +1,10 @@
 NPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 202, warn = 52, info = 58
+err = 291, warn = 53, info = 72
 IG Publisher Version: 2.0.13
-Generated Tue Aug 12 23:26:05 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = https://hl7.hmis.gov.np)
- Build Errors : 246 / 240 / 0
+Generated Wed Aug 13 23:09:04 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = https://hl7.hmis.gov.np)
+ Build Errors : 358 / 315 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 18 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-cost : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-service-eligibility : 1 / 2 / 2
@@ -12,10 +12,25 @@ Generated Tue Aug 12 23:26:05 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-period-range : 114 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no : 2 / 2 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Encounter-encounter-anc-visit : 5 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 8 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-dpt : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-fipv : 5 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-hpv : 5 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-je : 5 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-mr : 5 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-opv : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-pcv : 7 / 0 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-penta : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-polio : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-rota : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-td : 7 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-typhoid : 5 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis : 0 / 1 / 17
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Location-ExampleLocation : 2 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID : 0 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID : 0 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Observation-observation-child-weight : 2 / 1 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-PatientExample : 5 / 2 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-encounter-ehmis : 1 / 5 / 3
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-ethnic-code : 1 / 1 / 2
@@ -128,6 +143,182 @@ WARNING: CodeSystem-yes-no.ttl.html#/html/body/div/div/div/a at Line 127, column
 ERROR: CodeSystem-yes-no.ttl.html#/html/body/div/div/div/p/span/a at Line 351, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: CodeSystem-yes-no.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-yes-no.xml.html#/html/body/div/div/div/p/span/a at Line 358, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Encounter-encounter-anc-visit.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-anc-visit.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Encounter-encounter-anc-visit.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 387: The link 'Patient/pregnant-woman-1' for "Patient/pregnant-woman-1" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 227, column 597: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/p/span/a at Line 299, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Encounter-encounter-anc-visit.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-anc-visit.ttl.html#/html/body/div/div/div/p/span/a at Line 299, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at Line 289, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-bcg.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 295: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 365: The link 'Encounter/bcg-admin-1' for "Encounter/bcg-admin-1" cannot be resolved
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 529: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-bcg.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 299, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/p/span/a at Line 310, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-dpt.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-dpt.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-dpt.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 261: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 331: The link 'Encounter/dpt-admin-1' for "Encounter/dpt-admin-1" cannot be resolved
+ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 481: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-dpt.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-dpt.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-fipv.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-fipv.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-fipv.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 274: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 344: The link 'Encounter/fipv-admin-1' for "Encounter/fipv-admin-1" cannot be resolved
+ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-fipv.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-fipv.json.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/p/span/a at Line 298, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-fipv.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-fipv.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-hpv.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-hpv.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-hpv.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 261: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 331: The link 'Encounter/hpv-admin-1' for "Encounter/hpv-admin-1" cannot be resolved
+ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-hpv.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-hpv.json.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/p/span/a at Line 298, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-hpv.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-hpv.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-je.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-je.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-je.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-je.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 284: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-je.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 354: The link 'Encounter/je-admin-1' for "Encounter/je-admin-1" cannot be resolved
+ERROR: Immunization-immunization-je.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-je.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-je.json.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-je.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-je.ttl.html#/html/body/div/div/div/p/span/a at Line 298, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-je.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-je.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-mr.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-mr.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-mr.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 271: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 341: The link 'Encounter/mr-admin-1' for "Encounter/mr-admin-1" cannot be resolved
+ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-mr.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-mr.json.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/p/span/a at Line 298, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-mr.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-mr.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-opv.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-opv.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-opv.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 275: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 345: The link 'Encounter/opv-admin-1' for "Encounter/opv-admin-1" cannot be resolved
+ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 495: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-opv.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-opv.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-opv.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-opv.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-pcv.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-pcv.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-pcv.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 261: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 331: The link 'Encounter/pcv-admin-1' for "Encounter/pcv-admin-1" cannot be resolved
+ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 481: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-pcv.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-pcv.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-penta.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-penta.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-penta.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 289: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 359: The link 'Encounter/penta-admin-1' for "Encounter/penta-admin-1" cannot be resolved
+ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 513: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-penta.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-penta.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-penta.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-penta.xml.html#/html/body/div/div/div/p/span/a at Line 287, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-polio.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-polio.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-polio.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 280: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 350: The link 'Encounter/polio-admin-1' for "Encounter/polio-admin-1" cannot be resolved
+ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 504: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-polio.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-polio.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-polio.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-polio.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-rota.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-rota.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-rota.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 269: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 339: The link 'Encounter/rota-admin-1' for "Encounter/rota-admin-1" cannot be resolved
+ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 491: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-rota.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-rota.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-rota.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-rota.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-td.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-td.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-td.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 259: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 329: The link 'Encounter/td-admin-1' for "Encounter/td-admin-1" cannot be resolved
+ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 491: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-td.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-td.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-td.json.html#/html/body/div/div/div/p/span/a at Line 288, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-td.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-td.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-td.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-td.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-typhoid.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-typhoid.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-typhoid.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 274: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 344: The link 'Encounter/typhoid-admin-1' for "Encounter/typhoid-admin-1" cannot be resolved
+ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 298, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: Location-ExampleLocation.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Location-ExampleLocation.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: Location-ExampleLocation.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -163,6 +354,17 @@ WARNING: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/a at Line 127, 
 ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: NamingSystem-NationalID.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 340, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Observation-observation-child-weight.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-observation-child-weight.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Observation-observation-child-weight.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-observation-child-weight.html#/html/body/div/div/div/div/div/div/p/a at Line 227, column 401: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: Observation-observation-child-weight.html#/html/body/div/div/div/p/span/a at Line 259, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Observation-observation-child-weight.json.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-observation-child-weight.json.html#/html/body/div/div/div/p/span/a at Line 297, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Observation-observation-child-weight.ttl.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-observation-child-weight.ttl.html#/html/body/div/div/div/p/span/a at Line 306, column 113: The link 'license.html' for "License" cannot be resolved
+WARNING: Observation-observation-child-weight.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-observation-child-weight.xml.html#/html/body/div/div/div/p/span/a at Line 292, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: Patient-PatientExample.change.history.html#/html/body/div/div/div/a at Line 129, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: Patient-PatientExample.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -488,7 +690,7 @@ ERROR: ValueSet-visit-ordinal.ttl.html#/html/body/div/div/div/p/span/a at Line 3
 WARNING: ValueSet-visit-ordinal.xml.html#/html/body/div/div/div/a at Line 127, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-visit-ordinal.xml.html#/html/body/div/div/div/p/span/a at Line 342, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: artifacts.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 599, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 734, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: codesystems.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 258, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: examples.html#/html/body/div/div/div/a at Line 125, column 5: The link 'https://hl7.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -694,6 +896,121 @@ ERROR: CodeSystem/yes-no: CodeSystem: Code systems published by HL7 SHALL confor
 ERROR: CodeSystem/yes-no: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem/yes-no: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/Encounter-encounter-anc-visit.json ==
+ERROR: Encounter/encounter-anc-visit: Encounter.type[0].coding[0].display: Wrong Display Name 'Antenatal care visit' for http://snomed.info/sct#4241000179101. There are no valid display names found for language(s) 'en-US'. Default display is 'Laboratory report (record artifact)'
+ERROR: Encounter/encounter-anc-visit: Encounter.subject: Unable to resolve resource with reference 'Patient/pregnant-woman-1'
+ERROR: Encounter/encounter-anc-visit: Encounter.location[0].location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Encounter.text.div: Hyperlink 'Patient/pregnant-woman-1' at 'div/p/a' for 'Patient/pregnant-woman-1' does not resolve
+ERROR: Encounter.text.div: Hyperlink 'Location/clinic-abc' at 'div/table/tr/td/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-bcg.json ==
+INFORMATION: Immunization/immunization-bcg: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-bcg: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Bacillus Calmette-Guérin vaccine' for http://snomed.info/sct#390840006. There are no valid display names found for language(s) 'en-US'. Default display is 'Next appointment (finding)'
+ERROR: Immunization/immunization-bcg: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-bcg: Immunization.encounter: Unable to resolve resource with reference 'Encounter/bcg-admin-1'
+ERROR: Immunization/immunization-bcg: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization/immunization-bcg: Immunization.site.coding[0].display: Wrong Display Name 'Structure of right upper arm' for http://snomed.info/sct#368209003. There are no valid display names found for language(s) 'en-US'. Default display is 'Right upper arm'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/bcg-admin-1' at 'div/p/a' for 'Encounter/bcg-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-dpt.json ==
+INFORMATION: Immunization/immunization-dpt: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-dpt: Immunization.vaccineCode.coding[0].code: Unknown code '58050006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-dpt: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-dpt: Immunization.encounter: Unable to resolve resource with reference 'Encounter/dpt-admin-1'
+ERROR: Immunization/immunization-dpt: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/dpt-admin-1' at 'div/p/a' for 'Encounter/dpt-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-fipv.json ==
+INFORMATION: Immunization/immunization-fipv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-fipv: Immunization.vaccineCode.coding[0].code: Unknown code '111762006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-fipv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-fipv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/fipv-admin-1'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/fipv-admin-1' at 'div/p/a' for 'Encounter/fipv-admin-1' does not resolve
+== fsh-generated/resources/Immunization-immunization-hpv.json ==
+INFORMATION: Immunization/immunization-hpv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-hpv: Immunization.vaccineCode.coding[0].code: Unknown code '44993004' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-hpv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-hpv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/hpv-admin-1'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/hpv-admin-1' at 'div/p/a' for 'Encounter/hpv-admin-1' does not resolve
+== fsh-generated/resources/Immunization-immunization-je.json ==
+INFORMATION: Immunization/immunization-je: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-je: Immunization.vaccineCode.coding[0].code: Unknown code '416471000124102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-je: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-je: Immunization.encounter: Unable to resolve resource with reference 'Encounter/je-admin-1'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/je-admin-1' at 'div/p/a' for 'Encounter/je-admin-1' does not resolve
+== fsh-generated/resources/Immunization-immunization-mr.json ==
+INFORMATION: Immunization/immunization-mr: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-mr: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Measles and rubella vaccine' for http://snomed.info/sct#36989005. There are no valid display names found for language(s) 'en-US'. Default display is 'Mumps'
+ERROR: Immunization/immunization-mr: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-mr: Immunization.encounter: Unable to resolve resource with reference 'Encounter/mr-admin-1'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/mr-admin-1' at 'div/p/a' for 'Encounter/mr-admin-1' does not resolve
+== fsh-generated/resources/Immunization-immunization-opv.json ==
+INFORMATION: Immunization/immunization-opv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-opv: Immunization.vaccineCode.coding[0].code: Unknown code '871740003' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-opv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-opv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/opv-admin-1'
+ERROR: Immunization/immunization-opv: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/opv-admin-1' at 'div/p/a' for 'Encounter/opv-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-pcv.json ==
+INFORMATION: Immunization/immunization-pcv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-pcv: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Pneumococcal conjugate vaccine' for http://snomed.info/sct#14745005. There are no valid display names found for language(s) 'en-US'. Default display is 'Hepatitis A virus vaccine'
+INFORMATION: Immunization/immunization-pcv: Immunization.vaccineCode.coding[0].code: The code '14745005' is valid but is not active
+ERROR: Immunization/immunization-pcv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-pcv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/pcv-admin-1'
+ERROR: Immunization/immunization-pcv: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/pcv-admin-1' at 'div/p/a' for 'Encounter/pcv-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-penta.json ==
+INFORMATION: Immunization/immunization-penta: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-penta: Immunization.vaccineCode.coding[0].code: Unknown code '871738005' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-penta: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-penta: Immunization.encounter: Unable to resolve resource with reference 'Encounter/penta-admin-1'
+ERROR: Immunization/immunization-penta: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/penta-admin-1' at 'div/p/a' for 'Encounter/penta-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-polio.json ==
+INFORMATION: Immunization/immunization-polio: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-polio: Immunization.vaccineCode.coding[0].code: Unknown code '871751008' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-polio: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-polio: Immunization.encounter: Unable to resolve resource with reference 'Encounter/polio-admin-1'
+ERROR: Immunization/immunization-polio: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/polio-admin-1' at 'div/p/a' for 'Encounter/polio-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-rota.json ==
+INFORMATION: Immunization/immunization-rota: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-rota: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Rotavirus vaccine' for http://snomed.info/sct#33879002. There are no valid display names found for language(s) 'en-US'. Default display is 'Vaccination'
+ERROR: Immunization/immunization-rota: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-rota: Immunization.encounter: Unable to resolve resource with reference 'Encounter/rota-admin-1'
+ERROR: Immunization/immunization-rota: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/rota-admin-1' at 'div/p/a' for 'Encounter/rota-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-td.json ==
+INFORMATION: Immunization/immunization-td: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-td: Immunization.vaccineCode.coding[0].code: Unknown code '871737000' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-td: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-td: Immunization.encounter: Unable to resolve resource with reference 'Encounter/td-admin-1'
+ERROR: Immunization/immunization-td: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/td-admin-1' at 'div/p/a' for 'Encounter/td-admin-1' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+== fsh-generated/resources/Immunization-immunization-typhoid.json ==
+INFORMATION: Immunization/immunization-typhoid: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
+ERROR: Immunization/immunization-typhoid: Immunization.vaccineCode.coding[0].code: Unknown code '429968002' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+ERROR: Immunization/immunization-typhoid: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
+ERROR: Immunization/immunization-typhoid: Immunization.encounter: Unable to resolve resource with reference 'Encounter/typhoid-admin-1'
+ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+ERROR: Immunization.text.div: Hyperlink 'Encounter/typhoid-admin-1' at 'div/p/a' for 'Encounter/typhoid-admin-1' does not resolve
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
@@ -721,6 +1038,10 @@ WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction
 == fsh-generated/resources/NamingSystem-NationalID.json ==
 INFORMATION: NamingSystem/NationalID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/Observation-observation-child-weight.json ==
+ERROR: Observation/observation-child-weight: Observation.subject: Unable to resolve resource with reference 'Patient/example'
+WARNING: Observation/observation-child-weight: Observation: Best Practice Recommendation: In general, all observations should have a performer
+ERROR: Observation.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
 == fsh-generated/resources/Patient-PatientExample.json ==
 ERROR: Patient.extension[0]: The property extension must be an Array, not a Null (at Patient.extension[0])
 ERROR: Patient/PatientExample: Patient.extension[0]: The Extension 'https://hl7.hmis.gov.np/StructureDefinition/ethnic-code' definition allows for the types [CodeableConcept] but found type Coding

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunization-typhoid"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-typhoid</b></p><a name="immunization-typhoid"> </a><a name="hcimmunization-typhoid"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 429968002}">Typhoid Vaccine</span></p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/typhoid-admin-1">Encounter/typhoid-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="429968002"/>
+      <display value="Typhoid vaccine"/>
+    </coding>
+    <text value="Typhoid Vaccine"/>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/example"/>
+  </patient>
+  <encounter>
+    <reference value="Encounter/typhoid-admin-1"/>
+  </encounter>
+  <occurrenceDateTime value="2025-08-01"/>
+  <primarySource value="true"/>
+</Immunization>

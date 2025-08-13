@@ -97,6 +97,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/encounter-anc-visit"/>
+      </reference>
+      <name value="ANC Visit - Pregnant Woman"/>
+      <description value="An antenatal care visit for a pregnant woman."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -215,6 +226,149 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Free Service Eligibility"/>
       <description value="Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-bcg"/>
+      </reference>
+      <name value="Immunization Record - BCG"/>
+      <description value="An example of an immunization resource for BCG vaccine."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-dpt"/>
+      </reference>
+      <name value="Immunization Record - DPT"/>
+      <description value="An example of an immunization resource for Diphtheria, Pertussis, and Tetanus (DPT) vaccine."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-fipv"/>
+      </reference>
+      <name value="Immunization Record - Fractional Injectable Polio Vaccine (fIPV)"/>
+      <description value="Example immunization resource for fractional IPV, given intradermally at 14 weeks and 9 months (2 doses)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-hpv"/>
+      </reference>
+      <name value="Immunization Record - HPV Vaccine"/>
+      <description value="Example immunization resource for Human Papillomavirus vaccine, given intramuscularly to adolescent girls in grades 6-10 and out-of-school girls aged 10+."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-je"/>
+      </reference>
+      <name value="Immunization Record - Japanese Encephalitis Vaccine"/>
+      <description value="Example immunization resource for Japanese Encephalitis vaccine, given subcutaneously at 12 months."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-mr"/>
+      </reference>
+      <name value="Immunization Record - Measles-Rubella Vaccine"/>
+      <description value="Example immunization resource for Measles-Rubella vaccine, given subcutaneously at 9 and 15 months."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-opv"/>
+      </reference>
+      <name value="Immunization Record - OPV"/>
+      <description value="An example of an immunization resource for Oral Polio Vaccine (OPV)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-pcv"/>
+      </reference>
+      <name value="Immunization Record - PCV"/>
+      <description value="An example of an immunization resource for Pneumococcal Conjugate Vaccine (PCV)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-penta"/>
+      </reference>
+      <name value="Immunization Record - Pentavalent Vaccine"/>
+      <description value="An example of an immunization resource for the Pentavalent vaccine (DPT-HepB-Hib)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-polio"/>
+      </reference>
+      <name value="Immunization Record - Polio"/>
+      <description value="An example of an immunization resource for Poliomyelitis vaccine (IPV/OPV)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-rota"/>
+      </reference>
+      <name value="Immunization Record - Rotavirus"/>
+      <description value="An example of an immunization resource for Rotavirus vaccine."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-td"/>
+      </reference>
+      <name value="Immunization Record - Td"/>
+      <description value="An example of an immunization resource for Tetanus and Diphtheria (Td) vaccine."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Immunization"/>
+      </extension>
+      <reference>
+        <reference value="Immunization/immunization-typhoid"/>
+      </reference>
+      <name value="Immunization Record - Typhoid Vaccine"/>
+      <description value="Example immunization resource for Typhoid vaccine, given intramuscularly at 15 months."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -413,6 +567,17 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Service Type"/>
       <description value="Service Type"/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/observation-child-weight"/>
+      </reference>
+      <name value="Weight Measurement for Child"/>
+      <description value="An example observation recording the weight of a child."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

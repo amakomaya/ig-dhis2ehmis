@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.hmis.gov.np/Immunization/immunization-je> a fhir:Immunization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "immunization-je"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-je</b></p><a name=\"immunization-je\"> </a><a name=\"hcimmunization-je\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 416471000124102}\">Japanese Encephalitis Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/je-admin-1\">Encounter/je-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:vaccineCode [
+     fhir:coding ( [
+       a sct:416471000124102 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "416471000124102" ] ;
+       fhir:display [ fhir:v "Japanese encephalitis vaccine" ]
+     ] ) ;
+     fhir:text [ fhir:v "Japanese Encephalitis Vaccine" ]
+  ] ; # 
+  fhir:patient [
+     fhir:link <https://hl7.hmis.gov.np/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <https://hl7.hmis.gov.np/Encounter/je-admin-1> ;
+     fhir:reference [ fhir:v "Encounter/je-admin-1" ]
+  ] ; # 
+  fhir:occurrence [
+     a fhir:dateTime ;
+     fhir:v "2025-08-01"^^xsd:date
+  ] ; # 
+  fhir:primarySource [ fhir:v true] . # 
+
+# -------------------------------------------------------------------------------------
+
