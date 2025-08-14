@@ -5,12 +5,12 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet marital-status</b></p><a name=\"marital-status\"> </a><a name=\"hcmarital-status\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/473022002\">473022002</a></td><td>Unmarried</td></tr><tr><td><a href=\"http://snomed.info/id/87915002\">87915002</a></td><td>Married</td></tr><tr><td><a href=\"http://snomed.info/id/20295000\">20295000</a></td><td>Divorced</td></tr><tr><td><a href=\"http://snomed.info/id/33553000\">33553000</a></td><td>Widowed</td></tr><tr><td><a href=\"http://snomed.info/id/13184001\">13184001</a></td><td>Separated</td></tr></table></li></ul></div>"
   },
-  "url" : "https://hl7.hmis.gov.np/ValueSet/marital-status",
+  "url" : "https://fhir.hmis.gov.np/ValueSet/marital-status",
   "version" : "0.0.1-ballot",
   "name" : "MaritalStatusVS",
   "title" : "Marital Status (वैवाहिक स्थिति)",
   "status" : "active",
-  "date" : "2025-08-14T11:08:36+05:45",
+  "date" : "2025-08-14T14:11:38+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",

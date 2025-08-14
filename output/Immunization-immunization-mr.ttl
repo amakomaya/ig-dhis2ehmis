@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/Immunization/immunization-mr> a fhir:Immunization ;
+<https://fhir.hmis.gov.np/Immunization/immunization-mr> a fhir:Immunization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "immunization-mr"] ; # 
   fhir:text [
@@ -25,11 +25,11 @@
      fhir:text [ fhir:v "Measles-Rubella Vaccine" ]
   ] ; # 
   fhir:patient [
-     fhir:link <https://hl7.hmis.gov.np/Patient/example> ;
+     fhir:link <https://fhir.hmis.gov.np/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <https://hl7.hmis.gov.np/Encounter/mr-admin-1> ;
+     fhir:link <https://fhir.hmis.gov.np/Encounter/mr-admin-1> ;
      fhir:reference [ fhir:v "Encounter/mr-admin-1" ]
   ] ; # 
   fhir:occurrence [

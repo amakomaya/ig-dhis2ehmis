@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="free-service-eligibility"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem free-service-eligibility</b></p><a name="free-service-eligibility"> </a><a name="hcfree-service-eligibility"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style="white-space:nowrap">poor<a name="free-service-eligibility-poor"> </a></td><td>Extremely Poor / Poor</td><td>अति गरिव/गरिव</td></tr><tr><td style="white-space:nowrap">helpless<a name="free-service-eligibility-helpless"> </a></td><td>Helpless</td><td>असहाय</td></tr><tr><td style="white-space:nowrap">disabled<a name="free-service-eligibility-disabled"> </a></td><td>Person with Disability</td><td>अपांग</td></tr><tr><td style="white-space:nowrap">senior<a name="free-service-eligibility-senior"> </a></td><td>Senior Citizen</td><td>जेष्ठ नागरिक</td></tr><tr><td style="white-space:nowrap">female-health-volunteer<a name="free-service-eligibility-female-health-volunteer"> </a></td><td>Female Community Health Volunteer</td><td>म.स्वा.स्व.से.</td></tr><tr><td style="white-space:nowrap">other<a name="free-service-eligibility-other"> </a></td><td>Other</td><td>अन्य</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem free-service-eligibility</b></p><a name="free-service-eligibility"> </a><a name="hcfree-service-eligibility"> </a><p>This case-sensitive code system <code>https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style="white-space:nowrap">poor<a name="free-service-eligibility-poor"> </a></td><td>Extremely Poor / Poor</td><td>अति गरिव/गरिव</td></tr><tr><td style="white-space:nowrap">helpless<a name="free-service-eligibility-helpless"> </a></td><td>Helpless</td><td>असहाय</td></tr><tr><td style="white-space:nowrap">disabled<a name="free-service-eligibility-disabled"> </a></td><td>Person with Disability</td><td>अपांग</td></tr><tr><td style="white-space:nowrap">senior<a name="free-service-eligibility-senior"> </a></td><td>Senior Citizen</td><td>जेष्ठ नागरिक</td></tr><tr><td style="white-space:nowrap">female-health-volunteer<a name="free-service-eligibility-female-health-volunteer"> </a></td><td>Female Community Health Volunteer</td><td>म.स्वा.स्व.से.</td></tr><tr><td style="white-space:nowrap">other<a name="free-service-eligibility-other"> </a></td><td>Other</td><td>अन्य</td></tr></table></div>
   </text>
-  <url value="https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility"/>
+  <url value="https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility"/>
   <version value="0.0.1-ballot"/>
   <name value="FreeServiceEligibilityCS"/>
   <title value="Free Service Eligibility"/>
   <status value="active"/>
-  <date value="2025-08-14T11:08:36+05:45"/>
+  <date value="2025-08-14T14:11:38+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>

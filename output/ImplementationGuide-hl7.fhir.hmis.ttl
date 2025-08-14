@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis> a fhir:ImplementationGuide ;
+<https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hl7.fhir.hmis"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name=\"hl7.fhir.hmis\"> </a><a name=\"hchl7.fhir.hmis\"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>\n</div></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name=\"hl7.fhir.hmis\"> </a><a name=\"hchl7.fhir.hmis\"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "NPCoreImplementationGuide"] ; # 
   fhir:title [ fhir:v "Nepal HMIS FHIR Implementation Guide"] ; # 
@@ -102,7 +102,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/administrative-gender> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/administrative-gender> ;
          fhir:reference [ fhir:v "ValueSet/administrative-gender" ]
        ] ;
        fhir:name [ fhir:v "Administrative Gender" ] ;
@@ -117,7 +117,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/age-range> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/age-range> ;
          fhir:reference [ fhir:v "ValueSet/age-range" ]
        ] ;
        fhir:name [ fhir:v "Age Range" ] ;
@@ -132,7 +132,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/condition-severity> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/condition-severity> ;
          fhir:reference [ fhir:v "ValueSet/condition-severity" ]
        ] ;
        fhir:name [ fhir:v "Condition / Diagnosis Severity" ] ;
@@ -147,7 +147,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/district> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/district> ;
          fhir:reference [ fhir:v "ValueSet/district" ]
        ] ;
        fhir:name [ fhir:v "District" ] ;
@@ -162,7 +162,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/educational-level> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/educational-level> ;
          fhir:reference [ fhir:v "ValueSet/educational-level" ]
        ] ;
        fhir:name [ fhir:v "Educational Level" ] ;
@@ -177,7 +177,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/employment-status> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/employment-status> ;
          fhir:reference [ fhir:v "ValueSet/employment-status" ]
        ] ;
        fhir:name [ fhir:v "Employment (रोजगारी स्थिति)" ] ;
@@ -192,7 +192,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Encounter/encounter-anc-visit> ;
+         fhir:link <https://fhir.hmis.gov.np/Encounter/encounter-anc-visit> ;
          fhir:reference [ fhir:v "Encounter/encounter-anc-visit" ]
        ] ;
        fhir:name [ fhir:v "Encounter ANC Visit - Pregnant Woman" ] ;
@@ -207,7 +207,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/ethnic-code> ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/ethnic-code> ;
          fhir:reference [ fhir:v "StructureDefinition/ethnic-code" ]
        ] ;
        fhir:name [ fhir:v "Ethnic Code" ] ;
@@ -222,7 +222,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/ethnic-code> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/ethnic-code> ;
          fhir:reference [ fhir:v "ValueSet/ethnic-code" ]
        ] ;
        fhir:name [ fhir:v "Ethnic Code" ] ;
@@ -237,7 +237,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/ethnic-code> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/ethnic-code> ;
          fhir:reference [ fhir:v "CodeSystem/ethnic-code" ]
        ] ;
        fhir:name [ fhir:v "Ethnic Code" ] ;
@@ -252,7 +252,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/free-cost> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/free-cost> ;
          fhir:reference [ fhir:v "ValueSet/free-cost" ]
        ] ;
        fhir:name [ fhir:v "Free Cost" ] ;
@@ -267,7 +267,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/free-service-eligibility> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/free-service-eligibility> ;
          fhir:reference [ fhir:v "ValueSet/free-service-eligibility" ]
        ] ;
        fhir:name [ fhir:v "Free Service Eligibility" ] ;
@@ -282,7 +282,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility> ;
          fhir:reference [ fhir:v "CodeSystem/free-service-eligibility" ]
        ] ;
        fhir:name [ fhir:v "Free Service Eligibility" ] ;
@@ -297,7 +297,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-bcg> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-bcg> ;
          fhir:reference [ fhir:v "Immunization/immunization-bcg" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - BCG" ] ;
@@ -312,7 +312,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-dpt> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-dpt> ;
          fhir:reference [ fhir:v "Immunization/immunization-dpt" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - DPT" ] ;
@@ -327,7 +327,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-fipv> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-fipv> ;
          fhir:reference [ fhir:v "Immunization/immunization-fipv" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Fractional Injectable Polio Vaccine (fIPV)" ] ;
@@ -342,7 +342,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-hpv> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-hpv> ;
          fhir:reference [ fhir:v "Immunization/immunization-hpv" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - HPV Vaccine" ] ;
@@ -357,7 +357,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-je> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-je> ;
          fhir:reference [ fhir:v "Immunization/immunization-je" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Japanese Encephalitis Vaccine" ] ;
@@ -372,7 +372,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-mr> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-mr> ;
          fhir:reference [ fhir:v "Immunization/immunization-mr" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Measles-Rubella Vaccine" ] ;
@@ -387,7 +387,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-opv> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-opv> ;
          fhir:reference [ fhir:v "Immunization/immunization-opv" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - OPV" ] ;
@@ -402,7 +402,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-pcv> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-pcv> ;
          fhir:reference [ fhir:v "Immunization/immunization-pcv" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - PCV" ] ;
@@ -417,7 +417,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-penta> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-penta> ;
          fhir:reference [ fhir:v "Immunization/immunization-penta" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Pentavalent Vaccine" ] ;
@@ -432,7 +432,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-polio> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-polio> ;
          fhir:reference [ fhir:v "Immunization/immunization-polio" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Polio" ] ;
@@ -447,7 +447,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-rota> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-rota> ;
          fhir:reference [ fhir:v "Immunization/immunization-rota" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Rotavirus" ] ;
@@ -462,7 +462,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-td> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-td> ;
          fhir:reference [ fhir:v "Immunization/immunization-td" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Td" ] ;
@@ -477,7 +477,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Immunization/immunization-typhoid> ;
+         fhir:link <https://fhir.hmis.gov.np/Immunization/immunization-typhoid> ;
          fhir:reference [ fhir:v "Immunization/immunization-typhoid" ]
        ] ;
        fhir:name [ fhir:v "Immunization Record - Typhoid Vaccine" ] ;
@@ -492,7 +492,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/localbody> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/localbody> ;
          fhir:reference [ fhir:v "ValueSet/localbody" ]
        ] ;
        fhir:name [ fhir:v "LocalBody" ] ;
@@ -507,7 +507,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Location/ExampleLocation> ;
+         fhir:link <https://fhir.hmis.gov.np/Location/ExampleLocation> ;
          fhir:reference [ fhir:v "Location/ExampleLocation" ]
        ] ;
        fhir:name [ fhir:v "Location" ] ;
@@ -521,7 +521,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/marital-status> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/marital-status> ;
          fhir:reference [ fhir:v "ValueSet/marital-status" ]
        ] ;
        fhir:name [ fhir:v "Marital Status (वैवाहिक स्थिति)" ] ;
@@ -536,7 +536,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/NamingSystem/HealthID> ;
+         fhir:link <https://fhir.hmis.gov.np/NamingSystem/HealthID> ;
          fhir:reference [ fhir:v "NamingSystem/HealthID" ]
        ] ;
        fhir:name [ fhir:v "National Health ID" ] ;
@@ -551,7 +551,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/NamingSystem/NationalID> ;
+         fhir:link <https://fhir.hmis.gov.np/NamingSystem/NationalID> ;
          fhir:reference [ fhir:v "NamingSystem/NationalID" ]
        ] ;
        fhir:name [ fhir:v "National ID of the National" ] ;
@@ -566,7 +566,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/locations> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/locations> ;
          fhir:reference [ fhir:v "CodeSystem/locations" ]
        ] ;
        fhir:name [ fhir:v "Nepal Administrative Location Codes" ] ;
@@ -581,7 +581,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Observation/observation-child-weight> ;
+         fhir:link <https://fhir.hmis.gov.np/Observation/observation-child-weight> ;
          fhir:reference [ fhir:v "Observation/observation-child-weight" ]
        ] ;
        fhir:name [ fhir:v "Observation Weight Measurement for Child" ] ;
@@ -596,7 +596,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/option-set-yes-no> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/option-set-yes-no> ;
          fhir:reference [ fhir:v "ValueSet/option-set-yes-no" ]
        ] ;
        fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative" ] ;
@@ -611,7 +611,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Patient/PatientExample> ;
+         fhir:link <https://fhir.hmis.gov.np/Patient/PatientExample> ;
          fhir:reference [ fhir:v "Patient/PatientExample" ]
        ] ;
        fhir:name [ fhir:v "Patient" ] ;
@@ -626,7 +626,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/patient-registration-type> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/patient-registration-type> ;
          fhir:reference [ fhir:v "ValueSet/patient-registration-type" ]
        ] ;
        fhir:name [ fhir:v "Patient Registration Type" ] ;
@@ -641,7 +641,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/visit-ordinal> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/visit-ordinal> ;
          fhir:reference [ fhir:v "ValueSet/visit-ordinal" ]
        ] ;
        fhir:name [ fhir:v "Patient Visit Ordinal" ] ;
@@ -656,7 +656,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/period-range> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/period-range> ;
          fhir:reference [ fhir:v "CodeSystem/period-range" ]
        ] ;
        fhir:name [ fhir:v "Period Range" ] ;
@@ -671,7 +671,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/province> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/province> ;
          fhir:reference [ fhir:v "ValueSet/province" ]
        ] ;
        fhir:name [ fhir:v "Province" ] ;
@@ -686,7 +686,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/service-area-address> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/service-area-address> ;
          fhir:reference [ fhir:v "ValueSet/service-area-address" ]
        ] ;
        fhir:name [ fhir:v "Service Area Address Classification" ] ;
@@ -701,7 +701,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/ValueSet/service-type> ;
+         fhir:link <https://fhir.hmis.gov.np/ValueSet/service-type> ;
          fhir:reference [ fhir:v "ValueSet/service-type" ]
        ] ;
        fhir:name [ fhir:v "Service Type" ] ;
@@ -716,7 +716,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/yes-no> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/yes-no> ;
          fhir:reference [ fhir:v "CodeSystem/yes-no" ]
        ] ;
        fhir:name [ fhir:v "Yes / No CodeSystem" ] ;
@@ -731,7 +731,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/free-cost> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/free-cost> ;
          fhir:reference [ fhir:v "CodeSystem/free-cost" ]
        ] ;
        fhir:name [ fhir:v "निशुल्क/शुल्क रू" ] ;
@@ -746,7 +746,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/CodeSystem/service-type> ;
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/service-type> ;
          fhir:reference [ fhir:v "CodeSystem/service-type" ]
        ] ;
        fhir:name [ fhir:v "सेवाको किसिम कोड सिस्टम" ] ;
@@ -768,6 +768,14 @@
          ] ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "smart-index.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "smart-index.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "SMART Guidelines" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [
@@ -808,14 +816,6 @@
          ] ;
          fhir:name [ fhir:v "external_terminologies.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "External Code Systems" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:source [
-           a fhir:url ;
-           fhir:v "smart-index.html"^^xsd:anyURI
-         ] ;
-         fhir:name [ fhir:v "smart-index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "SMART Guidelines" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [

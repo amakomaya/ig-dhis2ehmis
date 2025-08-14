@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/ValueSet/administrative-gender> a fhir:ValueSet ;
+<https://fhir.hmis.gov.np/ValueSet/administrative-gender> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "administrative-gender"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "AdministrativeGenderVS"] ; # 
   fhir:title [ fhir:v "Administrative Gender"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-14T11:08:36+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-14T14:11:38+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

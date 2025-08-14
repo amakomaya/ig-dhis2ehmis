@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/Location/ExampleLocation> a fhir:Location ;
+<https://fhir.hmis.gov.np/Location/ExampleLocation> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ExampleLocation"] ; # 
   fhir:text [
@@ -28,7 +28,7 @@
      fhir:postalCode [ fhir:v "56700" ]
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <https://hl7.hmis.gov.np/Organization/example-org> ;
+     fhir:link <https://fhir.hmis.gov.np/Organization/example-org> ;
      fhir:reference [ fhir:v "Organization/example-org" ]
   ] . # 
 

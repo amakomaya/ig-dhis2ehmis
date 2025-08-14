@@ -5,13 +5,11 @@ Description: "ईलाम जिल्ला, ईलाम नगरपाल�
 
 * identifier[0].use = #official
 * identifier[0].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-// * identifier[0].type.coding[0].code = "NI"
 * identifier[0].type.text = "National ID"
 * identifier[0].value = "1234567890"
 
 * identifier[1].use = #official
 * identifier[1].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-// * identifier[1].type.coding[0].code = "HN"
 * identifier[1].type.text = "Health ID"
 * identifier[1].value = "1234567890"
 
@@ -42,9 +40,9 @@ Description: "ईलाम जिल्ला, ईलाम नगरपाल�
 * address[0].city = "Kathmandu Metropolitan City"
 * address[0].country = "NP"
 
-* extension[1].url = "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"
-* extension[1].valueCoding.system = "https://hl7.hmis.gov.np/CodeSystem/ethnic-code"
-* extension[1].valueCoding.code = #2
-* extension[1].valueCoding.display = "Janajati"
+* extension[0].url = "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"
+* extension[0].valueCoding.system = "https://hl7.hmis.gov.np/CodeSystem/ethnic-code"
+* extension[0].valueCoding.code = #2
+* extension[0].valueCoding.display = "Janajati"
 
 * active = true

@@ -3,15 +3,15 @@
   "id" : "service-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://hl7.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://fhir.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>"
   },
-  "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
+  "url" : "https://fhir.hmis.gov.np/ValueSet/service-type",
   "version" : "0.0.1-ballot",
   "name" : "ServiceTypeVS",
   "title" : "Service Type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-14T11:08:36+05:45",
+  "date" : "2025-08-14T14:11:38+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -50,7 +50,7 @@
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "https://hl7.hmis.gov.np/CodeSystem/service-type"
+      "system" : "https://fhir.hmis.gov.np/CodeSystem/service-type"
     }]
   }
 }

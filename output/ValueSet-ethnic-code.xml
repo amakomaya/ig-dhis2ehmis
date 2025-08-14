@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ethnic-code"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ethnic-code</b></p><a name="ethnic-code"> </a><a name="hcethnic-code"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ethnic-code.html"><code>https://hl7.hmis.gov.np/CodeSystem/ethnic-code</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ethnic-code</b></p><a name="ethnic-code"> </a><a name="hcethnic-code"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ethnic-code.html"><code>https://fhir.hmis.gov.np/CodeSystem/ethnic-code</code></a></li></ul></div>
   </text>
-  <url value="https://hl7.hmis.gov.np/ValueSet/ethnic-code"/>
+  <url value="https://fhir.hmis.gov.np/ValueSet/ethnic-code"/>
   <version value="0.0.1-ballot"/>
   <name value="EthnicCodeVS"/>
   <title value="Ethnic Code"/>
   <status value="active"/>
-  <date value="2025-08-14T11:08:36+05:45"/>
+  <date value="2025-08-14T14:11:38+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -49,7 +49,7 @@
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
   <compose>
     <include>
-      <system value="https://hl7.hmis.gov.np/CodeSystem/ethnic-code"/>
+      <system value="https://fhir.hmis.gov.np/CodeSystem/ethnic-code"/>
     </include>
   </compose>
 </ValueSet>

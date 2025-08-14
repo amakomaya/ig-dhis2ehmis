@@ -3,12 +3,12 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.hmis"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name="hl7.fhir.hmis"> </a><a name="hchl7.fhir.hmis"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name="hl7.fhir.hmis"> </a><a name="hchl7.fhir.hmis"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.
 This guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.
 It is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>
 </div></div>
   </text>
-  <url value="https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"/>
+  <url value="https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis"/>
   <version value="0.0.1-ballot"/>
   <name value="NPCoreImplementationGuide"/>
   <title value="Nepal HMIS FHIR Implementation Guide"/>
@@ -568,6 +568,12 @@ It is developed to support routine service delivery programs such as Maternal an
         <generation value="markdown"/>
       </page>
       <page>
+        <sourceUrl value="smart-index.html"/>
+        <name value="smart-index.html"/>
+        <title value="SMART Guidelines"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <sourceUrl value="codesystems.html"/>
         <name value="codesystems.html"/>
         <title value="Code Systems"/>
@@ -595,12 +601,6 @@ It is developed to support routine service delivery programs such as Maternal an
         <sourceUrl value="external_terminologies.html"/>
         <name value="external_terminologies.html"/>
         <title value="External Code Systems"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <sourceUrl value="smart-index.html"/>
-        <name value="smart-index.html"/>
-        <title value="SMART Guidelines"/>
         <generation value="markdown"/>
       </page>
       <page>

@@ -14,9 +14,9 @@ Description: "Codes representing marital status of a person."
 * ^compose.include[0].concept[2].display = "Divorced"
 * ^compose.include[0].concept[3].code = #33553000
 * ^compose.include[0].concept[3].display = "Widowed"
-// * ^compose.include[0].concept[4].code = #8517006
-// * ^compose.include[0].concept[4].display = "Living together"
-* ^compose.include[0].concept[5].code = #13184001
-* ^compose.include[0].concept[5].display = "Separated"
+* ^compose.include[0].concept[4].code = #13184001
+* ^compose.include[0].concept[4].display = "Separated"
+// * ^compose.include[0].concept[5].code = #8517006
+// * ^compose.include[0].concept[5].display = "Living together"
 // * ^compose.include[0].concept[6].code = #261665006
 // * ^compose.include[0].concept[6].display = "Not applicable"

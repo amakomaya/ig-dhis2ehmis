@@ -9,189 +9,189 @@
   {
     "id" : "ethnic-code",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
     "version" : "0.0.1-ballot",
     "name" : "EthnicCodeCS"
   },
   {
     "id" : "free-cost",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/free-cost",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",
     "version" : "0.0.1-ballot",
     "name" : "FreeCostCS"
   },
   {
     "id" : "free-service-eligibility",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility",
     "version" : "0.0.1-ballot",
     "name" : "FreeServiceEligibilityCS"
   },
   {
     "id" : "locations",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/locations",
     "version" : "0.0.1-ballot",
     "name" : "LocationsCS"
   },
   {
     "id" : "period-range",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/period-range",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
     "version" : "0.0.1-ballot",
     "name" : "PeriodRangeCS"
   },
   {
     "id" : "service-type",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/service-type",
     "version" : "0.0.1-ballot",
     "name" : "ServiceTypeCS"
   },
   {
     "id" : "yes-no",
     "type" : "CodeSystem",
-    "url" : "https://hl7.hmis.gov.np/CodeSystem/yes-no",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
     "version" : "0.0.1-ballot",
     "name" : "YesNoCS"
   },
   {
     "id" : "hl7.fhir.hmis",
     "type" : "ImplementationGuide",
-    "url" : "https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
+    "url" : "https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
     "version" : "0.0.1-ballot",
     "name" : "NPCoreImplementationGuide"
   },
   {
     "id" : "HealthID",
     "type" : "NamingSystem",
-    "url" : "https://hl7.hmis.gov.np/NamingSystem/HealthID",
+    "url" : "https://fhir.hmis.gov.np/NamingSystem/HealthID",
     "version" : "0.0.1-ballot",
     "name" : "HealthID"
   },
   {
     "id" : "NationalID",
     "type" : "NamingSystem",
-    "url" : "https://hl7.hmis.gov.np/NamingSystem/NationalID",
+    "url" : "https://fhir.hmis.gov.np/NamingSystem/NationalID",
     "version" : "0.0.1-ballot",
     "name" : "NationalID"
   },
   {
     "id" : "ethnic-code",
     "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/ethnic-code",
     "version" : "0.0.1-ballot",
     "name" : "EthnicCodeEx"
   },
   {
     "id" : "age-range",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/age-range",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/age-range",
     "version" : "0.0.1-ballot",
     "name" : "AgeRangeVS"
   },
   {
     "id" : "condition-severity",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/condition-severity",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/condition-severity",
     "version" : "0.0.1-ballot",
     "name" : "ConditionSeverityVS"
   },
   {
     "id" : "district",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/district",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/district",
     "version" : "0.0.1-ballot",
     "name" : "DistrictVS"
   },
   {
     "id" : "educational-level",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/educational-level",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/educational-level",
     "version" : "0.0.1-ballot",
     "name" : "EducationalLevelVS"
   },
   {
     "id" : "employment-status",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/employment-status",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/employment-status",
     "version" : "0.0.1-ballot",
     "name" : "EmploymentStatusVS"
   },
   {
     "id" : "ethnic-code",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/ethnic-code",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/ethnic-code",
     "version" : "0.0.1-ballot",
     "name" : "EthnicCodeVS"
   },
   {
     "id" : "free-cost",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/free-cost",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/free-cost",
     "version" : "0.0.1-ballot",
     "name" : "FreeCostVS"
   },
   {
     "id" : "free-service-eligibility",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/free-service-eligibility",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/free-service-eligibility",
     "version" : "0.0.1-ballot",
     "name" : "FreeServiceEligibilityVS"
   },
   {
     "id" : "localbody",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/localbody",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/localbody",
     "version" : "0.0.1-ballot",
     "name" : "LocalBodyVS"
   },
   {
     "id" : "marital-status",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/marital-status",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/marital-status",
     "version" : "0.0.1-ballot",
     "name" : "MaritalStatusVS"
   },
   {
     "id" : "option-set-yes-no",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/option-set-yes-no",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
     "version" : "0.0.1-ballot",
     "name" : "OptionSetYesNoVS"
   },
   {
     "id" : "patient-registration-type",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/patient-registration-type",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/patient-registration-type",
     "version" : "0.0.1-ballot",
     "name" : "PatientRegistrationTypeVS"
   },
   {
     "id" : "province",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/province",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/province",
     "version" : "0.0.1-ballot",
     "name" : "ProvinceVS"
   },
   {
     "id" : "service-area-address",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/service-area-address",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/service-area-address",
     "version" : "0.0.1-ballot",
     "name" : "ServiceAreaAddressVS"
   },
   {
     "id" : "service-type",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/service-type",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/service-type",
     "version" : "0.0.1-ballot",
     "name" : "ServiceTypeVS"
   },
   {
     "id" : "visit-ordinal",
     "type" : "ValueSet",
-    "url" : "https://hl7.hmis.gov.np/ValueSet/visit-ordinal",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",
     "version" : "0.0.1-ballot",
     "name" : "VisitOrdinalVS"
   }

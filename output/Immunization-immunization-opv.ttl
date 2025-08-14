@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/Immunization/immunization-opv> a fhir:Immunization ;
+<https://fhir.hmis.gov.np/Immunization/immunization-opv> a fhir:Immunization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "immunization-opv"] ; # 
   fhir:text [
@@ -25,11 +25,11 @@
      fhir:text [ fhir:v "Oral Polio Vaccine (OPV)" ]
   ] ; # 
   fhir:patient [
-     fhir:link <https://hl7.hmis.gov.np/Patient/example> ;
+     fhir:link <https://fhir.hmis.gov.np/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <https://hl7.hmis.gov.np/Encounter/opv-admin-1> ;
+     fhir:link <https://fhir.hmis.gov.np/Encounter/opv-admin-1> ;
      fhir:reference [ fhir:v "Encounter/opv-admin-1" ]
   ] ; # 
   fhir:occurrence [
@@ -38,7 +38,7 @@
   ] ; # 
   fhir:primarySource [ fhir:v true] ; # 
   fhir:location [
-     fhir:link <https://hl7.hmis.gov.np/Location/clinic-abc> ;
+     fhir:link <https://fhir.hmis.gov.np/Location/clinic-abc> ;
      fhir:reference [ fhir:v "Location/clinic-abc" ]
   ] . # 
 

@@ -49,7 +49,7 @@
       "ValueSet-educational-level.html" : "Educational Level"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "EthnicCodeCS",
@@ -60,7 +60,7 @@
       "ValueSet-ethnic-code.html" : "Ethnic Code"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-cost",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "FreeCostCS",
@@ -71,7 +71,7 @@
       "ValueSet-free-cost.html" : "Free Cost"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "FreeServiceEligibilityCS",
@@ -82,7 +82,7 @@
       "ValueSet-free-service-eligibility.html" : "Free Service Eligibility"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/locations",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "LocationsCS",
@@ -95,7 +95,7 @@
       "ValueSet-province.html" : "Province"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/period-range",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "PeriodRangeCS",
@@ -106,7 +106,7 @@
       "ValueSet-age-range.html" : "Age Range"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/service-type",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "ServiceTypeCS",
@@ -117,7 +117,7 @@
       "ValueSet-service-type.html" : "Service Type"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/yes-no",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "YesNoCS",

@@ -5,7 +5,7 @@
   "jurisdiction": "NP",
   "extensions": [
     {
-      "url": "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code",
+      "url": "https://fhir.hmis.gov.np/StructureDefinition/ethnic-code",
       "title": "Ethnic Code",
       "types": [
         "CodeableConcept"

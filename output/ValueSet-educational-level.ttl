@@ -6,20 +6,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/ValueSet/educational-level> a fhir:ValueSet ;
+<https://fhir.hmis.gov.np/ValueSet/educational-level> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "educational-level"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet educational-level</b></p><a name=\"educational-level\"> </a><a name=\"hceducational-level\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/224303000\">224303000</a></td><td>No schooling</td></tr><tr><td><a href=\"http://snomed.info/id/105421009\">105421009</a></td><td>Illiterate</td></tr><tr><td><a href=\"http://snomed.info/id/224297000\">224297000</a></td><td>Primary school education</td></tr><tr><td><a href=\"http://snomed.info/id/310172006\">310172006</a></td><td>Secondary school education</td></tr><tr><td><a href=\"http://snomed.info/id/224300002\">224300002</a></td><td>University education</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html\"><code>http://terminology.hl7.org/CodeSystem/v3-EducationLevel</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-NOED\">NOED</a></td><td>No education</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-ELEM\">ELEM</a></td><td>Elementary school</td><td>Elementary School</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-SEC\">SEC</a></td><td>Secondary school</td><td>Some secondary or high school education</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-BACH\">BACH</a></td><td>Bachelor's degree</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-MSTR\">MSTR</a></td><td>Master's degree</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-DOC\">DOC</a></td><td>Doctorate</td><td/></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/60957-0/\">60957-0</a></td><td>Highest education level attained</td></tr><tr><td><a href=\"https://loinc.org/82589-3/\">82589-3</a></td><td>Highest level of education [US Standard]</td></tr><tr><td><a href=\"https://loinc.org/96777-4/\">96777-4</a></td><td>Education level</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "https://hl7.hmis.gov.np/ValueSet/educational-level"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://fhir.hmis.gov.np/ValueSet/educational-level"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "EducationalLevelVS"] ; # 
   fhir:title [ fhir:v "Educational Level"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-14T11:08:36+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-14T14:11:38+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

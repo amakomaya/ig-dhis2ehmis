@@ -3,9 +3,9 @@
   "id" : "hl7.fhir.hmis",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name=\"hl7.fhir.hmis\"> </a><a name=\"hchl7.fhir.hmis\"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.hmis</b></p><a name=\"hl7.fhir.hmis\"> </a><a name=\"hchl7.fhir.hmis\"> </a><h2>NPCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis</pre><div><p>The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.\nThis guide aligns with national data standards, WHO Digital Adaptation Kits (DAKs), and global FHIR best practices. It enables structured data exchange between digital health systems and the national DHIS2-based HMIS platform, improving the accuracy, timeliness, and use of health data for decision-making.\nIt is developed to support routine service delivery programs such as Maternal and Child Health, CB-IMNCI, Immunization, and Basic Health Services, and will evolve to integrate real-time analytics, feedback loops, and decentralized data entry mechanisms.</p>\n</div></div>"
   },
-  "url" : "https://hl7.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
+  "url" : "https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
   "version" : "0.0.1-ballot",
   "name" : "NPCoreImplementationGuide",
   "title" : "Nepal HMIS FHIR Implementation Guide",
@@ -614,6 +614,12 @@
         "generation" : "markdown"
       },
       {
+        "sourceUrl" : "smart-index.html",
+        "name" : "smart-index.html",
+        "title" : "SMART Guidelines",
+        "generation" : "markdown"
+      },
+      {
         "sourceUrl" : "codesystems.html",
         "name" : "codesystems.html",
         "title" : "Code Systems",
@@ -641,12 +647,6 @@
         "sourceUrl" : "external_terminologies.html",
         "name" : "external_terminologies.html",
         "title" : "External Code Systems",
-        "generation" : "markdown"
-      },
-      {
-        "sourceUrl" : "smart-index.html",
-        "name" : "smart-index.html",
-        "title" : "SMART Guidelines",
         "generation" : "markdown"
       },
       {

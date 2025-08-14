@@ -3,14 +3,14 @@
   "id" : "free-cost",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem free-cost</b></p><a name=\"free-cost\"> </a><a name=\"hcfree-cost\"> </a><p>This case-sensitive code system <code>https://hl7.hmis.gov.np/CodeSystem/free-cost</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style=\"white-space:nowrap\">free<a name=\"free-cost-free\"> </a></td><td>Free</td><td>निशुल्क</td></tr><tr><td style=\"white-space:nowrap\">cost<a name=\"free-cost-cost\"> </a></td><td>Cost(RS)</td><td>शुलक (रू)</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem free-cost</b></p><a name=\"free-cost\"> </a><a name=\"hcfree-cost\"> </a><p>This case-sensitive code system <code>https://fhir.hmis.gov.np/CodeSystem/free-cost</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td style=\"white-space:nowrap\">free<a name=\"free-cost-free\"> </a></td><td>Free</td><td>निशुल्क</td></tr><tr><td style=\"white-space:nowrap\">cost<a name=\"free-cost-cost\"> </a></td><td>Cost(RS)</td><td>शुलक (रू)</td></tr></table></div>"
   },
-  "url" : "https://hl7.hmis.gov.np/CodeSystem/free-cost",
+  "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",
   "version" : "0.0.1-ballot",
   "name" : "FreeCostCS",
   "title" : "निशुल्क/शुल्क रू",
   "status" : "active",
-  "date" : "2025-08-14T11:08:36+05:45",
+  "date" : "2025-08-14T14:11:38+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",

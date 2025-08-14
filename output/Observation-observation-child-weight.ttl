@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.hmis.gov.np/Observation/observation-child-weight> a fhir:Observation ;
+<https://fhir.hmis.gov.np/Observation/observation-child-weight> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "observation-child-weight"] ; # 
   fhir:text [
@@ -31,7 +31,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <https://hl7.hmis.gov.np/Patient/example> ;
+     fhir:link <https://fhir.hmis.gov.np/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [

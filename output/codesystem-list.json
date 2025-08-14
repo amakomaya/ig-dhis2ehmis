@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "EthnicCodeCS",
@@ -9,7 +9,7 @@
       "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-cost",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "FreeCostCS",
@@ -17,7 +17,7 @@
       "description" : "निशुल्क/शुल्क रू"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/free-service-eligibility",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "FreeServiceEligibilityCS",
@@ -25,7 +25,7 @@
       "description" : "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/locations",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/locations",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "LocationsCS",
@@ -33,7 +33,7 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities."
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/period-range",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "PeriodRangeCS",
@@ -41,7 +41,7 @@
       "description" : "HMIS period ranges codes based on IHE ADX Range Coding System. \nReference: IHE QRPH Supplement ADX, CP-QRPH-238, https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf#page=78\n\nDurations define the amount if an intervening time between two time points. These durations are represented in the form P[n]Y[n]M[n]DT[n]H[n]M[n]S or P[n]W. The [n] is replaced by the value for each of the time elements that follow the [n] and the letters have the meaning:\n\nP is the duration designator (for period) placed at the start of the duration representation.\nY is the year designator that follows the value for the number of years.\nM is the month designator that follows the value for the number of months.\nW is the week designator that follows the value for the number of weeks.\nD is the day designator that follows the value for the number of days.\nT is the time designator that precedes the time components of the representation.\nH is the hour designator that follows the value for the number of hours.\nM is the minute designator that follows the value for the number of minutes.\nS is the second designator that follows the value for the number of seconds."
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/service-type",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/service-type",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "ServiceTypeCS",
@@ -49,7 +49,7 @@
       "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची"
     },
     {
-      "url" : "https://hl7.hmis.gov.np/CodeSystem/yes-no",
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "YesNoCS",

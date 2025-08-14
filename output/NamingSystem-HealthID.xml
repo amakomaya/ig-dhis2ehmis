@@ -3,11 +3,11 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="HealthID"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem HealthID</b></p><a name="HealthID"> </a><a name="hcHealthID"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>https://hl7.hmis.gov.np/NamingSystem/HealthID</td></tr><tr><td>Version</td><td>0.0.1-ballot</td></tr><tr><td>Name</td><td>HealthID</td></tr><tr><td>Title</td><td>National Health ID</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>The official National Health Identification Number assigned by the Government of Nepal.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem HealthID</b></p><a name="HealthID"> </a><a name="hcHealthID"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>https://fhir.hmis.gov.np/NamingSystem/HealthID</td></tr><tr><td>Version</td><td>0.0.1-ballot</td></tr><tr><td>Name</td><td>HealthID</td></tr><tr><td>Title</td><td>National Health ID</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>The official National Health Identification Number assigned by the Government of Nepal.</p>
 </div></td></tr><tr><td>Publisher</td><td>Integrated Health Information Management Section</td></tr><tr><td>Copyright</td><td><div><p>Used by permission of HL7 International, all rights reserved Creative Commons License</p>
 </div></td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>Other</td><td>1234567890123456</td><td>false</td></tr><tr><td>URI</td><td>https://mohp.gov.np/health-id</td><td>true</td></tr></table></div>
   </text>
-  <url value="https://hl7.hmis.gov.np/NamingSystem/HealthID"/>
+  <url value="https://fhir.hmis.gov.np/NamingSystem/HealthID"/>
   <version value="0.0.1-ballot"/>
   <name value="HealthID"/>
   <title value="National Health ID"/>

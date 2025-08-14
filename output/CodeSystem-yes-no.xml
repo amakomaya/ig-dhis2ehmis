@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="yes-no"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem yes-no</b></p><a name="yes-no"> </a><a name="hcyes-no"> </a><p>This  code system <code>https://hl7.hmis.gov.np/CodeSystem/yes-no</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style="white-space:nowrap">yes<a name="yes-no-yes"> </a></td><td>हो</td><td>Yes</td></tr><tr><td style="white-space:nowrap">no<a name="yes-no-no"> </a></td><td>होइन</td><td>No</td></tr><tr><td style="white-space:nowrap">1<a name="yes-no-1"> </a></td><td>हो</td><td>Yes (numeric)</td></tr><tr><td style="white-space:nowrap">0<a name="yes-no-0"> </a></td><td>होइन</td><td>No (numeric)</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem yes-no</b></p><a name="yes-no"> </a><a name="hcyes-no"> </a><p>This  code system <code>https://fhir.hmis.gov.np/CodeSystem/yes-no</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style="white-space:nowrap">yes<a name="yes-no-yes"> </a></td><td>हो</td><td>Yes</td></tr><tr><td style="white-space:nowrap">no<a name="yes-no-no"> </a></td><td>होइन</td><td>No</td></tr><tr><td style="white-space:nowrap">1<a name="yes-no-1"> </a></td><td>हो</td><td>Yes (numeric)</td></tr><tr><td style="white-space:nowrap">0<a name="yes-no-0"> </a></td><td>होइन</td><td>No (numeric)</td></tr></table></div>
   </text>
-  <url value="https://hl7.hmis.gov.np/CodeSystem/yes-no"/>
+  <url value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
   <version value="0.0.1-ballot"/>
   <name value="YesNoCS"/>
   <title value="Yes / No CodeSystem"/>
   <status value="active"/>
-  <date value="2025-08-14T11:08:36+05:45"/>
+  <date value="2025-08-14T14:11:38+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
