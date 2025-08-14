@@ -1,0 +1,47 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+!include ./style.iuml
+
+
+class "**Profile**" as P<<TM>> {
+    |_ identifier 1..*   
+    |_ url 1..*   
+    |_ status 1..1
+    |_ name 1..1
+    |_ title 1..1
+    |_ experimental 1..1    
+    |_ description 1..1
+    |_ **base resource** 1..1   
+    --
+}
+
+
+class "**Extension**" as X<<TM>> {
+}
+class "**ElementDefinition**" as ED<<TM>> {
+}
+
+class "**Constraint**" as C<<TM>> {
+}
+
+
+P - X : "  Contains  "
+
+P -- C : "  obeys  "
+
+C -u[hidden]- X 
+
+ED -r[hidden]- C : "                   "
+
+P -- ED : "  Contains  "
+
+legend
+Data needs 
+for profiles
+(see [[./diagram_legend.html#data-object-details-with-plantuml legend]])
+endlegend
+
+
+@enduml

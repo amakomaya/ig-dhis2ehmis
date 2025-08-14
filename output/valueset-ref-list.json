@@ -7,10 +7,7 @@
       "name" : "AdministrativeGenderVS",
       "title" : "Administrative Gender",
       "description" : "A value set containing administrative gender codes from the FHIR core.",
-      "systems" : ["http://hl7.org/fhir/administrative-gender"],
-      "uses" : {
-      },
-      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
     },
     {
       "url" : "https://hl7.hmis.gov.np/ValueSet/age-range",
@@ -68,10 +65,7 @@
       "name" : "EthnicCodeVS",
       "title" : "Ethnic Code",
       "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
-      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/ethnic-code"],
-      "uses" : {
-      },
-      "StructureDefinition-patient-profile.html" : "Patient (स्वास्थ्य सेवाग्राही)"
+      "systems" : ["https://hl7.hmis.gov.np/CodeSystem/ethnic-code"]
     },
     {
       "url" : "https://hl7.hmis.gov.np/ValueSet/free-cost",

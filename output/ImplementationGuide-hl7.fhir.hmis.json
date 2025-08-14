@@ -102,18 +102,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/encounter-anc-visit"
-      },
-      "name" : "ANC Visit - Pregnant Woman",
-      "description" : "An antenatal care visit for a pregnant woman.",
-      "isExample" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -162,14 +150,14 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "Encounter"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/encounter-ehmis"
+        "reference" : "Encounter/encounter-anc-visit"
       },
-      "name" : "Encounter for EHMIS",
-      "description" : "Each service interaction or visit by a patient",
-      "isExample" : false
+      "name" : "Encounter ANC Visit - Pregnant Woman",
+      "description" : "An antenatal care visit for a pregnant woman.",
+      "isExample" : true
     },
     {
       "extension" : [{
@@ -420,20 +408,7 @@
         "reference" : "Location/ExampleLocation"
       },
       "name" : "Location",
-      "isExample" : true,
-      "profile" : ["https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/location-ehmis"
-      },
-      "name" : "Location Profile for EHMIS",
-      "description" : "Healthcare delivery location (e.g., facility, ward)",
-      "isExample" : false
+      "isExample" : true
     },
     {
       "extension" : [{
@@ -486,6 +461,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/observation-child-weight"
+      },
+      "name" : "Observation Weight Measurement for Child",
+      "description" : "An example observation recording the weight of a child.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -506,18 +493,6 @@
       "name" : "Patient",
       "description" : "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।",
       "isExample" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/patient-profile"
-      },
-      "name" : "Patient (स्वास्थ्य सेवाग्राही)",
-      "description" : "Demographics and identifiers for patients in Nepal",
-      "isExample" : false
     },
     {
       "extension" : [{
@@ -558,30 +533,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/practitioner-ehmis"
-      },
-      "name" : "Practitioner Profile for EHMIS",
-      "description" : "Basic identity for health worker",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/practitionerrole-ehmis"
-      },
-      "name" : "Practitioner Role Profile for EHMIS",
-      "description" : "Defines a practitioner's role and location",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -614,18 +565,6 @@
       "name" : "Service Type",
       "description" : "Service Type",
       "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/observation-child-weight"
-      },
-      "name" : "Weight Measurement for Child",
-      "description" : "An example observation recording the weight of a child.",
-      "isExample" : true
     },
     {
       "extension" : [{
@@ -687,6 +626,12 @@
         "generation" : "markdown"
       },
       {
+        "sourceUrl" : "indicators.html",
+        "name" : "indicators.html",
+        "title" : "Indicators",
+        "generation" : "markdown"
+      },
+      {
         "sourceUrl" : "identifiers.html",
         "name" : "identifiers.html",
         "title" : "Identifier Systems",
@@ -711,10 +656,22 @@
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "profiles.html",
-        "name" : "profiles.html",
-        "title" : "Profiles",
+        "sourceUrl" : "security.html",
+        "name" : "security.html",
+        "title" : "Security and Privacy",
         "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "gov_concepts.html",
+        "name" : "gov_concepts.html",
+        "title" : "Governance",
+        "generation" : "markdown",
+        "page" : [{
+          "sourceUrl" : "archimate-diagram.html",
+          "name" : "archimate-diagram.html",
+          "title" : "ArchiMate Diagram",
+          "generation" : "markdown"
+        }]
       },
       {
         "sourceUrl" : "examples.html",

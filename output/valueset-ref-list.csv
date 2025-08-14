@@ -1,11 +1,11 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://example.org/fhir/ValueSet/administrative-gender-vs,0.0.1-ballot,active,,AdministrativeGenderVS,Administrative Gender,"A value set containing administrative gender codes from the FHIR core.","StructureDefinition/patient-profile","hl7.fhir.r5.core"
+http://example.org/fhir/ValueSet/administrative-gender-vs,0.0.1-ballot,active,,AdministrativeGenderVS,Administrative Gender,"A value set containing administrative gender codes from the FHIR core.",,"hl7.fhir.r5.core"
 https://hl7.hmis.gov.np/ValueSet/age-range,0.0.1-ballot,active,,AgeRangeVS,Age Range,"ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem",,"Internal"
 https://hl7.hmis.gov.np/ValueSet/condition-severity,0.0.1-ballot,active,,ConditionSeverityVS,Condition / Diagnosis Severity,"Preferred value set for Condition/Diagnosis severity grading",,"SCT"
 https://hl7.hmis.gov.np/ValueSet/district,0.0.1-ballot,active,,DistrictVS,District,"All district used in administrative divisions",,"Internal"
 https://hl7.hmis.gov.np/ValueSet/educational-level,0.0.1-ballot,active,,EducationalLevelVS,Educational Level,"Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.",,"THO (V3),SCT,LOINC"
 https://hl7.hmis.gov.np/ValueSet/employment-status,0.0.1-ballot,active,,EmploymentStatusVS,Employment (रोजगारी स्थिति),"Codes representing employment status of a person.",,"SCT"
-https://hl7.hmis.gov.np/ValueSet/ethnic-code,0.0.1-ballot,active,,EthnicCodeVS,Ethnic Code,"ValueSet for जाति कोड (Ethnic Codes in Nepal)","StructureDefinition/patient-profile","Internal"
+https://hl7.hmis.gov.np/ValueSet/ethnic-code,0.0.1-ballot,active,,EthnicCodeVS,Ethnic Code,"ValueSet for जाति कोड (Ethnic Codes in Nepal)",,"Internal"
 https://hl7.hmis.gov.np/ValueSet/free-cost,0.0.1-ballot,active,,FreeCostVS,Free Cost,"ValueSet for Free Cost",,"Internal"
 https://hl7.hmis.gov.np/ValueSet/free-service-eligibility,0.0.1-ballot,active,,FreeServiceEligibilityVS,Free Service Eligibility,"ValueSet representing individuals eligible for free health services",,"Internal"
 https://hl7.hmis.gov.np/ValueSet/localbody,0.0.1-ballot,active,,LocalBodyVS,LocalBody,"All LocalBody used in administrative divisions",,"Internal"

@@ -128,21 +128,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Encounter"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Encounter/encounter-anc-visit> ;
-         fhir:reference [ fhir:v "Encounter/encounter-anc-visit" ]
-       ] ;
-       fhir:name [ fhir:v "ANC Visit - Pregnant Woman" ] ;
-       fhir:description [ fhir:v "An antenatal care visit for a pregnant woman." ] ;
-       fhir:isExample [ fhir:v true ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -203,16 +188,16 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource"
+           fhir:v "Encounter"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis> ;
-         fhir:reference [ fhir:v "StructureDefinition/encounter-ehmis" ]
+         fhir:link <https://hl7.hmis.gov.np/Encounter/encounter-anc-visit> ;
+         fhir:reference [ fhir:v "Encounter/encounter-anc-visit" ]
        ] ;
-       fhir:name [ fhir:v "Encounter for EHMIS" ] ;
-       fhir:description [ fhir:v "Each service interaction or visit by a patient" ] ;
-       fhir:isExample [ fhir:v false ]
+       fhir:name [ fhir:v "Encounter ANC Visit - Pregnant Woman" ] ;
+       fhir:description [ fhir:v "An antenatal care visit for a pregnant woman." ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -526,26 +511,7 @@
          fhir:reference [ fhir:v "Location/ExampleLocation" ]
        ] ;
        fhir:name [ fhir:v "Location" ] ;
-       fhir:isExample [ fhir:v true ] ;
-       fhir:profile ( [
-         fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
-       ] )
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis> ;
-         fhir:reference [ fhir:v "StructureDefinition/location-ehmis" ]
-       ] ;
-       fhir:name [ fhir:v "Location Profile for EHMIS" ] ;
-       fhir:description [ fhir:v "Healthcare delivery location (e.g., facility, ward)" ] ;
-       fhir:isExample [ fhir:v false ]
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -611,6 +577,21 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.hmis.gov.np/Observation/observation-child-weight> ;
+         fhir:reference [ fhir:v "Observation/observation-child-weight" ]
+       ] ;
+       fhir:name [ fhir:v "Observation Weight Measurement for Child" ] ;
+       fhir:description [ fhir:v "An example observation recording the weight of a child." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -636,21 +617,6 @@
        fhir:name [ fhir:v "Patient" ] ;
        fhir:description [ fhir:v "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।" ] ;
        fhir:isExample [ fhir:v true ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/patient-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/patient-profile" ]
-       ] ;
-       fhir:name [ fhir:v "Patient (स्वास्थ्य सेवाग्राही)" ] ;
-       fhir:description [ fhir:v "Demographics and identifiers for patients in Nepal" ] ;
-       fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -701,36 +667,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis> ;
-         fhir:reference [ fhir:v "StructureDefinition/practitioner-ehmis" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner Profile for EHMIS" ] ;
-       fhir:description [ fhir:v "Basic identity for health worker" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis> ;
-         fhir:reference [ fhir:v "StructureDefinition/practitionerrole-ehmis" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner Role Profile for EHMIS" ] ;
-       fhir:description [ fhir:v "Defines a practitioner's role and location" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -771,21 +707,6 @@
        fhir:name [ fhir:v "Service Type" ] ;
        fhir:description [ fhir:v "Service Type" ] ;
        fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://hl7.hmis.gov.np/Observation/observation-child-weight> ;
-         fhir:reference [ fhir:v "Observation/observation-child-weight" ]
-       ] ;
-       fhir:name [ fhir:v "Weight Measurement for Child" ] ;
-       fhir:description [ fhir:v "An example observation recording the weight of a child." ] ;
-       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -867,6 +788,14 @@
        ] [
          fhir:source [
            a fhir:url ;
+           fhir:v "indicators.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "indicators.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Indicators" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
            fhir:v "identifiers.html"^^xsd:anyURI
          ] ;
          fhir:name [ fhir:v "identifiers.html"^^xsd:anyURI ] ;
@@ -899,11 +828,28 @@
        ] [
          fhir:source [
            a fhir:url ;
-           fhir:v "profiles.html"^^xsd:anyURI
+           fhir:v "security.html"^^xsd:anyURI
          ] ;
-         fhir:name [ fhir:v "profiles.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Profiles" ] ;
+         fhir:name [ fhir:v "security.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Security and Privacy" ] ;
          fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "gov_concepts.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "gov_concepts.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Governance" ] ;
+         fhir:generation [ fhir:v "markdown" ] ;
+         fhir:page ( [
+           fhir:source [
+             a fhir:url ;
+             fhir:v "archimate-diagram.html"^^xsd:anyURI
+           ] ;
+           fhir:name [ fhir:v "archimate-diagram.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "ArchiMate Diagram" ] ;
+           fhir:generation [ fhir:v "markdown" ]
+         ] )
        ] [
          fhir:source [
            a fhir:url ;

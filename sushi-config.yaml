@@ -63,6 +63,8 @@ pages:
     title: Code Systems
   valuesets.md:
     title: Value Sets
+  indicators.md:
+    title: Indicators
   identifiers.md:
     title: Identifier Systems
   external_terminologies.md:
@@ -71,8 +73,12 @@ pages:
     title: SMART Guidelines
   health-journey.md:
     title: Health Journey
-  profiles.md:
-    title: Profiles
+  security.md:
+    title: Security and Privacy  
+  gov_concepts.md:
+    title: Governance
+    archimate-diagram.md:
+      title: ArchiMate Diagram
   examples.md:
     title: Examples
 
@@ -108,12 +114,16 @@ menu:
   Home: index.html
   Code Systems: codesystems.html
   Value Set: valuesets.html
+  Indicators: indicators.html
   Identifier Systems: identifiers.html
   External Code Systems: external_terminologies.html
   SMART Guidelines: smart-index.html
   Health Journey: health-journey.html
-  Profiles: profiles.html
   Examples: examples.html
+  Security and Privacy: security.html
+  Authoring:
+    Governance : gov_concepts.html
+    ArchiMate Diagram : archimate-diagram.html
   Artifacts: artifacts.html
 
 

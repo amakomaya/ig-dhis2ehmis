@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"13.6"}
-    h3,h4,h5,h6{--heading-prefix:"13.6"}</style>
+    <style type="text/css">h2{--heading-prefix:"15.1"}
+    h3,h4,h5,h6{--heading-prefix:"15.1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -76,6 +76,9 @@
     <a href="valuesets.html">Value Set</a>
   </li>
   <li>
+    <a href="indicators.html">Indicators</a>
+  </li>
+  <li>
     <a href="identifiers.html">Identifier Systems</a>
   </li>
   <li>
@@ -88,10 +91,23 @@
     <a href="health-journey.html">Health Journey</a>
   </li>
   <li>
-    <a href="profiles.html">Profiles</a>
+    <a href="examples.html">Examples</a>
   </li>
   <li>
-    <a href="examples.html">Examples</a>
+    <a href="security.html">Security and Privacy</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Authoring
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="gov_concepts.html">Governance</a>
+      </li>
+      <li>
+        <a href="archimate-diagram.html">ArchiMate Diagram</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -255,7 +271,7 @@
         
           Active
           
-            as of 2025-08-13
+            as of 2025-08-14
           
         
       </td>
@@ -299,7 +315,6 @@ Element ID:     <code>
   <p><b>Usage info</b></p>
   <p><b>Usages:</b></p>
 <ul>
- <li>Use this Extension: <a href="StructureDefinition-patient-profile.html">Patient (स्वास्थ्य सेवाग्राही)</a></li>
  <li>Examples for this Extension: <a href="Patient-PatientExample.html">Patient/PatientExample</a></li>
 </ul>
 <p>You can also check for <a href="https://packages2.fhir.org/xig/hl7.fhir.hmis}|current/StructureDefinition/ethnic-code">usages in the FHIR IG Statistics</a></p>
@@ -367,7 +382,7 @@ Element ID:     <code>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ad393ff7-3313-4f4d-b258-eb8902562aea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9d93bdef-0457-40d7-96f2-8ad6db532538
 document.getElementById('cbethnic-codeD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('ethnic-codeD'), 'binding', document.getElementById('cbethnic-codeD-binding').checked, document.getElementById('ppethnic-codeD'));
 document.getElementById('cbethnic-codeD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -408,7 +423,7 @@ filterDesc(document.getElementById('ethnic-codeD'), 'obligation', document.getEl
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ad393ff7-3313-4f4d-b258-eb8902562aea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9d93bdef-0457-40d7-96f2-8ad6db532538
 document.getElementById('cbethnic-codeS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('ethnic-codeS'), 'binding', document.getElementById('cbethnic-codeS-binding').checked, document.getElementById('ppethnic-codeS'));
 document.getElementById('cbethnic-codeS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -502,7 +517,7 @@ Summary
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ad393ff7-3313-4f4d-b258-eb8902562aea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9d93bdef-0457-40d7-96f2-8ad6db532538
 document.getElementById('cbethnic-codeDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('ethnic-codeDA'), 'binding', document.getElementById('cbethnic-codeDA-binding').checked, document.getElementById('ppethnic-codeDA'));
 document.getElementById('cbethnic-codeDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -543,7 +558,7 @@ filterDesc(document.getElementById('ethnic-codeDA'), 'obligation', document.getE
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ad393ff7-3313-4f4d-b258-eb8902562aea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9d93bdef-0457-40d7-96f2-8ad6db532538
 document.getElementById('cbethnic-codeSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('ethnic-codeSA'), 'binding', document.getElementById('cbethnic-codeSA-binding').checked, document.getElementById('ppethnic-codeSA'));
 document.getElementById('cbethnic-codeSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -649,9 +664,9 @@ Summary
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 13, 2025 23:07+0545">2025-08-13</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 11:09+0545">2025-08-14</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l1406">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1430">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

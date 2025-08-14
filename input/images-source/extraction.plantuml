@@ -1,0 +1,70 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+allowmixing
+!include ./style.iuml
+
+
+class "**Logical Model**" as LM<<DM>> {
+}
+
+class "**Profile**" as P<<DM>> {
+}
+
+class "**StrutureMap**\n**QResp &#8594; LM**" as SMQL<<TMT>> {
+}
+
+class "**StrutureMap**\n**LM &#8594; Instance**" as SMLR<<TMT>> {
+}
+
+class "**StrutureMap**\n**(Group)**" as SMG<<TMT>> {
+}
+
+class "**Questionnaire**" as Q<<DM>> {
+}
+
+class "**QuestionnaireResponse**" as QR<<TMT>> {
+}
+
+
+class "**LM Instance**" as LMI<<TM>> {
+}
+
+package "**Resource Bundle**" as RIP {
+  class "**Resource Instance**" as RI<<TM>> {
+  }
+}
+
+'LM - LM: contains /\n references
+
+'QR -r-> LMI
+
+queue "   (transform)     " as T1
+queue "   (transform)     " as T2
+
+QR -r-> T1
+T1 -r-> LMI : "    "
+SMQL -u-> T1
+
+LMI -r-> T2 : "    "
+T2 -r-> RI
+SMLR -u-> T2 : "       "
+
+
+
+LM .d.|> LMI: "                        "
+QR .u.|> Q
+'RI .u.|> P
+RI .u.|> P
+
+SMQL -r-o SMG: "        "
+SMLR -l-o SMG: "        "
+
+'SMQL -u[hidden]- LM
+'SMLR -u[hidden]- LM
+
+'SMLR -r[hidden]- P: "             "
+
+
+@enduml

@@ -25,6 +25,9 @@ Welcome to the FHIR Implementation Guide for Nepal’s Health Information System
 - **Core Resources**: Includes support for `Patient`, `Encounter`, `Observation`, `Organization`, and more.
 - **API Documentation**: Technical references and guidelines for implementers and developers.
 
+### Dependencies
+{% include dependency-table.xhtml %}
+
 ### Implementation Guide
 
 Access the official **FHIR Implementation Guide (IG)** at  🔗 [https://hl7.hmis.gov.np](https://hl7.hmis.gov.np)

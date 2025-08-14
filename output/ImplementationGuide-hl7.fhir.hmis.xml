@@ -97,17 +97,6 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/encounter-anc-visit"/>
-      </reference>
-      <name value="ANC Visit - Pregnant Woman"/>
-      <description value="An antenatal care visit for a pregnant woman."/>
-      <isExample value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -152,14 +141,14 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="Encounter"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/encounter-ehmis"/>
+        <reference value="Encounter/encounter-anc-visit"/>
       </reference>
-      <name value="Encounter for EHMIS"/>
-      <description value="Each service interaction or visit by a patient"/>
-      <isExample value="false"/>
+      <name value="Encounter ANC Visit - Pregnant Woman"/>
+      <description value="An antenatal care visit for a pregnant woman."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -390,18 +379,6 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Location"/>
       <isExample value="true"/>
-      <profile value="https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/location-ehmis"/>
-      </reference>
-      <name value="Location Profile for EHMIS"/>
-      <description value="Healthcare delivery location (e.g., facility, ward)"/>
-      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -449,6 +426,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/observation-child-weight"/>
+      </reference>
+      <name value="Observation Weight Measurement for Child"/>
+      <description value="An example observation recording the weight of a child."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -468,17 +456,6 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Patient"/>
       <description value="ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।"/>
       <isExample value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-profile"/>
-      </reference>
-      <name value="Patient (स्वास्थ्य सेवाग्राही)"/>
-      <description value="Demographics and identifiers for patients in Nepal"/>
-      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -515,28 +492,6 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/practitioner-ehmis"/>
-      </reference>
-      <name value="Practitioner Profile for EHMIS"/>
-      <description value="Basic identity for health worker"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/practitionerrole-ehmis"/>
-      </reference>
-      <name value="Practitioner Role Profile for EHMIS"/>
-      <description value="Defines a practitioner's role and location"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -567,17 +522,6 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Service Type"/>
       <description value="Service Type"/>
       <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/observation-child-weight"/>
-      </reference>
-      <name value="Weight Measurement for Child"/>
-      <description value="An example observation recording the weight of a child."/>
-      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -636,6 +580,12 @@ It is developed to support routine service delivery programs such as Maternal an
         <generation value="markdown"/>
       </page>
       <page>
+        <sourceUrl value="indicators.html"/>
+        <name value="indicators.html"/>
+        <title value="Indicators"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <sourceUrl value="identifiers.html"/>
         <name value="identifiers.html"/>
         <title value="Identifier Systems"/>
@@ -660,10 +610,22 @@ It is developed to support routine service delivery programs such as Maternal an
         <generation value="markdown"/>
       </page>
       <page>
-        <sourceUrl value="profiles.html"/>
-        <name value="profiles.html"/>
-        <title value="Profiles"/>
+        <sourceUrl value="security.html"/>
+        <name value="security.html"/>
+        <title value="Security and Privacy"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="gov_concepts.html"/>
+        <name value="gov_concepts.html"/>
+        <title value="Governance"/>
+        <generation value="markdown"/>
+        <page>
+          <sourceUrl value="archimate-diagram.html"/>
+          <name value="archimate-diagram.html"/>
+          <title value="ArchiMate Diagram"/>
+          <generation value="markdown"/>
+        </page>
       </page>
       <page>
         <sourceUrl value="examples.html"/>

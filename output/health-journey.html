@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7"}
-    h3,h4,h5,h6{--heading-prefix:"7"}</style>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -76,6 +76,9 @@
     <a href="valuesets.html">Value Set</a>
   </li>
   <li>
+    <a href="indicators.html">Indicators</a>
+  </li>
+  <li>
     <a href="identifiers.html">Identifier Systems</a>
   </li>
   <li>
@@ -88,10 +91,23 @@
     <a href="health-journey.html">Health Journey</a>
   </li>
   <li>
-    <a href="profiles.html">Profiles</a>
+    <a href="examples.html">Examples</a>
   </li>
   <li>
-    <a href="examples.html">Examples</a>
+    <a href="security.html">Security and Privacy</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Authoring
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="gov_concepts.html">Governance</a>
+      </li>
+      <li>
+        <a href="archimate-diagram.html">ArchiMate Diagram</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -189,10 +205,75 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p>  <!-- white space is critical inside of capture --></p>
-<div>
-  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#inputs" id="markdown-toc-inputs"><strong>Inputs</strong></a></li>
+  <li><a href="#outputs" id="markdown-toc-outputs"><strong>Outputs</strong></a></li>
+  <li><a href="#activities" id="markdown-toc-activities"><strong>Activities</strong></a></li>
+  <li><a href="#how-to-use" id="markdown-toc-how-to-use">How to Use</a></li>
+</ul>
+
 </div>
 <p>This section outlines the key use cases for exchanging health information within the Nepal Electronic Health Management Information System (EHMIS). Each health journey represents a core service delivery area aligned with national reporting and programmatic needs.</p>
+
+<p>ActorDefinitions are the ways that the Personas are structured; A common repository of Personas allows reuse, exchange, change tracking, etc.</p>
+
+<p>Each Persona is defined by the following data:</p>
+<figure style="width:15em">
+  <svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 159 226" zoomAndPan="magnify" data-diagram-type="CLASS" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs></defs><g><a name="l387">​</a>  <!-- class Pers --><g data-entity="Pers" id="entity_Pers" data-uid="ent0002" class="entity" data-source-line="7"><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="#C2F0FF" height="128.9297"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="26.4883"></rect><rect width="138.3604" x="7" y="28.9883" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="4.5"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="none" height="128.9297"></rect><text font-weight="bold" lengthAdjust="spacing" x="47.4624" font-size="14" textLength="57.4355" y="25.5352" font-family="sans-serif" fill="#000000">Persona</text><line y1="33.4883" x1="8" y2="33.4883" style="stroke:#505090;stroke-width:0.5;" x2="144.3604"></line><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="90.2412" y="57.0234" font-family="sans-serif" fill="#000000">identifier 1..*</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="72.1602" y="73.5117" font-family="sans-serif" fill="#000000">status 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="68.2842" y="90" font-family="sans-serif" fill="#000000">name 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="57.3604" y="106.4883" font-family="sans-serif" fill="#000000">title 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="107.0713" y="122.9766" font-family="sans-serif" fill="#000000">description 1..1</text><rect width="2" x="22" y="50.7324" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="51.7324" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="43.4883" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="67.2207" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="68.2207" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="51.7324" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="83.709" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="84.709" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="68.2207" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="100.1973" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="101.1973" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="84.709" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="116.6855" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="117.6855" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="101.1973" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="15"></line><line y1="127.9297" x1="8" y2="127.9297" style="stroke:#505090;stroke-width:1;" x2="144.3604"></line></g><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="61.377" y="171.1855" font-family="Arial" fill="#000000">Data needs</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="66.7031" y="184.9844" font-family="Arial" fill="#000000">for personas</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="23.3438" y="198.7832" font-family="Arial" fill="#000000">(see</text><a xlink:type="simple" xlink:show="new" xlink:title="./diagram_legend.html#data-object-details-with-plantuml" href="./diagram_legend.html#data-object-details-with-plantuml" xlink:actuate="onRequest" title="./diagram_legend.html#data-object-details-with-plantuml" xlink:href="./diagram_legend.html#data-object-details-with-plantuml" target="_top"><text lengthAdjust="spacing" text-decoration="underline" x="69.0034" font-size="12" textLength="36.0352" y="198.7832" font-family="Arial" fill="#0000FF">legend</text></a><text lengthAdjust="spacing" x="105.0386" font-size="12" textLength="3.9961" y="198.7832" font-family="Arial" fill="#000000">)</text></g></svg>
+</figure>
+
+<p>The L3 author must ensure there is an ActorDefinition for each Persona mentioned in the L2. If the Persona doesn't exist in the common Personas list yet,
+this process can propose the creation of another different persona. This
+creation of a new persona is a provisional measure; there SHALL be a
+governance process for Personas. In that governance, there SHALL be a requirement that all personas in the final publication of a specification SHALL be approved.</p>
+
+<h3 id="inputs"><strong>Inputs</strong></h3>
+
+<ul>
+  <li>L2 Generic personas (Narrative)</li>
+  <li>Common Personas list</li>
+</ul>
+
+<h3 id="outputs"><strong>Outputs</strong></h3>
+
+<ul>
+  <li>L3 ActorDefinition</li>
+  <li>Updated Personas list, if a new persona is defined. This should be submitted for validation using a process that is still to be defined.</li>
+  <li>Narrative page listing the Personas</li>
+</ul>
+
+<h3 id="activities"><strong>Activities</strong></h3>
+
+<p><img src="./l3_process_persona.png" style="width:30%"/>
+<br clear="all"/></p>
+<blockquote>
+  <p>Summary: The L3 author starts with the L2 persona and reuses an existing ActorDefinition from the Common Personas repository, if one exists. If not, the author creates an ActorDefinition, which will be added to the Common Personas repository.</p>
+</blockquote>
+
+<h4 id="reusing-an-existing-persona">Reusing an existing Persona</h4>
+<p>If an ActorDefinition already exists in the Commons repository, and its
+definitions is adequate to the case submitted, the author shall reuse an existing persona.</p>
+
+<p>If an ActorDefinition already exists in the Commons repository, but its
+definitions is not adequate to the case submitted,</p>
+
+<ul>
+  <li>If the existing persona is broader, no action.</li>
+  <li>If the existing persona is inadequate (e.g. too strict), it is best to suggest an updated definition.</li>
+</ul>
+
+<h4 id="creating-a-new-persona-definition">Creating a new Persona definition</h4>
+<p>If no ActorDefinition exists in the Commons repository, create a draft &amp; propose a new persona.</p>
+
+<p><code class="language-plaintext highlighter-rouge">.identifier</code> - don't add an identifier. A final identifier will be assigned in the persona approval / onboarding process.</p>
+
+<p><code class="language-plaintext highlighter-rouge">.status</code> = fixed value <code class="language-plaintext highlighter-rouge">draft</code>
+<code class="language-plaintext highlighter-rouge">.name</code> - add a meaningful computer-readable name (no spaces, PascalCase)
+<code class="language-plaintext highlighter-rouge">.title</code> - add a meaningful title we.g. <code class="language-plaintext highlighter-rouge">Healthcare Worker</code>
+<code class="language-plaintext highlighter-rouge">.description</code> - add a summary description
+<code class="language-plaintext highlighter-rouge">.type</code> - fixed value <code class="language-plaintext highlighter-rouge">person</code>
+<code class="language-plaintext highlighter-rouge">.description</code> - add a summary description</p>
 
 <hr/>
 
@@ -234,9 +315,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 13, 2025 23:07+0545">2025-08-13</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 11:09+0545">2025-08-14</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l418">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l631">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

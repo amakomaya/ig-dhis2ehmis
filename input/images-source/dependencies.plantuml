@@ -1,0 +1,91 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+!include ./style.iuml
+
+     class "**[[https://build.fhir.org/ig/WorldHealthOrganization/smart-ig-template smart-ig-template]]**" as Tpl<<TM>> {
+         Template look-and-feel:
+         .  HTML
+         .  Javascript
+         .  Jekyll
+         --
+    }
+
+    class "**[[https://build.fhir.org/ig/WorldHealthOrganization/smart-base smart-base]]**" as Base<<TM>> {
+        Support definitions that every
+        SMART IG is required to adopt  
+        --
+        Profiles:
+        |_  SGImplementationGuide
+        |_  ...
+        --
+        (Internal) ValueSets
+        --
+        **CI Build Scripts (Original)**
+    }
+
+
+    class "**[[https://build.fhir.org/ig/WorldHealthOrganization/smart-base-clinical smart-base-clinical]]**" as CE<<TM>> {
+        Common content to be used in 
+        encounter-related IGs.
+        --
+    }
+
+
+    class "**[[https://build.fhir.org/ig/WorldHealthOrganization/smart-ig-empty smart-ig-empty]]**" as E<<TM>> {
+        Contains foundation (e.g. dependencies) 
+        and any content that every SMART IG
+        should copy when initialized.
+        --
+        .dependsOn = base
+        template = smart-ig-template
+        FSH helper functions
+        look-and-feel
+        --
+        **CI Build Scripts (reference)**
+    }
+
+
+    class "**[[https://build.fhir.org/ig/WorldHealthOrganization/smart-ig-starter-kit smart-ig-starter-kit]]**" as SK<<TM+>> {
+      Guidance on how to create 
+      and use SMART Guidelines
+      --
+    }
+
+    class "**(Any) SMART ImplementationGuide**" as IG<<TM>> {
+    }
+
+
+
+    ' class "**PublicationRepo**" as Pub<<MD>> {
+    '   Webroot content repository
+    '   for published releases (html)
+    '   --
+    ' }
+
+
+' We con't want IGs to define on StarterKit
+
+
+SK  -d[hidden]-> Tpl : "      "
+Tpl  -d[hidden]-> Base : "      "
+
+
+Base  -l[hidden]-> Tpl : "                   "
+IG  -l[hidden]-> SK : "                   "
+'SK  -r[hidden]-> E : "                   "
+E  .u.> IG: "Cloned into"
+E .l.> Base: "Cloned into"
+'E -u-> Base: "dependsOn"
+IG --> Base: "dependsOn"
+'IG .r.> Pub : "                "
+
+
+
+
+'C -u-> Core 
+E  .r.> CE: "   Cloned into         "
+'IG  <.. CE: "   Cloned into         "
+'IG  ..> Pub
+@enduml

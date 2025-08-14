@@ -1,5 +1,5 @@
 Instance: ExampleLocation
-InstanceOf: LocationEHMIS
+InstanceOf: Location
 Usage: #example
 Title: "Location"
 

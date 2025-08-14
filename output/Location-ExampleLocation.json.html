@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"13.47"}
-    h3,h4,h5,h6{--heading-prefix:"13.47"}</style>
+    <style type="text/css">h2{--heading-prefix:"15.42"}
+    h3,h4,h5,h6{--heading-prefix:"15.42"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -76,6 +76,9 @@
     <a href="valuesets.html">Value Set</a>
   </li>
   <li>
+    <a href="indicators.html">Indicators</a>
+  </li>
+  <li>
     <a href="identifiers.html">Identifier Systems</a>
   </li>
   <li>
@@ -88,10 +91,23 @@
     <a href="health-journey.html">Health Journey</a>
   </li>
   <li>
-    <a href="profiles.html">Profiles</a>
+    <a href="examples.html">Examples</a>
   </li>
   <li>
-    <a href="examples.html">Examples</a>
+    <a href="security.html">Security and Privacy</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Authoring
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="gov_concepts.html">Governance</a>
+      </li>
+      <li>
+        <a href="archimate-diagram.html">ArchiMate Diagram</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -225,14 +241,9 @@
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="json"><code style="white-space: pre; text-wrap: nowrap;" class="language-json">{
   "<a href="http://hl7.org/fhir/R5/location.html#Location">resourceType</a>" : "Location",
   "<a href="http://hl7.org/fhir/R5/location.html#Location.id">id</a>" : "ExampleLocation",
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
-      <a style="color: Maroon" href="StructureDefinition-location-ehmis.html">&#x1F517;</a> "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"
-    ]
-  },
   "<a href="http://hl7.org/fhir/R5/location.html#Location.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Location ExampleLocation&lt;/b&gt;&lt;/p&gt;&lt;a name=\"ExampleLocation\"&gt; &lt;/a&gt;&lt;a name=\"hcExampleLocation\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"/&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"StructureDefinition-location-ehmis.html\"&gt;Location Profile for EHMIS&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Health Post 12, Sunsari&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\"&gt;Hospital&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Ward No. 5 Inaruwa Province 1 56700 &lt;/p&gt;&lt;p&gt;&lt;b&gt;managingOrganization&lt;/b&gt;: &lt;a href=\"Organization/example-org\"&gt;Organization/example-org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Location ExampleLocation&lt;/b&gt;&lt;/p&gt;&lt;a name=\"ExampleLocation\"&gt; &lt;/a&gt;&lt;a name=\"hcExampleLocation\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Health Post 12, Sunsari&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\"&gt;Hospital&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Ward No. 5 Inaruwa Province 1 56700 &lt;/p&gt;&lt;p&gt;&lt;b&gt;managingOrganization&lt;/b&gt;: &lt;a href=\"Organization/example-org\"&gt;Organization/example-org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R5/location.html#Location.name">name</a>" : "Health Post 12, Sunsari",
   "<a href="http://hl7.org/fhir/R5/location.html#Location.type">type</a>" : [
@@ -281,9 +292,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 13, 2025 23:07+0545">2025-08-13</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 11:09+0545">2025-08-14</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l476">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l496">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

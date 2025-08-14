@@ -9,15 +9,9 @@
 <https://hl7.hmis.gov.np/Location/ExampleLocation> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ExampleLocation"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis"^^xsd:anyURI ;
-       fhir:link <https://hl7.hmis.gov.np/StructureDefinition/location-ehmis>
-     ] )
-  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location ExampleLocation</b></p><a name=\"ExampleLocation\"> </a><a name=\"hcExampleLocation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-location-ehmis.html\">Location Profile for EHMIS</a></p></div><p><b>name</b>: Health Post 12, Sunsari</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\">Hospital</span></p><p><b>address</b>: Ward No. 5 Inaruwa Province 1 56700 </p><p><b>managingOrganization</b>: <a href=\"Organization/example-org\">Organization/example-org</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location ExampleLocation</b></p><a name=\"ExampleLocation\"> </a><a name=\"hcExampleLocation\"> </a><p><b>name</b>: Health Post 12, Sunsari</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\">Hospital</span></p><p><b>address</b>: Ward No. 5 Inaruwa Province 1 56700 </p><p><b>managingOrganization</b>: <a href=\"Organization/example-org\">Organization/example-org</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:name [ fhir:v "Health Post 12, Sunsari"] ; # 
   fhir:type ( [

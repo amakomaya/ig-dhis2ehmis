@@ -77,46 +77,11 @@
     "name" : "NationalID"
   },
   {
-    "id" : "encounter-ehmis",
-    "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/encounter-ehmis",
-    "version" : "0.0.1-ballot",
-    "name" : "EncounterEHMIS"
-  },
-  {
     "id" : "ethnic-code",
     "type" : "StructureDefinition",
     "url" : "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code",
     "version" : "0.0.1-ballot",
     "name" : "EthnicCodeEx"
-  },
-  {
-    "id" : "location-ehmis",
-    "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/location-ehmis",
-    "version" : "0.0.1-ballot",
-    "name" : "LocationEHMIS"
-  },
-  {
-    "id" : "patient-profile",
-    "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/patient-profile",
-    "version" : "0.0.1-ballot",
-    "name" : "PatientProfile"
-  },
-  {
-    "id" : "practitioner-ehmis",
-    "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/practitioner-ehmis",
-    "version" : "0.0.1-ballot",
-    "name" : "PractitionerEHMIS"
-  },
-  {
-    "id" : "practitionerrole-ehmis",
-    "type" : "StructureDefinition",
-    "url" : "https://hl7.hmis.gov.np/StructureDefinition/practitionerrole-ehmis",
-    "version" : "0.0.1-ballot",
-    "name" : "PractitionerRoleEHMIS"
   },
   {
     "id" : "age-range",
