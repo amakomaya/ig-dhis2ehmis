@@ -9,6 +9,14 @@
       "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"
     },
     {
+      "url" : "https://fhir.hmis.gov.np/CodeSystem/facility-type",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "FacilityType",
+      "title" : "Nepal Health Facility Type",
+      "description" : "Types of health facilities in Nepal, based on Ministry of Health and Population classifications."
+    },
+    {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",
       "version" : "0.0.1-ballot",
       "status" : "active",

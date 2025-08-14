@@ -507,10 +507,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://fhir.hmis.gov.np/Location/ExampleLocation> ;
-         fhir:reference [ fhir:v "Location/ExampleLocation" ]
+         fhir:link <https://fhir.hmis.gov.np/Location/location-bhsc> ;
+         fhir:reference [ fhir:v "Location/location-bhsc" ]
        ] ;
-       fhir:name [ fhir:v "Location" ] ;
+       fhir:name [ fhir:v "Location – Basic Health Service Center, Tokha, Kathmandu" ] ;
+       fhir:description [ fhir:v "A Basic Health Service Center located in Ward No. 5, Tokha Municipality, Kathmandu District, Bagmati Province, Nepal." ] ;
        fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
@@ -577,6 +578,21 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.hmis.gov.np/CodeSystem/facility-type> ;
+         fhir:reference [ fhir:v "CodeSystem/facility-type" ]
+       ] ;
+       fhir:name [ fhir:v "Nepal Health Facility Type" ] ;
+       fhir:description [ fhir:v "Types of health facilities in Nepal, based on Ministry of Health and Population classifications." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Observation"
          ]
        ] ) ;
@@ -584,7 +600,7 @@
          fhir:link <https://fhir.hmis.gov.np/Observation/observation-child-weight> ;
          fhir:reference [ fhir:v "Observation/observation-child-weight" ]
        ] ;
-       fhir:name [ fhir:v "Observation Weight Measurement for Child" ] ;
+       fhir:name [ fhir:v "Observation - Weight Measurement for Child" ] ;
        fhir:description [ fhir:v "An example observation recording the weight of a child." ] ;
        fhir:isExample [ fhir:v true ]
      ] [
@@ -602,21 +618,6 @@
        fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative" ] ;
        fhir:description [ fhir:v "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)" ] ;
        fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Patient"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.hmis.gov.np/Patient/PatientExample> ;
-         fhir:reference [ fhir:v "Patient/PatientExample" ]
-       ] ;
-       fhir:name [ fhir:v "Patient" ] ;
-       fhir:description [ fhir:v "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।" ] ;
-       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -647,6 +648,36 @@
        fhir:name [ fhir:v "Patient Visit Ordinal" ] ;
        fhir:description [ fhir:v "ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits." ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.hmis.gov.np/Patient/patient-child> ;
+         fhir:reference [ fhir:v "Patient/patient-child" ]
+       ] ;
+       fhir:name [ fhir:v "Patient – Child" ] ;
+       fhir:description [ fhir:v "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 12 visiting the Health Facility for routine immunizations." ] ;
+       fhir:isExample [ fhir:v true ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.hmis.gov.np/Patient/patient-pregnant> ;
+         fhir:reference [ fhir:v "Patient/patient-pregnant" ]
+       ] ;
+       fhir:name [ fhir:v "Patient – Pregnant Woman (Mom-to-Be)" ] ;
+       fhir:description [ fhir:v "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care." ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -707,6 +738,21 @@
        fhir:name [ fhir:v "Service Type" ] ;
        fhir:description [ fhir:v "Service Type" ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.hmis.gov.np/Organization/organization-bhsc> ;
+         fhir:reference [ fhir:v "Organization/organization-bhsc" ]
+       ] ;
+       fhir:name [ fhir:v "Tokha BHSC 07" ] ;
+       fhir:description [ fhir:v "The BHSC 07 responsible for managing the Basic Health Service Center, Tokha, Kathmandu." ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

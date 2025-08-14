@@ -1,0 +1,73 @@
+{
+  "resourceType" : "Patient",
+  "id" : "patient-pregnant",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-pregnant</b></p><a name=\"patient-pregnant\"> </a><a name=\"hcpatient-pregnant\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hiramaya Tamang  Female, DoB: 2001-05-15 ( Person System ID:\u00a0SYS-001234\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890\u00a0(use:\u00a0official,\u00a0)</li><li>Health ID/1234567890\u00a0(use:\u00a0official,\u00a0)</li><li>Custom Identifier/MD-98765\u00a0(use:\u00a0secondary,\u00a0)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:hiramaya@hmis.com.np\">hiramaya@hmis.com.np</a></li><li>Ward No. 5, Ilam Municipality Ilam District Ilam NP </li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code",
+    "valueCoding" : {
+      "system" : "https://hl7.hmis.gov.np/CodeSystem/ethnic-code",
+      "code" : "2",
+      "display" : "Janajati"
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203"
+      }],
+      "text" : "National ID"
+    },
+    "value" : "1234567890"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203"
+      }],
+      "text" : "Health ID"
+    },
+    "value" : "1234567890"
+  },
+  {
+    "use" : "usual",
+    "type" : {
+      "text" : "Person System ID"
+    },
+    "value" : "SYS-001234"
+  },
+  {
+    "use" : "secondary",
+    "type" : {
+      "text" : "Custom Identifier"
+    },
+    "value" : "MD-98765"
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "Tamang",
+    "given" : ["Hiramaya"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+9779801234567",
+    "use" : "mobile"
+  },
+  {
+    "system" : "email",
+    "value" : "hiramaya@hmis.com.np",
+    "use" : "home"
+  }],
+  "gender" : "female",
+  "birthDate" : "2001-05-15",
+  "address" : [{
+    "line" : ["Ward No. 5, Ilam Municipality",
+    "Ilam District"],
+    "city" : "Ilam",
+    "country" : "NP"
+  }]
+}

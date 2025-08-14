@@ -375,9 +375,10 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="Location"/>
       </extension>
       <reference>
-        <reference value="Location/ExampleLocation"/>
+        <reference value="Location/location-bhsc"/>
       </reference>
-      <name value="Location"/>
+      <name value="Location – Basic Health Service Center, Tokha, Kathmandu"/>
+      <description value="A Basic Health Service Center located in Ward No. 5, Tokha Municipality, Kathmandu District, Bagmati Province, Nepal."/>
       <isExample value="true"/>
     </resource>
     <resource>
@@ -426,12 +427,23 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/facility-type"/>
+      </reference>
+      <name value="Nepal Health Facility Type"/>
+      <description value="Types of health facilities in Nepal, based on Ministry of Health and Population classifications."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
         <reference value="Observation/observation-child-weight"/>
       </reference>
-      <name value="Observation Weight Measurement for Child"/>
+      <name value="Observation - Weight Measurement for Child"/>
       <description value="An example observation recording the weight of a child."/>
       <isExample value="true"/>
     </resource>
@@ -445,17 +457,6 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
       <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, &#xA;हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)"/>
       <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/PatientExample"/>
-      </reference>
-      <name value="Patient"/>
-      <description value="ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।"/>
-      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -478,6 +479,28 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Patient Visit Ordinal"/>
       <description value="ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patient-child"/>
+      </reference>
+      <name value="Patient – Child"/>
+      <description value="1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 12 visiting the Health Facility for routine immunizations."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patient-pregnant"/>
+      </reference>
+      <name value="Patient – Pregnant Woman (Mom-to-Be)"/>
+      <description value="21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -522,6 +545,17 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Service Type"/>
       <description value="Service Type"/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/organization-bhsc"/>
+      </reference>
+      <name value="Tokha BHSC 07"/>
+      <description value="The BHSC 07 responsible for managing the Basic Health Service Center, Tokha, Kathmandu."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

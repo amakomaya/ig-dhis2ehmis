@@ -1,7 +1,7 @@
-Instance: PatientExample
+Instance: patient-pregnant
 InstanceOf: Patient
-Title: "Patient"
-Description: "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।"
+Title: "Patient – Pregnant Woman (Mom-to-Be)"
+Description: "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care."
 
 * identifier[0].use = #official
 * identifier[0].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
@@ -21,23 +21,23 @@ Description: "ईलाम जिल्ला, ईलाम नगरपाल�
 * identifier[3].type.text = "Custom Identifier"
 * identifier[3].value = "MD-98765"
 
-* name[0].family = "Shrestha"
-* name[0].given[0] = "Sandesh"
+* name[0].family = "Tamang"
+* name[0].given[0] = "Hiramaya"
 
 * telecom[0].system = #phone
 * telecom[0].value = "+9779801234567"
 * telecom[0].use = #mobile
 
 * telecom[1].system = #email
-* telecom[1].value = "sandesh@hmis.com.np"
+* telecom[1].value = "hiramaya@hmis.com.np"
 * telecom[1].use = #home
 
-* gender = #male
+* gender = #female
 * birthDate = "2001-05-15"
 
-* address[0].line[0] = "Ward No. 12, Baneshwor Tole"
-* address[0].line[1] = "Kathmandu District"
-* address[0].city = "Kathmandu Metropolitan City"
+* address[0].line[0] = "Ward No. 5, Ilam Municipality"
+* address[0].line[1] = "Ilam District"
+* address[0].city = "Ilam"
 * address[0].country = "NP"
 
 * extension[0].url = "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"

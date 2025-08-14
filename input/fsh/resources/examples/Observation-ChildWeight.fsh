@@ -1,6 +1,6 @@
 Instance: observation-child-weight
 InstanceOf: Observation
-Title: "Observation Weight Measurement for Child"
+Title: "Observation - Weight Measurement for Child"
 Description: "An example observation recording the weight of a child."
 Usage: #example
 

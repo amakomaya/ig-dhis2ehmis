@@ -1,0 +1,19 @@
+{
+  "resourceType" : "Organization",
+  "id" : "organization-bhsc",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization-bhsc</b></p><a name=\"organization-bhsc\"> </a><a name=\"hcorganization-bhsc\"> </a><p><b>identifier</b>: code/3060500031\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: DHAPASI HEALTH POST</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://nhfr.mohp.gov.np/",
+        "code" : "code"
+      }]
+    },
+    "value" : "3060500031"
+  }],
+  "name" : "DHAPASI HEALTH POST"
+}

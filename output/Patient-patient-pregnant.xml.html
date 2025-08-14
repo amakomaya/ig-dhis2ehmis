@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Patient - XML Representation - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+    <title>Patient – Pregnant Woman (Mom-to-Be) - XML Representation - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"15.44"}
-    h3,h4,h5,h6{--heading-prefix:"15.44"}</style>
+    <style type="text/css">h2{--heading-prefix:"15.46"}
+    h3,h4,h5,h6{--heading-prefix:"15.46"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -169,7 +169,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Patient – Pregnant Woman (Mom-to-Be)</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -195,7 +195,7 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Patient-PatientExample.html">Narrative Content</a>
+    <a href="Patient-patient-pregnant.html">Narrative Content</a>
   </li>
 
 
@@ -209,14 +209,14 @@
 
   
     <li>
-      <a href="Patient-PatientExample.json.html">JSON</a>
+      <a href="Patient-patient-pregnant.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Patient-PatientExample.ttl.html">TTL</a>
+      <a href="Patient-patient-pregnant.ttl.html">TTL</a>
     </li>
   
 
@@ -228,10 +228,10 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Patient - XML Representation</h2>
+<h2 id="root">: Patient – Pregnant Woman (Mom-to-Be) - XML Representation</h2>
 
 
-<p><a href="Patient-PatientExample.xml" no-download="true">Raw xml</a> | <a download="null" href="Patient-PatientExample.xml">Download</a></p>
+<p><a href="Patient-patient-pregnant.xml" no-download="true">Raw xml</a> | <a download="null" href="Patient-patient-pregnant.xml">Download</a></p>
 
     <!-- insert intro if present -->
   
@@ -240,10 +240,10 @@
 
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml"><code style="white-space: pre; text-wrap: nowrap;" class="language-xml">
 &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient">Patient</a> xmlns="http://hl7.org/fhir"&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="PatientExample"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="patient-pregnant"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Patient PatientExample&lt;/b&gt;&lt;/p&gt;&lt;a name="PatientExample"&gt; &lt;/a&gt;&lt;a name="hcPatientExample"&gt; &lt;/a&gt;&lt;p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"&gt;Sandesh Shrestha  Male, DoB: 2001-05-15 ( Person System ID:&nbsp;SYS-001234&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/p&gt;&lt;hr/&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Record is active"&gt;Active:&lt;/td&gt;&lt;td colspan="3"&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Other Ids (see the one above)"&gt;Other Ids:&lt;/td&gt;&lt;td colspan="3"&gt;&lt;ul&gt;&lt;li&gt;National ID/1234567890&nbsp;(use:&nbsp;official,&nbsp;)&lt;/li&gt;&lt;li&gt;Health ID/1234567890&nbsp;(use:&nbsp;official,&nbsp;)&lt;/li&gt;&lt;li&gt;Custom Identifier/MD-98765&nbsp;(use:&nbsp;secondary,&nbsp;)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Ways to contact the Patient"&gt;Contact Detail&lt;/td&gt;&lt;td colspan="3"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="tel:+9779801234567"&gt;+9779801234567&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="mailto:sandesh@hmis.com.np"&gt;sandesh@hmis.com.np&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Ward No. 12, Baneshwor Tole Kathmandu District Kathmandu Metropolitan City NP &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Patient patient-pregnant&lt;/b&gt;&lt;/p&gt;&lt;a name="patient-pregnant"&gt; &lt;/a&gt;&lt;a name="hcpatient-pregnant"&gt; &lt;/a&gt;&lt;p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"&gt;Hiramaya Tamang  Female, DoB: 2001-05-15 ( Person System ID:&nbsp;SYS-001234&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/p&gt;&lt;hr/&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Record is active"&gt;Active:&lt;/td&gt;&lt;td colspan="3"&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Other Ids (see the one above)"&gt;Other Ids:&lt;/td&gt;&lt;td colspan="3"&gt;&lt;ul&gt;&lt;li&gt;National ID/1234567890&nbsp;(use:&nbsp;official,&nbsp;)&lt;/li&gt;&lt;li&gt;Health ID/1234567890&nbsp;(use:&nbsp;official,&nbsp;)&lt;/li&gt;&lt;li&gt;Custom Identifier/MD-98765&nbsp;(use:&nbsp;secondary,&nbsp;)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="background-color: #f3f5da" title="Ways to contact the Patient"&gt;Contact Detail&lt;/td&gt;&lt;td colspan="3"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="tel:+9779801234567"&gt;+9779801234567&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="mailto:hiramaya@hmis.com.np"&gt;hiramaya@hmis.com.np&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Ward No. 5, Ilam Municipality Ilam District Ilam NP &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.extension">extension</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>="https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"&gt;
     &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
@@ -288,8 +288,8 @@
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.identifier">identifier</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.active">active</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>="true"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.name">name</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Shrestha"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Sandesh"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Tamang"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Hiramaya"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.name">name</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.telecom">telecom</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="phone"/&gt;
@@ -298,15 +298,15 @@
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.telecom">telecom</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.telecom">telecom</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="email"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="sandesh@hmis.com.np"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="hiramaya@hmis.com.np"/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="home"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.telecom">telecom</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="male"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="female"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R5/datatypes.html#date">value</a>="2001-05-15"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/patient.html#Patient.address">address</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Ward No. 12, Baneshwor Tole"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Kathmandu District"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Kathmandu Metropolitan City"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Ward No. 5, Ilam Municipality"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Ilam District"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Ilam"/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="NP"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient.address">address</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/patient.html#Patient">Patient</a>&gt;</code></pre>
@@ -333,7 +333,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 14:12+0545">2025-08-14</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 18:06+0545">2025-08-14</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"><a name="l759">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="location-bhsc"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location location-bhsc</b></p><a name="location-bhsc"> </a><a name="hclocation-bhsc"> </a><p><b>status</b>: Active</p><p><b>name</b>: Basic Health Service Center, Tokha</p><p><b>mode</b>: Instance</p><p><b>type</b>: <span title="Codes:{https://fhir.hmis.gov.np/CodeSystem/facility-type bhsc}">Basic Health Service Center</span></p><p><b>address</b>: Ward No. 5 Tokha Municipality Bagmati Province 44600 NP </p><h3>Positions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td style="display: none">*</td><td>85.3206</td><td>27.7489</td></tr></table><p><b>managingOrganization</b>: <a href="Organization/example-org">Organization/example-org</a></p></div>
+  </text>
+  <status value="active"/>
+  <name value="Basic Health Service Center, Tokha"/>
+  <mode value="instance"/>
+  <type>
+    <coding>
+      <system value="https://fhir.hmis.gov.np/CodeSystem/facility-type"/>
+      <code value="bhsc"/>
+      <display value="Basic Health Service Center"/>
+    </coding>
+  </type>
+  <address>
+    <line value="Ward No. 5"/>
+    <city value="Tokha Municipality"/>
+    <state value="Bagmati Province"/>
+    <postalCode value="44600"/>
+    <country value="NP"/>
+  </address>
+  <position>
+    <longitude value="85.3206"/>
+    <latitude value="27.7489"/>
+  </position>
+  <managingOrganization>
+    <reference value="Organization/example-org"/>
+  </managingOrganization>
+</Location>

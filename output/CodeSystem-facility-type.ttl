@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hmis.gov.np/CodeSystem/facility-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "facility-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem facility-type</b></p><a name=\"facility-type\"> </a><a name=\"hcfacility-type\"> </a><p>This case-sensitive code system <code>https://fhir.hmis.gov.np/CodeSystem/facility-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">central-hospital<a name=\"facility-type-central-hospital\"> </a></td><td>Central Hospital</td><td>National-level tertiary hospital providing specialized services.</td></tr><tr><td style=\"white-space:nowrap\">specialized-hospital<a name=\"facility-type-specialized-hospital\"> </a></td><td>Specialized Hospital</td><td>Hospital focusing on specialized medical disciplines.</td></tr><tr><td style=\"white-space:nowrap\">provincial-hospital<a name=\"facility-type-provincial-hospital\"> </a></td><td>Provincial Hospital</td><td>Provincial-level hospital providing secondary care.</td></tr><tr><td style=\"white-space:nowrap\">district-hospital<a name=\"facility-type-district-hospital\"> </a></td><td>District Hospital</td><td>District-level hospital providing general health services.</td></tr><tr><td style=\"white-space:nowrap\">community-hospital<a name=\"facility-type-community-hospital\"> </a></td><td>Community Hospital</td><td>Community-managed hospital providing general care.</td></tr><tr><td style=\"white-space:nowrap\">phcc<a name=\"facility-type-phcc\"> </a></td><td>Primary Health Care Center</td><td>Primary-level facility providing basic and some specialized health services.</td></tr><tr><td style=\"white-space:nowrap\">bhsc<a name=\"facility-type-bhsc\"> </a></td><td>Basic Health Service Center</td><td>Facility providing essential health services, above a health post but below a PHCC.</td></tr><tr><td style=\"white-space:nowrap\">hp<a name=\"facility-type-hp\"> </a></td><td>Health Post</td><td>Facility providing basic preventive, promotive, and curative health services.</td></tr><tr><td style=\"white-space:nowrap\">urban-health-clinic<a name=\"facility-type-urban-health-clinic\"> </a></td><td>Urban Health Clinic</td><td>Primary care service facility in urban areas.</td></tr><tr><td style=\"white-space:nowrap\">outreach-clinic<a name=\"facility-type-outreach-clinic\"> </a></td><td>Outreach Clinic</td><td>Mobile or temporary clinic for targeted services.</td></tr><tr><td style=\"white-space:nowrap\">epi-clinic<a name=\"facility-type-epi-clinic\"> </a></td><td>EPI Clinic</td><td>Clinic providing routine immunization services.</td></tr><tr><td style=\"white-space:nowrap\">private-hospital<a name=\"facility-type-private-hospital\"> </a></td><td>Private Hospital</td><td>Hospital operated by the private sector.</td></tr><tr><td style=\"white-space:nowrap\">private-clinic<a name=\"facility-type-private-clinic\"> </a></td><td>Private Clinic</td><td>Clinic operated by a private practitioner or organization.</td></tr><tr><td style=\"white-space:nowrap\">ayurveda-center<a name=\"facility-type-ayurveda-center\"> </a></td><td>Ayurveda Center</td><td>Facility providing traditional ayurvedic medicine.</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://fhir.hmis.gov.np/CodeSystem/facility-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.0.1-ballot"] ; # 
+  fhir:name [ fhir:v "FacilityType"] ; # 
+  fhir:title [ fhir:v "Nepal Health Facility Type"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-08-14T18:06:03+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://hmis.gov.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "it@hmis.gov.np" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rcpoudel@amakomaya.com" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+977-9851341921" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of health facilities in Nepal, based on Ministry of Health and Population classifications."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "14"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "central-hospital" ] ;
+     fhir:display [ fhir:v "Central Hospital" ] ;
+     fhir:definition [ fhir:v "National-level tertiary hospital providing specialized services." ]
+  ] [
+     fhir:code [ fhir:v "specialized-hospital" ] ;
+     fhir:display [ fhir:v "Specialized Hospital" ] ;
+     fhir:definition [ fhir:v "Hospital focusing on specialized medical disciplines." ]
+  ] [
+     fhir:code [ fhir:v "provincial-hospital" ] ;
+     fhir:display [ fhir:v "Provincial Hospital" ] ;
+     fhir:definition [ fhir:v "Provincial-level hospital providing secondary care." ]
+  ] [
+     fhir:code [ fhir:v "district-hospital" ] ;
+     fhir:display [ fhir:v "District Hospital" ] ;
+     fhir:definition [ fhir:v "District-level hospital providing general health services." ]
+  ] [
+     fhir:code [ fhir:v "community-hospital" ] ;
+     fhir:display [ fhir:v "Community Hospital" ] ;
+     fhir:definition [ fhir:v "Community-managed hospital providing general care." ]
+  ] [
+     fhir:code [ fhir:v "phcc" ] ;
+     fhir:display [ fhir:v "Primary Health Care Center" ] ;
+     fhir:definition [ fhir:v "Primary-level facility providing basic and some specialized health services." ]
+  ] [
+     fhir:code [ fhir:v "bhsc" ] ;
+     fhir:display [ fhir:v "Basic Health Service Center" ] ;
+     fhir:definition [ fhir:v "Facility providing essential health services, above a health post but below a PHCC." ]
+  ] [
+     fhir:code [ fhir:v "hp" ] ;
+     fhir:display [ fhir:v "Health Post" ] ;
+     fhir:definition [ fhir:v "Facility providing basic preventive, promotive, and curative health services." ]
+  ] [
+     fhir:code [ fhir:v "urban-health-clinic" ] ;
+     fhir:display [ fhir:v "Urban Health Clinic" ] ;
+     fhir:definition [ fhir:v "Primary care service facility in urban areas." ]
+  ] [
+     fhir:code [ fhir:v "outreach-clinic" ] ;
+     fhir:display [ fhir:v "Outreach Clinic" ] ;
+     fhir:definition [ fhir:v "Mobile or temporary clinic for targeted services." ]
+  ] [
+     fhir:code [ fhir:v "epi-clinic" ] ;
+     fhir:display [ fhir:v "EPI Clinic" ] ;
+     fhir:definition [ fhir:v "Clinic providing routine immunization services." ]
+  ] [
+     fhir:code [ fhir:v "private-hospital" ] ;
+     fhir:display [ fhir:v "Private Hospital" ] ;
+     fhir:definition [ fhir:v "Hospital operated by the private sector." ]
+  ] [
+     fhir:code [ fhir:v "private-clinic" ] ;
+     fhir:display [ fhir:v "Private Clinic" ] ;
+     fhir:definition [ fhir:v "Clinic operated by a private practitioner or organization." ]
+  ] [
+     fhir:code [ fhir:v "ayurveda-center" ] ;
+     fhir:display [ fhir:v "Ayurveda Center" ] ;
+     fhir:definition [ fhir:v "Facility providing traditional ayurvedic medicine." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

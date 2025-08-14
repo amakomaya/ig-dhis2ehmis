@@ -14,6 +14,13 @@
     "name" : "EthnicCodeCS"
   },
   {
+    "id" : "facility-type",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.hmis.gov.np/CodeSystem/facility-type",
+    "version" : "0.0.1-ballot",
+    "name" : "FacilityType"
+  },
+  {
     "id" : "free-cost",
     "type" : "CodeSystem",
     "url" : "https://fhir.hmis.gov.np/CodeSystem/free-cost",

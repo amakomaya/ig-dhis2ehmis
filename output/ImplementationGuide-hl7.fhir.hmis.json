@@ -405,9 +405,10 @@
         "valueString" : "Location"
       }],
       "reference" : {
-        "reference" : "Location/ExampleLocation"
+        "reference" : "Location/location-bhsc"
       },
-      "name" : "Location",
+      "name" : "Location – Basic Health Service Center, Tokha, Kathmandu",
+      "description" : "A Basic Health Service Center located in Ward No. 5, Tokha Municipality, Kathmandu District, Bagmati Province, Nepal.",
       "isExample" : true
     },
     {
@@ -461,12 +462,24 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/facility-type"
+      },
+      "name" : "Nepal Health Facility Type",
+      "description" : "Types of health facilities in Nepal, based on Ministry of Health and Population classifications.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
         "reference" : "Observation/observation-child-weight"
       },
-      "name" : "Observation Weight Measurement for Child",
+      "name" : "Observation - Weight Measurement for Child",
       "description" : "An example observation recording the weight of a child.",
       "isExample" : true
     },
@@ -481,18 +494,6 @@
       "name" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative",
       "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)",
       "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/PatientExample"
-      },
-      "name" : "Patient",
-      "description" : "ईलाम जिल्ला, ईलाम नगरपालिका वडा नं. ५ की २१ बर्षिय हिरामाया तामाङ मिति २०७० पौष १३ गते पहिलो सेवाग्राहीको रुपमा जिल्ला अस्पताल ईलाममा परिवार नियोजनको डिपो सुई लिन पहिलो पटक आईन । अब, मूलदर्तामा उनको नाम दर्ता गर्नुहोस्। पौष १२ गतेको अन्तिम क्र.सं. २०९ र मूल दर्ता नं. १२७७ भएको छ ।",
-      "isExample" : true
     },
     {
       "extension" : [{
@@ -517,6 +518,30 @@
       "name" : "Patient Visit Ordinal",
       "description" : "ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits.",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/patient-child"
+      },
+      "name" : "Patient – Child",
+      "description" : "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 12 visiting the Health Facility for routine immunizations.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/patient-pregnant"
+      },
+      "name" : "Patient – Pregnant Woman (Mom-to-Be)",
+      "description" : "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care.",
+      "isExample" : true
     },
     {
       "extension" : [{
@@ -565,6 +590,18 @@
       "name" : "Service Type",
       "description" : "Service Type",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/organization-bhsc"
+      },
+      "name" : "Tokha BHSC 07",
+      "description" : "The BHSC 07 responsible for managing the Basic Health Service Center, Tokha, Kathmandu.",
+      "isExample" : true
     },
     {
       "extension" : [{

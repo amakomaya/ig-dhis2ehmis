@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Location - JSON Representation - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+    <title>Tokha BHSC 07 - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"15.42"}
-    h3,h4,h5,h6{--heading-prefix:"15.42"}</style>
+    <style type="text/css">h2{--heading-prefix:"15.47"}
+    h3,h4,h5,h6{--heading-prefix:"15.47"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -169,7 +169,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Location</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Tokha BHSC 07</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -181,9 +181,10 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
+  
 
 
 
@@ -194,29 +195,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="Location-ExampleLocation.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Location-ExampleLocation.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">JSON</a>
+      <a href="Organization-organization-bhsc.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Location-ExampleLocation.ttl.html">TTL</a>
+      <a href="Organization-organization-bhsc.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Organization-organization-bhsc.ttl.html">TTL</a>
     </li>
   
 
@@ -225,51 +226,22 @@
 </ul>
 
 
-<a name="root"> </a>
+  <a name="root"> </a>
 
 
-<h2 id="root">: Location - JSON Representation</h2>
+  <h2 id="root">Example Organization: Tokha BHSC 07</h2>
 
 
-<p><a href="Location-ExampleLocation.json" no-download="true">Raw json</a> | <a download="null" href="Location-ExampleLocation.json">Download</a></p>
+
 
     <!-- insert intro if present -->
   
 
 
 
-  <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="json"><code style="white-space: pre; text-wrap: nowrap;" class="language-json">{
-  "<a href="http://hl7.org/fhir/R5/location.html#Location">resourceType</a>" : "Location",
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.id">id</a>" : "ExampleLocation",
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Location ExampleLocation&lt;/b&gt;&lt;/p&gt;&lt;a name=\"ExampleLocation\"&gt; &lt;/a&gt;&lt;a name=\"hcExampleLocation\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Health Post 12, Sunsari&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode HOSP}\"&gt;Hospital&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Ward No. 5 Inaruwa Province 1 56700 &lt;/p&gt;&lt;p&gt;&lt;b&gt;managingOrganization&lt;/b&gt;: &lt;a href=\"Organization/example-org\"&gt;Organization/example-org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
-  },
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.name">name</a>" : "Health Post 12, Sunsari",
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.type">type</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "HOSP"
-        }
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.address">address</a>" : {
-    "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a>" : [
-      "Ward No. 5"
-    ],
-    "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a>" : "Inaruwa",
-    "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.district">district</a>" : "Sunsari",
-    "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.state">state</a>" : "Province 1",
-    "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a>" : "56700"
-  },
-  "<a href="http://hl7.org/fhir/R5/location.html#Location.managingOrganization">managingOrganization</a>" : {
-    "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/example-org"
-  }
-}</code></pre>
+  <div><a name="organization-bhsc"> </a><a name="hcorganization-bhsc"> </a><p><b>identifier</b>: code/3060500031&nbsp;(use:&nbsp;official,&nbsp;)</p><p><b>name</b>: DHAPASI HEALTH POST</p></div>
 
+  
 
     <!-- insert notes if present -->
   
@@ -292,9 +264,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 14:12+0545">2025-08-14</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Aug 14, 2025 18:06+0545">2025-08-14</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l496">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l445">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

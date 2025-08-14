@@ -1,0 +1,123 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "facility-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem facility-type</b></p><a name=\"facility-type\"> </a><a name=\"hcfacility-type\"> </a><p>This case-sensitive code system <code>https://fhir.hmis.gov.np/CodeSystem/facility-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">central-hospital<a name=\"facility-type-central-hospital\"> </a></td><td>Central Hospital</td><td>National-level tertiary hospital providing specialized services.</td></tr><tr><td style=\"white-space:nowrap\">specialized-hospital<a name=\"facility-type-specialized-hospital\"> </a></td><td>Specialized Hospital</td><td>Hospital focusing on specialized medical disciplines.</td></tr><tr><td style=\"white-space:nowrap\">provincial-hospital<a name=\"facility-type-provincial-hospital\"> </a></td><td>Provincial Hospital</td><td>Provincial-level hospital providing secondary care.</td></tr><tr><td style=\"white-space:nowrap\">district-hospital<a name=\"facility-type-district-hospital\"> </a></td><td>District Hospital</td><td>District-level hospital providing general health services.</td></tr><tr><td style=\"white-space:nowrap\">community-hospital<a name=\"facility-type-community-hospital\"> </a></td><td>Community Hospital</td><td>Community-managed hospital providing general care.</td></tr><tr><td style=\"white-space:nowrap\">phcc<a name=\"facility-type-phcc\"> </a></td><td>Primary Health Care Center</td><td>Primary-level facility providing basic and some specialized health services.</td></tr><tr><td style=\"white-space:nowrap\">bhsc<a name=\"facility-type-bhsc\"> </a></td><td>Basic Health Service Center</td><td>Facility providing essential health services, above a health post but below a PHCC.</td></tr><tr><td style=\"white-space:nowrap\">hp<a name=\"facility-type-hp\"> </a></td><td>Health Post</td><td>Facility providing basic preventive, promotive, and curative health services.</td></tr><tr><td style=\"white-space:nowrap\">urban-health-clinic<a name=\"facility-type-urban-health-clinic\"> </a></td><td>Urban Health Clinic</td><td>Primary care service facility in urban areas.</td></tr><tr><td style=\"white-space:nowrap\">outreach-clinic<a name=\"facility-type-outreach-clinic\"> </a></td><td>Outreach Clinic</td><td>Mobile or temporary clinic for targeted services.</td></tr><tr><td style=\"white-space:nowrap\">epi-clinic<a name=\"facility-type-epi-clinic\"> </a></td><td>EPI Clinic</td><td>Clinic providing routine immunization services.</td></tr><tr><td style=\"white-space:nowrap\">private-hospital<a name=\"facility-type-private-hospital\"> </a></td><td>Private Hospital</td><td>Hospital operated by the private sector.</td></tr><tr><td style=\"white-space:nowrap\">private-clinic<a name=\"facility-type-private-clinic\"> </a></td><td>Private Clinic</td><td>Clinic operated by a private practitioner or organization.</td></tr><tr><td style=\"white-space:nowrap\">ayurveda-center<a name=\"facility-type-ayurveda-center\"> </a></td><td>Ayurveda Center</td><td>Facility providing traditional ayurvedic medicine.</td></tr></table></div>"
+  },
+  "url" : "https://fhir.hmis.gov.np/CodeSystem/facility-type",
+  "version" : "0.0.1-ballot",
+  "name" : "FacilityType",
+  "title" : "Nepal Health Facility Type",
+  "status" : "active",
+  "date" : "2025-08-14T18:06:03+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Types of health facilities in Nepal, based on Ministry of Health and Population classifications.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "central-hospital",
+    "display" : "Central Hospital",
+    "definition" : "National-level tertiary hospital providing specialized services."
+  },
+  {
+    "code" : "specialized-hospital",
+    "display" : "Specialized Hospital",
+    "definition" : "Hospital focusing on specialized medical disciplines."
+  },
+  {
+    "code" : "provincial-hospital",
+    "display" : "Provincial Hospital",
+    "definition" : "Provincial-level hospital providing secondary care."
+  },
+  {
+    "code" : "district-hospital",
+    "display" : "District Hospital",
+    "definition" : "District-level hospital providing general health services."
+  },
+  {
+    "code" : "community-hospital",
+    "display" : "Community Hospital",
+    "definition" : "Community-managed hospital providing general care."
+  },
+  {
+    "code" : "phcc",
+    "display" : "Primary Health Care Center",
+    "definition" : "Primary-level facility providing basic and some specialized health services."
+  },
+  {
+    "code" : "bhsc",
+    "display" : "Basic Health Service Center",
+    "definition" : "Facility providing essential health services, above a health post but below a PHCC."
+  },
+  {
+    "code" : "hp",
+    "display" : "Health Post",
+    "definition" : "Facility providing basic preventive, promotive, and curative health services."
+  },
+  {
+    "code" : "urban-health-clinic",
+    "display" : "Urban Health Clinic",
+    "definition" : "Primary care service facility in urban areas."
+  },
+  {
+    "code" : "outreach-clinic",
+    "display" : "Outreach Clinic",
+    "definition" : "Mobile or temporary clinic for targeted services."
+  },
+  {
+    "code" : "epi-clinic",
+    "display" : "EPI Clinic",
+    "definition" : "Clinic providing routine immunization services."
+  },
+  {
+    "code" : "private-hospital",
+    "display" : "Private Hospital",
+    "definition" : "Hospital operated by the private sector."
+  },
+  {
+    "code" : "private-clinic",
+    "display" : "Private Clinic",
+    "definition" : "Clinic operated by a private practitioner or organization."
+  },
+  {
+    "code" : "ayurveda-center",
+    "display" : "Ayurveda Center",
+    "definition" : "Facility providing traditional ayurvedic medicine."
+  }]
+}

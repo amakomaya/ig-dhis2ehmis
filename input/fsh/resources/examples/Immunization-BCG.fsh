@@ -11,13 +11,13 @@ Usage: #example
 * vaccineCode.coding[0].display = "Bacillus Calmette-Guérin vaccine"
 * vaccineCode.text = "BCG Vaccine"
 
-* patient.reference = "Patient/example"
+* patient.reference = "Patient/patient-child"
 * encounter.reference = "Encounter/bcg-admin-1"
 
 * occurrenceDateTime = "2025-08-01T09:57:34.2112Z"
 * primarySource = true
 
-* location.reference = "Location/clinic-abc"
+* location.reference = "Location/location-bhsc"
 
 * lotNumber = "BCG2021A"
 * site.coding[0].system = "http://snomed.info/sct"

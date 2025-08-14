@@ -1,11 +1,12 @@
 NPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 263, warn = 57, info = 67
+err = 260, warn = 62, info = 69
 IG Publisher Version: 2.0.13
-Generated Thu Aug 14 14:13:22 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = https://fhir.hmis.gov.np)
- Build Errors : 321 / 271 / 0
+Generated Thu Aug 14 18:07:45 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = https://fhir.hmis.gov.np)
+ Build Errors : 335 / 286 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 18 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-facility-type : 0 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-cost : 0 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-service-eligibility : 0 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-locations : 0 / 2 / 2
@@ -13,7 +14,7 @@ Generated Thu Aug 14 14:13:22 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 0 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no : 0 / 3 / 3
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Encounter-encounter-anc-visit : 5 / 0 / 1
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 8 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 4 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-dpt : 7 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-fipv : 5 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-hpv : 5 / 0 / 2
@@ -27,11 +28,13 @@ Generated Thu Aug 14 14:13:22 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-td : 7 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-typhoid : 5 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis : 0 / 1 / 17
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Location-ExampleLocation : 2 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Location-location-bhsc : 2 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID : 0 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID : 0 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Observation-observation-child-weight : 2 / 1 / 1
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-PatientExample : 1 / 3 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Organization-organization-bhsc : 0 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-child : 1 / 3 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-pregnant : 1 / 3 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-ethnic-code : 1 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-age-range : 0 / 2 / 2
@@ -53,7 +56,6 @@ Generated Thu Aug 14 14:13:22 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/ExampleLocation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 297, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -66,6 +68,18 @@ WARNING: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/a at Line 143, c
 ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 381, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 393, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type-testing.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type-testing.html#/html/body/div/div/div/p/span/a at Line 297, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type.html#/html/body/div/div/div/p/span/a at Line 370, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type.json.html#/html/body/div/div/div/p/span/a at Line 424, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type.ttl.html#/html/body/div/div/div/p/span/a at Line 400, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: CodeSystem-facility-type.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-facility-type.xml.html#/html/body/div/div/div/p/span/a at Line 421, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: CodeSystem-free-cost-testing.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-free-cost-testing.html#/html/body/div/div/div/p/span/a at Line 297, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: CodeSystem-free-cost.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -153,9 +167,7 @@ ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at
 WARNING: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: Immunization-immunization-bcg.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 295: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 365: The link 'Encounter/bcg-admin-1' for "Encounter/bcg-admin-1" cannot be resolved
-ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 529: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 442: The link 'Encounter/bcg-admin-1' for "Encounter/bcg-admin-1" cannot be resolved
 ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: Immunization-immunization-bcg.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 315, column 114: The link 'license.html' for "License" cannot be resolved
@@ -314,17 +326,17 @@ WARNING: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/a at 
 ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 314, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Location-ExampleLocation.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Location-ExampleLocation.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Location-ExampleLocation.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Location-ExampleLocation.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 356: The link 'Organization/example-org' for "Organization/example-org" cannot be resolved
-ERROR: Location-ExampleLocation.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Location-ExampleLocation.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Location-ExampleLocation.json.html#/html/body/div/div/div/p/span/a at Line 305, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Location-ExampleLocation.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Location-ExampleLocation.ttl.html#/html/body/div/div/div/p/span/a at Line 309, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Location-ExampleLocation.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Location-ExampleLocation.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-location-bhsc.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-location-bhsc.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-location-bhsc.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-location-bhsc.html#/html/body/div/div/div/div/div/div/p/a at Line 243, column 667: The link 'Organization/example-org' for "Organization/example-org" cannot be resolved
+ERROR: Location-location-bhsc.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-location-bhsc.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-location-bhsc.json.html#/html/body/div/div/div/p/span/a at Line 312, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-location-bhsc.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-location-bhsc.ttl.html#/html/body/div/div/div/p/span/a at Line 316, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Location-location-bhsc.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Location-location-bhsc.xml.html#/html/body/div/div/div/p/span/a at Line 306, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: NamingSystem-HealthID-testing.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 297, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -360,16 +372,36 @@ WARNING: Observation-observation-child-weight.ttl.html#/html/body/div/div/div/a 
 ERROR: Observation-observation-child-weight.ttl.html#/html/body/div/div/div/p/span/a at Line 322, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: Observation-observation-child-weight.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: Observation-observation-child-weight.xml.html#/html/body/div/div/div/p/span/a at Line 308, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Patient-PatientExample.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Patient-PatientExample.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Patient-PatientExample.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Patient-PatientExample.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Patient-PatientExample.json.html#/html/body/div/div/div/p/span/a at Line 365, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Patient-PatientExample.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/div/p/span/a at Line 347, column 114: The link 'license.html' for "License" cannot be resolved
-WARNING: Patient-PatientExample.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: Patient-PatientExample.xml.html#/html/body/div/div/div/p/span/a at Line 346, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Organization-organization-bhsc.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-organization-bhsc.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Organization-organization-bhsc.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-organization-bhsc.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Organization-organization-bhsc.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-organization-bhsc.json.html#/html/body/div/div/div/p/span/a at Line 297, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Organization-organization-bhsc.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-organization-bhsc.ttl.html#/html/body/div/div/div/p/span/a at Line 302, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Organization-organization-bhsc.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-organization-bhsc.xml.html#/html/body/div/div/div/p/span/a at Line 293, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-child.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-child.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-child.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-child.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-child.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-child.json.html#/html/body/div/div/div/p/span/a at Line 360, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-child.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-child.ttl.html#/html/body/div/div/div/p/span/a at Line 343, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-child.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-child.xml.html#/html/body/div/div/div/p/span/a at Line 341, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-pregnant.change.history.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-pregnant.change.history.html#/html/body/div/div/div/p/span/a at Line 266, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-pregnant.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-pregnant.html#/html/body/div/div/div/p/span/a at Line 275, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-pregnant.json.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-pregnant.json.html#/html/body/div/div/div/p/span/a at Line 365, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/p/span/a at Line 347, column 114: The link 'license.html' for "License" cannot be resolved
+WARNING: Patient-patient-pregnant.xml.html#/html/body/div/div/div/a at Line 143, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-patient-pregnant.xml.html#/html/body/div/div/div/p/span/a at Line 346, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: StructureDefinition-ethnic-code-definitions.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: StructureDefinition-ethnic-code-definitions.html#/html/body/div/div/div/p/span/a at Line 379, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: StructureDefinition-ethnic-code-mappings.html#/html/body/div/div/div/a at Line 145, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -598,12 +630,12 @@ WARNING: archimate-diagram.html#/html/body/div/div/div/a at Line 141, column 5: 
 ERROR: archimate-diagram.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 293, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: archimate-diagram.html#/html/body/div/div/div/p/span/a at Line 416, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: artifacts.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 694, column 114: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 719, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: codesystems.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: codesystems.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 225, column 7476: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 295, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: examples.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
-ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 331, column 114: The link 'license.html' for "License" cannot be resolved
+ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 342, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: external_terminologies.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
 ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 291, column 114: The link 'license.html' for "License" cannot be resolved
 WARNING: gov_concepts.html#/html/body/div/div/div/a at Line 141, column 5: The link 'https://fhir.hmis.gov.np' for "Project home Project home" is a canonical link and is therefore unsafe with regard to versions
@@ -664,6 +696,10 @@ ERROR: CodeSystem/ethnic-code: CodeSystem.concept[4].designation[0].language: Th
 ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]
 ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0'
 ERROR: CodeSystem/ethnic-code: CodeSystem.concept[5].designation[0].language: The value provided ('np') was not found in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0': include #0 has system urn:ietf:bcp:47 which could not be found, and the server returned error [Error from https://tx.fhir.org/r5: The code System "urn:ietf:bcp:47" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'np' in the ValueSet 'http://hl7.org/fhir/ValueSet/all-languages|5.0.0')
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+== fsh-generated/resources/CodeSystem-facility-type.json ==
+INFORMATION: CodeSystem/facility-type: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: CodeSystem/facility-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 == fsh-generated/resources/CodeSystem-free-cost.json ==
 INFORMATION: CodeSystem/free-cost: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
@@ -813,13 +849,9 @@ ERROR: Encounter.text.div: Hyperlink 'Location/clinic-abc' at 'div/table/tr/td/a
 == fsh-generated/resources/Immunization-immunization-bcg.json ==
 INFORMATION: Immunization/immunization-bcg: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-bcg: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Bacillus Calmette-Guérin vaccine' for http://snomed.info/sct#390840006. There are no valid display names found for language(s) 'en-US'. Default display is 'Next appointment (finding)'
-ERROR: Immunization/immunization-bcg: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
 ERROR: Immunization/immunization-bcg: Immunization.encounter: Unable to resolve resource with reference 'Encounter/bcg-admin-1'
-ERROR: Immunization/immunization-bcg: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
 ERROR: Immunization/immunization-bcg: Immunization.site.coding[0].display: Wrong Display Name 'Structure of right upper arm' for http://snomed.info/sct#368209003. There are no valid display names found for language(s) 'en-US'. Default display is 'Right upper arm'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
 ERROR: Immunization.text.div: Hyperlink 'Encounter/bcg-admin-1' at 'div/p/a' for 'Encounter/bcg-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
 == fsh-generated/resources/Immunization-immunization-dpt.json ==
 INFORMATION: Immunization/immunization-dpt: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-dpt: Immunization.vaccineCode.coding[0].code: Unknown code '58050006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
@@ -937,8 +969,8 @@ INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.p
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP: 'Nepal']) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-== fsh-generated/resources/Location-ExampleLocation.json ==
-ERROR: Location/ExampleLocation: Location.managingOrganization: Unable to resolve resource with reference 'Organization/example-org'
+== fsh-generated/resources/Location-location-bhsc.json ==
+ERROR: Location/location-bhsc: Location.managingOrganization: Unable to resolve resource with reference 'Organization/example-org'
 ERROR: Location.text.div: Hyperlink 'Organization/example-org' at 'div/p/a' for 'Organization/example-org' does not resolve
 == fsh-generated/resources/NamingSystem-HealthID.json ==
 INFORMATION: NamingSystem/HealthID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
@@ -950,12 +982,20 @@ WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction
 ERROR: Observation/observation-child-weight: Observation.subject: Unable to resolve resource with reference 'Patient/example'
 WARNING: Observation/observation-child-weight: Observation: Best Practice Recommendation: In general, all observations should have a performer
 ERROR: Observation.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-== fsh-generated/resources/Patient-PatientExample.json ==
-ERROR: Patient/PatientExample: Patient.extension[0]: The extension https://hl7.hmis.gov.np/StructureDefinition/ethnic-code could not be found so is not allowed here
-WARNING: Patient/PatientExample: Patient.extension[0].url: No definition could be found for URL value 'https://hl7.hmis.gov.np/StructureDefinition/ethnic-code'
-INFORMATION: Patient/PatientExample: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7.hmis.gov.np/CodeSystem/ethnic-code' could not be found, so the code cannot be validated
-WARNING: Patient/PatientExample: Patient.identifier[0].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
-WARNING: Patient/PatientExample: Patient.identifier[1].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+== fsh-generated/resources/Organization-organization-bhsc.json ==
+WARNING: Organization/organization-bhsc: Organization.identifier[0].type.coding[0].system: A definition for CodeSystem 'https://nhfr.mohp.gov.np/' could not be found, so the code cannot be validated
+== fsh-generated/resources/Patient-patient-child.json ==
+ERROR: Patient/patient-child: Patient.extension[0]: The extension https://hl7.hmis.gov.np/StructureDefinition/ethnic-code could not be found so is not allowed here
+WARNING: Patient/patient-child: Patient.extension[0].url: No definition could be found for URL value 'https://hl7.hmis.gov.np/StructureDefinition/ethnic-code'
+INFORMATION: Patient/patient-child: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7.hmis.gov.np/CodeSystem/ethnic-code' could not be found, so the code cannot be validated
+WARNING: Patient/patient-child: Patient.identifier[0].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+WARNING: Patient/patient-child: Patient.identifier[1].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+== fsh-generated/resources/Patient-patient-pregnant.json ==
+ERROR: Patient/patient-pregnant: Patient.extension[0]: The extension https://hl7.hmis.gov.np/StructureDefinition/ethnic-code could not be found so is not allowed here
+WARNING: Patient/patient-pregnant: Patient.extension[0].url: No definition could be found for URL value 'https://hl7.hmis.gov.np/StructureDefinition/ethnic-code'
+INFORMATION: Patient/patient-pregnant: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7.hmis.gov.np/CodeSystem/ethnic-code' could not be found, so the code cannot be validated
+WARNING: Patient/patient-pregnant: Patient.identifier[0].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+WARNING: Patient/patient-pregnant: Patient.identifier[1].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
 == fsh-generated/resources/StructureDefinition-ethnic-code.json ==
 INFORMATION: StructureDefinition/ethnic-code: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/ethnic-code: StructureDefinition.context[0]: Review the extension type for ethnic-code: extensions should not have a context of Element unless it's really intended that they can be used anywhere
