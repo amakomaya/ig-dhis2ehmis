@@ -83,4 +83,11 @@ Terminology Services
 * mapping
 * validate
 
-For a full Terminology Value Sets list, check the **[Artifacts](artifacts.html#terminology-value-sets)** section.
+
+### Terminology Value Sets
+
+The following value sets have been defined for this Implementation Guide:
+
+{% include list-simple-name-valuesets.xhtml %}
+
+For the complete list of terminology value sets, please refer to the **[Artifacts](artifacts.html#terminology-value-sets)** section.

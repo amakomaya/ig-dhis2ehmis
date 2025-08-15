@@ -36,6 +36,8 @@ pages:
     title: Home
   smart-index.md:
     title: SMART Guidelines
+  profiles.md:
+    title: Profiles
   codesystems.md:
     title: Code Systems
   valuesets.md:
@@ -57,6 +59,11 @@ pages:
   examples.md:
     title: Examples
 
+  downloads.md:
+    title: Downloads
+    copyrights.md:
+      title: Copyrights
+
   health-journey-mnch.md:
   health-journey-immunization.md:
   health-journey-opd.md:
@@ -64,6 +71,7 @@ pages:
 menu:
   Home: index.html
   SMART Guidelines: smart-index.html
+  Profiles : profiles.html
   Code Systems: codesystems.html
   Value Set: valuesets.html
   Indicators: indicators.html
@@ -75,6 +83,9 @@ menu:
   Authoring:
     Governance : gov_concepts.html
     ArchiMate Diagram : archimate-diagram.html
+  Support:
+    Downloads: downloads.html
+    Copyrights: copyrights.html
   Artifacts: artifacts.html
 
 contact:

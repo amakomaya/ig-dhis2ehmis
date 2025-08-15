@@ -37,4 +37,11 @@ This is the overview of the activities and related artifacts used:
 * Appropriate CodeSystem resources are defined
 
 
-For a full Terminology Code System list, check the **[Artifacts](artifacts.html#terminology-code-systems)** section.
+
+### Terminology Code Systems
+
+The following code systems have been defined for this Implementation Guide:
+
+{% include list-simple-name-codesystems.xhtml %}
+
+For the complete list of terminology code systems, please refer to the **[Artifacts](artifacts.html#terminology-code-systems)** section.

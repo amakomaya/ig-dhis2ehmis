@@ -623,6 +623,20 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/patient-nepal> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-nepal" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Profile for Nepal" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -826,6 +840,14 @@
        ] [
          fhir:source [
            a fhir:url ;
+           fhir:v "profiles.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "profiles.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Profiles" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
            fhir:v "codesystems.html"^^xsd:anyURI
          ] ;
          fhir:name [ fhir:v "codesystems.html"^^xsd:anyURI ] ;
@@ -904,6 +926,23 @@
          fhir:name [ fhir:v "examples.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Examples" ] ;
          fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "downloads.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Downloads" ] ;
+         fhir:generation [ fhir:v "markdown" ] ;
+         fhir:page ( [
+           fhir:source [
+             a fhir:url ;
+             fhir:v "copyrights.html"^^xsd:anyURI
+           ] ;
+           fhir:name [ fhir:v "copyrights.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Copyrights" ] ;
+           fhir:generation [ fhir:v "markdown" ]
+         ] )
        ] [
          fhir:source [
            a fhir:url ;

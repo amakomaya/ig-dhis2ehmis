@@ -498,6 +498,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-nepal"
+      },
+      "name" : "Patient Profile for Nepal",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -657,6 +668,12 @@
         "generation" : "markdown"
       },
       {
+        "sourceUrl" : "profiles.html",
+        "name" : "profiles.html",
+        "title" : "Profiles",
+        "generation" : "markdown"
+      },
+      {
         "sourceUrl" : "codesystems.html",
         "name" : "codesystems.html",
         "title" : "Code Systems",
@@ -715,6 +732,18 @@
         "name" : "examples.html",
         "title" : "Examples",
         "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "downloads.html",
+        "name" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown",
+        "page" : [{
+          "sourceUrl" : "copyrights.html",
+          "name" : "copyrights.html",
+          "title" : "Copyrights",
+          "generation" : "markdown"
+        }]
       },
       {
         "sourceUrl" : "health-journey-mnch.html",

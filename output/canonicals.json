@@ -7,6 +7,13 @@
     "name" : "AdministrativeGenderVS"
   },
   {
+    "id" : "patient-nepal",
+    "type" : "StructureDefinition",
+    "url" : "http://hmis.gov.np/fhir/StructureDefinition/patient-nepal",
+    "version" : "0.0.1-ballot",
+    "name" : "PatientNepal"
+  },
+  {
     "id" : "ethnic-code",
     "type" : "CodeSystem",
     "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",

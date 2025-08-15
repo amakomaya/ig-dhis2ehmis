@@ -460,6 +460,16 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-nepal"/>
+      </reference>
+      <name value="Patient Profile for Nepal"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -608,6 +618,12 @@ It is developed to support routine service delivery programs such as Maternal an
         <generation value="markdown"/>
       </page>
       <page>
+        <sourceUrl value="profiles.html"/>
+        <name value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <sourceUrl value="codesystems.html"/>
         <name value="codesystems.html"/>
         <title value="Code Systems"/>
@@ -666,6 +682,18 @@ It is developed to support routine service delivery programs such as Maternal an
         <name value="examples.html"/>
         <title value="Examples"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="downloads.html"/>
+        <name value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+        <page>
+          <sourceUrl value="copyrights.html"/>
+          <name value="copyrights.html"/>
+          <title value="Copyrights"/>
+          <generation value="markdown"/>
+        </page>
       </page>
       <page>
         <sourceUrl value="health-journey-mnch.html"/>
