@@ -111,6 +111,17 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/medication"/>
+      </reference>
+      <name value="Dietary Supplements (SNOMED)"/>
+      <description value="Vitamins, minerals, and other dietary supplements"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/district"/>
       </reference>
       <name value="District"/>
@@ -149,6 +160,17 @@ It is developed to support routine service delivery programs such as Maternal an
       <name value="Encounter ANC Visit - Pregnant Woman"/>
       <description value="An antenatal care visit for a pregnant woman."/>
       <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NPCoreEncounter"/>
+      </reference>
+      <name value="Encounter Profile for Nepal Basic Health Services"/>
+      <description value="Profile for recording patient encounters under Basic Health Services &#xA;(including OPD visits, outreach clinics, and home visits)."/>
+      <isExample value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -214,6 +236,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Free Service Eligibility"/>
       <description value="Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NPCoreImmunization"/>
+      </reference>
+      <name value="Immunization Profile for Nepal"/>
+      <description value="Profile for recording immunizations for children and adults in Nepal, supporting all routine vaccines."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -394,6 +427,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NPCoreMedicationStatement"/>
+      </reference>
+      <name value="Medication Statement"/>
+      <description value="Profile to record medicines, supplements, and drugs provided"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -405,13 +449,13 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="NamingSystem/NationalID"/>
+        <reference value="StructureDefinition/NepalAddress"/>
       </reference>
-      <name value="National ID of the National"/>
-      <description value="The official National Identification Number assigned by the Government of Nepal."/>
+      <name value="Nepal Address"/>
+      <description value="Extension to represent coded and textual forms of Nepal's administrative divisions (Province, District, Municipality, Ward)."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -434,6 +478,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Nepal Health Facility Type"/>
       <description value="Types of health facilities in Nepal, based on Ministry of Health and Population classifications."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NationalID"/>
+      </reference>
+      <name value="Nepal National Identity Number"/>
+      <description value="Nepalese National Identity Number issued by the Ministry of Home Affairs."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -463,9 +518,10 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-nepal"/>
+        <reference value="StructureDefinition/NPCorePatient"/>
       </reference>
       <name value="Patient Profile for Nepal"/>
+      <description value="Patient profile with national identifiers, name, gender, birth date, address, contact."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -569,6 +625,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vaccine"/>
+      </reference>
+      <name value="Vaccines (SNOMED CT)"/>
+      <description value="ValueSet of routine vaccines in Nepal, based on SNOMED CT concepts."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -620,7 +687,7 @@ It is developed to support routine service delivery programs such as Maternal an
       <page>
         <sourceUrl value="profiles.html"/>
         <name value="profiles.html"/>
-        <title value="Profiles"/>
+        <title value="Extensions and Profiles"/>
         <generation value="markdown"/>
       </page>
       <page>

@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medication",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medication</b></p><a name=\"medication\"> </a><a name=\"hcmedication\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 763158003 (Medicinal product (product))</li></ul></div>"
+  },
+  "url" : "https://fhir.hmis.gov.np/ValueSet/medication",
+  "version" : "0.0.1-ballot",
+  "name" : "MedicationVS",
+  "title" : "Dietary Supplements (SNOMED)",
+  "status" : "active",
+  "date" : "2025-08-19T07:52:08+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Vitamins, minerals, and other dietary supplements",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "763158003"
+      }]
+    }]
+  }
+}

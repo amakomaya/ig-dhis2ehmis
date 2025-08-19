@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Profiles - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+    <title>Extensions and Profiles - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -73,7 +73,7 @@
     <a href="smart-index.html">SMART Guidelines</a>
   </li>
   <li>
-    <a href="profiles.html">Profiles</a>
+    <a href="profiles.html">Extensions and Profiles</a>
   </li>
   <li>
     <a href="codesystems.html">Code Systems</a>
@@ -185,7 +185,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Profiles</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Extensions and Profiles</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -206,7 +206,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Profiles</h2>
+  <h2>Extensions and Profiles</h2>
   
 
 
@@ -224,11 +224,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
-<p>Profiles in this Implementation Guide</p>
+<p>The following <strong>profiles and extensions</strong> have been defined for this implementation guide.<br/>
+Each entry includes a link and description.</p>
 
-<p>The links and descriptions for the profiles that have been defined for this implementation guide are listed here:</p>
-
-<tr><td><a href="StructureDefinition-patient-nepal.html">Patient Profile for Nepal</a> </td><td>PatientNepal</td></tr>
+<tr><td><a href="StructureDefinition-NPCoreEncounter.html">Encounter Profile for Nepal Basic Health Services</a> </td><td><p>Profile for recording patient encounters under Basic Health Services
+(including OPD visits, outreach clinics, and home visits).</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-NPCoreImmunization.html">Immunization Profile for Nepal</a> </td><td><p>Profile for recording immunizations for children and adults in Nepal, supporting all routine vaccines.</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-NPCoreMedicationStatement.html">Medication Statement</a> </td><td><p>Profile to record medicines, supplements, and drugs provided</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-NPCorePatient.html">Patient Profile for Nepal</a> </td><td><p>Patient profile with national identifiers, name, gender, birth date, address, contact.</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-NepalAddress.html">Nepal Address</a> </td><td><p>Extension to represent coded and textual forms of Nepal's administrative divisions (Province, District, Municipality, Ward).</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-ethnic-code.html">Ethnic Code</a> </td><td><p>Extension to capture जाति कोड (ethnicity) based on Nepali classification</p>
+</td></tr>
 
 
 
@@ -249,9 +260,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 15, 2025 10:07+0545">2025-08-15</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 19, 2025 07:52+0545">2025-08-19</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l447">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l501">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

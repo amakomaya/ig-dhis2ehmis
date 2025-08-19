@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "FacilityType"] ; # 
   fhir:title [ fhir:v "Nepal Health Facility Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-15T10:07:00+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-19T07:52:08+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

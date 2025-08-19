@@ -1,13 +1,32 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
-      "version" : "0.0.1-ballot",
+      "url" : "http://hl7.org/fhir/ValueSet/address-type",
+      "version" : "5.0.0",
       "status" : "active",
-      "name" : "AdministrativeGenderVS",
-      "title" : "Administrative Gender",
-      "description" : "A value set containing administrative gender codes from the FHIR core.",
-      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "systems" : ["http://hl7.org/fhir/address-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.69"],
+      "sources" : ["2.16.840.1.113883.4.642.3.69"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "systems" : ["http://hl7.org/fhir/address-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.67"],
+      "sources" : ["2.16.840.1.113883.4.642.3.67"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -21,7 +40,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -35,7 +54,573 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal",
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services",
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionProblemDiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.2.72",
+        "2.16.840.1.113883.4.642.3.152"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.2.72",
+        "2.16.840.1.113883.4.642.3.152"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-system"],
+      "oids" : ["2.16.840.1.113883.4.642.3.71"],
+      "sources" : ["2.16.840.1.113883.4.642.3.71"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ContactPointUse",
+      "title" : "ContactPointUse",
+      "description" : "Use of contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.73"],
+      "sources" : ["2.16.840.1.113883.4.642.3.73"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "AdmitSource",
+      "title" : "Admit Source",
+      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.144",
+        "2.16.840.1.113883.4.642.3.252"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.144",
+        "2.16.840.1.113883.4.642.3.252"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diagnosis-use",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterDiagnosisUse",
+      "title" : "Encounter Diagnosis Use",
+      "description" : "What a specific Encounter/EpisodeOfCare `diagnosis.condition` is to be used for.",
+      "systems" : ["http://hl7.org/fhir/encounter-diagnosis-use"],
+      "oids" : ["2.16.840.1.113883.4.642.4.3321"],
+      "sources" : ["2.16.840.1.113883.4.642.4.3321"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterDiet",
+      "title" : "Diet",
+      "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.255",
+        "2.16.840.1.113883.4.642.2.142",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.255",
+        "2.16.840.1.113883.4.642.2.142",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DischargeDisposition",
+      "title" : "Discharge Disposition",
+      "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.254",
+        "2.16.840.1.113883.4.642.2.145",
+        "2.16.840.1.113883.4.642.3.259"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.254",
+        "2.16.840.1.113883.4.642.2.145",
+        "2.16.840.1.113883.4.642.3.259"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterLocationStatus",
+      "title" : "Encounter Location Status",
+      "description" : "The status of the location.",
+      "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.147",
+        "2.16.840.1.113883.4.642.3.262"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.147",
+        "2.16.840.1.113883.4.642.3.262"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ParticipantType",
+      "title" : "Participant Type",
+      "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/participant-type",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.245",
+        "2.16.840.1.113883.4.642.2.139",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.245",
+        "2.16.840.1.113883.4.642.2.139",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.256",
+        "2.16.840.1.113883.4.642.2.146",
+        "2.16.840.1.113883.4.642.3.261"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.256",
+        "2.16.840.1.113883.4.642.2.146",
+        "2.16.840.1.113883.4.642.3.261"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason-use",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterReasonUse",
+      "title" : "Encounter Reason Use",
+      "description" : "What a specific Encounter/EpisodeOfCare `reason.value` is to be used for.",
+      "systems" : ["http://hl7.org/fhir/encounter-reason-use"],
+      "oids" : ["2.16.840.1.113883.4.642.4.3320"],
+      "sources" : ["2.16.840.1.113883.4.642.4.3320"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SpecialArrangements",
+      "title" : "Special Arrangements",
+      "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.141",
+        "2.16.840.1.113883.4.642.3.253"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.141",
+        "2.16.840.1.113883.4.642.3.253"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SpecialCourtesy",
+      "title" : "Special Courtesy",
+      "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.247",
+        "2.16.840.1.113883.4.642.3.252",
+        "2.16.840.1.113883.4.642.2.140"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.247",
+        "2.16.840.1.113883.4.642.3.252",
+        "2.16.840.1.113883.4.642.2.140"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "Encounter Status",
+      "description" : "Current state of the encounter.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.246",
+        "2.16.840.1.113883.4.642.3.241"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.246",
+        "2.16.840.1.113883.4.642.3.241"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-subject-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterSubjectStatus",
+      "title" : "Encounter Subject Status",
+      "description" : "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-subject-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3159"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3159"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterType",
+      "title" : "Encounter Type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.243",
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.137"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.243",
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.137"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierTypeCodes",
+      "title" : "Identifier Type Codes",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationFunctionCodes",
+      "title" : "Immunization Function Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the function a practitioner or organization may play in the immunization event. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0443"],
+      "oids" : ["2.16.840.1.113883.4.642.3.995"],
+      "sources" : ["2.16.840.1.113883.4.642.3.995"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationFundingSource",
+      "title" : "Immunization Funding Source",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-funding-source"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.293"],
+      "sources" : ["2.16.840.1.113883.4.642.3.293"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-origin",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationOriginCodes",
+      "title" : "Immunization Origin Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the data when the report of the immunization event is not based on information from the person, entity or organization who administered the vaccine. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-origin"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.293",
+        "2.16.840.1.113883.4.642.3.296"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.293",
+        "2.16.840.1.113883.4.642.3.296"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationProgramEligibility",
+      "title" : "Immunization Program Eligibility",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.291"],
+      "sources" : ["2.16.840.1.113883.4.642.3.291"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-reason",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationReasonCodes",
+      "title" : "Immunization Reason Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was administered. This value set is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.163",
+        "2.16.840.1.113883.4.642.3.290",
+        "2.16.840.1.113883.4.642.3.285"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.163",
+        "2.16.840.1.113883.4.642.3.290",
+        "2.16.840.1.113883.4.642.3.285"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-route",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationRouteCodes",
+      "title" : "Immunization Route Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the administrative routes used during vaccination. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.289",
+        "2.16.840.1.113883.4.642.3.284",
+        "2.16.840.1.113883.4.642.2.162"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.289",
+        "2.16.840.1.113883.4.642.3.284",
+        "2.16.840.1.113883.4.642.2.162"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-site",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "CodesForImmunizationSiteOfAdministration",
+      "title" : "Codes for Immunization Site of Administration",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the body site where the vaccination occurred. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActSite"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.288",
+        "2.16.840.1.113883.4.642.3.283",
+        "2.16.840.1.113883.4.642.2.161"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.288",
+        "2.16.840.1.113883.4.642.3.283",
+        "2.16.840.1.113883.4.642.2.161"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationStatusCodes",
+      "title" : "Immunization Status Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the current status of the administered dose of vaccine.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.292",
+        "2.16.840.1.113883.4.642.3.295"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.292",
+        "2.16.840.1.113883.4.642.3.295"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationStatusReasonCodes",
+      "title" : "Immunization Status Reason Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was not administered. This value set is provided as a suggestive example.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.992"],
+      "sources" : ["2.16.840.1.113883.4.642.3.992"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationSubpotentReason",
+      "title" : "Immunization Subpotent Reason",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose is considered to be subpotent. This value set is provided as a suggestive example.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.993"],
+      "sources" : ["2.16.840.1.113883.4.642.3.993"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-target-disease",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ImmunizationTargetDiseaseCodes",
+      "title" : "Immunization Target Disease Codes",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the disease that the dose is being administered against. This value set is provided as a suggestive example and includes SNOMED CT concepts from the 64572001 (Disease) hierarchy.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1047"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1047"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/immunization-vaccine-funding-program",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "CodesForVaccineFundingPrograms",
+      "title" : "Vaccine Funding Programs",
+      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing programs that a patient may be eligible for to cover vaccine administration costs. This value set is provided as a suggestive example.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3162"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3162"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -55,7 +640,10 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal",
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services",
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -77,7 +665,23 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-form",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationForm",
+      "title" : "Location Form",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/location-physical-type"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.328"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -94,7 +698,67 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-adherence",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MedicationStatementAdherenceCodes",
+      "title" : "MedicationStatement Adherence Codes",
+      "description" : "MedicationStatement Adherence Codes",
+      "systems" : [
+        "http://hl7.org/fhir/CodeSystem/medication-statement-adherence"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3090"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3090"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MedicationStatementStatusCodes",
+      "title" : "MedicationStatement Status Codes",
+      "description" : "MedicationStatement Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3088"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3088"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-admin-location",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MedicationRequestAdministrationLocationCodes",
+      "title" : "medicationRequest Administration Location Codes",
+      "description" : "MedicationRequest Administration Location Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3242"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3242"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -108,7 +772,70 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-patient-nepal.html" : "Patient Profile for Nepal"
+      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTDrugTherapyStatusCodes",
+      "title" : "SNOMED CT Drug Therapy Status codes ",
+      "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.369"],
+      "sources" : ["2.16.840.1.113883.4.642.3.369"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "EncounterClass",
+      "title" : "Encounter class",
+      "description" : "This value set defines a set of codes that can be used to indicate the class of encounter: a specific code indicating class of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSReAdmissionIndicator",
+      "title" : "hl7VS-re-admissionIndicator",
+      "description" : "Value Set of codes which are used to specify that a patient is being re-admitted to a healthcare facility from which they were discharged, and indicates the circumstances around such re-admission.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+      "oids" : ["2.16.840.1.113883.21.40"],
+      "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActPriority",
+      "title" : "ActPriority",
+      "description" : "A code or set of codes (e.g., for routine, emergency,) specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.\r\n\r\n*Discussion:* This attribute is used in orders to indicate the ordered priority, and in event documentation it indicates the actual priority used to perform the act. In definition mood it indicates the available priorities.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActPriority"],
+      "oids" : ["2.16.840.1.113883.1.11.16866"],
+      "sources" : ["2.16.840.1.113883.1.11.16866"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "AdministrativeGenderVS",
+      "title" : "Administrative Gender",
+      "description" : "A value set containing administrative gender codes from the FHIR core.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/age-range",
@@ -135,7 +862,10 @@
       "name" : "DistrictVS",
       "title" : "District",
       "description" : "All district used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/educational-level",
@@ -166,7 +896,10 @@
       "name" : "EthnicCodeVS",
       "title" : "Ethnic Code",
       "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/ethnic-code"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/ethnic-code"],
+      "uses" : {
+      },
+      "StructureDefinition-ethnic-code.html" : "Ethnic Code"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/free-cost",
@@ -195,7 +928,10 @@
       "name" : "LocalBodyVS",
       "title" : "LocalBody",
       "description" : "All LocalBody used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/marital-status",
@@ -205,6 +941,18 @@
       "title" : "Marital Status (वैवाहिक स्थिति)",
       "description" : "Codes representing marital status of a person.",
       "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/medication",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "MedicationVS",
+      "title" : "Dietary Supplements (SNOMED)",
+      "description" : "Vitamins, minerals, and other dietary supplements",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
@@ -235,7 +983,10 @@
       "name" : "ProvinceVS",
       "title" : "Province",
       "description" : "All provinces used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/service-area-address",
@@ -253,7 +1004,25 @@
       "name" : "ServiceTypeVS",
       "title" : "Service Type",
       "description" : "Service Type",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/service-type"]
+      "systems" : [
+        "https://fhir.hmis.gov.np/CodeSystem/service-type",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/vaccine",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "VaccineVS",
+      "title" : "Vaccines (SNOMED CT)",
+      "description" : "ValueSet of routine vaccines in Nepal, based on SNOMED CT concepts.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",

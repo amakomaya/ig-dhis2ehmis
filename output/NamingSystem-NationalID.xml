@@ -3,17 +3,17 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="NationalID"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NationalID</b></p><a name="NationalID"> </a><a name="hcNationalID"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>https://fhir.hmis.gov.np/NamingSystem/NationalID</td></tr><tr><td>Version</td><td>0.0.1-ballot</td></tr><tr><td>Name</td><td>NationalID</td></tr><tr><td>Title</td><td>National ID of the National</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>The official National Identification Number assigned by the Government of Nepal.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NationalID</b></p><a name="NationalID"> </a><a name="hcNationalID"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>https://fhir.hmis.gov.np/NamingSystem/national-id</td></tr><tr><td>Version</td><td>0.0.1-ballot</td></tr><tr><td>Name</td><td>NepalNationalID</td></tr><tr><td>Title</td><td>Nepal National Identity Number</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Nepalese National Identity Number issued by the Ministry of Home Affairs.</p>
 </div></td></tr><tr><td>Publisher</td><td>Integrated Health Information Management Section</td></tr><tr><td>Copyright</td><td><div><p>Used by permission of HL7 International, all rights reserved Creative Commons License</p>
-</div></td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>Other</td><td>1234567890123456</td><td>true</td></tr><tr><td>URI</td><td>https://mofa.gov.np</td><td>true</td></tr></table></div>
+</div></td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Period</b></td></tr><tr><td>URI</td><td>https://mofa.gov.np/national-id</td><td>true</td><td>2020-01-01 --&gt; (ongoing)</td></tr></table></div>
   </text>
-  <url value="https://fhir.hmis.gov.np/NamingSystem/NationalID"/>
+  <url value="https://fhir.hmis.gov.np/NamingSystem/national-id"/>
   <version value="0.0.1-ballot"/>
-  <name value="NationalID"/>
-  <title value="National ID of the National"/>
+  <name value="NepalNationalID"/>
+  <title value="Nepal National Identity Number"/>
   <status value="active"/>
   <kind value="identifier"/>
-  <date value="2025-07-28"/>
+  <date value="2025-08-17"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -41,7 +41,16 @@
       <value value="+977-9851341921"/>
     </telecom>
   </contact>
-  <description value="The official National Identification Number assigned by the Government of Nepal."/>
+  <responsible value="Department of National ID and Civil Registration, Ministry of Home Affairs"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+      <code value="NI"/>
+      <display value="National unique individual identifier"/>
+    </coding>
+    <text value="National ID"/>
+  </type>
+  <description value="Nepalese National Identity Number issued by the Ministry of Home Affairs."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -50,15 +59,13 @@
     </coding>
   </jurisdiction>
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
-  <usage value="Used to uniquely identify individuals within the National System."/>
-  <uniqueId>
-    <type value="other"/>
-    <value value="1234567890123456"/>
-    <preferred value="true"/>
-  </uniqueId>
+  <usage value="Used in Nepal for uniquely identifying citizens"/>
   <uniqueId>
     <type value="uri"/>
-    <value value="https://mofa.gov.np"/>
+    <value value="https://mofa.gov.np/national-id"/>
     <preferred value="true"/>
+    <period>
+      <start value="2020-01-01"/>
+    </period>
   </uniqueId>
 </NamingSystem>

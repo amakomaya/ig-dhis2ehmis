@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="service-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet service-type</b></p><a name="service-type"> </a><a name="hcservice-type"> </a><ul><li>Include all codes defined in <a href="CodeSystem-service-type.html"><code>https://fhir.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet service-type</b></p><a name="service-type"> </a><a name="hcservice-type"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-service-type.html"><code>https://fhir.hmis.gov.np/CodeSystem/service-type</code></a></li><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a 224891009 (Healthcare services)</li></ul></div>
   </text>
   <url value="https://fhir.hmis.gov.np/ValueSet/service-type"/>
   <version value="0.0.1-ballot"/>
@@ -11,7 +11,7 @@
   <title value="Service Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-15T10:07:00+05:45"/>
+  <date value="2025-08-19T07:52:08+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -51,6 +51,14 @@
   <compose>
     <include>
       <system value="https://fhir.hmis.gov.np/CodeSystem/service-type"/>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="224891009"/>
+      </filter>
     </include>
   </compose>
 </ValueSet>

@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet administrative-gender</b></p><a name="administrative-gender"> </a><a name="hcadministrative-gender"> </a><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R5/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div>
   </text>
-  <url value="http://example.org/fhir/ValueSet/administrative-gender-vs"/>
+  <url value="https://fhir.hmis.gov.np/ValueSet/administrative-gender"/>
   <version value="0.0.1-ballot"/>
   <name value="AdministrativeGenderVS"/>
   <title value="Administrative Gender"/>
   <status value="active"/>
-  <date value="2025-08-15T10:07:00+05:45"/>
+  <date value="2025-08-19T07:52:08+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>

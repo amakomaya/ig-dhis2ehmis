@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medication"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet medication</b></p><a name="medication"> </a><a name="hcmedication"> </a><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a 763158003 (Medicinal product (product))</li></ul></div>
+  </text>
+  <url value="https://fhir.hmis.gov.np/ValueSet/medication"/>
+  <version value="0.0.1-ballot"/>
+  <name value="MedicationVS"/>
+  <title value="Dietary Supplements (SNOMED)"/>
+  <status value="active"/>
+  <date value="2025-08-19T07:52:08+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
+    </telecom>
+  </contact>
+  <description value="Vitamins, minerals, and other dietary supplements"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="763158003"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

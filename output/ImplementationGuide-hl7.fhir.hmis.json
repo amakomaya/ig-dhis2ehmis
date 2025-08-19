@@ -117,6 +117,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/medication"
+      },
+      "name" : "Dietary Supplements (SNOMED)",
+      "description" : "Vitamins, minerals, and other dietary supplements",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/district"
       },
       "name" : "District",
@@ -158,6 +170,18 @@
       "name" : "Encounter ANC Visit - Pregnant Woman",
       "description" : "An antenatal care visit for a pregnant woman.",
       "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NPCoreEncounter"
+      },
+      "name" : "Encounter Profile for Nepal Basic Health Services",
+      "description" : "Profile for recording patient encounters under Basic Health Services \n(including OPD visits, outreach clinics, and home visits).",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -229,6 +253,18 @@
       },
       "name" : "Free Service Eligibility",
       "description" : "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NPCoreImmunization"
+      },
+      "name" : "Immunization Profile for Nepal",
+      "description" : "Profile for recording immunizations for children and adults in Nepal, supporting all routine vaccines.",
       "isExample" : false
     },
     {
@@ -426,6 +462,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NPCoreMedicationStatement"
+      },
+      "name" : "Medication Statement",
+      "description" : "Profile to record medicines, supplements, and drugs provided",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -438,13 +486,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "NamingSystem"
+        "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "NamingSystem/NationalID"
+        "reference" : "StructureDefinition/NepalAddress"
       },
-      "name" : "National ID of the National",
-      "description" : "The official National Identification Number assigned by the Government of Nepal.",
+      "name" : "Nepal Address",
+      "description" : "Extension to represent coded and textual forms of Nepal's administrative divisions (Province, District, Municipality, Ward).",
       "isExample" : false
     },
     {
@@ -469,6 +517,18 @@
       },
       "name" : "Nepal Health Facility Type",
       "description" : "Types of health facilities in Nepal, based on Ministry of Health and Population classifications.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/NationalID"
+      },
+      "name" : "Nepal National Identity Number",
+      "description" : "Nepalese National Identity Number issued by the Ministry of Home Affairs.",
       "isExample" : false
     },
     {
@@ -501,9 +561,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/patient-nepal"
+        "reference" : "StructureDefinition/NPCorePatient"
       },
       "name" : "Patient Profile for Nepal",
+      "description" : "Patient profile with national identifiers, name, gender, birth date, address, contact.",
       "isExample" : false
     },
     {
@@ -617,6 +678,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vaccine"
+      },
+      "name" : "Vaccines (SNOMED CT)",
+      "description" : "ValueSet of routine vaccines in Nepal, based on SNOMED CT concepts.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -670,7 +743,7 @@
       {
         "sourceUrl" : "profiles.html",
         "name" : "profiles.html",
-        "title" : "Profiles",
+        "title" : "Extensions and Profiles",
         "generation" : "markdown"
       },
       {

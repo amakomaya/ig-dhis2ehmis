@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
+      "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "AdministrativeGenderVS",
@@ -106,6 +106,15 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/medication",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "MedicationVS",
+      "title" : "Dietary Supplements (SNOMED)",
+      "description" : "Vitamins, minerals, and other dietary supplements",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
       "version" : "0.0.1-ballot",
       "status" : "active",
@@ -152,7 +161,19 @@
       "name" : "ServiceTypeVS",
       "title" : "Service Type",
       "description" : "Service Type",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/service-type"]
+      "systems" : [
+        "https://fhir.hmis.gov.np/CodeSystem/service-type",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/vaccine",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "VaccineVS",
+      "title" : "Vaccines (SNOMED CT)",
+      "description" : "ValueSet of routine vaccines in Nepal, based on SNOMED CT concepts.",
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",

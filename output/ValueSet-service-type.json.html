@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.19"}
-    h3,h4,h5,h6{--heading-prefix:"17.19"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.24"}
+    h3,h4,h5,h6{--heading-prefix:"17.24"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -73,7 +73,7 @@
     <a href="smart-index.html">SMART Guidelines</a>
   </li>
   <li>
-    <a href="profiles.html">Profiles</a>
+    <a href="profiles.html">Extensions and Profiles</a>
   </li>
   <li>
     <a href="codesystems.html">Code Systems</a>
@@ -253,7 +253,7 @@
         
           Active
           
-            as of 2025-08-15
+            as of 2025-08-19
           
         
       </td>
@@ -274,7 +274,7 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">id</a>" : "service-type",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet service-type&lt;/b&gt;&lt;/p&gt;&lt;a name=\"service-type\"&gt; &lt;/a&gt;&lt;a name=\"hcservice-type\"&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\"CodeSystem-service-type.html\"&gt;&lt;code&gt;https://fhir.hmis.gov.np/CodeSystem/service-type&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet service-type&lt;/b&gt;&lt;/p&gt;&lt;a name=\"service-type\"&gt; &lt;/a&gt;&lt;a name=\"hcservice-type\"&gt; &lt;/a&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\"CodeSystem-service-type.html\"&gt;&lt;code&gt;https://fhir.hmis.gov.np/CodeSystem/service-type&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Include codes from&lt;a href=\"http://www.snomed.org/\"&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt; where concept  is-a 224891009 (Healthcare services)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>" : "https://fhir.hmis.gov.np/ValueSet/service-type",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "0.0.1-ballot",
@@ -282,7 +282,7 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "Service Type",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a>" : "active",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-08-15T10:07:00+05:45",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-08-19T07:52:08+05:45",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.publisher">publisher</a>" : "Integrated Health Information Management Section",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -333,6 +333,16 @@
     "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>" : [
       {
         "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "https://fhir.hmis.gov.np/CodeSystem/service-type"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.filter">filter</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.filter.property">property</a>" : "concept",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.filter.op">op</a>" : "is-a",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.filter.value">value</a>" : "224891009"
+          }
+        ]
       }
     ]
   }
@@ -360,9 +370,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 15, 2025 10:07+0545">2025-08-15</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 19, 2025 07:52+0545">2025-08-19</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l594">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l609">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://example.org/fhir/ValueSet/administrative-gender-vs",
+      "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
       "version" : "0.0.1-ballot",
       "status" : "active",
       "name" : "AdministrativeGenderVS",
@@ -34,7 +34,10 @@
       "name" : "DistrictVS",
       "title" : "District",
       "description" : "All district used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/educational-level",
@@ -65,7 +68,10 @@
       "name" : "EthnicCodeVS",
       "title" : "Ethnic Code",
       "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/ethnic-code"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/ethnic-code"],
+      "uses" : {
+      },
+      "StructureDefinition-ethnic-code.html" : "Ethnic Code"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/free-cost",
@@ -94,7 +100,10 @@
       "name" : "LocalBodyVS",
       "title" : "LocalBody",
       "description" : "All LocalBody used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/marital-status",
@@ -104,6 +113,18 @@
       "title" : "Marital Status (वैवाहिक स्थिति)",
       "description" : "Codes representing marital status of a person.",
       "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/medication",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "MedicationVS",
+      "title" : "Dietary Supplements (SNOMED)",
+      "description" : "Vitamins, minerals, and other dietary supplements",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
@@ -134,7 +155,10 @@
       "name" : "ProvinceVS",
       "title" : "Province",
       "description" : "All provinces used in administrative divisions",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"]
+      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/locations"],
+      "uses" : {
+      },
+      "StructureDefinition-NepalAddress.html" : "Nepal Address"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/service-area-address",
@@ -152,7 +176,25 @@
       "name" : "ServiceTypeVS",
       "title" : "Service Type",
       "description" : "Service Type",
-      "systems" : ["https://fhir.hmis.gov.np/CodeSystem/service-type"]
+      "systems" : [
+        "https://fhir.hmis.gov.np/CodeSystem/service-type",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/vaccine",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "VaccineVS",
+      "title" : "Vaccines (SNOMED CT)",
+      "description" : "ValueSet of routine vaccines in Nepal, based on SNOMED CT concepts.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",

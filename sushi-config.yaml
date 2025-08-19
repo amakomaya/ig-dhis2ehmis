@@ -37,7 +37,7 @@ pages:
   smart-index.md:
     title: SMART Guidelines
   profiles.md:
-    title: Profiles
+    title: Extensions and Profiles
   codesystems.md:
     title: Code Systems
   valuesets.md:
@@ -71,7 +71,7 @@ pages:
 menu:
   Home: index.html
   SMART Guidelines: smart-index.html
-  Profiles : profiles.html
+  Extensions and Profiles : profiles.html
   Code Systems: codesystems.html
   Value Set: valuesets.html
   Indicators: indicators.html

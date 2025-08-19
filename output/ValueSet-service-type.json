@@ -3,7 +3,7 @@
   "id" : "service-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://fhir.hmis.gov.np/CodeSystem/service-type</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-type</b></p><a name=\"service-type\"> </a><a name=\"hcservice-type\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-service-type.html\"><code>https://fhir.hmis.gov.np/CodeSystem/service-type</code></a></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 224891009 (Healthcare services)</li></ul></div>"
   },
   "url" : "https://fhir.hmis.gov.np/ValueSet/service-type",
   "version" : "0.0.1-ballot",
@@ -11,7 +11,7 @@
   "title" : "Service Type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-15T10:07:00+05:45",
+  "date" : "2025-08-19T07:52:08+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -51,6 +51,14 @@
   "compose" : {
     "include" : [{
       "system" : "https://fhir.hmis.gov.np/CodeSystem/service-type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "224891009"
+      }]
     }]
   }
 }

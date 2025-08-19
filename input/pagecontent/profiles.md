@@ -1,5 +1,4 @@
-Profiles in this Implementation Guide
+The following **profiles and extensions** have been defined for this implementation guide.  
+Each entry includes a link and description.
 
-The links and descriptions for the profiles that have been defined for this implementation guide are listed here:
-
-{% include table-profiles.xhtml %}
+{% include table-structuredefinitions.xhtml %}
