@@ -3,14 +3,14 @@
   "id" : "patient-registration-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet patient-registration-type</b></p><a name=\"patient-registration-type\"> </a><a name=\"hcpatient-registration-type\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href=\"http://snomed.info/id/185349003\">185349003</a></td><td>Initial encounter</td><td>नयाँ बिरामी</td></tr><tr><td><a href=\"http://snomed.info/id/308490002\">308490002</a></td><td>Referral to service</td><td>स्थानान्तरण</td></tr><tr><td><a href=\"http://snomed.info/id/428911000124109\">428911000124109</a></td><td>Re-admission (procedure)</td><td>पुनः भर्ना</td></tr><tr><td><a href=\"http://snomed.info/id/363346000\">363346000</a></td><td>Relapse of disease</td><td>पुनरावृत्ति</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet patient-registration-type</b></p><a name=\"patient-registration-type\"> </a><a name=\"hcpatient-registration-type\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href=\"http://snomed.info/id/308335008\">308335008</a></td><td>Patient encounter procedure (procedure)</td><td>नयाँ बिरामी</td></tr><tr><td><a href=\"http://snomed.info/id/185318008\">185318008</a></td><td>Third party encounter (procedure)</td><td>स्थानान्तरण</td></tr><tr><td><a href=\"http://snomed.info/id/390906007\">390906007</a></td><td>Follow-up encounter (procedure)</td><td>पुनः भर्ना</td></tr></table></li></ul></div>"
   },
   "url" : "https://fhir.hmis.gov.np/ValueSet/patient-registration-type",
   "version" : "0.0.1-ballot",
   "name" : "PatientRegistrationTypeVS",
   "title" : "Patient Registration Type",
   "status" : "active",
-  "date" : "2025-08-19T07:52:08+05:45",
+  "date" : "2025-08-20T08:30:34+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -42,8 +42,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "NP",
-      "display" : "Nepal"
+      "code" : "NP"
     }]
   }],
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
@@ -51,35 +50,27 @@
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "185349003",
-        "display" : "Initial encounter",
+        "code" : "308335008",
+        "display" : "Patient encounter procedure (procedure)",
         "designation" : [{
-          "language" : "ne",
+          "language" : "ne-NP",
           "value" : "नयाँ बिरामी"
         }]
       },
       {
-        "code" : "308490002",
-        "display" : "Referral to service",
+        "code" : "185318008",
+        "display" : "Third party encounter (procedure)",
         "designation" : [{
-          "language" : "ne",
+          "language" : "ne-NP",
           "value" : "स्थानान्तरण"
         }]
       },
       {
-        "code" : "428911000124109",
-        "display" : "Re-admission (procedure)",
+        "code" : "390906007",
+        "display" : "Follow-up encounter (procedure)",
         "designation" : [{
-          "language" : "ne",
+          "language" : "ne-NP",
           "value" : "पुनः भर्ना"
-        }]
-      },
-      {
-        "code" : "363346000",
-        "display" : "Relapse of disease",
-        "designation" : [{
-          "language" : "ne",
-          "value" : "पुनरावृत्ति"
         }]
       }]
     }]

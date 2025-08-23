@@ -1,7 +1,8 @@
-Profile: NPCorePatient
+Profile: NPCorePatientProfile
+Id: np-core-patient
 Parent: Patient
-Title: "Patient Profile for Nepal"
-Description: "Patient profile with national identifiers, name, gender, birth date, address, contact."
+Title: "NP Core Patient Profile"
+Description: "The NP Core Patient Profile inherits from the FHIR [Patient](https://hl7.org/fhir/R5/patient.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Patient resource to record, search, and fetch core patient information within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing patient demographics, identifiers, and key health attributes, this profile promotes interoperability, consistent data capture, and adoption across national health programs"
 
 * identifier 1..4
 * identifier ^slicing.discriminator.type = #value
@@ -57,3 +58,10 @@ Description: "Patient profile with national identifiers, name, gender, birth dat
 
 * telecom[Email].system = #email
 * telecom[Email].use 0..1
+
+* implicitRules 0..0
+* contained 0..0
+* active 0..0
+* deceased[x] 0..0
+* modifierExtension 0..0
+* link 0..0

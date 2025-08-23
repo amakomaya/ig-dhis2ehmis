@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Encounter/encounter-anc-visit> a fhir:Encounter ;
+<http://fhir.hmis.gov.np/Encounter/encounter-anc-visit> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "encounter-anc-visit"] ; # 
   fhir:text [
@@ -31,12 +31,12 @@
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <https://fhir.hmis.gov.np/Patient/pregnant-woman-1> ;
+     fhir:link <http://fhir.hmis.gov.np/Patient/pregnant-woman-1> ;
      fhir:reference [ fhir:v "Patient/pregnant-woman-1" ]
   ] ; # 
   fhir:location ( [
      fhir:location [
-       fhir:link <https://fhir.hmis.gov.np/Location/clinic-abc> ;
+       fhir:link <http://fhir.hmis.gov.np/Location/clinic-abc> ;
        fhir:reference [ fhir:v "Location/clinic-abc" ]
      ]
   ] ) . # 

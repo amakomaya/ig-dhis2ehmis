@@ -3,13 +3,13 @@
   "id" : "immunization-je",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-je</b></p><a name=\"immunization-je\"> </a><a name=\"hcimmunization-je\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 416471000124102}\">Japanese Encephalitis Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/je-admin-1\">Encounter/je-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-je</b></p><a name=\"immunization-je\"> </a><a name=\"hcimmunization-je\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 871724008}\">Japanese Encephalitis Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/je-admin-1\">Encounter/je-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"
   },
   "status" : "completed",
   "vaccineCode" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "416471000124102",
+      "code" : "871724008",
       "display" : "Japanese encephalitis vaccine"
     }],
     "text" : "Japanese Encephalitis Vaccine"

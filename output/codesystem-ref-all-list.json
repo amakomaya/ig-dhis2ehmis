@@ -1,6 +1,18 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/CodeSystem/measure-aggregate-method",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureAggregateMethod",
+      "title" : "Measure Aggregate Method",
+      "description" : "Aggregation method for a measure (e.g. sum, average, median, minimum, maximum, count)",
+      "oids" : ["2.16.840.1.113883.4.642.4.2044"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-aggregate-method.html" : "Measure Aggregate Method"
+    },
+    {
       "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-adherence",
       "version" : "5.0.0",
       "status" : "active",
@@ -23,6 +35,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R5/valueset-medication-statement-status.html" : "MedicationStatement Status Codes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/CodeSystem/submit-data-update-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "SubmitDataUpdateType",
+      "title" : "Submit Data Update Type",
+      "description" : "Concepts for how a measure report consumer and receiver coordinate data exchange updates. The choices are snapshot or incremental updates",
+      "oids" : ["2.16.840.1.113883.4.642.4.1948"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-submit-data-update-type.html" : "Submit Data Update Type"
     },
     {
       "url" : "http://hl7.org/fhir/address-type",
@@ -58,8 +82,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "ValueSet-administrative-gender.html" : "Administrative Gender",
-      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
+      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender",
+      "ValueSet-administrative-gender.html" : "Administrative Gender"
     },
     {
       "url" : "http://hl7.org/fhir/contact-point-system",
@@ -153,6 +177,19 @@
       "http://hl7.org/fhir/R5/valueset-immunization-status.html" : "Immunization Status Codes"
     },
     {
+      "url" : "http://hl7.org/fhir/fhir-types",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRTypes",
+      "title" : "All FHIR Types",
+      "description" : "One of the types defined as part of this version of FHIR.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1802"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-participant-resource-types.html" : "Participant Resource Types",
+      "http://hl7.org/fhir/R5/valueset-fhir-types.html" : "All FHIR Types"
+    },
+    {
       "url" : "http://hl7.org/fhir/identifier-use",
       "version" : "5.0.0",
       "status" : "active",
@@ -181,6 +218,96 @@
       "http://hl7.org/fhir/R5/valueset-link-type.html" : "Link Type"
     },
     {
+      "url" : "http://hl7.org/fhir/measure-definition-example",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureDefinitionExample",
+      "title" : "Measure Definition Example",
+      "description" : "Example Measure Definitions for the Measure Resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2043"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-definition-example.html" : "Measure Definition Example"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-group-example",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureGroupExample",
+      "title" : "Measure Group Example",
+      "description" : "Example Measure Groups for the Measure Resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2045"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-group-example.html" : "Measure Group Example"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-report-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureReportStatus",
+      "title" : "Measure Report Status",
+      "description" : "The status of the measure report.",
+      "oids" : [
+        "2.16.840.1.113883.4.642.4.777",
+        "2.16.840.1.113883.4.642.1.760"
+      ],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-report-status.html" : "Measure Report Status"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-report-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureReportType",
+      "title" : "Measure Report Type",
+      "description" : "The type of the measure report.",
+      "oids" : [
+        "2.16.840.1.113883.4.642.1.762",
+        "2.16.840.1.113883.4.642.4.779"
+      ],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-report-type.html" : "Measure Report Type"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-stratifier-example",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureStratifierExample",
+      "title" : "Measure Stratifier Example",
+      "description" : "Identifier subgroups in a population for measuring purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2047"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-stratifier-example.html" : "Measure Stratifier Example"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-supplemental-data-example",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureSupplementalDataExample",
+      "title" : "Measure Supplemental Data Example",
+      "description" : "Identifier supplemental data in a population for measuring purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2046"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-supplemental-data-example.html" : "Measure Supplemental Data Example"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measurereport-stratifier-value-example",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureReportStratifierValueExample",
+      "title" : "Measure Report Stratifier Value Example",
+      "description" : "Example Region Value Measure Groups for the Measure Resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1947"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measurereport-stratifier-value-example.html" : "Measure Report Stratifier Value Example"
+    },
+    {
       "url" : "http://hl7.org/fhir/name-use",
       "version" : "5.0.0",
       "status" : "active",
@@ -193,6 +320,54 @@
       "http://hl7.org/fhir/R5/valueset-name-use.html" : "NameUse"
     },
     {
+      "url" : "http://hl7.org/fhir/observation-referencerange-normalvalue",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationReferenceRangeNormalValue",
+      "title" : "ObservationreferenceRangeNormalValue",
+      "description" : "Codes that describe the normal value in the reference range.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2099"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-observation-referencerange-normalvalue.html" : "Observation Reference Range Normal Value Codes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/observation-triggeredbytype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the triggeredBy type of observation.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2098"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-observation-triggeredbytype.html" : "triggered Bytype"
+    },
+    {
+      "url" : "http://hl7.org/fhir/publication-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "oids" : ["2.16.840.1.113883.4.642.4.4"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-publication-status.html" : "PublicationStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/version-algorithm",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "VersionAlgorithm",
+      "title" : "Version Algorithm",
+      "description" : "Indicates the mechanism used to compare versions to determine which is more current.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1989"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-version-algorithm.html" : "Version Algorithm"
+    },
+    {
       "url" : "http://loinc.org",
       "version" : "3.1.0",
       "status" : "active",
@@ -202,7 +377,7 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-educational-level.html" : "Educational Level",
+      "http://hl7.org/fhir/R5/valueset-observation-codes.html" : "LOINC Codes",
       "http://hl7.org/fhir/R5/valueset-immunization-vaccine-funding-program.html" : "Vaccine Funding Programs"
     },
     {
@@ -216,6 +391,78 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R5/valueset-encounter-admit-source.html" : "Admit Source"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/composite-measure-scoring",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "CompositeMeasureScoring",
+      "title" : "CompositeMeasureScoring",
+      "description" : "The composite scoring method of the measure.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1235"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-composite-measure-scoring.html" : "Composite Measure Scoring"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-condition-category.html" : "Condition Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-condition-ver-status.html" : "Condition Verification Status"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-data-absent-reason.html" : "Data Absent Reason"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/definition-topic",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "DefinitionTopic",
+      "title" : "DefinitionTopic",
+      "description" : "High-level categorization of the definition, used for searching, sorting, and filtering.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1244"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-definition-topic.html" : "Definition Topic"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/diet",
@@ -278,6 +525,17 @@
       "http://hl7.org/fhir/R5/valueset-encounter-type.html" : "Encounter Type"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "SecurityRoleType",
+      "title" : "Security Role Type",
+      "description" : "This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere",
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/immunization-funding-source",
       "version" : "1.0.1",
       "status" : "active",
@@ -338,6 +596,66 @@
       "http://hl7.org/fhir/R5/valueset-location-form.html" : "Location Form"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-data-usage",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MeasureDataUsage",
+      "title" : "MeasureDataUsage",
+      "description" : "The intended usage for supplemental data elements in the measure.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1234"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-data-usage.html" : "Measure Data Usage"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MeasureImprovementNotation",
+      "title" : "MeasureImprovementNotation",
+      "description" : "Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1395"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-improvement-notation.html" : "Measure Improvement Notation"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-population",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "MeasurePopulationType",
+      "title" : "Measure Population Type",
+      "description" : "The type of population.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1231"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-population.html" : "Measure Population Type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-scoring",
+      "version" : "4.0.0",
+      "status" : "active",
+      "name" : "MeasureScoring",
+      "title" : "Measure Scoring",
+      "description" : "The scoring type of the measure.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1232"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.5.0/ValueSet-measure-scoring.html" : "Measure Scoring"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-type",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "MeasureType",
+      "title" : "MeasureType",
+      "description" : "The type of measure (includes codes from 2.16.840.1.113883.1.11.20368).",
+      "oids" : ["2.16.840.1.113883.4.642.1.1233"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-type.html" : "Measure Type"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location",
       "version" : "1.0.1",
       "status" : "active",
@@ -350,6 +668,30 @@
       "http://hl7.org/fhir/R5/valueset-medicationrequest-admin-location.html" : "medicationRequest Administration Location Codes"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-observation-category.html" : "Observation Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "OrganizationType",
+      "title" : "Organization type",
+      "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1128"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-organization-type.html" : "Organization Type"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/participant-type",
       "version" : "1.0.1",
       "status" : "active",
@@ -360,6 +702,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R5/valueset-encounter-participant-type.html" : "Participant Type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0092",
@@ -470,18 +824,6 @@
       "http://hl7.org/fhir/R5/valueset-immunization-site.html" : "Codes for Immunization Site of Administration"
     },
     {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "EducationLevel",
-      "title" : "Education Level",
-      "description" : "Years of education that a person has completed",
-      "oids" : ["2.16.840.1.113883.5.1077"],
-      "uses" : {
-      },
-      "ValueSet-educational-level.html" : "Educational Level"
-    },
-    {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
       "version" : "3.0.0",
       "status" : "active",
@@ -519,6 +861,18 @@
       "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretation",
+      "title" : "ObservationInterpretation",
+      "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+      "oids" : ["2.16.840.1.113883.5.83"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
       "version" : "5.0.0",
       "status" : "active",
@@ -541,6 +895,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R5/valueset-immunization-route.html" : "Immunization Route Codes"
+    },
+    {
+      "url" : "http://unitsofmeasure.org",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "UCUM",
+      "title" : "Unified Code for Units of Measure (UCUM)",
+      "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
+      "oids" : ["2.16.840.1.113883.6.8"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-measure-scoring-unit.html" : "Measure Scoring Unit"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -584,9 +950,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-district.html" : "District",
       "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District"
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
@@ -631,8 +997,32 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:iso:std:iso:3166",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ISO3166Part1",
+      "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "description" : "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.",
+      "oids" : ["1.0.3166.1"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-jurisdiction.html" : "Jurisdiction ValueSet"
+    },
+    {
+      "url" : "urn:iso:std:iso:3166:-2",
+      "version" : "2013-11",
+      "status" : "retired",
+      "name" : "Iso3166_2",
+      "title" : "ISO 3166 Part 2 Country Subdivision Codes",
+      "description" : "Identifies the coding system published in the ISO 3166-2 Standard for Country Subdivision codes. This standard is released periodically, and a new OID will be assigned by ISO for new editions.",
+      "oids" : ["1.0.3166.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-jurisdiction.html" : "Jurisdiction ValueSet"
     }
   ]
 }

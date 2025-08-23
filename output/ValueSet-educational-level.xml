@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="educational-level"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet educational-level</b></p><a name="educational-level"> </a><a name="hceducational-level"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/224303000">224303000</a></td><td>No schooling</td></tr><tr><td><a href="http://snomed.info/id/105421009">105421009</a></td><td>Illiterate</td></tr><tr><td><a href="http://snomed.info/id/224297000">224297000</a></td><td>Primary school education</td></tr><tr><td><a href="http://snomed.info/id/310172006">310172006</a></td><td>Secondary school education</td></tr><tr><td><a href="http://snomed.info/id/224300002">224300002</a></td><td>University education</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html"><code>http://terminology.hl7.org/CodeSystem/v3-EducationLevel</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-NOED">NOED</a></td><td>No education</td><td/></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-ELEM">ELEM</a></td><td>Elementary school</td><td>Elementary School</td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-SEC">SEC</a></td><td>Secondary school</td><td>Some secondary or high school education</td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-BACH">BACH</a></td><td>Bachelor's degree</td><td/></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-MSTR">MSTR</a></td><td>Master's degree</td><td/></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-EducationLevel.html#v3-EducationLevel-DOC">DOC</a></td><td>Doctorate</td><td/></tr></table></li><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/60957-0/">60957-0</a></td><td>Highest education level attained</td></tr><tr><td><a href="https://loinc.org/82589-3/">82589-3</a></td><td>Highest level of education [US Standard]</td></tr><tr><td><a href="https://loinc.org/96777-4/">96777-4</a></td><td>Education level</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet educational-level</b></p><a name="educational-level"> </a><a name="hceducational-level"> </a><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a 365458002 (Education and/or schooling finding)</li></ul></div>
   </text>
   <url value="https://fhir.hmis.gov.np/ValueSet/educational-level"/>
   <version value="0.0.1-ballot"/>
@@ -11,7 +11,7 @@
   <title value="Educational Level"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-19T07:52:08+05:45"/>
+  <date value="2025-08-20T08:30:34+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -39,80 +39,22 @@
       <value value="+977-9851341921"/>
     </telecom>
   </contact>
-  <description value="Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained."/>
+  <description value="SNOMED CT for the highest level of education attained."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="NP"/>
-      <display value="Nepal"/>
     </coding>
   </jurisdiction>
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
   <compose>
     <include>
       <system value="http://snomed.info/sct"/>
-      <concept>
-        <code value="224303000"/>
-        <display value="No schooling"/>
-      </concept>
-      <concept>
-        <code value="105421009"/>
-        <display value="Illiterate"/>
-      </concept>
-      <concept>
-        <code value="224297000"/>
-        <display value="Primary school education"/>
-      </concept>
-      <concept>
-        <code value="310172006"/>
-        <display value="Secondary school education"/>
-      </concept>
-      <concept>
-        <code value="224300002"/>
-        <display value="University education"/>
-      </concept>
-    </include>
-    <include>
-      <system value="http://terminology.hl7.org/CodeSystem/v3-EducationLevel"/>
-      <concept>
-        <code value="NOED"/>
-        <display value="No education"/>
-      </concept>
-      <concept>
-        <code value="ELEM"/>
-        <display value="Elementary school"/>
-      </concept>
-      <concept>
-        <code value="SEC"/>
-        <display value="Secondary school"/>
-      </concept>
-      <concept>
-        <code value="BACH"/>
-        <display value="Bachelor's degree"/>
-      </concept>
-      <concept>
-        <code value="MSTR"/>
-        <display value="Master's degree"/>
-      </concept>
-      <concept>
-        <code value="DOC"/>
-        <display value="Doctorate"/>
-      </concept>
-    </include>
-    <include>
-      <system value="http://loinc.org"/>
-      <concept>
-        <code value="60957-0"/>
-        <display value="Highest education level attained"/>
-      </concept>
-      <concept>
-        <code value="82589-3"/>
-        <display value="Highest level of education [US Standard]"/>
-      </concept>
-      <concept>
-        <code value="96777-4"/>
-        <display value="Education level"/>
-      </concept>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="365458002"/>
+      </filter>
     </include>
   </compose>
 </ValueSet>

@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Immunization/immunization-bcg> a fhir:Immunization ;
+<http://fhir.hmis.gov.np/Immunization/immunization-bcg> a fhir:Immunization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "immunization-bcg"] ; # 
   fhir:text [
@@ -26,11 +26,11 @@
   ] ; # 
   fhir:lotNumber [ fhir:v "BCG2021A"] ; # 
   fhir:patient [
-     fhir:link <https://fhir.hmis.gov.np/Patient/patient-child> ;
+     fhir:link <http://fhir.hmis.gov.np/Patient/patient-child> ;
      fhir:reference [ fhir:v "Patient/patient-child" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <https://fhir.hmis.gov.np/Encounter/bcg-admin-1> ;
+     fhir:link <http://fhir.hmis.gov.np/Encounter/bcg-admin-1> ;
      fhir:reference [ fhir:v "Encounter/bcg-admin-1" ]
   ] ; # 
   fhir:occurrence [
@@ -39,7 +39,7 @@
   ] ; # 
   fhir:primarySource [ fhir:v true] ; # 
   fhir:location [
-     fhir:link <https://fhir.hmis.gov.np/Location/location-bhsc> ;
+     fhir:link <http://fhir.hmis.gov.np/Location/location-bhsc> ;
      fhir:reference [ fhir:v "Location/location-bhsc" ]
   ] ; # 
   fhir:site [

@@ -19,6 +19,15 @@
       "systems" : ["https://fhir.hmis.gov.np/CodeSystem/period-range"]
     },
     {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/condition-code",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "ConditionCodeVS",
+      "title" : "Condition/Problem/Diagnosis codes",
+      "description" : "Condition/Problem/Diagnosis codes",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "https://fhir.hmis.gov.np/ValueSet/condition-severity",
       "version" : "0.0.1-ballot",
       "status" : "active",
@@ -42,12 +51,8 @@
       "status" : "active",
       "name" : "EducationalLevelVS",
       "title" : "Educational Level",
-      "description" : "Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
-        "http://loinc.org",
-        "http://snomed.info/sct"
-      ]
+      "description" : "SNOMED CT for the highest level of education attained.",
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/employment-status",

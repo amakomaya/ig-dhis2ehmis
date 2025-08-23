@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/ValueSet/medication> a fhir:ValueSet ;
+<http://fhir.hmis.gov.np/ValueSet/medication> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "medication"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "MedicationVS"] ; # 
   fhir:title [ fhir:v "Dietary Supplements (SNOMED)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-19T07:52:08+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-20T08:30:34+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -46,8 +46,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "NP" ] ;
-       fhir:display [ fhir:v "Nepal" ]
+       fhir:code [ fhir:v "NP" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 

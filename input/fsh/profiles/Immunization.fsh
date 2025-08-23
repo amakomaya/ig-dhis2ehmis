@@ -1,7 +1,8 @@
-Profile: NPCoreImmunization
+Profile: NPCoreImmunizationProfile
+Id:  np-core-immunization
 Parent: Immunization
-Title: "Immunization Profile for Nepal"
-Description: "Profile for recording immunizations for children and adults in Nepal, supporting all routine vaccines."
+Title: "NP Core Immunization Profile"
+Description: "The NP Core Immunization Profile inherits from the FHIR [Immunization](https://hl7.org/fhir/R5/immunization.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Immunization resource to record, search, and fetch basic immunization information for an individual patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing immunization events in Nepal"
 
 * status = #completed
 
@@ -9,9 +10,15 @@ Description: "Profile for recording immunizations for children and adults in Nep
 * vaccineCode from VaccineVS (required)
 
 * patient 1..1
-* patient only Reference(NPCorePatient)
+* patient only Reference(NPCorePatientProfile)
 
-* encounter only Reference(NPCoreEncounter)
+* encounter only Reference(NPCoreEncounterProfile)
 
 * occurrence[x] 1..1
 * occurrenceDateTime 1..1
+
+
+* implicitRules 0..0
+* contained 0..0
+* modifierExtension 0..0
+* isSubpotent 0..0

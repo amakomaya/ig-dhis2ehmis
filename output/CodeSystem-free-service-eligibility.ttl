@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/CodeSystem/free-service-eligibility> a fhir:CodeSystem ;
+<http://fhir.hmis.gov.np/CodeSystem/free-service-eligibility> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "free-service-eligibility"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "FreeServiceEligibilityCS"] ; # 
   fhir:title [ fhir:v "Free Service Eligibility"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-19T07:52:08+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-20T08:30:34+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -46,8 +46,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "NP" ] ;
-       fhir:display [ fhir:v "Nepal" ]
+       fhir:code [ fhir:v "NP" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
@@ -58,42 +57,42 @@
      fhir:code [ fhir:v "poor" ] ;
      fhir:display [ fhir:v "Extremely Poor / Poor" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "अति गरिव/गरिव" ]
      ] )
   ] [
      fhir:code [ fhir:v "helpless" ] ;
      fhir:display [ fhir:v "Helpless" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "असहाय" ]
      ] )
   ] [
      fhir:code [ fhir:v "disabled" ] ;
      fhir:display [ fhir:v "Person with Disability" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "अपांग" ]
      ] )
   ] [
      fhir:code [ fhir:v "senior" ] ;
      fhir:display [ fhir:v "Senior Citizen" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "जेष्ठ नागरिक" ]
      ] )
   ] [
      fhir:code [ fhir:v "female-health-volunteer" ] ;
      fhir:display [ fhir:v "Female Community Health Volunteer" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "म.स्वा.स्व.से." ]
      ] )
   ] [
      fhir:code [ fhir:v "other" ] ;
      fhir:display [ fhir:v "Other" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "अन्य" ]
      ] )
   ] ) . # 

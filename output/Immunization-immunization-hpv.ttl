@@ -7,29 +7,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Immunization/immunization-hpv> a fhir:Immunization ;
+<http://fhir.hmis.gov.np/Immunization/immunization-hpv> a fhir:Immunization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "immunization-hpv"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-hpv</b></p><a name=\"immunization-hpv\"> </a><a name=\"hcimmunization-hpv\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 44993004}\">HPV Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/hpv-admin-1\">Encounter/hpv-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-hpv</b></p><a name=\"immunization-hpv\"> </a><a name=\"hcimmunization-hpv\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 911000221103}\">HPV Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/hpv-admin-1\">Encounter/hpv-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:vaccineCode [
      fhir:coding ( [
-       a sct:44993004 ;
+       a sct:911000221103 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "44993004" ] ;
+       fhir:code [ fhir:v "911000221103" ] ;
        fhir:display [ fhir:v "Human papillomavirus vaccine" ]
      ] ) ;
      fhir:text [ fhir:v "HPV Vaccine" ]
   ] ; # 
   fhir:patient [
-     fhir:link <https://fhir.hmis.gov.np/Patient/example> ;
+     fhir:link <http://fhir.hmis.gov.np/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <https://fhir.hmis.gov.np/Encounter/hpv-admin-1> ;
+     fhir:link <http://fhir.hmis.gov.np/Encounter/hpv-admin-1> ;
      fhir:reference [ fhir:v "Encounter/hpv-admin-1" ]
   ] ; # 
   fhir:occurrence [

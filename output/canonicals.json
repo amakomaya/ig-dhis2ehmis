@@ -1,5 +1,12 @@
 [
   {
+    "id" : "hl7.fhir.hmis",
+    "type" : "ImplementationGuide",
+    "url" : "http://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreImplementationGuide"
+  },
+  {
     "id" : "ethnic-code",
     "type" : "CodeSystem",
     "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -56,13 +63,6 @@
     "name" : "YesNoCS"
   },
   {
-    "id" : "hl7.fhir.hmis",
-    "type" : "ImplementationGuide",
-    "url" : "https://fhir.hmis.gov.np/ImplementationGuide/hl7.fhir.hmis",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreImplementationGuide"
-  },
-  {
     "id" : "HealthID",
     "type" : "NamingSystem",
     "url" : "https://fhir.hmis.gov.np/NamingSystem/HealthID",
@@ -75,34 +75,6 @@
     "url" : "https://fhir.hmis.gov.np/NamingSystem/national-id",
     "version" : "0.0.1-ballot",
     "name" : "NepalNationalID"
-  },
-  {
-    "id" : "NPCoreEncounter",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/NPCoreEncounter",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreEncounter"
-  },
-  {
-    "id" : "NPCoreImmunization",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/NPCoreImmunization",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreImmunization"
-  },
-  {
-    "id" : "NPCoreMedicationStatement",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/NPCoreMedicationStatement",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreMedicationStatement"
-  },
-  {
-    "id" : "NPCorePatient",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/NPCorePatient",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCorePatient"
   },
   {
     "id" : "NepalAddress",
@@ -119,6 +91,69 @@
     "name" : "EthnicCodeEx"
   },
   {
+    "id" : "np-core-condition",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-condition",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreConditionProfile"
+  },
+  {
+    "id" : "np-core-encounter",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreEncounterProfile"
+  },
+  {
+    "id" : "np-core-immunization",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreImmunizationProfile"
+  },
+  {
+    "id" : "np-core-measure",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreMeasureProfile"
+  },
+  {
+    "id" : "np-core-measure-report",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreMeasureReportProfile"
+  },
+  {
+    "id" : "np-core-medication-statement",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreMedicationStatementProfile"
+  },
+  {
+    "id" : "np-core-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-observation",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreObservationProfile"
+  },
+  {
+    "id" : "np-core-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-organization",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCoreOrganizationProfile"
+  },
+  {
+    "id" : "np-core-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-patient",
+    "version" : "0.0.1-ballot",
+    "name" : "NPCorePatientProfile"
+  },
+  {
     "id" : "administrative-gender",
     "type" : "ValueSet",
     "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
@@ -131,6 +166,13 @@
     "url" : "https://fhir.hmis.gov.np/ValueSet/age-range",
     "version" : "0.0.1-ballot",
     "name" : "AgeRangeVS"
+  },
+  {
+    "id" : "condition-code",
+    "type" : "ValueSet",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/condition-code",
+    "version" : "0.0.1-ballot",
+    "name" : "ConditionCodeVS"
   },
   {
     "id" : "condition-severity",

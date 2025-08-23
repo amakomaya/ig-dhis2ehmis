@@ -6,7 +6,7 @@ Usage: #example
 
 * status = #completed
 * vaccineCode.coding[0].system = "http://snomed.info/sct"
-* vaccineCode.coding[0].code = #111762006
+* vaccineCode.coding[0].code = #871838009
 * vaccineCode.coding[0].display = "Inactivated poliomyelitis vaccine"
 * vaccineCode.text = "Fractional IPV (fIPV)"
 

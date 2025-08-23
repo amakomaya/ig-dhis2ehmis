@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Location/location-bhsc> a fhir:Location ;
+<http://fhir.hmis.gov.np/Location/location-bhsc> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "location-bhsc"] ; # 
   fhir:text [
@@ -35,7 +35,7 @@
      fhir:latitude [ fhir:v 27.7489 ]
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <https://fhir.hmis.gov.np/Organization/example-org> ;
+     fhir:link <http://fhir.hmis.gov.np/Organization/example-org> ;
      fhir:reference [ fhir:v "Organization/example-org" ]
   ] . # 
 

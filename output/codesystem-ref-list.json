@@ -22,7 +22,7 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-educational-level.html" : "Educational Level"
+      "http://hl7.org/fhir/R5/valueset-observation-codes.html" : "LOINC Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
@@ -35,18 +35,6 @@
       "uses" : {
       },
       "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "EducationLevel",
-      "title" : "Education Level",
-      "description" : "Years of education that a person has completed",
-      "oids" : ["2.16.840.1.113883.5.1077"],
-      "uses" : {
-      },
-      "ValueSet-educational-level.html" : "Educational Level"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -90,9 +78,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-district.html" : "District",
       "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District"
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",

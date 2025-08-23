@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Extensions and Profiles - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+    <title>Extensions and Profiles - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -164,7 +164,7 @@
 </div>
 
         <div id="ig-status" class="ig-status-active">
-          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
+          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION</span>
             <br/>
             <span style="display:inline-block;">0.0.1-ballot - ci-build
 
@@ -205,7 +205,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Extensions and Profiles</h2>
   
 
@@ -221,21 +221,59 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p>  <!-- white space is critical inside of capture --></p>
-<div>
-  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
-</div>
-<p>The following <strong>profiles and extensions</strong> have been defined for this implementation guide.<br/>
-Each entry includes a link and description.</p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#profiles" id="markdown-toc-profiles">Profiles</a></li>
+  <li><a href="#extensions" id="markdown-toc-extensions">Extensions</a></li>
+</ul>
 
-<tr><td><a href="StructureDefinition-NPCoreEncounter.html">Encounter Profile for Nepal Basic Health Services</a> </td><td><p>Profile for recording patient encounters under Basic Health Services
-(including OPD visits, outreach clinics, and home visits).</p>
+</div>
+
+<h3 id="profiles">Profiles</h3>
+
+<p>The following <strong>profiles</strong> have been defined for this implementation guide.</p>
+
+<tr><td><a href="StructureDefinition-np-core-condition.html">NP Core Condition Profile</a> </td><td><p>The NP Core Condition Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/condition.html">Condition</a> resource. This profile defines minimum expectations for capturing diagnoses, risk conditions, and program-specific conditions in the Nepal health system. It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
 </td></tr>
-<tr><td><a href="StructureDefinition-NPCoreImmunization.html">Immunization Profile for Nepal</a> </td><td><p>Profile for recording immunizations for children and adults in Nepal, supporting all routine vaccines.</p>
+<tr><td><a href="StructureDefinition-np-core-encounter.html">NP Core Encounter Profile</a> </td><td><p>The NP Core Encounter Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/encounter.html">Encounter</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Encounter resource to record, search, and fetch basic encounter information for an individual patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present and constrains how the elements are used. By providing a standardized foundation for capturing encounters in Nepal (including OPD visits, outreach clinics, and home visits), this profile promotes interoperability, consistent data capture, and adoption across national health programs.</p>
 </td></tr>
-<tr><td><a href="StructureDefinition-NPCoreMedicationStatement.html">Medication Statement</a> </td><td><p>Profile to record medicines, supplements, and drugs provided</p>
+<tr><td><a href="StructureDefinition-np-core-immunization.html">NP Core Immunization Profile</a> </td><td><p>The NP Core Immunization Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/immunization.html">Immunization</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Immunization resource to record, search, and fetch basic immunization information for an individual patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing immunization events in Nepal</p>
 </td></tr>
-<tr><td><a href="StructureDefinition-NPCorePatient.html">Patient Profile for Nepal</a> </td><td><p>Patient profile with national identifiers, name, gender, birth date, address, contact.</p>
+<tr><td><a href="StructureDefinition-np-core-measure.html">NP Core Measure Profile</a> </td><td><p>The NP Core Measure Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measure.html">Measure</a> resource.</p>
 </td></tr>
+<tr><td><a href="StructureDefinition-np-core-measure-report.html">NP Core MeasureReport Profile</a> </td><td><p>The NP Core MeasureReport Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measurereport.html">Measure</a> resource.</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-np-core-medication-statement.html">NP Core Medication Statement Profile</a> </td><td><p>The NP Core MedicationStatement Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/medicationstatement.html">MedicationStatement</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationStatement resource to record, search, and fetch information about medications a patient is taking, has taken, or may be taking within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing medication use in Nepal</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-np-core-observation.html">NP Core Observation Profile</a> </td><td><p>The NP Core Observation Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/observation.html">Observation</a> resource.
+This profile defines minimum expectations for capturing core clinical measurements, lab results, and program-related observations in the Nepal health system.
+It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
+<p><strong>Uses for the Observation resource include:</strong></p>
+<ul>
+<li>Vital signs such as body weight, blood pressure, and temperature</li>
+<li>Laboratory data like blood glucose or estimated GFR</li>
+<li>Imaging results such as bone density or fetal measurements</li>
+<li>Clinical findings such as abdominal tenderness</li>
+<li>Device measurements such as EKG or pulse oximetry data</li>
+<li>Device settings such as mechanical ventilator parameters</li>
+<li>Clinical assessment tools such as APGAR or Glasgow Coma Score</li>
+<li>Personal characteristics such as eye color</li>
+<li>Social history like tobacco use, family support, or cognitive status</li>
+<li>Core characteristics like pregnancy status or a death assertion</li>
+<li>Product quality tests such as pH, assay, or microbial limits on products and substances</li>
+</ul>
+</td></tr>
+<tr><td><a href="StructureDefinition-np-core-organization.html">NP Core Organization Profile</a> </td><td><p>The NP Core Organization Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/organization.html">Organization</a> resource.
+It defines the minimum expectations for representing organizations (e.g., health facilities, departments, NGOs, government agencies)
+within the Nepal health system. It specifies required elements, identifiers, and standard terminologies.</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a> </td><td><p>The NP Core Patient Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/patient.html">Patient</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Patient resource to record, search, and fetch core patient information within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing patient demographics, identifiers, and key health attributes, this profile promotes interoperability, consistent data capture, and adoption across national health programs</p>
+</td></tr>
+
+<h3 id="extensions">Extensions</h3>
+<p>The following <a href="https://hl7.org/fhir/extensibility.html">Extensions</a> have been defined as part of the NP Core Implementation Guide. 
+  <!-- A registry of standard extensions can be found in the FHIR specification, and additional extensions may be registered on the HL7 FHIR registry at http://hl7.org/fhir/registry. --></p>
+
 <tr><td><a href="StructureDefinition-NepalAddress.html">Nepal Address</a> </td><td><p>Extension to represent coded and textual forms of Nepal's administrative divisions (Province, District, Municipality, Ward).</p>
 </td></tr>
 <tr><td><a href="StructureDefinition-ethnic-code.html">Ethnic Code</a> </td><td><p>Extension to capture जाति कोड (ethnicity) based on Nepali classification</p>
@@ -260,14 +298,14 @@ Each entry includes a link and description.</p>
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 19, 2025 07:52+0545">2025-08-19</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l501">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l641">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-| <a style="color: #81BEF7" href="https://fhir.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+| <a style="color: #81BEF7" href="http://fhir.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
     </span>
   </p>
 </div>    <!-- /inner-wrapper -->

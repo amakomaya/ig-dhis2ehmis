@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/NamingSystem/NationalID> a fhir:NamingSystem ;
+<http://fhir.hmis.gov.np/NamingSystem/NationalID> a fhir:NamingSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "NationalID"] ; # 
   fhir:text [
@@ -56,8 +56,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "NP" ] ;
-       fhir:display [ fhir:v "Nepal" ]
+       fhir:code [ fhir:v "NP" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 

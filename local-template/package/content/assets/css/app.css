@@ -29,3 +29,57 @@
   .sf_colsIn.col-md-8.navbar-right-container {
     display: none !important;
   }
+
+/* TOC container */
+div.markdown-toc {
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding: 0.25rem 0;
+  float: right;
+  width: 28%;
+  font-size: 0.9rem;
+  background: var(--toc-box-bg-color, #fff);
+  border: 1px solid var(--toc-box-border, rgba(0,0,0,.15));
+  border-radius: 0.4rem;
+}
+
+/* Remove default list styles */
+.markdown-toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each row */
+.markdown-toc li {
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Remove last border */
+.markdown-toc li:last-child {
+  border-bottom: none;
+}
+
+/* Links */
+.markdown-toc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hover + focus */
+.markdown-toc li:hover {
+  background: rgba(0,0,0,0.03);
+}
+.markdown-toc a:focus-visible {
+  outline: 2px solid rgba(0,0,0,0.25);
+  outline-offset: 2px;
+}
+
+/* Small screens */
+@media (max-width: 900px) {
+  div.markdown-toc {
+    float: none;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}

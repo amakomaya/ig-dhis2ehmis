@@ -11,20 +11,20 @@ ValueSets are used in
   {% include model_valueset.svg %}
 </figure>
 
-### **Inputs** 
+### Inputs
 
 * DAK
 * SMART Common ValueSets
 * Terminology services to lookup and validate the codes
 
 
-### **Outputs**
+### Outputs
 
 * ValueSets
 * Proposal for any common value sets
 
 
-### **Activities**
+### Activities
 
 This is the overview of the activities and related artifacts used:
 <img src="./l3_process_codeset.png" style="width:50%"/>
@@ -72,7 +72,7 @@ When defining a ValueSet, there may be a perceived need to create a CodeSystem:
 ValueSets shall be reviewed for criteria
 
 
-### **Output Criteria / Definition of Done**
+### Output Criteria / Definition of Done
 * All the elements in the L3 that have coded values shall have a corresponding valueset
 * All the values in the valueset shall be valid codes: 
   * Available in an available code set (for example no SNOMED unless SNOMED is supported)

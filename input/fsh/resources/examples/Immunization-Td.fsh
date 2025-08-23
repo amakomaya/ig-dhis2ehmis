@@ -7,7 +7,7 @@ Usage: #example
 * status = #completed
 
 * vaccineCode.coding[0].system = "http://snomed.info/sct"
-* vaccineCode.coding[0].code = #871737000
+* vaccineCode.coding[0].code = #871826000
 * vaccineCode.coding[0].display = "Tetanus and diphtheria toxoid vaccine"
 * vaccineCode.text = "Td Vaccine"
 

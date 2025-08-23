@@ -12,7 +12,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.69"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/address-use",
@@ -26,7 +26,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.67"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -40,7 +40,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -54,10 +54,126 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal",
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services",
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile",
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile",
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile",
+      "StructureDefinition-np-core-organization.html" : "NP Core Organization Profile",
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile",
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile",
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.232",
+        "2.16.840.1.113883.4.642.3.227",
+        "2.16.840.1.113883.4.642.2.115"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.232",
+        "2.16.840.1.113883.4.642.3.227",
+        "2.16.840.1.113883.4.642.2.115"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/composite-measure-scoring",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "CompositeMeasureScoring",
+      "title" : "Composite Measure Scoring",
+      "description" : "The composite scoring method of the measure.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/composite-measure-scoring"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.773",
+        "2.16.840.1.113883.4.642.3.757"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.773",
+        "2.16.840.1.113883.4.642.3.757"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.153",
+        "2.16.840.1.113883.4.642.3.162",
+        "2.16.840.1.113883.4.642.2.73"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.153",
+        "2.16.840.1.113883.4.642.3.162",
+        "2.16.840.1.113883.4.642.2.73"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.155",
+        "2.16.840.1.113883.4.642.3.164",
+        "2.16.840.1.113883.4.642.2.74"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.155",
+        "2.16.840.1.113883.4.642.3.164",
+        "2.16.840.1.113883.4.642.2.74"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -79,8 +195,88 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionDiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.168",
+        "2.16.840.1.113883.4.642.2.76",
+        "2.16.840.1.113883.4.642.3.159"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.168",
+        "2.16.840.1.113883.4.642.2.76",
+        "2.16.840.1.113883.4.642.3.159"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.3.170",
+        "2.16.840.1.113883.4.642.2.408"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.3.170",
+        "2.16.840.1.113883.4.642.2.408"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "Condition Verification Status",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.157",
+        "2.16.840.1.113883.4.642.2.75",
+        "2.16.840.1.113883.4.642.3.166"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.157",
+        "2.16.840.1.113883.4.642.2.75",
+        "2.16.840.1.113883.4.642.3.166"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
@@ -94,7 +290,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -108,7 +304,44 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "Data Absent Reason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/definition-topic",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DefinitionTopic",
+      "title" : "Definition Topic",
+      "description" : "High-level categorization of the definition, used for searching, sorting, and filtering.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/definition-use",
+        "http://terminology.hl7.org/CodeSystem/definition-topic"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.794",
+        "2.16.840.1.113883.4.642.3.777"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.794",
+        "2.16.840.1.113883.4.642.3.777"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
@@ -130,7 +363,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diagnosis-use",
@@ -144,7 +377,7 @@
       "sources" : ["2.16.840.1.113883.4.642.4.3321"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
@@ -166,7 +399,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
@@ -190,7 +423,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
@@ -212,7 +445,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
@@ -237,7 +470,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
@@ -259,7 +492,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-reason-use",
@@ -273,7 +506,7 @@
       "sources" : ["2.16.840.1.113883.4.642.4.3320"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
@@ -297,7 +530,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
@@ -322,7 +555,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
@@ -342,7 +575,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-subject-status",
@@ -358,7 +591,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3159"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
@@ -380,7 +613,21 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/fhir-types",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRTypes",
+      "title" : "All FHIR Types",
+      "description" : "All FHIR types",
+      "systems" : ["http://hl7.org/fhir/fhir-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3299"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3299"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -394,7 +641,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-np-core-organization.html" : "NP Core Organization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -408,7 +656,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-np-core-organization.html" : "NP Core Organization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
@@ -422,7 +671,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.995"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
@@ -438,7 +687,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.293"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-origin",
@@ -458,7 +707,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
@@ -474,7 +723,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.291"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-reason",
@@ -496,7 +745,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-route",
@@ -520,7 +769,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-site",
@@ -542,7 +791,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-status",
@@ -562,7 +811,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
@@ -576,7 +825,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.992"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
@@ -592,7 +841,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.993"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-target-disease",
@@ -606,7 +855,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1047"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-vaccine-funding-program",
@@ -620,7 +869,25 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3162"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "JurisdictionValueSet",
+      "title" : "Jurisdiction ValueSet",
+      "description" : "This value set defines a base set of codes for country, country subdivision and region    for indicating where a resource is intended to be used.   \r\n   \r\n   Note: The codes for countries and country subdivisions are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html)    while the codes for \"supra-national\" regions are from    [UN Standard country or area codes for statistical use (M49)](http://unstats.un.org/unsd/methods/m49/m49.htm).",
+      "systems" : [
+        "http://unstats.un.org/unsd/methods/m49/m49.htm",
+        "urn:iso:std:iso:3166",
+        "urn:iso:std:iso:3166:-2"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.48"],
+      "sources" : ["2.16.840.1.113883.4.642.3.48"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -640,10 +907,15 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement",
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal",
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services",
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile",
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile",
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile",
+      "StructureDefinition-np-core-organization.html" : "NP Core Organization Profile",
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile",
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -665,7 +937,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-form",
@@ -681,7 +953,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.328"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -698,7 +970,225 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-aggregate-method",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureAggregateMethod",
+      "title" : "Measure Aggregate Method",
+      "description" : "Aggregation method for a measure (e.g. sum, average, median, minimum, maximum, count)",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/measure-aggregate-method"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3192"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3192"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-data-usage",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureDataUsage",
+      "title" : "Measure Data Usage",
+      "description" : "The intended usage for supplemental data elements in the measure.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/measure-data-usage"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.771",
+        "2.16.840.1.113883.4.642.3.755"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.771",
+        "2.16.840.1.113883.4.642.3.755"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-definition-example",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureDefinitionExample",
+      "title" : "Measure Definition Example",
+      "description" : "Example Measure Definitions for the Measure Resource.",
+      "systems" : ["http://hl7.org/fhir/measure-definition-example"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3190"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3190"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-group-example",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureGroupExample",
+      "title" : "Measure Group Example",
+      "description" : "Example Measure Groups for the Measure Resource.",
+      "systems" : ["http://hl7.org/fhir/measure-group-example"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3191"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3191"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-improvement-notation",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureImprovementNotation",
+      "title" : "Measure Improvement Notation",
+      "description" : "Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1236"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1236"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-population",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasurePopulationType",
+      "title" : "Measure Population Type",
+      "description" : "The type of population.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/measure-population"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.765",
+        "2.16.840.1.113883.4.642.3.749"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.765",
+        "2.16.840.1.113883.4.642.3.749"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-report-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureReportStatus",
+      "title" : "Measure Report Status",
+      "description" : "The status of the measure report.",
+      "systems" : ["http://hl7.org/fhir/measure-report-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.776",
+        "2.16.840.1.113883.4.642.3.759"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.776",
+        "2.16.840.1.113883.4.642.3.759"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-report-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureReportType",
+      "title" : "Measure Report Type",
+      "description" : "The type of the measure report.",
+      "systems" : ["http://hl7.org/fhir/measure-report-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.761",
+        "2.16.840.1.113883.4.642.3.778"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.761",
+        "2.16.840.1.113883.4.642.3.778"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-scoring-unit",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MeasureScoringUnit",
+      "title" : "Measure Scoring Unit",
+      "description" : "This is an example value set illustrating some typical scoring units used in quality measure specifications.",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3188"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3188"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-stratifier-example",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureStratifierExample",
+      "title" : "Measure Stratifier Example",
+      "description" : "Identifier subgroups in a population for measuring purposes.",
+      "systems" : ["http://hl7.org/fhir/measure-stratifier-example"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3187"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3187"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-supplemental-data-example",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureSupplementalDataExample",
+      "title" : "Measure Supplemental Data Example",
+      "description" : "Supplemental data in a population for measuring purposes.",
+      "systems" : ["http://hl7.org/fhir/measure-supplemental-data-example"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3189"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3189"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measure-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureType",
+      "title" : "Measure Type",
+      "description" : "The type of measure (includes codes from 2.16.840.1.113883.1.11.20368).",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/measure-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.753",
+        "2.16.840.1.113883.4.642.3.769"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.753",
+        "2.16.840.1.113883.4.642.3.769"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "MeasureReportStratifierValueExample",
+      "title" : "Measure Report Stratifier Value Example",
+      "description" : "Example Measure Stratification Value for MeasureReports Resource.",
+      "systems" : ["http://hl7.org/fhir/measurereport-stratifier-value-example"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3054"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3054"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-adherence",
@@ -714,7 +1204,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3090"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
@@ -728,7 +1218,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3088"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-admin-location",
@@ -744,7 +1234,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3242"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -758,7 +1248,179 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeNormalValueCodes",
+      "title" : "Observation Reference Range Normal Value Codes",
+      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
+      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the type of triggeredBy observation.",
+      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/organization-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "OrganizationType",
+      "title" : "Organization Type",
+      "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/organization-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.228",
+        "2.16.840.1.113883.4.642.3.414",
+        "2.16.840.1.113883.4.642.3.403"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.228",
+        "2.16.840.1.113883.4.642.3.414",
+        "2.16.840.1.113883.4.642.3.403"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-organization.html" : "NP Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participant-resource-types",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ParticipantResourceTypes",
+      "title" : "Participant Resource Types",
+      "description" : "All Resource Types that represent participant resources",
+      "systems" : ["http://hl7.org/fhir/fhir-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3301"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3301"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participation-role-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ParticipationRoleType",
+      "title" : "Participation Role Type",
+      "description" : "This FHIR value set is comprised of Actor participation Type codes, which can be used to value FHIR agents, actors, and other role elements. The codes are intended to express how the agent participated in some activity. Sometimes refered to the agent functional-role relative to the activity.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+        "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+        "http://dicom.nema.org/resources/ontology/DCM"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.54"],
+      "sources" : ["2.16.840.1.113883.4.642.3.54"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -772,7 +1434,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-NPCorePatient.html" : "Patient Profile for Nepal"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/publication-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "systems" : ["http://hl7.org/fhir/publication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
@@ -786,7 +1462,82 @@
       "sources" : ["2.16.840.1.113883.4.642.3.369"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/submit-data-update-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "SubmitDataUpdateType",
+      "title" : "Submit Data Update Type",
+      "description" : "Concepts for how a measure report consumer and receiver coordinate data exchange updates. The choices are snapshot or incremental updates",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/submit-data-update-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3055"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3055"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/version-algorithm",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "VersionAlgorithm",
+      "title" : "Version Algorithm",
+      "description" : "Indicates the mechanism used to compare versions to determine which is more current.",
+      "systems" : ["http://hl7.org/fhir/version-algorithm"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3103"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3103"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
@@ -798,7 +1549,22 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/measure-scoring",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "MeasureScoring",
+      "title" : "Measure Scoring",
+      "description" : "The scoring type of the measure.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/measure-scoring"],
+      "oids" : ["2.16.840.1.113883.4.642.3.767"],
+      "sources" : ["2.16.840.1.113883.4.642.3.767"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-measure-report.html" : "NP Core MeasureReport Profile",
+      "StructureDefinition-np-core-measure.html" : "NP Core Measure Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
@@ -812,7 +1578,7 @@
       "sources" : ["2.16.840.1.113883.21.40"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
@@ -826,7 +1592,7 @@
       "sources" : ["2.16.840.1.113883.1.11.16866"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
@@ -845,6 +1611,18 @@
       "title" : "Age Range",
       "description" : "ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem",
       "systems" : ["https://fhir.hmis.gov.np/CodeSystem/period-range"]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/condition-code",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "ConditionCodeVS",
+      "title" : "Condition/Problem/Diagnosis codes",
+      "description" : "Condition/Problem/Diagnosis codes",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/condition-severity",
@@ -873,12 +1651,8 @@
       "status" : "active",
       "name" : "EducationalLevelVS",
       "title" : "Educational Level",
-      "description" : "Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
-        "http://loinc.org",
-        "http://snomed.info/sct"
-      ]
+      "description" : "SNOMED CT for the highest level of education attained.",
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/employment-status",
@@ -952,7 +1726,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
@@ -1010,7 +1784,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/vaccine",
@@ -1022,7 +1796,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",

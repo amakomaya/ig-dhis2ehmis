@@ -7,29 +7,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Immunization/immunization-typhoid> a fhir:Immunization ;
+<http://fhir.hmis.gov.np/Immunization/immunization-typhoid> a fhir:Immunization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "immunization-typhoid"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-typhoid</b></p><a name=\"immunization-typhoid\"> </a><a name=\"hcimmunization-typhoid\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 429968002}\">Typhoid Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/typhoid-admin-1\">Encounter/typhoid-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization immunization-typhoid</b></p><a name=\"immunization-typhoid\"> </a><a name=\"hcimmunization-typhoid\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://snomed.info/sct 961000221100}\">Typhoid Vaccine</span></p><p><b>patient</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>encounter</b>: <a href=\"Encounter/typhoid-admin-1\">Encounter/typhoid-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:vaccineCode [
      fhir:coding ( [
-       a sct:429968002 ;
+       a sct:961000221100 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "429968002" ] ;
+       fhir:code [ fhir:v "961000221100" ] ;
        fhir:display [ fhir:v "Typhoid vaccine" ]
      ] ) ;
      fhir:text [ fhir:v "Typhoid Vaccine" ]
   ] ; # 
   fhir:patient [
-     fhir:link <https://fhir.hmis.gov.np/Patient/example> ;
+     fhir:link <http://fhir.hmis.gov.np/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <https://fhir.hmis.gov.np/Encounter/typhoid-admin-1> ;
+     fhir:link <http://fhir.hmis.gov.np/Encounter/typhoid-admin-1> ;
      fhir:reference [ fhir:v "Encounter/typhoid-admin-1" ]
   ] ; # 
   fhir:occurrence [

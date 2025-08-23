@@ -894,32 +894,65 @@
     }
   ],
   "profiles": {
+    "Condition": [
+      {
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-condition",
+        "title": "NP Core Condition Profile"
+      }
+    ],
     "Encounter": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/NPCoreEncounter",
-        "title": "Encounter Profile for Nepal Basic Health Services"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter",
+        "title": "NP Core Encounter Profile"
       }
     ],
     "Immunization": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/NPCoreImmunization",
-        "title": "Immunization Profile for Nepal"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization",
+        "title": "NP Core Immunization Profile"
+      }
+    ],
+    "Measure": [
+      {
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure",
+        "title": "NP Core Measure Profile"
+      }
+    ],
+    "MeasureReport": [
+      {
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report",
+        "title": "NP Core MeasureReport Profile"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/NPCoreMedicationStatement",
-        "title": "Medication Statement"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement",
+        "title": "NP Core Medication Statement Profile"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-observation",
+        "title": "NP Core Observation Profile"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-organization",
+        "title": "NP Core Organization Profile"
       }
     ],
     "Patient": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/NPCorePatient",
-        "title": "Patient Profile for Nepal"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-patient",
+        "title": "NP Core Patient Profile"
       }
     ]
   },
   "usage": {
+    "http://fhir.hmis.gov.np/CodeSystem/ethnic-code": [
+      "Patient"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -929,11 +962,20 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements": [
+      "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
       "StructureDefinition"
@@ -954,9 +996,6 @@
       "Patient.address"
     ],
     "https://fhir.hmis.gov.np/StructureDefinition/ethnic-code": [
-      "Patient"
-    ],
-    "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code": [
       "Patient"
     ]
   }

@@ -1,6 +1,28 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
+    },
+    {
       "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
       "version" : "0.0.1-ballot",
       "status" : "active",
@@ -17,6 +39,18 @@
       "title" : "Age Range",
       "description" : "ValueSet including selected HMIS age ranges from the PeriodRangeCS CodeSystem",
       "systems" : ["https://fhir.hmis.gov.np/CodeSystem/period-range"]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/condition-code",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "ConditionCodeVS",
+      "title" : "Condition/Problem/Diagnosis codes",
+      "description" : "Condition/Problem/Diagnosis codes",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/condition-severity",
@@ -45,12 +79,8 @@
       "status" : "active",
       "name" : "EducationalLevelVS",
       "title" : "Educational Level",
-      "description" : "Combined SNOMED CT, HL7 v3, and local codes for the highest level of education attained.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-EducationLevel",
-        "http://loinc.org",
-        "http://snomed.info/sct"
-      ]
+      "description" : "SNOMED CT for the highest level of education attained.",
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/employment-status",
@@ -124,7 +154,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreMedicationStatement.html" : "Medication Statement"
+      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
@@ -182,7 +212,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-NPCoreEncounter.html" : "Encounter Profile for Nepal Basic Health Services"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/vaccine",
@@ -194,7 +224,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NPCoreImmunization.html" : "Immunization Profile for Nepal"
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",

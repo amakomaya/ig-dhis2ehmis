@@ -36,8 +36,8 @@ Description: "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 1
 * address[0].city = "Kathmandu Metropolitan City"
 * address[0].country = "NP"
 
-* extension[0].url = "https://hl7.hmis.gov.np/StructureDefinition/ethnic-code"
-* extension[0].valueCoding.system = "https://hl7.hmis.gov.np/CodeSystem/ethnic-code"
+* extension[0].url = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"
+* extension[0].valueCoding.system = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"
 * extension[0].valueCoding.code = #2
 * extension[0].valueCoding.display = "Janajati"
 

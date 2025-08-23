@@ -7,7 +7,7 @@ Usage: #example
 * status = #completed
 
 * vaccineCode.coding[0].system = "http://snomed.info/sct"
-* vaccineCode.coding[0].code = #871751008
+* vaccineCode.coding[0].code = #1051000221104
 * vaccineCode.coding[0].display = "Inactivated poliomyelitis vaccine"
 * vaccineCode.text = "Polio Vaccine (IPV) / OPV"
 

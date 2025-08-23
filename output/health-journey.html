@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Health Journey - Nepal HMIS FHIR Implementation Guide v0.0.1-ballot</title>
+    <title>Health Journey - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -164,7 +164,7 @@
 </div>
 
         <div id="ig-status" class="ig-status-active">
-          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide</span>
+          <p><span style="font-size:12pt;font-weight:bold">Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION</span>
             <br/>
             <span style="display:inline-block;">0.0.1-ballot - ci-build
 
@@ -205,7 +205,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION - Local Development build (v0.0.1-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://fhir.hmis.gov.np/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Health Journey</h2>
   
 
@@ -223,9 +223,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#inputs" id="markdown-toc-inputs"><strong>Inputs</strong></a></li>
-  <li><a href="#outputs" id="markdown-toc-outputs"><strong>Outputs</strong></a></li>
-  <li><a href="#activities" id="markdown-toc-activities"><strong>Activities</strong></a></li>
+  <li><a href="#inputs" id="markdown-toc-inputs">Inputs</a></li>
+  <li><a href="#outputs" id="markdown-toc-outputs">Outputs</a></li>
+  <li><a href="#activities" id="markdown-toc-activities">Activities</a></li>
+  <li><a href="#reusing-an-existing-persona" id="markdown-toc-reusing-an-existing-persona">Reusing an existing Persona</a></li>
+  <li><a href="#creating-a-new-persona-definition" id="markdown-toc-creating-a-new-persona-definition">Creating a new Persona definition</a></li>
+  <li><a href="#mnch-health-journey" id="markdown-toc-mnch-health-journey">MNCH Health Journey</a></li>
+  <li><a href="#outpatient-opd-health-journey" id="markdown-toc-outpatient-opd-health-journey">Outpatient (OPD) Health Journey</a></li>
+  <li><a href="#immunization-health-journey" id="markdown-toc-immunization-health-journey">Immunization Health Journey</a></li>
   <li><a href="#how-to-use" id="markdown-toc-how-to-use">How to Use</a></li>
 </ul>
 
@@ -236,7 +241,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Each Persona is defined by the following data:</p>
 <figure style="width:15em">
-  <svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 159 226" zoomAndPan="magnify" data-diagram-type="CLASS" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs></defs><g><a name="l416">​</a>  <!-- class Pers --><g data-entity="Pers" id="entity_Pers" data-uid="ent0002" class="entity" data-source-line="7"><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="#C2F0FF" height="128.9297"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="26.4883"></rect><rect width="138.3604" x="7" y="28.9883" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="4.5"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="none" height="128.9297"></rect><text font-weight="bold" lengthAdjust="spacing" x="47.4624" font-size="14" textLength="57.4355" y="25.5352" font-family="sans-serif" fill="#000000">Persona</text><line y1="33.4883" x1="8" y2="33.4883" style="stroke:#505090;stroke-width:0.5;" x2="144.3604"></line><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="90.2412" y="57.0234" font-family="sans-serif" fill="#000000">identifier 1..*</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="72.1602" y="73.5117" font-family="sans-serif" fill="#000000">status 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="68.2842" y="90" font-family="sans-serif" fill="#000000">name 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="57.3604" y="106.4883" font-family="sans-serif" fill="#000000">title 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="107.0713" y="122.9766" font-family="sans-serif" fill="#000000">description 1..1</text><rect width="2" x="22" y="50.7324" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="51.7324" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="43.4883" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="67.2207" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="68.2207" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="51.7324" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="83.709" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="84.709" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="68.2207" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="100.1973" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="101.1973" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="84.709" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="116.6855" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="117.6855" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="101.1973" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="15"></line><line y1="127.9297" x1="8" y2="127.9297" style="stroke:#505090;stroke-width:1;" x2="144.3604"></line></g><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="61.377" y="171.1855" font-family="Arial" fill="#000000">Data needs</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="66.7031" y="184.9844" font-family="Arial" fill="#000000">for personas</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="23.3438" y="198.7832" font-family="Arial" fill="#000000">(see</text><a xlink:type="simple" xlink:show="new" xlink:title="./diagram_legend.html#data-object-details-with-plantuml" href="./diagram_legend.html#data-object-details-with-plantuml" xlink:actuate="onRequest" title="./diagram_legend.html#data-object-details-with-plantuml" xlink:href="./diagram_legend.html#data-object-details-with-plantuml" target="_top"><text lengthAdjust="spacing" text-decoration="underline" x="69.0034" font-size="12" textLength="36.0352" y="198.7832" font-family="Arial" fill="#0000FF">legend</text></a><text lengthAdjust="spacing" x="105.0386" font-size="12" textLength="3.9961" y="198.7832" font-family="Arial" fill="#000000">)</text></g></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 159 226" zoomAndPan="magnify" data-diagram-type="CLASS" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs></defs><g><a name="l433">​</a>  <!-- class Pers --><g data-entity="Pers" id="entity_Pers" data-uid="ent0002" class="entity" data-source-line="7"><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="#C2F0FF" height="128.9297"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="26.4883"></rect><rect width="138.3604" x="7" y="28.9883" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="4.5"></rect><rect rx="4.5" ry="4.5" width="138.3604" x="7" y="7" style="stroke:#505090;stroke-width:0.5;" fill="none" height="128.9297"></rect><text font-weight="bold" lengthAdjust="spacing" x="47.4624" font-size="14" textLength="57.4355" y="25.5352" font-family="sans-serif" fill="#000000">Persona</text><line y1="33.4883" x1="8" y2="33.4883" style="stroke:#505090;stroke-width:0.5;" x2="144.3604"></line><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="90.2412" y="57.0234" font-family="sans-serif" fill="#000000">identifier 1..*</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="72.1602" y="73.5117" font-family="sans-serif" fill="#000000">status 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="68.2842" y="90" font-family="sans-serif" fill="#000000">name 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="57.3604" y="106.4883" font-family="sans-serif" fill="#000000">title 1..1</text><text lengthAdjust="spacing" x="29.4297" font-size="14" textLength="107.0713" y="122.9766" font-family="sans-serif" fill="#000000">description 1..1</text><rect width="2" x="22" y="50.7324" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="51.7324" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="43.4883" x1="15" y2="51.7324" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="67.2207" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="68.2207" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="51.7324" x1="15" y2="68.2207" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="83.709" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="84.709" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="68.2207" x1="15" y2="84.709" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="100.1973" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="101.1973" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="84.709" x1="15" y2="101.1973" style="stroke:#000000;stroke-width:1;" x2="15"></line><rect width="2" x="22" y="116.6855" style="stroke:#000000;stroke-width:1;" fill="#C2F0FF" height="2"></rect><line y1="117.6855" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="23"></line><line y1="101.1973" x1="15" y2="117.6855" style="stroke:#000000;stroke-width:1;" x2="15"></line><line y1="127.9297" x1="8" y2="127.9297" style="stroke:#505090;stroke-width:1;" x2="144.3604"></line></g><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="61.377" y="171.1855" font-family="Arial" fill="#000000">Data needs</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="66.7031" y="184.9844" font-family="Arial" fill="#000000">for personas</text><text lengthAdjust="spacing" x="42.3257" font-size="12" textLength="23.3438" y="198.7832" font-family="Arial" fill="#000000">(see</text><a xlink:type="simple" xlink:show="new" xlink:title="./diagram_legend.html#data-object-details-with-plantuml" href="./diagram_legend.html#data-object-details-with-plantuml" xlink:actuate="onRequest" title="./diagram_legend.html#data-object-details-with-plantuml" xlink:href="./diagram_legend.html#data-object-details-with-plantuml" target="_top"><text lengthAdjust="spacing" text-decoration="underline" x="69.0034" font-size="12" textLength="36.0352" y="198.7832" font-family="Arial" fill="#0000FF">legend</text></a><text lengthAdjust="spacing" x="105.0386" font-size="12" textLength="3.9961" y="198.7832" font-family="Arial" fill="#000000">)</text></g></svg>
 </figure>
 
 <p>The L3 author must ensure there is an ActorDefinition for each Persona mentioned in the L2. If the Persona doesn't exist in the common Personas list yet,
@@ -244,14 +249,14 @@ this process can propose the creation of another different persona. This
 creation of a new persona is a provisional measure; there SHALL be a
 governance process for Personas. In that governance, there SHALL be a requirement that all personas in the final publication of a specification SHALL be approved.</p>
 
-<h3 id="inputs"><strong>Inputs</strong></h3>
+<h3 id="inputs">Inputs</h3>
 
 <ul>
   <li>L2 Generic personas (Narrative)</li>
   <li>Common Personas list</li>
 </ul>
 
-<h3 id="outputs"><strong>Outputs</strong></h3>
+<h3 id="outputs">Outputs</h3>
 
 <ul>
   <li>L3 ActorDefinition</li>
@@ -259,7 +264,7 @@ governance process for Personas. In that governance, there SHALL be a requiremen
   <li>Narrative page listing the Personas</li>
 </ul>
 
-<h3 id="activities"><strong>Activities</strong></h3>
+<h3 id="activities">Activities</h3>
 
 <p><img src="./l3_process_persona.png" style="width:30%"/>
 <br clear="all"/></p>
@@ -267,7 +272,7 @@ governance process for Personas. In that governance, there SHALL be a requiremen
   <p>Summary: The L3 author starts with the L2 persona and reuses an existing ActorDefinition from the Common Personas repository, if one exists. If not, the author creates an ActorDefinition, which will be added to the Common Personas repository.</p>
 </blockquote>
 
-<h4 id="reusing-an-existing-persona">Reusing an existing Persona</h4>
+<h3 id="reusing-an-existing-persona">Reusing an existing Persona</h3>
 <p>If an ActorDefinition already exists in the Commons repository, and its
 definitions is adequate to the case submitted, the author shall reuse an existing persona.</p>
 
@@ -279,7 +284,7 @@ definitions is not adequate to the case submitted,</p>
   <li>If the existing persona is inadequate (e.g. too strict), it is best to suggest an updated definition.</li>
 </ul>
 
-<h4 id="creating-a-new-persona-definition">Creating a new Persona definition</h4>
+<h3 id="creating-a-new-persona-definition">Creating a new Persona definition</h3>
 <p>If no ActorDefinition exists in the Commons repository, create a draft &amp; propose a new persona.</p>
 
 <p><code class="language-plaintext highlighter-rouge">.identifier</code> - don't add an identifier. A final identifier will be assigned in the persona approval / onboarding process.</p>
@@ -293,13 +298,13 @@ definitions is not adequate to the case submitted,</p>
 
 <hr/>
 
-<h4 id="mnch-health-journey"><a href="health-journey-mnch.html">MNCH Health Journey</a></h4>
+<h3 id="mnch-health-journey"><a href="health-journey-mnch.html">MNCH Health Journey</a></h3>
 <p>Captures maternal, newborn, and child health data across the continuum of care — from pregnancy registration, antenatal visits, and delivery, to postnatal follow-up and child health services. Includes tracking of key indicators for national reporting.</p>
 
-<h4 id="outpatient-opd-health-journey"><a href="health-journey-opd.html">Outpatient (OPD) Health Journey</a></h4>
+<h3 id="outpatient-opd-health-journey"><a href="health-journey-opd.html">Outpatient (OPD) Health Journey</a></h3>
 <p>Describes the flow of outpatient consultations, including patient registration, diagnosis, treatment, referral, and follow-up — all modeled using FHIR resources to ensure standardized recording and reporting.</p>
 
-<h4 id="immunization-health-journey"><a href="health-journey-immunization.html">Immunization Health Journey</a></h4>
+<h3 id="immunization-health-journey"><a href="health-journey-immunization.html">Immunization Health Journey</a></h3>
 <p>Illustrates how vaccine administration is documented using FHIR, capturing antigen details, dates, batch numbers, adverse events, and linkage to patient records — supporting EPI program reporting.</p>
 
 <hr/>
@@ -331,14 +336,14 @@ definitions is not adequate to the case submitted,</p>
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 19, 2025 07:52+0545">2025-08-19</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l660">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l674">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-| <a style="color: #81BEF7" href="https://fhir.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+| <a style="color: #81BEF7" href="http://fhir.hmis.gov.np/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
     </span>
   </p>
 </div>    <!-- /inner-wrapper -->

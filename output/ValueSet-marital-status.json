@@ -10,7 +10,7 @@
   "name" : "MaritalStatusVS",
   "title" : "Marital Status (वैवाहिक स्थिति)",
   "status" : "active",
-  "date" : "2025-08-19T07:52:08+05:45",
+  "date" : "2025-08-20T08:30:34+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -42,8 +42,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "NP",
-      "display" : "Nepal"
+      "code" : "NP"
     }]
   }],
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",

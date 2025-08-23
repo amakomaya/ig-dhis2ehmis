@@ -7,9 +7,9 @@ Description: "निशुल्क/शुल्क रू"
 * ^caseSensitive = true
 
 * #free "Free"
-  * ^designation[0].language = #ne
+  * ^designation[0].language = #ne-NP
   * ^designation[0].value = "निशुल्क"
 
 * #cost "Cost(RS)"
-  * ^designation[0].language = #ne
+  * ^designation[0].language = #ne-NP
   * ^designation[0].value = "शुलक (रू)"

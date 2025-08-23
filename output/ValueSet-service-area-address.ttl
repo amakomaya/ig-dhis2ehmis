@@ -6,19 +6,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/ValueSet/service-area-address> a fhir:ValueSet ;
+<http://fhir.hmis.gov.np/ValueSet/service-area-address> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "service-area-address"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-area-address</b></p><a name=\"service-area-address\"> </a><a name=\"hcservice-area-address\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/255604002\">255604002</a></td><td>Within organization's area</td></tr><tr><td><a href=\"http://snomed.info/id/255605001\">255605001</a></td><td>Outside organization's area</td></tr><tr><td><a href=\"http://snomed.info/id/225294001\">225294001</a></td><td>Health care facility (environment)</td></tr><tr><td><a href=\"http://snomed.info/id/44806009\">44806009</a></td><td>Community health volunteer (वितरण स्थान)</td></tr><tr><td><a href=\"http://snomed.info/id/308335008\">308335008</a></td><td>School (setting)</td></tr><tr><td><a href=\"http://snomed.info/id/394707004\">394707004</a></td><td>Primary health care service</td></tr><tr><td><a href=\"http://snomed.info/id/308335005\">308335005</a></td><td>Outpatient clinic (setting)</td></tr><tr><td><a href=\"http://snomed.info/id/440230006\">440230006</a></td><td>Self referral / Self admission</td></tr><tr><td><a href=\"http://snomed.info/id/7080001\">7080001</a></td><td>Special care unit</td></tr><tr><td><a href=\"http://snomed.info/id/390620009\">390620009</a></td><td>Community health clinic</td></tr><tr><td><a href=\"http://snomed.info/id/408729009\">408729009</a></td><td>Nutritional rehabilitation center</td></tr><tr><td><a href=\"http://snomed.info/id/265795009\">265795009</a></td><td>Home</td></tr><tr><td><a href=\"http://snomed.info/id/309343006\">309343006</a></td><td>Health care provider</td></tr><tr><td><a href=\"http://snomed.info/id/726919000\">726919000</a></td><td>Family member (person)</td></tr><tr><td><a href=\"http://snomed.info/id/394814009\">394814009</a></td><td>Pharmacy</td></tr><tr><td><a href=\"http://snomed.info/id/386661006\">386661006</a></td><td>Telephone service</td></tr><tr><td><a href=\"http://snomed.info/id/225319003\">225319003</a></td><td>Community (environment)</td></tr><tr><td><a href=\"http://snomed.info/id/308490002\">308490002</a></td><td>Referral to service</td></tr><tr><td><a href=\"http://snomed.info/id/308489006\">308489006</a></td><td>Referral from service</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet service-area-address</b></p><a name=\"service-area-address\"> </a><a name=\"hcservice-area-address\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/257622000\">257622000</a></td><td>Healthcare facility (environment)</td></tr><tr><td><a href=\"http://snomed.info/id/257698009\">257698009</a></td><td>School (environment)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.hmis.gov.np/ValueSet/service-area-address"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1-ballot"] ; # 
   fhir:name [ fhir:v "ServiceAreaAddressVS"] ; # 
   fhir:title [ fhir:v "Service Area Address Classification"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-19T07:52:08+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-20T08:30:34+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -46,8 +46,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "NP" ] ;
-       fhir:display [ fhir:v "Nepal" ]
+       fhir:code [ fhir:v "NP" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
@@ -55,62 +54,11 @@
      fhir:include ( [
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
        fhir:concept ( [
-         fhir:code [ fhir:v "255604002" ] ;
-         fhir:display [ fhir:v "Within organization's area" ]
+         fhir:code [ fhir:v "257622000" ] ;
+         fhir:display [ fhir:v "Healthcare facility (environment)" ]
        ] [
-         fhir:code [ fhir:v "255605001" ] ;
-         fhir:display [ fhir:v "Outside organization's area" ]
-       ] [
-         fhir:code [ fhir:v "225294001" ] ;
-         fhir:display [ fhir:v "Health care facility (environment)" ]
-       ] [
-         fhir:code [ fhir:v "44806009" ] ;
-         fhir:display [ fhir:v "Community health volunteer (वितरण स्थान)" ]
-       ] [
-         fhir:code [ fhir:v "308335008" ] ;
-         fhir:display [ fhir:v "School (setting)" ]
-       ] [
-         fhir:code [ fhir:v "394707004" ] ;
-         fhir:display [ fhir:v "Primary health care service" ]
-       ] [
-         fhir:code [ fhir:v "308335005" ] ;
-         fhir:display [ fhir:v "Outpatient clinic (setting)" ]
-       ] [
-         fhir:code [ fhir:v "440230006" ] ;
-         fhir:display [ fhir:v "Self referral / Self admission" ]
-       ] [
-         fhir:code [ fhir:v "7080001" ] ;
-         fhir:display [ fhir:v "Special care unit" ]
-       ] [
-         fhir:code [ fhir:v "390620009" ] ;
-         fhir:display [ fhir:v "Community health clinic" ]
-       ] [
-         fhir:code [ fhir:v "408729009" ] ;
-         fhir:display [ fhir:v "Nutritional rehabilitation center" ]
-       ] [
-         fhir:code [ fhir:v "265795009" ] ;
-         fhir:display [ fhir:v "Home" ]
-       ] [
-         fhir:code [ fhir:v "309343006" ] ;
-         fhir:display [ fhir:v "Health care provider" ]
-       ] [
-         fhir:code [ fhir:v "726919000" ] ;
-         fhir:display [ fhir:v "Family member (person)" ]
-       ] [
-         fhir:code [ fhir:v "394814009" ] ;
-         fhir:display [ fhir:v "Pharmacy" ]
-       ] [
-         fhir:code [ fhir:v "386661006" ] ;
-         fhir:display [ fhir:v "Telephone service" ]
-       ] [
-         fhir:code [ fhir:v "225319003" ] ;
-         fhir:display [ fhir:v "Community (environment)" ]
-       ] [
-         fhir:code [ fhir:v "308490002" ] ;
-         fhir:display [ fhir:v "Referral to service" ]
-       ] [
-         fhir:code [ fhir:v "308489006" ] ;
-         fhir:display [ fhir:v "Referral from service" ]
+         fhir:code [ fhir:v "257698009" ] ;
+         fhir:display [ fhir:v "School (environment)" ]
        ] )
      ] )
   ] . # 

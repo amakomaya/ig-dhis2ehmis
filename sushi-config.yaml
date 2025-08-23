@@ -6,7 +6,7 @@
 id: hl7.fhir.hmis
 canonical: https://fhir.hmis.gov.np
 name: NPCoreImplementationGuide
-title: Nepal HMIS FHIR Implementation Guide
+title: Nepal HMIS FHIR Implementation Guide – 🚨 DRAFT VERSION
 description: >-
   The Electronic Health Management Information System (E-HMIS) FHIR Implementation Guide defines the core profiles, data elements, workflows, and terminologies necessary to support interoperable, standards-based reporting and service delivery for Nepal’s routine health information systems.
 
@@ -19,13 +19,13 @@ fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
 license: CC-BY-SA-3.0
-jurisdiction: urn:iso:std:iso:3166#NP "Nepal"
+jurisdiction: urn:iso:std:iso:3166#NP
 publisher:
   name: Integrated Health Information Management Section
   url: https://hmis.gov.np
   email: it@hmis.gov.np
 
-url: https://fhir.hmis.gov.np
+url: http://fhir.hmis.gov.np
 date: 2025-08-01
 
 copyright: >-

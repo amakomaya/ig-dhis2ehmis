@@ -10,7 +10,7 @@
   "name" : "ServiceTypeCS",
   "title" : "सेवाको किसिम कोड सिस्टम",
   "status" : "active",
-  "date" : "2025-08-19T07:52:08+05:45",
+  "date" : "2025-08-20T08:30:34+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",
@@ -42,8 +42,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "NP",
-      "display" : "Nepal"
+      "code" : "NP"
     }]
   }],
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
@@ -54,7 +53,7 @@
     "code" : "1",
     "display" : "General Care",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "सामान्य उपचार"
     }]
   },
@@ -62,7 +61,7 @@
     "code" : "2",
     "display" : "IMNCI",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "IMNCI"
     }]
   },
@@ -70,7 +69,7 @@
     "code" : "3",
     "display" : "Nutrition",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "पोषण"
     }]
   },
@@ -78,7 +77,7 @@
     "code" : "4",
     "display" : "Safe Motherhood",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "सुरक्षित मातृत्व"
     }]
   },
@@ -86,7 +85,7 @@
     "code" : "5",
     "display" : "Family Planning",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "परिवार नियोजन"
     }]
   },
@@ -94,7 +93,7 @@
     "code" : "6",
     "display" : "Tuberculosis",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "क्षयरोग"
     }]
   },
@@ -102,7 +101,7 @@
     "code" : "7",
     "display" : "Leprosy",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "कुष्ठरोग"
     }]
   },
@@ -110,7 +109,7 @@
     "code" : "8",
     "display" : "Vector-borne Disease",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "कीटजन्य रोग"
     }]
   },
@@ -118,7 +117,7 @@
     "code" : "9",
     "display" : "Sexually Transmitted Disease",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "यौनरोग"
     }]
   },
@@ -126,7 +125,7 @@
     "code" : "10",
     "display" : "Non-communicable Disease",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "नसर्ने रोग"
     }]
   },
@@ -134,7 +133,7 @@
     "code" : "11",
     "display" : "Other (Specify)",
     "designation" : [{
-      "language" : "ne",
+      "language" : "ne-NP",
       "value" : "अन्य (खुलाउने)"
     }]
   }]

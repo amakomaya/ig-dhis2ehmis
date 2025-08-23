@@ -1,15 +1,15 @@
 Indicators are a machine-readable expressions that define the indicator and its input variables, population, and stratifiers. Indicators are expressed using FHIR Measure resource.
 
-### **Inputs** 
+### Inputs
 * L2 indicator definition
 * Data dictionary
 * CQL dependencies
 
-### **Outputs**
+### Outputs
 * Measure FHIR artifact
 * Example MeasureReport corresponding to the test / example data included
 
-### **Activities**
+### Activities
 
 Measures are FHIR resources and can refer to CQL libraries. 
 
@@ -83,7 +83,7 @@ Measures are FHIR resources and can refer to CQL libraries.
   Add the libraries that contain the functions
 
 
-### **Output Criteria / Definition of Done**
+### Output Criteria / Definition of Done
 
 * All the input variables shall be in the measure's `terms`.
 * All terms shall part of the Data Dictionary

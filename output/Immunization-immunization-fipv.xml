@@ -3,13 +3,13 @@
 <Immunization xmlns="http://hl7.org/fhir">
   <id value="immunization-fipv"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-fipv</b></p><a name="immunization-fipv"> </a><a name="hcimmunization-fipv"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 111762006}">Fractional IPV (fIPV)</span></p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/fipv-admin-1">Encounter/fipv-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-fipv</b></p><a name="immunization-fipv"> </a><a name="hcimmunization-fipv"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 871838009}">Fractional IPV (fIPV)</span></p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/fipv-admin-1">Encounter/fipv-admin-1</a></p><p><b>occurrence</b>: 2025-08-01</p><p><b>primarySource</b>: true</p></div>
   </text>
   <status value="completed"/>
   <vaccineCode>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <code value="111762006"/>
+      <code value="871838009"/>
       <display value="Inactivated poliomyelitis vaccine"/>
     </coding>
     <text value="Fractional IPV (fIPV)"/>

@@ -10,7 +10,7 @@
   <name value="ServiceTypeCS"/>
   <title value="सेवाको किसिम कोड सिस्टम"/>
   <status value="active"/>
-  <date value="2025-08-19T07:52:08+05:45"/>
+  <date value="2025-08-20T08:30:34+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -43,7 +43,6 @@
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="NP"/>
-      <display value="Nepal"/>
     </coding>
   </jurisdiction>
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
@@ -54,7 +53,7 @@
     <code value="1"/>
     <display value="General Care"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="सामान्य उपचार"/>
     </designation>
   </concept>
@@ -62,7 +61,7 @@
     <code value="2"/>
     <display value="IMNCI"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="IMNCI"/>
     </designation>
   </concept>
@@ -70,7 +69,7 @@
     <code value="3"/>
     <display value="Nutrition"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="पोषण"/>
     </designation>
   </concept>
@@ -78,7 +77,7 @@
     <code value="4"/>
     <display value="Safe Motherhood"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="सुरक्षित मातृत्व"/>
     </designation>
   </concept>
@@ -86,7 +85,7 @@
     <code value="5"/>
     <display value="Family Planning"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="परिवार नियोजन"/>
     </designation>
   </concept>
@@ -94,7 +93,7 @@
     <code value="6"/>
     <display value="Tuberculosis"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="क्षयरोग"/>
     </designation>
   </concept>
@@ -102,7 +101,7 @@
     <code value="7"/>
     <display value="Leprosy"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="कुष्ठरोग"/>
     </designation>
   </concept>
@@ -110,7 +109,7 @@
     <code value="8"/>
     <display value="Vector-borne Disease"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="कीटजन्य रोग"/>
     </designation>
   </concept>
@@ -118,7 +117,7 @@
     <code value="9"/>
     <display value="Sexually Transmitted Disease"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="यौनरोग"/>
     </designation>
   </concept>
@@ -126,7 +125,7 @@
     <code value="10"/>
     <display value="Non-communicable Disease"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="नसर्ने रोग"/>
     </designation>
   </concept>
@@ -134,7 +133,7 @@
     <code value="11"/>
     <display value="Other (Specify)"/>
     <designation>
-      <language value="ne"/>
+      <language value="ne-NP"/>
       <value value="अन्य (खुलाउने)"/>
     </designation>
   </concept>

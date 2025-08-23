@@ -6,7 +6,7 @@ Usage: #example
 
 * status = #completed
 * vaccineCode.coding[0].system = "http://snomed.info/sct"
-* vaccineCode.coding[0].code = #44993004
+* vaccineCode.coding[0].code = #911000221103
 * vaccineCode.coding[0].display = "Human papillomavirus vaccine"
 * vaccineCode.text = "HPV Vaccine"
 

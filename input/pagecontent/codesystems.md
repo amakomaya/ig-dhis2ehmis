@@ -8,15 +8,15 @@ In addition, sometimes existing code systems need to be completed, for example a
   {% include model_codesystem.svg %}
 </figure>
 
-### **Inputs** 
+### Inputs
 
 * L2 DAK
 
-### **Outputs**
+### Outputs
 
 * CodeSystem resources
 
-### **Activities**
+### Activities
 
 The creation of a CodeSystem is typically driven by the following needs:
 * When a ValueSets requires codes that are not in yet available from a CodeSystem
@@ -32,7 +32,7 @@ This is the overview of the activities and related artifacts used:
 <img src="./l3_process_codeset.png" style="width:50%"/>
 <br clear="all"/>
 
-### **Output Criteria / Definition of Done**
+### Output Criteria / Definition of Done
 
 * Appropriate CodeSystem resources are defined
 

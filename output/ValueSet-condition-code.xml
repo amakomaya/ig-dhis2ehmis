@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="condition-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet condition-code</b></p><a name="condition-code"> </a><a name="hccondition-code"> </a><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a 404684003 (Clinical finding (finding))</li></ul></div>
+  </text>
+  <url value="https://fhir.hmis.gov.np/ValueSet/condition-code"/>
+  <version value="0.0.1-ballot"/>
+  <name value="ConditionCodeVS"/>
+  <title value="Condition/Problem/Diagnosis codes"/>
+  <status value="active"/>
+  <date value="2025-08-20T08:30:34+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
+    </telecom>
+  </contact>
+  <description value="Condition/Problem/Diagnosis codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="404684003"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

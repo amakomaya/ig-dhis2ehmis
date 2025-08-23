@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/CodeSystem/free-cost> a fhir:CodeSystem ;
+<http://fhir.hmis.gov.np/CodeSystem/free-cost> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "free-cost"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "FreeCostCS"] ; # 
   fhir:title [ fhir:v "निशुल्क/शुल्क रू"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-19T07:52:08+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-20T08:30:34+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;
@@ -46,8 +46,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "NP" ] ;
-       fhir:display [ fhir:v "Nepal" ]
+       fhir:code [ fhir:v "NP" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
@@ -58,14 +57,14 @@
      fhir:code [ fhir:v "free" ] ;
      fhir:display [ fhir:v "Free" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "निशुल्क" ]
      ] )
   ] [
      fhir:code [ fhir:v "cost" ] ;
      fhir:display [ fhir:v "Cost(RS)" ] ;
      fhir:designation ( [
-       fhir:language [ fhir:v "ne" ] ;
+       fhir:language [ fhir:v "ne-NP" ] ;
        fhir:value [ fhir:v "शुलक (रू)" ]
      ] )
   ] ) . # 

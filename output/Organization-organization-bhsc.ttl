@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hmis.gov.np/Organization/organization-bhsc> a fhir:Organization ;
+<http://fhir.hmis.gov.np/Organization/organization-bhsc> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "organization-bhsc"] ; # 
   fhir:text [
