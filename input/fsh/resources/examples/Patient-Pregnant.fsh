@@ -37,10 +37,23 @@ Description: "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visi
 * gender = #female
 * birthDate = "2001-05-15"
 
-* address[0].line[0] = "Ward No. 5, Ilam Municipality"
-* address[0].line[1] = "Ilam District"
-* address[0].city = "Ilam"
-* address[0].country = "NP"
+* address.extension.url = "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"
+
+// Province
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/province"
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].code = #1
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].display = "Koshi Province"
+
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/district"
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].code = #110
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].display = "Ilam"
+
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/localbody"
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].code = #11003
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].display = "Ilam Municipality"
+
+* address.extension[nepalAddress].extension[ward].extension[code].valueInteger = 5
+* address.extension[nepalAddress].extension[ward].extension[text].valueString = "Ward No. 5"
 
 * extension[0].url = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"
 * extension[0].valueCoding.system = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"

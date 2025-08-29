@@ -40,8 +40,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
-      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -55,11 +55,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
-      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
-      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
       "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
-      "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
+      "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -663,11 +663,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
-      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
-      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
       "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
-      "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile"
+      "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
+      "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
+      "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -722,8 +722,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
-      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
+      "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-admin-location",

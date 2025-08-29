@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID: SYS-005678 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/9876543210 (use: official, )</li><li>Health ID/9876543210 (use: official, )</li><li>Custom Identifier/MD-54321 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li>Ward No. 12, Baneshwor Tole Kathmandu District Kathmandu Metropolitan City NP </li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID: SYS-005678 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/9876543210 (use: official, )</li><li>Health ID/9876543210 (use: official, )</li><li>Custom Identifier/MD-54321 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI ] ;
@@ -74,9 +74,66 @@
   fhir:gender [ fhir:v "male"] ; # 
   fhir:birthDate [ fhir:v "2024-08-10"^^xsd:date] ; # 
   fhir:address ( [
-     fhir:line ( [ fhir:v "Ward No. 12, Baneshwor Tole" ] [ fhir:v "Kathmandu District" ] ) ;
-     fhir:city [ fhir:v "Kathmandu Metropolitan City" ] ;
-     fhir:country [ fhir:v "NP" ]
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/province"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "3" ] ;
+               fhir:display [ fhir:v "Bagmati Province" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "province"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/district"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "309" ] ;
+               fhir:display [ fhir:v "Kathmandu" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "district"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/localbody"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "30608" ] ;
+               fhir:display [ fhir:v "Kathmandu Metropolitan City" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "localBody"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:integer ;
+             fhir:v 12
+           ]
+         ] [
+           fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:string ;
+             fhir:v "Ward No. 12"
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "ward"^^xsd:anyURI ]
+       ] ) ;
+       fhir:url [ fhir:v "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"^^xsd:anyURI ]
+     ] )
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

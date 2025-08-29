@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-pregnant</b></p><a name=\"patient-pregnant\"> </a><a name=\"hcpatient-pregnant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:hiramaya@hmis.com.np\">hiramaya@hmis.com.np</a></li><li>Ward No. 5, Ilam Municipality Ilam District Ilam NP </li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-pregnant</b></p><a name=\"patient-pregnant\"> </a><a name=\"hcpatient-pregnant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:hiramaya@hmis.com.np\">hiramaya@hmis.com.np</a></li><li></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI ] ;
@@ -78,9 +78,66 @@
   fhir:gender [ fhir:v "female"] ; # 
   fhir:birthDate [ fhir:v "2001-05-15"^^xsd:date] ; # 
   fhir:address ( [
-     fhir:line ( [ fhir:v "Ward No. 5, Ilam Municipality" ] [ fhir:v "Ilam District" ] ) ;
-     fhir:city [ fhir:v "Ilam" ] ;
-     fhir:country [ fhir:v "NP" ]
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/province"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "1" ] ;
+               fhir:display [ fhir:v "Koshi Province" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "province"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/district"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "110" ] ;
+               fhir:display [ fhir:v "Ilam" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "district"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:system [ fhir:v "https://fhir.hmis.gov.np/ValueSet/localbody"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "11003" ] ;
+               fhir:display [ fhir:v "Ilam Municipality" ]
+             ] )
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "localBody"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:integer ;
+             fhir:v 5
+           ]
+         ] [
+           fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:string ;
+             fhir:v "Ward No. 5"
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "ward"^^xsd:anyURI ]
+       ] ) ;
+       fhir:url [ fhir:v "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"^^xsd:anyURI ]
+     ] )
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

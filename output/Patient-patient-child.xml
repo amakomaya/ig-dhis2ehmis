@@ -6,7 +6,7 @@
     <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-child</b></p><a name="patient-child"> </a><a name="hcpatient-child"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID: SYS-005678 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li>National ID/9876543210 (use: official, )</li><li>Health ID/9876543210 (use: official, )</li><li>Custom Identifier/MD-54321 (use: secondary, )</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li><a href="tel:+9779801234567">+9779801234567</a></li><li>Ward No. 12, Baneshwor Tole Kathmandu District Kathmandu Metropolitan City NP </li></ul></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-child</b></p><a name="patient-child"> </a><a name="hcpatient-child"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID: SYS-005678 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li>National ID/9876543210 (use: official, )</li><li>Health ID/9876543210 (use: official, )</li><li>Custom Identifier/MD-54321 (use: secondary, )</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li><a href="tel:+9779801234567">+9779801234567</a></li><li></li></ul></td></tr></table></div>
   </text>
   <extension url="http://fhir.hmis.gov.np/CodeSystem/ethnic-code">
     <valueCoding>
@@ -64,9 +64,49 @@
   <gender value="male"/>
   <birthDate value="2024-08-10"/>
   <address>
-    <line value="Ward No. 12, Baneshwor Tole"/>
-    <line value="Kathmandu District"/>
-    <city value="Kathmandu Metropolitan City"/>
-    <country value="NP"/>
+    <extension url="https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"/>
+    <extension url="https://fhir.hmis.gov.np/StructureDefinition/NepalAddress">
+      <extension url="province">
+        <extension url="code">
+          <valueCodeableConcept>
+            <coding>
+              <system value="https://fhir.hmis.gov.np/ValueSet/province"/>
+              <code value="3"/>
+              <display value="Bagmati Province"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+      </extension>
+      <extension url="district">
+        <extension url="code">
+          <valueCodeableConcept>
+            <coding>
+              <system value="https://fhir.hmis.gov.np/ValueSet/district"/>
+              <code value="309"/>
+              <display value="Kathmandu"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+      </extension>
+      <extension url="localBody">
+        <extension url="code">
+          <valueCodeableConcept>
+            <coding>
+              <system value="https://fhir.hmis.gov.np/ValueSet/localbody"/>
+              <code value="30608"/>
+              <display value="Kathmandu Metropolitan City"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+      </extension>
+      <extension url="ward">
+        <extension url="code">
+          <valueInteger value="12"/>
+        </extension>
+        <extension url="text">
+          <valueString value="Ward No. 12"/>
+        </extension>
+      </extension>
+    </extension>
   </address>
 </Patient>

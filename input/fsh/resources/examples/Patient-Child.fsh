@@ -32,10 +32,25 @@ Description: "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 1
 * gender = #male
 * birthDate = "2024-08-10"
 
-* address[0].line[0] = "Ward No. 12, Baneshwor Tole"
-* address[0].line[1] = "Kathmandu District"
-* address[0].city = "Kathmandu Metropolitan City"
-* address[0].country = "NP"
+
+* address.extension.url = "https://fhir.hmis.gov.np/StructureDefinition/NepalAddress"
+
+// Province
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/province"
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].code = #3
+* address.extension[nepalAddress].extension[province].extension[code].valueCodeableConcept.coding[0].display = "Bagmati Province"
+
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/district"
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].code = #309
+* address.extension[nepalAddress].extension[district].extension[code].valueCodeableConcept.coding[0].display = "Kathmandu"
+
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].system = "https://fhir.hmis.gov.np/ValueSet/localbody"
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].code = #30608
+* address.extension[nepalAddress].extension[localBody].extension[code].valueCodeableConcept.coding[0].display = "Kathmandu Metropolitan City"
+
+* address.extension[nepalAddress].extension[ward].extension[code].valueInteger = 12
+* address.extension[nepalAddress].extension[ward].extension[text].valueString = "Ward No. 12"
+
 
 * extension[0].url = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"
 * extension[0].valueCoding.system = "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"
