@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.46"}
-    h3,h4,h5,h6{--heading-prefix:"17.46"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.42"}
+    h3,h4,h5,h6{--heading-prefix:"17.42"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -267,9 +267,14 @@
  a fhir:Immunization ;
   <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> "immunization-hpv"] ; # 
+  <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
-fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Immunization immunization-hpv&lt;/b&gt;&lt;/p&gt;&lt;a name=\"immunization-hpv\"&gt; &lt;/a&gt;&lt;a name=\"hcimmunization-hpv\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=\"Codes:{http://snomed.info/sct 911000221103}\"&gt;HPV Vaccine&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\"Patient/example\"&gt;Patient/example&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\"Encounter/hpv-admin-1\"&gt;Encounter/hpv-admin-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2025-08-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;primarySource&lt;/b&gt;: true&lt;/p&gt;&lt;/div&gt;"^^rdf:XMLLiteral
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Immunization immunization-hpv&lt;/b&gt;&lt;/p&gt;&lt;a name=\"immunization-hpv\"&gt; &lt;/a&gt;&lt;a name=\"hcimmunization-hpv\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"/&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"StructureDefinition-np-core-immunization.html\"&gt;NP Core Immunization Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=\"Codes:{http://snomed.info/sct 911000221103}\"&gt;HPV Vaccine&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\"Patient-patient-child.html\"&gt;Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID:&nbsp;SYS-005678&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2025-08-01&lt;/p&gt;&lt;/div&gt;"^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "completed"] ; # 
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.vaccineCode">fhir:vaccineCode</a> [
@@ -281,16 +286,12 @@ a sct:911000221103 ;
 <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "HPV Vaccine" ]
   ] ; # 
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.patient">fhir:patient</a> [
-<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Patient/example" ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.encounter">fhir:encounter</a> [
-<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Encounter/hpv-admin-1" ]
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Patient/patient-child" ]
   ] ; # 
   <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.occurrence[x]">fhir:occurrence</a> [
 <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">a</a> fhir:dateTime ;
 <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> "2025-08-01"^^xsd:date
-  ] ; # 
-  <a href="http://hl7.org/fhir/R5/immunization.html#Immunization.primarySource">fhir:primarySource</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">fhir:v</a> true] . # 
+  ] . # 
 
 </code></pre>
 
@@ -317,9 +318,9 @@ a sct:911000221103 ;
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 29, 2025 13:54+0545">2025-08-29</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l558">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l555">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

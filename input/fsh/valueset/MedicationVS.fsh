@@ -3,4 +3,4 @@ Id: medication
 Title: "Dietary Supplements (SNOMED)"
 Description: "Vitamins, minerals, and other dietary supplements"
 
-* include codes from system http://snomed.info/sct where concept is-a #763158003
+* include codes from system $SCT where concept is-a #763158003

@@ -1,5 +1,3 @@
-Alias: $SCT = http://snomed.info/sct
-
 ValueSet: ServiceTypeVS
 Id: service-type
 Title: "Service Type"

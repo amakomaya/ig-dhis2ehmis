@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.48"}
-    h3,h4,h5,h6{--heading-prefix:"17.48"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.44"}
+    h3,h4,h5,h6{--heading-prefix:"17.44"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -257,9 +257,13 @@
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml"><code style="white-space: pre; text-wrap: nowrap;" class="language-xml">
 &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization">Immunization</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="immunization-mr"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.meta">meta</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Immunization immunization-mr&lt;/b&gt;&lt;/p&gt;&lt;a name="immunization-mr"&gt; &lt;/a&gt;&lt;a name="hcimmunization-mr"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title="Codes:{http://snomed.info/sct 36989005}"&gt;Measles-Rubella Vaccine&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href="Patient/example"&gt;Patient/example&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href="Encounter/mr-admin-1"&gt;Encounter/mr-admin-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2025-08-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;primarySource&lt;/b&gt;: true&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Immunization immunization-mr&lt;/b&gt;&lt;/p&gt;&lt;a name="immunization-mr"&gt; &lt;/a&gt;&lt;a name="hcimmunization-mr"&gt; &lt;/a&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"/&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="StructureDefinition-np-core-immunization.html"&gt;NP Core Immunization Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title="Codes:{http://snomed.info/sct 36989005}"&gt;Measles-Rubella Vaccine&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href="Patient-patient-child.html"&gt;Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID:&nbsp;SYS-005678&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2025-08-01&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="completed"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
@@ -270,14 +274,10 @@
     &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Measles-Rubella Vaccine"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.patient">patient</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Patient/example"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.patient">patient</a>&gt;<a style="color: Maroon" href="Patient-patient-child.html">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Patient/patient-child"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.patient">patient</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.encounter">encounter</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Encounter/mr-admin-1"/&gt;
-  &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.encounter">encounter</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.occurrence[x]">occurrenceDateTime</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2025-08-01"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/immunization.html#Immunization.primarySource">primarySource</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>="true"/&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/immunization.html#Immunization">Immunization</a>&gt;</code></pre>
 
 
@@ -302,9 +302,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 29, 2025 13:54+0545">2025-08-29</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l575">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l572">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

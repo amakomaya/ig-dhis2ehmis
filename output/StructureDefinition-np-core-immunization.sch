@@ -9,13 +9,4 @@
     you may need to use this schematron fragment to build a, 
     single schematron that validates contained resources (if you have any) 
   -->
-  <sch:pattern>
-    <sch:title>f:Immunization</sch:title>
-    <sch:rule context="f:Immunization">
-      <sch:assert test="count(f:implicitRules) &lt;= 0">implicitRules: maximum cardinality of 'implicitRules' is 0</sch:assert>
-      <sch:assert test="count(f:contained) &lt;= 0">contained: maximum cardinality of 'contained' is 0</sch:assert>
-      <sch:assert test="count(f:modifierExtension) &lt;= 0">modifierExtension: maximum cardinality of 'modifierExtension' is 0</sch:assert>
-      <sch:assert test="count(f:isSubpotent) &lt;= 0">isSubpotent: maximum cardinality of 'isSubpotent' is 0</sch:assert>
-    </sch:rule>
-  </sch:pattern>
 </sch:schema>

@@ -12,13 +12,4 @@ Description: "The NP Core Immunization Profile inherits from the FHIR [Immunizat
 * patient 1..1
 * patient only Reference(NPCorePatientProfile)
 
-* encounter only Reference(NPCoreEncounterProfile)
-
-* occurrence[x] 1..1
 * occurrenceDateTime 1..1
-
-
-* implicitRules 0..0
-* contained 0..0
-* modifierExtension 0..0
-* isSubpotent 0..0

@@ -226,7 +226,11 @@
        ] ;
        fhir:name [ fhir:v "Encounter ANC Visit - Pregnant Woman" ] ;
        fhir:description [ fhir:v "An antenatal care visit for a pregnant woman." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -331,7 +335,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - BCG" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for BCG vaccine." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -346,7 +354,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - DPT" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Diphtheria, Pertussis, and Tetanus (DPT) vaccine." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -361,7 +373,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Fractional Injectable Polio Vaccine (fIPV)" ] ;
        fhir:description [ fhir:v "Example immunization resource for fractional IPV, given intradermally at 14 weeks and 9 months (2 doses)." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -376,7 +392,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - HPV Vaccine" ] ;
        fhir:description [ fhir:v "Example immunization resource for Human Papillomavirus vaccine, given intramuscularly to adolescent girls in grades 6-10 and out-of-school girls aged 10+." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -391,7 +411,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Japanese Encephalitis Vaccine" ] ;
        fhir:description [ fhir:v "Example immunization resource for Japanese Encephalitis vaccine, given subcutaneously at 12 months." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -406,7 +430,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Measles-Rubella Vaccine" ] ;
        fhir:description [ fhir:v "Example immunization resource for Measles-Rubella vaccine, given subcutaneously at 9 and 15 months." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -421,7 +449,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - OPV" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Oral Polio Vaccine (OPV)." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -436,7 +468,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - PCV" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Pneumococcal Conjugate Vaccine (PCV)." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -451,7 +487,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Pentavalent Vaccine" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for the Pentavalent vaccine (DPT-HepB-Hib)." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -466,7 +506,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Polio" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Poliomyelitis vaccine (IPV/OPV)." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -481,7 +525,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Rotavirus" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Rotavirus vaccine." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -496,7 +544,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Td" ] ;
        fhir:description [ fhir:v "An example of an immunization resource for Tetanus and Diphtheria (Td) vaccine." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -511,7 +563,11 @@
        ] ;
        fhir:name [ fhir:v "Immunization Record - Typhoid Vaccine" ] ;
        fhir:description [ fhir:v "Example immunization resource for Typhoid vaccine, given intramuscularly at 15 months." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -532,21 +588,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Location"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/Location/location-bhsc> ;
-         fhir:reference [ fhir:v "Location/location-bhsc" ]
-       ] ;
-       fhir:name [ fhir:v "Location – Basic Health Service Center, Tokha, Kathmandu" ] ;
-       fhir:description [ fhir:v "A Basic Health Service Center located in Ward No. 5, Tokha Municipality, Kathmandu District, Bagmati Province, Nepal." ] ;
-       fhir:isExample [ fhir:v true ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -557,6 +598,25 @@
        fhir:name [ fhir:v "Marital Status (वैवाहिक स्थिति)" ] ;
        fhir:description [ fhir:v "Codes representing marital status of a person." ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/MedicationDispense/medication-dispense-iron> ;
+         fhir:reference [ fhir:v "MedicationDispense/medication-dispense-iron" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationDispense - Iron Tablet Dispense" ] ;
+       fhir:description [ fhir:v "Example of dispensing 60 iron tablets to a pregnant woman according to NP Core MedicationDispense Profile." ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -641,11 +701,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-condition> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-condition" ]
+         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/nepal-person> ;
+         fhir:reference [ fhir:v "StructureDefinition/nepal-person" ]
        ] ;
-       fhir:name [ fhir:v "NP Core Condition Profile" ] ;
-       fhir:description [ fhir:v "The NP Core Condition Profile inherits from the FHIR [Condition](https://hl7.org/fhir/R5/condition.html) resource. This profile defines minimum expectations for capturing diagnoses, risk conditions, and program-specific conditions in the Nepal health system. It ensures consistent data capture, searchability, and interoperability across national health programs." ] ;
+       fhir:name [ fhir:v "Nepal Person Profile" ] ;
+       fhir:description [ fhir:v "Foundational person registry profile for Nepal. Supports IDs, Name, and telecom." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -686,71 +746,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-measure> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-measure" ]
+         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense> ;
+         fhir:reference [ fhir:v "StructureDefinition/np-core-medication-dispense" ]
        ] ;
-       fhir:name [ fhir:v "NP Core Measure Profile" ] ;
-       fhir:description [ fhir:v "The NP Core Measure Profile inherits from the FHIR [Measure](https://hl7.org/fhir/R5/measure.html) resource." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-measure-report" ]
-       ] ;
-       fhir:name [ fhir:v "NP Core MeasureReport Profile" ] ;
-       fhir:description [ fhir:v "The NP Core MeasureReport Profile inherits from the FHIR [Measure](https://hl7.org/fhir/R5/measurereport.html) resource." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-medication-statement" ]
-       ] ;
-       fhir:name [ fhir:v "NP Core Medication Statement Profile" ] ;
-       fhir:description [ fhir:v "The NP Core MedicationStatement Profile inherits from the FHIR [MedicationStatement](https://hl7.org/fhir/R5/medicationstatement.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationStatement resource to record, search, and fetch information about medications a patient is taking, has taken, or may be taking within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing medication use in Nepal" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-observation> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-observation" ]
-       ] ;
-       fhir:name [ fhir:v "NP Core Observation Profile" ] ;
-       fhir:description [ fhir:v "The NP Core Observation Profile inherits from the FHIR [Observation](https://hl7.org/fhir/R5/observation.html) resource. \nThis profile defines minimum expectations for capturing core clinical measurements, lab results, and program-related observations in the Nepal health system. \nIt ensures consistent data capture, searchability, and interoperability across national health programs.\n\n**Uses for the Observation resource include:**\n- Vital signs such as body weight, blood pressure, and temperature\n- Laboratory data like blood glucose or estimated GFR\n- Imaging results such as bone density or fetal measurements\n- Clinical findings such as abdominal tenderness\n- Device measurements such as EKG or pulse oximetry data\n- Device settings such as mechanical ventilator parameters\n- Clinical assessment tools such as APGAR or Glasgow Coma Score\n- Personal characteristics such as eye color\n- Social history like tobacco use, family support, or cognitive status\n- Core characteristics like pregnancy status or a death assertion\n- Product quality tests such as pH, assay, or microbial limits on products and substances" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/StructureDefinition/np-core-organization> ;
-         fhir:reference [ fhir:v "StructureDefinition/np-core-organization" ]
-       ] ;
-       fhir:name [ fhir:v "NP Core Organization Profile" ] ;
-       fhir:description [ fhir:v "The NP Core Organization Profile inherits from the FHIR [Organization](https://hl7.org/fhir/R5/organization.html) resource.\nIt defines the minimum expectations for representing organizations (e.g., health facilities, departments, NGOs, government agencies) \nwithin the Nepal health system. It specifies required elements, identifiers, and standard terminologies." ] ;
+       fhir:name [ fhir:v "NP Core Medication Dispense Profile" ] ;
+       fhir:description [ fhir:v "The NP Core MedicationDispense Profile inherits from the FHIR MedicationDispense resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationDispense resource to record, search, and fetch information about medications dispensed to a patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -767,21 +767,6 @@
        fhir:name [ fhir:v "NP Core Patient Profile" ] ;
        fhir:description [ fhir:v "The NP Core Patient Profile inherits from the FHIR [Patient](https://hl7.org/fhir/R5/patient.html) resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Patient resource to record, search, and fetch core patient information within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing patient demographics, identifiers, and key health attributes, this profile promotes interoperability, consistent data capture, and adoption across national health programs" ] ;
        fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/Observation/observation-child-weight> ;
-         fhir:reference [ fhir:v "Observation/observation-child-weight" ]
-       ] ;
-       fhir:name [ fhir:v "Observation - Weight Measurement for Child" ] ;
-       fhir:description [ fhir:v "An example observation recording the weight of a child." ] ;
-       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -841,7 +826,11 @@
        ] ;
        fhir:name [ fhir:v "Patient – Child" ] ;
        fhir:description [ fhir:v "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 12 visiting the Health Facility for routine immunizations." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-patient"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-patient>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -856,7 +845,11 @@
        ] ;
        fhir:name [ fhir:v "Patient – Pregnant Woman (Mom-to-Be)" ] ;
        fhir:description [ fhir:v "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care." ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-patient"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-patient>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -917,21 +910,6 @@
        fhir:name [ fhir:v "Service Type" ] ;
        fhir:description [ fhir:v "Service Type" ] ;
        fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Organization"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/Organization/organization-bhsc> ;
-         fhir:reference [ fhir:v "Organization/organization-bhsc" ]
-       ] ;
-       fhir:name [ fhir:v "Tokha BHSC 07" ] ;
-       fhir:description [ fhir:v "The BHSC 07 responsible for managing the Basic Health Service Center, Tokha, Kathmandu." ] ;
-       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

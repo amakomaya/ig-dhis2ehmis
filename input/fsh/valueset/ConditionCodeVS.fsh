@@ -1,5 +1,3 @@
-Alias: $SCT = http://snomed.info/sct
-
 ValueSet: ConditionCodeVS
 Id: condition-code
 Title: "Condition/Problem/Diagnosis codes"

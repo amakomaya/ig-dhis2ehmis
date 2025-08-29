@@ -1,5 +1,5 @@
 Instance: immunization-opv
-InstanceOf: Immunization
+InstanceOf: NPCoreImmunizationProfile
 Title: "Immunization Record - OPV"
 Description: "An example of an immunization resource for Oral Polio Vaccine (OPV)."
 Usage: #example
@@ -11,10 +11,6 @@ Usage: #example
 * vaccineCode.coding[0].display = "Live attenuated poliomyelitis vaccine"
 * vaccineCode.text = "Oral Polio Vaccine (OPV)"
 
-* patient.reference = "Patient/example"
-* encounter.reference = "Encounter/opv-admin-1"
+* patient.reference = "Patient/patient-child"
 
 * occurrenceDateTime = "2025-08-01"
-* primarySource = true
-
-* location.reference = "Location/clinic-abc"

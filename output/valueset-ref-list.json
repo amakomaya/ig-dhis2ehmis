@@ -1,28 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "LOINCCodes",
-      "title" : "LOINC Codes",
-      "description" : "This value set includes all LOINC codes",
-      "systems" : ["http://loinc.org"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.2.216",
-        "2.16.840.1.113883.4.642.3.396",
-        "2.16.840.1.113883.4.642.3.383"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.2.216",
-        "2.16.840.1.113883.4.642.3.396",
-        "2.16.840.1.113883.4.642.3.383"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-np-core-observation.html" : "NP Core Observation Profile"
-    },
-    {
       "url" : "https://fhir.hmis.gov.np/ValueSet/administrative-gender",
       "version" : "0.0.1-ballot",
       "status" : "active",
@@ -47,10 +25,7 @@
       "name" : "ConditionCodeVS",
       "title" : "Condition/Problem/Diagnosis codes",
       "description" : "Condition/Problem/Diagnosis codes",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-np-core-condition.html" : "NP Core Condition Profile"
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/condition-severity",
@@ -154,7 +129,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-np-core-medication-statement.html" : "NP Core Medication Statement Profile"
+      "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile"
     },
     {
       "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",

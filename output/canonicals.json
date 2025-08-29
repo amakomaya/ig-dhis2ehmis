@@ -91,11 +91,11 @@
     "name" : "EthnicCodeEx"
   },
   {
-    "id" : "np-core-condition",
+    "id" : "nepal-person",
     "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-condition",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/nepal-person",
     "version" : "0.0.1-ballot",
-    "name" : "NPCoreConditionProfile"
+    "name" : "NepalPersonProfile"
   },
   {
     "id" : "np-core-encounter",
@@ -112,39 +112,11 @@
     "name" : "NPCoreImmunizationProfile"
   },
   {
-    "id" : "np-core-measure",
+    "id" : "np-core-medication-dispense",
     "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure",
+    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense",
     "version" : "0.0.1-ballot",
-    "name" : "NPCoreMeasureProfile"
-  },
-  {
-    "id" : "np-core-measure-report",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreMeasureReportProfile"
-  },
-  {
-    "id" : "np-core-medication-statement",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreMedicationStatementProfile"
-  },
-  {
-    "id" : "np-core-observation",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-observation",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreObservationProfile"
-  },
-  {
-    "id" : "np-core-organization",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.hmis.gov.np/StructureDefinition/np-core-organization",
-    "version" : "0.0.1-ballot",
-    "name" : "NPCoreOrganizationProfile"
+    "name" : "NPCoreMedicationDispenseProfile"
   },
   {
     "id" : "np-core-patient",

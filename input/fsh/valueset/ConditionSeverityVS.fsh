@@ -5,7 +5,7 @@ Description: "Preferred value set for Condition/Diagnosis severity grading"
 * ^status = #active
 * ^experimental = false
 
-* ^compose.include[0].system = "http://snomed.info/sct"
+* ^compose.include[0].system = $SCT
 // Severe
 * ^compose.include[0].concept[0].code = #24484000
 * ^compose.include[0].concept[0].display = "Severe"

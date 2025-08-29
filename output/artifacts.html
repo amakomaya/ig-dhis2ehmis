@@ -243,14 +243,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-condition.html" title="StructureDefinition/np-core-condition">NP Core Condition Profile</a>
-            </td>
-            <td>
-<p>The NP Core Condition Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/condition.html">Condition</a> resource. This profile defines minimum expectations for capturing diagnoses, risk conditions, and program-specific conditions in the Nepal health system. It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="StructureDefinition-np-core-encounter.html" title="StructureDefinition/np-core-encounter">NP Core Encounter Profile</a>
             </td>
             <td>
@@ -267,61 +259,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-measure.html" title="StructureDefinition/np-core-measure">NP Core Measure Profile</a>
+               <a href="StructureDefinition-np-core-medication-dispense.html" title="StructureDefinition/np-core-medication-dispense">NP Core Medication Dispense Profile</a>
             </td>
             <td>
-<p>The NP Core Measure Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measure.html">Measure</a> resource.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-measure-report.html" title="StructureDefinition/np-core-measure-report">NP Core MeasureReport Profile</a>
-            </td>
-            <td>
-<p>The NP Core MeasureReport Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measurereport.html">Measure</a> resource.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-medication-statement.html" title="StructureDefinition/np-core-medication-statement">NP Core Medication Statement Profile</a>
-            </td>
-            <td>
-<p>The NP Core MedicationStatement Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/medicationstatement.html">MedicationStatement</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationStatement resource to record, search, and fetch information about medications a patient is taking, has taken, or may be taking within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing medication use in Nepal</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-observation.html" title="StructureDefinition/np-core-observation">NP Core Observation Profile</a>
-            </td>
-            <td>
-<p>The NP Core Observation Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/observation.html">Observation</a> resource. 
-This profile defines minimum expectations for capturing core clinical measurements, lab results, and program-related observations in the Nepal health system. 
-It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
-
-<p><strong>Uses for the Observation resource include:</strong></p>
-<ul>
-  <li>Vital signs such as body weight, blood pressure, and temperature</li>
-  <li>Laboratory data like blood glucose or estimated GFR</li>
-  <li>Imaging results such as bone density or fetal measurements</li>
-  <li>Clinical findings such as abdominal tenderness</li>
-  <li>Device measurements such as EKG or pulse oximetry data</li>
-  <li>Device settings such as mechanical ventilator parameters</li>
-  <li>Clinical assessment tools such as APGAR or Glasgow Coma Score</li>
-  <li>Personal characteristics such as eye color</li>
-  <li>Social history like tobacco use, family support, or cognitive status</li>
-  <li>Core characteristics like pregnancy status or a death assertion</li>
-  <li>Product quality tests such as pH, assay, or microbial limits on products and substances</li>
-</ul>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-np-core-organization.html" title="StructureDefinition/np-core-organization">NP Core Organization Profile</a>
-            </td>
-            <td>
-<p>The NP Core Organization Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/organization.html">Organization</a> resource.
-It defines the minimum expectations for representing organizations (e.g., health facilities, departments, NGOs, government agencies) 
-within the Nepal health system. It specifies required elements, identifiers, and standard terminologies.</p>
+<p>The NP Core MedicationDispense Profile inherits from the FHIR MedicationDispense resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationDispense resource to record, search, and fetch information about medications dispensed to a patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used.</p>
 </td>
          </tr>
          <tr>
@@ -330,6 +271,14 @@ within the Nepal health system. It specifies required elements, identifiers, and
             </td>
             <td>
 <p>The NP Core Patient Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/patient.html">Patient</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Patient resource to record, search, and fetch core patient information within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing patient demographics, identifiers, and key health attributes, this profile promotes interoperability, consistent data capture, and adoption across national health programs</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-nepal-person.html" title="StructureDefinition/nepal-person">Nepal Person Profile</a>
+            </td>
+            <td>
+<p>Foundational person registry profile for Nepal. Supports IDs, Name, and telecom.</p>
 </td>
          </tr>
       </tbody>
@@ -769,18 +718,10 @@ S is the second designator that follows the value for the number of seconds.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Location-location-bhsc.html" title="Location/location-bhsc">Location – Basic Health Service Center, Tokha, Kathmandu</a>
+               <a href="MedicationDispense-medication-dispense-iron.html" title="MedicationDispense/medication-dispense-iron">MedicationDispense - Iron Tablet Dispense</a>
             </td>
             <td>
-<p>A Basic Health Service Center located in Ward No. 5, Tokha Municipality, Kathmandu District, Bagmati Province, Nepal.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Observation-observation-child-weight.html" title="Observation/observation-child-weight">Observation - Weight Measurement for Child</a>
-            </td>
-            <td>
-<p>An example observation recording the weight of a child.</p>
+<p>Example of dispensing 60 iron tablets to a pregnant woman according to NP Core MedicationDispense Profile.</p>
 </td>
          </tr>
          <tr>
@@ -797,14 +738,6 @@ S is the second designator that follows the value for the number of seconds.</p>
             </td>
             <td>
 <p>21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Organization-organization-bhsc.html" title="Organization/organization-bhsc">Tokha BHSC 07</a>
-            </td>
-            <td>
-<p>The BHSC 07 responsible for managing the Basic Health Service Center, Tokha, Kathmandu.</p>
 </td>
          </tr>
       </tbody>
@@ -827,9 +760,9 @@ S is the second designator that follows the value for the number of seconds.</p>
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 29, 2025 13:54+0545">2025-08-29</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l1588">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1440">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

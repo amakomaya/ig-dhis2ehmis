@@ -32,8 +32,8 @@ Description: "The NP Core Patient Profile inherits from the FHIR [Patient](https
 * name.text 1..1
 
 
-* gender 0..1
-* birthDate 0..1
+* gender 1..1
+* birthDate 1..1
 
 
 * extension contains EthnicCodeEx named ethnicCode 0..1
@@ -59,9 +59,9 @@ Description: "The NP Core Patient Profile inherits from the FHIR [Patient](https
 * telecom[Email].system = #email
 * telecom[Email].use 0..1
 
-* implicitRules 0..0
-* contained 0..0
-* active 0..0
-* deceased[x] 0..0
-* modifierExtension 0..0
-* link 0..0
+// * implicitRules 0..0
+// * contained 0..0
+// * active 0..0
+// * deceased[x] 0..0
+// * modifierExtension 0..0
+// * link 0..0

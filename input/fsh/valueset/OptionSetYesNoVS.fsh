@@ -20,7 +20,7 @@ Used for:
 * ^experimental = false
 
 // SNOMED CT concepts
-* ^compose.include[0].system = "http://snomed.info/sct"
+* ^compose.include[0].system = $SCT
 * ^compose.include[0].concept[0].code = #373066001
 * ^compose.include[0].concept[0].display = "Yes"
 * ^compose.include[0].concept[0].designation[0].language = #ne-NP

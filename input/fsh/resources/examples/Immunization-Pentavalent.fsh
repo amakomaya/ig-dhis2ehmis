@@ -1,5 +1,5 @@
 Instance: immunization-penta
-InstanceOf: Immunization
+InstanceOf: NPCoreImmunizationProfile
 Title: "Immunization Record - Pentavalent Vaccine"
 Description: "An example of an immunization resource for the Pentavalent vaccine (DPT-HepB-Hib)."
 Usage: #example
@@ -11,10 +11,6 @@ Usage: #example
 * vaccineCode.coding[0].display = "Diphtheria+pertussis+tetanus+hepatitis B+Haemophilus influenzae type b vaccine"
 * vaccineCode.text = "Pentavalent Vaccine (DPT-HepB-Hib)"
 
-* patient.reference = "Patient/example"
-* encounter.reference = "Encounter/penta-admin-1"
+* patient.reference = "Patient/patient-child"
 
 * occurrenceDateTime = "2025-08-01"
-* primarySource = true
-
-* location.reference = "Location/clinic-abc"

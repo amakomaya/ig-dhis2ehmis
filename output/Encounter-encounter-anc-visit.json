@@ -1,31 +1,28 @@
 {
   "resourceType" : "Encounter",
   "id" : "encounter-anc-visit",
+  "meta" : {
+    "profile" : ["https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter"]
+  },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name=\"encounter-anc-visit\"> </a><a name=\"hcencounter-anc-visit\"> </a><p><b>status</b>: Completed</p><p><b>class</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}\">Ambulatory</span></p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 4241000179101}\">Antenatal care visit</span></p><p><b>subject</b>: <a href=\"Patient/pregnant-woman-1\">Patient/pregnant-woman-1</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location/clinic-abc\">Location/clinic-abc</a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name=\"encounter-anc-visit\"> </a><a name=\"hcencounter-anc-visit\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-encounter.html\">NP Core Encounter Profile</a></p></div><p><b>status</b>: Completed</p><h3>ServiceTypes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 698314001}\">Antenatal Care Service</span></td></tr></table><p><b>subject</b>: <a href=\"Patient-patient-pregnant.html\">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID:\u00a0SYS-001234\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>actualPeriod</b>: 2025-08-29 09:30:00+0545 --&gt; (ongoing)</p></div>"
   },
   "status" : "completed",
-  "class" : [{
-    "coding" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-      "code" : "AMB",
-      "display" : "Ambulatory"
-    }]
-  }],
-  "type" : [{
-    "coding" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "4241000179101",
-      "display" : "Antenatal care visit"
-    }]
+  "serviceType" : [{
+    "concept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "698314001",
+        "display" : "Antenatal care"
+      }],
+      "text" : "Antenatal Care Service"
+    }
   }],
   "subject" : {
-    "reference" : "Patient/pregnant-woman-1"
+    "reference" : "Patient/patient-pregnant"
   },
-  "location" : [{
-    "location" : {
-      "reference" : "Location/clinic-abc"
-    }
-  }]
+  "actualPeriod" : {
+    "start" : "2025-08-29T09:30:00+05:45"
+  }
 }

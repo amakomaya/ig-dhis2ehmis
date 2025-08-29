@@ -4,7 +4,7 @@ Title: "Patient Registration Type"
 Description: "Patient registration types mapped to SNOMED CT concepts with Nepali display."
 
 * ^status = #active
-* ^compose.include[0].system = "http://snomed.info/sct"
+* ^compose.include[0].system = $SCT
 
 // New Patient
 * ^compose.include[0].concept[0].code = #308335008

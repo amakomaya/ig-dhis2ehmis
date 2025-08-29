@@ -6,4 +6,4 @@ Description: "SNOMED CT for the highest level of education attained."
 * ^experimental = false
 
 // Education and/or schooling finding 
-* include codes from system http://snomed.info/sct where concept is-a #365458002
+* include codes from system $SCT where concept is-a #365458002

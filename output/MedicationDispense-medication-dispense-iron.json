@@ -1,0 +1,29 @@
+{
+  "resourceType" : "MedicationDispense",
+  "id" : "medication-dispense-iron",
+  "meta" : {
+    "profile" : ["https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MedicationDispense medication-dispense-iron</b></p><a name=\"medication-dispense-iron\"> </a><a name=\"hcmedication-dispense-iron\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-medication-dispense.html\">NP Core Medication Dispense Profile</a></p></div><p><b>status</b>: Completed</p><h3>Medications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Concept</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">IRON60</span></td></tr></table><p><b>subject</b>: <a href=\"Patient-patient-pregnant.html\">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID:\u00a0SYS-001234\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>quantity</b>: 60 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codetbl = 'tbl')</span></p><p><b>recorded</b>: 2025-08-29</p></div>"
+  },
+  "status" : "completed",
+  "medication" : {
+    "concept" : {
+      "coding" : [{
+        "code" : "IRON60"
+      }]
+    }
+  },
+  "subject" : {
+    "reference" : "Patient/patient-pregnant"
+  },
+  "quantity" : {
+    "value" : 60,
+    "unit" : "tablet",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "tbl"
+  },
+  "recorded" : "2025-08-29"
+}

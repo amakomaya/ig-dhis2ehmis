@@ -19,14 +19,9 @@ Following is a non-exhaustive list of third-party terminologies used in this gui
 | Logical Observation Identifiers Names & Codes (LOINC®) | Regenstrief Institute, Inc. and the LOINC Committee| https://loinc.org/license/ |
 | Unified Codes for Units of Measures (UCUM)  | Regenstrief Institute, Inc. and the UCUM Organization | http://unitsofmeasure.org/trac/wiki/TermsOfUse |
 | International Classification of Diseases (ICD) classification system  | World Health Organization (WHO)  | https://www.who.int/publishing/copyright/en/ |
-| Anatomical Therapeutic Chemical (ATC) classification system | World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology | https://www.whocc.no/use_of_atc_ddd/ |
-| EDQM Standard Terms | European Directorate for the Quality of Medicines | https://www.edqm.eu/en/standard-terms-database |
 | ISO 3166 Country Code | International Organization for Standardization (ISO)  |  https://www.iso.org/iso-3166-country-codes.html |
 | DICOM® |  National Electrical Manufacturers Association (NEMA) |  https://www.nema.org/About/Pages/Terms-and-Conditions.aspx | 
-| BCP 47 Tags for Identifying Languages | IETF Trust and the persons identified as the document authors. |  http://trustee.ietf.org/license-info |
-| International Standard Classification of Occupations (ISCO) | International Labour Organization (ILO) | http://www.ilo.org/global/copyright/lang--en/index.htm |
-| National Drug Code (NDC) [US] | Food and Drug Administration | https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory |
-| RxNorm [US] | Unified Medical Language System® (UMLS®) | https://uts.nlm.nih.gov/license.html https://www.nlm.nih.gov/research/umls/rxnorm/docs/termsofservice.html |
+| RxNorm | Unified Medical Language System® (UMLS®) | https://www.nlm.nih.gov/research/umls/rxnorm/docs/termsofservice.html |
 
 
 

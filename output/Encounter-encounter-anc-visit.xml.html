@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.42"}
-    h3,h4,h5,h6{--heading-prefix:"17.42"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.38"}
+    h3,h4,h5,h6{--heading-prefix:"17.38"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -257,33 +257,31 @@
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml"><code style="white-space: pre; text-wrap: nowrap;" class="language-xml">
 &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter">Encounter</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="encounter-anc-visit"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter"/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.meta">meta</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Encounter encounter-anc-visit&lt;/b&gt;&lt;/p&gt;&lt;a name="encounter-anc-visit"&gt; &lt;/a&gt;&lt;a name="hcencounter-anc-visit"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;class&lt;/b&gt;: &lt;span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}"&gt;Ambulatory&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title="Codes:{http://snomed.info/sct 4241000179101}"&gt;Antenatal care visit&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Patient/pregnant-woman-1"&gt;Patient/pregnant-woman-1&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Locations&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Location&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href="Location/clinic-abc"&gt;Location/clinic-abc&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Encounter encounter-anc-visit&lt;/b&gt;&lt;/p&gt;&lt;a name="encounter-anc-visit"&gt; &lt;/a&gt;&lt;a name="hcencounter-anc-visit"&gt; &lt;/a&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"/&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="StructureDefinition-np-core-encounter.html"&gt;NP Core Encounter Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;h3&gt;ServiceTypes&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td style="display: none"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="display: none"&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title="Codes:{http://snomed.info/sct 698314001}"&gt;Antenatal Care Service&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Patient-patient-pregnant.html"&gt;Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID:&nbsp;SYS-001234&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actualPeriod&lt;/b&gt;: 2025-08-29 09:30:00+0545 --&amp;gt; (ongoing)&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="completed"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.class">class</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/v3-ActCode"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="AMB"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Ambulatory"/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.class">class</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://snomed.info/sct"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="4241000179101"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Antenatal care visit"/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.type">type</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.subject">subject</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Patient/pregnant-woman-1"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.serviceType">serviceType</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="http://snomed.info/sct"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="698314001"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Antenatal care"/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Antenatal Care Service"/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.serviceType">serviceType</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.subject">subject</a>&gt;<a style="color: Maroon" href="Patient-patient-pregnant.html">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Patient/patient-pregnant"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.subject">subject</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.location">location</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.location.location">location</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Location/clinic-abc"/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.location.location">location</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.location">location</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.actualPeriod">actualPeriod</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>="2025-08-29T09:30:00+05:45"/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter.actualPeriod">actualPeriod</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/encounter.html#Encounter">Encounter</a>&gt;</code></pre>
 
 
@@ -308,9 +306,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 29, 2025 13:54+0545">2025-08-29</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l593">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l584">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

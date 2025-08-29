@@ -1,5 +1,5 @@
 Instance: immunization-je
-InstanceOf: Immunization
+InstanceOf: NPCoreImmunizationProfile
 Title: "Immunization Record - Japanese Encephalitis Vaccine"
 Description: "Example immunization resource for Japanese Encephalitis vaccine, given subcutaneously at 12 months."
 Usage: #example
@@ -10,8 +10,6 @@ Usage: #example
 * vaccineCode.coding[0].display = "Japanese encephalitis vaccine"
 * vaccineCode.text = "Japanese Encephalitis Vaccine"
 
-* patient.reference = "Patient/example"
-* encounter.reference = "Encounter/je-admin-1"
+* patient.reference = "Patient/patient-child"
 
 * occurrenceDateTime = "2025-08-01"
-* primarySource = true

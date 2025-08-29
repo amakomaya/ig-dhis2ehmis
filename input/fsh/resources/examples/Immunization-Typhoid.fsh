@@ -1,5 +1,5 @@
 Instance: immunization-typhoid
-InstanceOf: Immunization
+InstanceOf: NPCoreImmunizationProfile
 Title: "Immunization Record - Typhoid Vaccine"
 Description: "Example immunization resource for Typhoid vaccine, given intramuscularly at 15 months."
 Usage: #example
@@ -10,9 +10,7 @@ Usage: #example
 * vaccineCode.coding[0].display = "Typhoid vaccine"
 * vaccineCode.text = "Typhoid Vaccine"
 
-* patient.reference = "Patient/example"
-* encounter.reference = "Encounter/typhoid-admin-1"
+* patient.reference = "Patient/patient-child"
 
 * occurrenceDateTime = "2025-08-01"
-* primarySource = true
 

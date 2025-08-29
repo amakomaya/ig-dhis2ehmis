@@ -4,7 +4,7 @@ Title: "Employment (रोजगारी स्थिति)"
 Description: "Codes representing employment status of a person."
 
 * ^status = #active
-* ^compose.include[0].system = "http://snomed.info/sct"
+* ^compose.include[0].system = $SCT
 
 * ^compose.include[0].concept[0].code = #73438004
 * ^compose.include[0].concept[0].display = "Unemployed"

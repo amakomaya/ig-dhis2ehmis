@@ -2,30 +2,27 @@
 
 <Encounter xmlns="http://hl7.org/fhir">
   <id value="encounter-anc-visit"/>
+  <meta>
+    <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter"/>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name="encounter-anc-visit"> </a><a name="hcencounter-anc-visit"> </a><p><b>status</b>: Completed</p><p><b>class</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}">Ambulatory</span></p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 4241000179101}">Antenatal care visit</span></p><p><b>subject</b>: <a href="Patient/pregnant-woman-1">Patient/pregnant-woman-1</a></p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td></tr><tr><td style="display: none">*</td><td><a href="Location/clinic-abc">Location/clinic-abc</a></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter encounter-anc-visit</b></p><a name="encounter-anc-visit"> </a><a name="hcencounter-anc-visit"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-encounter.html">NP Core Encounter Profile</a></p></div><p><b>status</b>: Completed</p><h3>ServiceTypes</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Concept</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://snomed.info/sct 698314001}">Antenatal Care Service</span></td></tr></table><p><b>subject</b>: <a href="Patient-patient-pregnant.html">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</a></p><p><b>actualPeriod</b>: 2025-08-29 09:30:00+0545 --&gt; (ongoing)</p></div>
   </text>
   <status value="completed"/>
-  <class>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-      <code value="AMB"/>
-      <display value="Ambulatory"/>
-    </coding>
-  </class>
-  <type>
-    <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="4241000179101"/>
-      <display value="Antenatal care visit"/>
-    </coding>
-  </type>
+  <serviceType>
+    <concept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="698314001"/>
+        <display value="Antenatal care"/>
+      </coding>
+      <text value="Antenatal Care Service"/>
+    </concept>
+  </serviceType>
   <subject>
-    <reference value="Patient/pregnant-woman-1"/>
+    <reference value="Patient/patient-pregnant"/>
   </subject>
-  <location>
-    <location>
-      <reference value="Location/clinic-abc"/>
-    </location>
-  </location>
+  <actualPeriod>
+    <start value="2025-08-29T09:30:00+05:45"/>
+  </actualPeriod>
 </Encounter>

@@ -233,41 +233,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The following <strong>profiles</strong> have been defined for this implementation guide.</p>
 
-<tr><td><a href="StructureDefinition-np-core-condition.html">NP Core Condition Profile</a> </td><td><p>The NP Core Condition Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/condition.html">Condition</a> resource. This profile defines minimum expectations for capturing diagnoses, risk conditions, and program-specific conditions in the Nepal health system. It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
-</td></tr>
 <tr><td><a href="StructureDefinition-np-core-encounter.html">NP Core Encounter Profile</a> </td><td><p>The NP Core Encounter Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/encounter.html">Encounter</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Encounter resource to record, search, and fetch basic encounter information for an individual patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present and constrains how the elements are used. By providing a standardized foundation for capturing encounters in Nepal (including OPD visits, outreach clinics, and home visits), this profile promotes interoperability, consistent data capture, and adoption across national health programs.</p>
 </td></tr>
 <tr><td><a href="StructureDefinition-np-core-immunization.html">NP Core Immunization Profile</a> </td><td><p>The NP Core Immunization Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/immunization.html">Immunization</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Immunization resource to record, search, and fetch basic immunization information for an individual patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing immunization events in Nepal</p>
 </td></tr>
-<tr><td><a href="StructureDefinition-np-core-measure.html">NP Core Measure Profile</a> </td><td><p>The NP Core Measure Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measure.html">Measure</a> resource.</p>
-</td></tr>
-<tr><td><a href="StructureDefinition-np-core-measure-report.html">NP Core MeasureReport Profile</a> </td><td><p>The NP Core MeasureReport Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/measurereport.html">Measure</a> resource.</p>
-</td></tr>
-<tr><td><a href="StructureDefinition-np-core-medication-statement.html">NP Core Medication Statement Profile</a> </td><td><p>The NP Core MedicationStatement Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/medicationstatement.html">MedicationStatement</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationStatement resource to record, search, and fetch information about medications a patient is taking, has taken, or may be taking within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing medication use in Nepal</p>
-</td></tr>
-<tr><td><a href="StructureDefinition-np-core-observation.html">NP Core Observation Profile</a> </td><td><p>The NP Core Observation Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/observation.html">Observation</a> resource.
-This profile defines minimum expectations for capturing core clinical measurements, lab results, and program-related observations in the Nepal health system.
-It ensures consistent data capture, searchability, and interoperability across national health programs.</p>
-<p><strong>Uses for the Observation resource include:</strong></p>
-<ul>
-<li>Vital signs such as body weight, blood pressure, and temperature</li>
-<li>Laboratory data like blood glucose or estimated GFR</li>
-<li>Imaging results such as bone density or fetal measurements</li>
-<li>Clinical findings such as abdominal tenderness</li>
-<li>Device measurements such as EKG or pulse oximetry data</li>
-<li>Device settings such as mechanical ventilator parameters</li>
-<li>Clinical assessment tools such as APGAR or Glasgow Coma Score</li>
-<li>Personal characteristics such as eye color</li>
-<li>Social history like tobacco use, family support, or cognitive status</li>
-<li>Core characteristics like pregnancy status or a death assertion</li>
-<li>Product quality tests such as pH, assay, or microbial limits on products and substances</li>
-</ul>
-</td></tr>
-<tr><td><a href="StructureDefinition-np-core-organization.html">NP Core Organization Profile</a> </td><td><p>The NP Core Organization Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/organization.html">Organization</a> resource.
-It defines the minimum expectations for representing organizations (e.g., health facilities, departments, NGOs, government agencies)
-within the Nepal health system. It specifies required elements, identifiers, and standard terminologies.</p>
+<tr><td><a href="StructureDefinition-np-core-medication-dispense.html">NP Core Medication Dispense Profile</a> </td><td><p>The NP Core MedicationDispense Profile inherits from the FHIR MedicationDispense resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the MedicationDispense resource to record, search, and fetch information about medications dispensed to a patient within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used.</p>
 </td></tr>
 <tr><td><a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a> </td><td><p>The NP Core Patient Profile inherits from the FHIR <a href="https://hl7.org/fhir/R5/patient.html">Patient</a> resource; refer to it for scope and usage definitions. This profile sets minimum expectations for the Patient resource to record, search, and fetch core patient information within the Nepal health system. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used. By providing a standardized foundation for capturing patient demographics, identifiers, and key health attributes, this profile promotes interoperability, consistent data capture, and adoption across national health programs</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-nepal-person.html">Nepal Person Profile</a> </td><td><p>Foundational person registry profile for Nepal. Supports IDs, Name, and telecom.</p>
 </td></tr>
 
 <h3 id="extensions">Extensions</h3>
@@ -298,9 +272,9 @@ within the Nepal health system. It specifies required elements, identifiers, and
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Aug 20, 2025 08:31+0545">2025-08-20</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Aug 29, 2025 13:54+0545">2025-08-29</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l641">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l543">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

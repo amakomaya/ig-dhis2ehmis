@@ -1,5 +1,3 @@
-Alias: $SCT = http://snomed.info/sct
-
 ValueSet: VisitOrdinalVS
 Id: visit-ordinal
 Title: "Patient Visit Ordinal"

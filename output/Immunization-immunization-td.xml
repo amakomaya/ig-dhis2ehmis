@@ -2,8 +2,11 @@
 
 <Immunization xmlns="http://hl7.org/fhir">
   <id value="immunization-td"/>
+  <meta>
+    <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization"/>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-td</b></p><a name="immunization-td"> </a><a name="hcimmunization-td"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 871826000}">Td Vaccine</span></p><p><b>patient</b>: <a href="Patient/example">Patient/example</a></p><p><b>encounter</b>: <a href="Encounter/td-admin-1">Encounter/td-admin-1</a></p><p><b>occurrence</b>: 2025-08-01 09:57:34+0000</p><p><b>primarySource</b>: true</p><p><b>location</b>: <a href="Location/clinic-abc">Location/clinic-abc</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization-td</b></p><a name="immunization-td"> </a><a name="hcimmunization-td"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-immunization.html">NP Core Immunization Profile</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://snomed.info/sct 871826000}">Td Vaccine</span></p><p><b>patient</b>: <a href="Patient-patient-pregnant.html">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</a></p><p><b>occurrence</b>: 2025-08-01 09:57:34+0000</p></div>
   </text>
   <status value="completed"/>
   <vaccineCode>
@@ -15,14 +18,7 @@
     <text value="Td Vaccine"/>
   </vaccineCode>
   <patient>
-    <reference value="Patient/example"/>
+    <reference value="Patient/patient-pregnant"/>
   </patient>
-  <encounter>
-    <reference value="Encounter/td-admin-1"/>
-  </encounter>
   <occurrenceDateTime value="2025-08-01T09:57:34.2112Z"/>
-  <primarySource value="true"/>
-  <location>
-    <reference value="Location/clinic-abc"/>
-  </location>
 </Immunization>

@@ -1,5 +1,5 @@
 Instance: immunization-pcv
-InstanceOf: Immunization
+InstanceOf: NPCoreImmunizationProfile
 Title: "Immunization Record - PCV"
 Description: "An example of an immunization resource for Pneumococcal Conjugate Vaccine (PCV)."
 Usage: #example
@@ -11,10 +11,6 @@ Usage: #example
 * vaccineCode.coding[0].display = "Pneumococcal conjugate vaccine"
 * vaccineCode.text = "PCV Vaccine"
 
-* patient.reference = "Patient/example"
-* encounter.reference = "Encounter/pcv-admin-1"
+* patient.reference = "Patient/patient-child"
 
 * occurrenceDateTime = "2025-08-01"
-* primarySource = true
-
-* location.reference = "Location/clinic-abc"

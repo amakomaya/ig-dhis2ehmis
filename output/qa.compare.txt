@@ -1,10 +1,10 @@
 NPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 182, warn = 88, info = 74
+err = 114, warn = 68, info = 72
 $--
 Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.hmis.gov.np)
- Build Errors : 443 / 4 / 0
+ Build Errors : 361 / 4 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-facility-type : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-cost : 2 / 2 / 2
@@ -13,39 +13,33 @@ Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.h
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-period-range : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no : 2 / 3 / 3
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Encounter-encounter-anc-visit : 5 / 0 / 1
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 4 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-dpt : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-fipv : 5 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-hpv : 4 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-je : 5 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-mr : 5 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-opv : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-pcv : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-penta : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-polio : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-rota : 6 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-td : 7 / 0 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-typhoid : 4 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Encounter-encounter-anc-visit : 1 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-dpt : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-fipv : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-hpv : 0 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-je : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-mr : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-opv : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-pcv : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-penta : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-polio : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-rota : 0 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-td : 2 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-typhoid : 0 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis : 0 / 1 / 17
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Location-location-bhsc : 2 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/MedicationDispense-medication-dispense-iron : 1 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID : 2 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Observation-observation-child-weight : 2 / 1 / 1
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Organization-organization-bhsc : 1 / 0 / 1
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-child : 1 / 2 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-pregnant : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-child : 5 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Patient-patient-pregnant : 6 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-NepalAddress : 3 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-ethnic-code : 3 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-condition : 3 / 2 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-encounter : 3 / 5 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-immunization : 3 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure : 5 / 5 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure-report : 3 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-statement : 3 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-observation : 3 / 6 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-organization : 3 / 1 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-patient : 3 / 1 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-nepal-person : 3 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-encounter : 3 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-immunization : 3 / 0 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-dispense : 3 / 0 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-patient : 3 / 0 / 3
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-age-range : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-condition-code : 2 / 2 / 2
@@ -118,115 +112,80 @@ ERROR: CodeSystem-yes-no.json.html#/html/body/div/div/div/p/span/a at Line 408, 
 ERROR: CodeSystem-yes-no.ttl.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: CodeSystem-yes-no.xml.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Encounter-encounter-anc-visit.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 387: The link 'Patient/pregnant-woman-1' for "Patient/pregnant-woman-1" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 259, column 597: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/p/span/a at Line 324, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Encounter-encounter-anc-visit.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 442: The link 'Encounter/bcg-admin-1' for "Encounter/bcg-admin-1" cannot be resolved
 ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/p/span/a at Line 342, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/p/span/a at Line 327, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-dpt.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 262: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 332: The link 'Encounter/dpt-admin-1' for "Encounter/dpt-admin-1" cannot be resolved
-ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 482: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-fipv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 274: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 344: The link 'Encounter/fipv-admin-1' for "Encounter/fipv-admin-1" cannot be resolved
 ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.json.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-fipv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-hpv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 265: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 335: The link 'Encounter/hpv-admin-1' for "Encounter/hpv-admin-1" cannot be resolved
 ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.json.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-hpv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-je.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 278: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-je.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 348: The link 'Encounter/je-admin-1' for "Encounter/je-admin-1" cannot be resolved
 ERROR: Immunization-immunization-je.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.json.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-je.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-mr.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 271: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 341: The link 'Encounter/mr-admin-1' for "Encounter/mr-admin-1" cannot be resolved
 ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.json.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-mr.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-opv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 279: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 349: The link 'Encounter/opv-admin-1' for "Encounter/opv-admin-1" cannot be resolved
-ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 499: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-pcv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 266: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 336: The link 'Encounter/pcv-admin-1' for "Encounter/pcv-admin-1" cannot be resolved
-ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 486: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-penta.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 293: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 363: The link 'Encounter/penta-admin-1' for "Encounter/penta-admin-1" cannot be resolved
-ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 517: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.xml.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-polio.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 284: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 354: The link 'Encounter/polio-admin-1' for "Encounter/polio-admin-1" cannot be resolved
-ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 508: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-rota.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 270: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 340: The link 'Encounter/rota-admin-1' for "Encounter/rota-admin-1" cannot be resolved
-ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 492: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-td.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 259: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 329: The link 'Encounter/td-admin-1' for "Encounter/td-admin-1" cannot be resolved
-ERROR: Immunization-immunization-td.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 491: The link 'Location/clinic-abc' for "Location/clinic-abc" cannot be resolved
 ERROR: Immunization-immunization-td.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.json.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.ttl.html#/html/body/div/div/div/p/span/a at Line 333, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-typhoid.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 277: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 347: The link 'Encounter/typhoid-admin-1' for "Encounter/typhoid-admin-1" cannot be resolved
 ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Location-location-bhsc.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Location-location-bhsc.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 667: The link 'Organization/example-org' for "Organization/example-org" cannot be resolved
-ERROR: Location-location-bhsc.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Location-location-bhsc.json.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Location-location-bhsc.ttl.html#/html/body/div/div/div/p/span/a at Line 332, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Location-location-bhsc.xml.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.json.html#/html/body/div/div/div/p/span/a at Line 323, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.ttl.html#/html/body/div/div/div/p/span/a at Line 330, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.xml.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 345, column 113: The link 'license.html' for "License" cannot be resolved
@@ -239,35 +198,24 @@ ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 345,
 ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 372, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Observation-observation-child-weight.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Observation-observation-child-weight.html#/html/body/div/div/div/div/div/div/p/a at Line 259, column 401: The link 'Patient/example' for "Patient/example" cannot be resolved
-ERROR: Observation-observation-child-weight.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Observation-observation-child-weight.json.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Observation-observation-child-weight.ttl.html#/html/body/div/div/div/p/span/a at Line 338, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Observation-observation-child-weight.xml.html#/html/body/div/div/div/p/span/a at Line 324, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Organization-organization-bhsc.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Organization-organization-bhsc.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Organization-organization-bhsc.json.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Organization-organization-bhsc.ttl.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Organization-organization-bhsc.xml.html#/html/body/div/div/div/p/span/a at Line 309, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Patient-patient-child.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Patient-patient-child.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.json.html#/html/body/div/div/div/p/span/a at Line 376, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.xml.html#/html/body/div/div/div/p/span/a at Line 357, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.json.html#/html/body/div/div/div/p/span/a at Line 383, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.xml.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Patient-patient-pregnant.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: Patient-patient-pregnant.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.xml.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress-definitions.html#/html/body/div/div/div/p/span/a at Line 1096, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress-mappings.html#/html/body/div/div/div/p/span/a at Line 607, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.json.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/p/span/a at Line 370, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.xml.html#/html/body/div/div/div/p/span/a at Line 368, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress-definitions.html#/html/body/div/div/div/p/span/a at Line 940, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress-mappings.html#/html/body/div/div/div/p/span/a at Line 553, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-NepalAddress-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.html#/html/body/div/div/div/p/span/a at Line 8236, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.html#/html/body/div/div/div/p/span/a at Line 6274, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-NepalAddress.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.json.html#/html/body/div/div/div/p/span/a at Line 7286, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4343, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.xml.html#/html/body/div/div/div/p/span/a at Line 6602, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.json.html#/html/body/div/div/div/p/span/a at Line 5943, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3569, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.xml.html#/html/body/div/div/div/p/span/a at Line 5394, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-ethnic-code-definitions.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-ethnic-code-mappings.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
@@ -276,87 +224,51 @@ ERROR: StructureDefinition-ethnic-code.profile.history.html#/html/body/div/div/d
 ERROR: StructureDefinition-ethnic-code.profile.json.html#/html/body/div/div/div/p/span/a at Line 654, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-ethnic-code.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 583, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: StructureDefinition-ethnic-code.profile.xml.html#/html/body/div/div/div/p/span/a at Line 604, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition-definitions.html#/html/body/div/div/div/p/span/a at Line 587, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition-mappings.html#/html/body/div/div/div/p/span/a at Line 620, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition.html#/html/body/div/div/div/p/span/a at Line 1150, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition.profile.json.html#/html/body/div/div/div/p/span/a at Line 2301, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1768, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-condition.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2141, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-definitions.html#/html/body/div/div/div/p/span/a at Line 792, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-mappings.html#/html/body/div/div/div/p/span/a at Line 671, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.html#/html/body/div/div/div/p/span/a at Line 1286, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.json.html#/html/body/div/div/div/p/span/a at Line 3837, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2900, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3525, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 644, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-mappings.html#/html/body/div/div/div/p/span/a at Line 1024, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.html#/html/body/div/div/div/p/span/a at Line 1706, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 3386, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2555, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3060, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-definitions.html#/html/body/div/div/div/p/span/a at Line 946, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-mappings.html#/html/body/div/div/div/p/span/a at Line 1264, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report-definitions.html#/html/body/div/div/div/p/span/a at Line 691, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report-mappings.html#/html/body/div/div/div/p/span/a at Line 708, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report.html#/html/body/div/div/div/p/span/a at Line 2148, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report.profile.json.html#/html/body/div/div/div/p/span/a at Line 3617, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2737, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-report.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3259, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure.html#/html/body/div/div/div/p/span/a at Line 2272, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure.profile.json.html#/html/body/div/div/div/p/span/a at Line 5363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4026, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-measure.profile.xml.html#/html/body/div/div/div/p/span/a at Line 4842, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement-definitions.html#/html/body/div/div/div/p/span/a at Line 525, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement-mappings.html#/html/body/div/div/div/p/span/a at Line 619, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement.html#/html/body/div/div/div/p/span/a at Line 1300, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement.profile.json.html#/html/body/div/div/div/p/span/a at Line 1877, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1488, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-statement.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1743, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation-definitions.html#/html/body/div/div/div/p/span/a at Line 722, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation-mappings.html#/html/body/div/div/div/p/span/a at Line 802, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation.html#/html/body/div/div/div/p/span/a at Line 1721, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation.profile.json.html#/html/body/div/div/div/p/span/a at Line 3649, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2723, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-observation.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3424, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization-definitions.html#/html/body/div/div/div/p/span/a at Line 562, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization-mappings.html#/html/body/div/div/div/p/span/a at Line 714, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization.html#/html/body/div/div/div/p/span/a at Line 1348, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization.profile.json.html#/html/body/div/div/div/p/span/a at Line 2061, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1593, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-organization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1911, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-definitions.html#/html/body/div/div/div/p/span/a at Line 1090, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-mappings.html#/html/body/div/div/div/p/span/a at Line 1734, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.html#/html/body/div/div/div/p/span/a at Line 2736, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.json.html#/html/body/div/div/div/p/span/a at Line 6180, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4491, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 5578, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-definitions.html#/html/body/div/div/div/p/span/a at Line 539, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-mappings.html#/html/body/div/div/div/p/span/a at Line 564, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.html#/html/body/div/div/div/p/span/a at Line 1298, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.json.html#/html/body/div/div/div/p/span/a at Line 1873, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1471, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1726, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-definitions.html#/html/body/div/div/div/p/span/a at Line 723, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-examples.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-mappings.html#/html/body/div/div/div/p/span/a at Line 1017, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.html#/html/body/div/div/div/p/span/a at Line 1890, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.json.html#/html/body/div/div/div/p/span/a at Line 3897, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2947, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3555, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 643, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-examples.html#/html/body/div/div/div/p/span/a at Line 422, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-mappings.html#/html/body/div/div/div/p/span/a at Line 1036, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.html#/html/body/div/div/div/p/span/a at Line 1750, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 3376, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2552, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3054, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-definitions.html#/html/body/div/div/div/p/span/a at Line 651, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-examples.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-mappings.html#/html/body/div/div/div/p/span/a at Line 958, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.html#/html/body/div/div/div/p/span/a at Line 1682, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.json.html#/html/body/div/div/div/p/span/a at Line 3006, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2292, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2745, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-definitions.html#/html/body/div/div/div/p/span/a at Line 1132, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-examples.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-mappings.html#/html/body/div/div/div/p/span/a at Line 1813, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.html#/html/body/div/div/div/p/span/a at Line 3039, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.json.html#/html/body/div/div/div/p/span/a at Line 6182, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4495, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 5581, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
@@ -371,7 +283,7 @@ ERROR: ValueSet-age-range.ttl.html#/html/body/div/div/div/p/span/a at Line 359, 
 ERROR: ValueSet-age-range.xml.html#/html/body/div/div/div/p/span/a at Line 361, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-condition-code-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-condition-code.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-condition-code.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-condition-code.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: ValueSet-condition-code.xml.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
@@ -479,14 +391,14 @@ ERROR: ValueSet-visit-ordinal.ttl.html#/html/body/div/div/div/p/span/a at Line 3
 ERROR: ValueSet-visit-ordinal.xml.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: archimate-diagram.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 309, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: archimate-diagram.html#/html/body/div/div/div/p/span/a at Line 432, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 879, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 807, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: codesystems.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 242, column 7476: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: copyrights.html#/html/body/div/div/div/p/span/a at Line 344, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: copyrights.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 260, column 8: The link 'package.r4.tgz' for "R4 NPM Package" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 266, column 8: The link 'package.r4b.tgz' for "R4B NPM Package" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/p/span/a at Line 304, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 358, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 344, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 307, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: gov_concepts.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 263, column 10562: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: gov_concepts.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
@@ -500,7 +412,7 @@ ERROR: index.html#/html/body/div/div/div/p/span/a at Line 425, column 113: The l
 ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 299, column 16: The link 'l3_libraries.html' for "Library authoring" cannot be resolved
 ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 299, column 70: The link 'l3_cql.html' for "CQL authoring" cannot be resolved
 ERROR: indicators.html#/html/body/div/div/div/p/span/a at Line 411, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 309, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: security.html#/html/body/div/div/div/p/span/a at Line 271, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 441, column 14: The link 'smart-resources/family-planning/digital-adaption-kit-eng.pdf' for "Digital Adaptation Kit for Family Planning" cannot be resolved
 ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 442, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx' for "Core data dictionary" cannot be resolved
@@ -564,112 +476,53 @@ WARNING: CodeSystem/yes-no: CodeSystem: Published code systems SHOULD conform to
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no: URL Mismatch http://fhir.hmis.gov.np/CodeSystem/yes-no vs https://fhir.hmis.gov.np/CodeSystem/yes-no
 == fsh-generated/resources/Encounter-encounter-anc-visit.json ==
-ERROR: Encounter/encounter-anc-visit: Encounter.type[0].coding[0].display: Wrong Display Name 'Antenatal care visit' for http://snomed.info/sct#4241000179101. There are no valid display names found for language(s) 'en-US'. Default display is 'Laboratory report (record artifact)'
-ERROR: Encounter/encounter-anc-visit: Encounter.subject: Unable to resolve resource with reference 'Patient/pregnant-woman-1'
-ERROR: Encounter/encounter-anc-visit: Encounter.location[0].location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Encounter.text.div: Hyperlink 'Patient/pregnant-woman-1' at 'div/p/a' for 'Patient/pregnant-woman-1' does not resolve
-ERROR: Encounter.text.div: Hyperlink 'Location/clinic-abc' at 'div/table/tr/td/a' for 'Location/clinic-abc' does not resolve
+ERROR: Encounter/encounter-anc-visit: Encounter.serviceType[0].concept.coding[0].display: Wrong Display Name 'Antenatal care' for http://snomed.info/sct#698314001. Valid display is one of 2 choices: 'Consultation for treatment' (en) or 'Consultation for treatment (procedure)' (en) (for the language(s) 'en-US')
 == fsh-generated/resources/Immunization-immunization-bcg.json ==
 INFORMATION: Immunization/immunization-bcg: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-bcg: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Bacillus Calmette-Guérin vaccine' for http://snomed.info/sct#390840006. There are no valid display names found for language(s) 'en-US'. Default display is 'Next appointment (finding)'
-ERROR: Immunization/immunization-bcg: Immunization.encounter: Unable to resolve resource with reference 'Encounter/bcg-admin-1'
-ERROR: Immunization/immunization-bcg: Immunization.site.coding[0].display: Wrong Display Name 'Structure of right upper arm' for http://snomed.info/sct#368209003. There are no valid display names found for language(s) 'en-US'. Default display is 'Right upper arm'
-ERROR: Immunization.text.div: Hyperlink 'Encounter/bcg-admin-1' at 'div/p/a' for 'Encounter/bcg-admin-1' does not resolve
+ERROR: Immunization/immunization-bcg: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#390840006)
 == fsh-generated/resources/Immunization-immunization-dpt.json ==
 INFORMATION: Immunization/immunization-dpt: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-dpt: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Diphtheria + pertussis + tetanus vaccine' for http://snomed.info/sct#871729003. There are no valid display names found for language(s) 'en-US'. Default display is 'Corynebacterium diphtheriae antigen only vaccine product'
-ERROR: Immunization/immunization-dpt: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-dpt: Immunization.encounter: Unable to resolve resource with reference 'Encounter/dpt-admin-1'
-ERROR: Immunization/immunization-dpt: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/dpt-admin-1' at 'div/p/a' for 'Encounter/dpt-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-dpt: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#871729003)
 == fsh-generated/resources/Immunization-immunization-fipv.json ==
 INFORMATION: Immunization/immunization-fipv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-fipv: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Inactivated poliomyelitis vaccine' for http://snomed.info/sct#871838009. There are no valid display names found for language(s) 'en-US'. Default display is 'Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)'
-ERROR: Immunization/immunization-fipv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-fipv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/fipv-admin-1'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/fipv-admin-1' at 'div/p/a' for 'Encounter/fipv-admin-1' does not resolve
+ERROR: Immunization/immunization-fipv: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#871838009)
 == fsh-generated/resources/Immunization-immunization-hpv.json ==
 INFORMATION: Immunization/immunization-hpv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
-ERROR: Immunization/immunization-hpv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-hpv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/hpv-admin-1'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/hpv-admin-1' at 'div/p/a' for 'Encounter/hpv-admin-1' does not resolve
 == fsh-generated/resources/Immunization-immunization-je.json ==
 INFORMATION: Immunization/immunization-je: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-je: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Japanese encephalitis vaccine' for http://snomed.info/sct#871724008. There are no valid display names found for language(s) 'en-US'. Default display is 'Japanese encephalitis virus antigen only vaccine product'
-ERROR: Immunization/immunization-je: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-je: Immunization.encounter: Unable to resolve resource with reference 'Encounter/je-admin-1'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/je-admin-1' at 'div/p/a' for 'Encounter/je-admin-1' does not resolve
+ERROR: Immunization/immunization-je: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#871724008)
 == fsh-generated/resources/Immunization-immunization-mr.json ==
 INFORMATION: Immunization/immunization-mr: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-mr: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Measles and rubella vaccine' for http://snomed.info/sct#36989005. There are no valid display names found for language(s) 'en-US'. Default display is 'Mumps'
-ERROR: Immunization/immunization-mr: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-mr: Immunization.encounter: Unable to resolve resource with reference 'Encounter/mr-admin-1'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/mr-admin-1' at 'div/p/a' for 'Encounter/mr-admin-1' does not resolve
+ERROR: Immunization/immunization-mr: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#36989005)
 == fsh-generated/resources/Immunization-immunization-opv.json ==
 INFORMATION: Immunization/immunization-opv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-opv: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Live attenuated poliomyelitis vaccine' for http://snomed.info/sct#1051000221104. There are no valid display names found for language(s) 'en-US'. Default display is 'Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form'
-ERROR: Immunization/immunization-opv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-opv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/opv-admin-1'
-ERROR: Immunization/immunization-opv: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/opv-admin-1' at 'div/p/a' for 'Encounter/opv-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-opv: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#1051000221104)
 == fsh-generated/resources/Immunization-immunization-pcv.json ==
 INFORMATION: Immunization/immunization-pcv: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-pcv: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Pneumococcal conjugate vaccine' for http://snomed.info/sct#1801000221105. There are no valid display names found for language(s) 'en-US'. Default display is 'Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)'
-ERROR: Immunization/immunization-pcv: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-pcv: Immunization.encounter: Unable to resolve resource with reference 'Encounter/pcv-admin-1'
-ERROR: Immunization/immunization-pcv: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/pcv-admin-1' at 'div/p/a' for 'Encounter/pcv-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-pcv: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#1801000221105)
 == fsh-generated/resources/Immunization-immunization-penta.json ==
 INFORMATION: Immunization/immunization-penta: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-penta: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Diphtheria+pertussis+tetanus+hepatitis B+Haemophilus influenzae type b vaccine' for http://snomed.info/sct#1801000221105. There are no valid display names found for language(s) 'en-US'. Default display is 'Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)'
-ERROR: Immunization/immunization-penta: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-penta: Immunization.encounter: Unable to resolve resource with reference 'Encounter/penta-admin-1'
-ERROR: Immunization/immunization-penta: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/penta-admin-1' at 'div/p/a' for 'Encounter/penta-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-penta: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#1801000221105)
 == fsh-generated/resources/Immunization-immunization-polio.json ==
 INFORMATION: Immunization/immunization-polio: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-polio: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Inactivated poliomyelitis vaccine' for http://snomed.info/sct#1051000221104. There are no valid display names found for language(s) 'en-US'. Default display is 'Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form'
-ERROR: Immunization/immunization-polio: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-polio: Immunization.encounter: Unable to resolve resource with reference 'Encounter/polio-admin-1'
-ERROR: Immunization/immunization-polio: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/polio-admin-1' at 'div/p/a' for 'Encounter/polio-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-polio: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#1051000221104)
 == fsh-generated/resources/Immunization-immunization-rota.json ==
 INFORMATION: Immunization/immunization-rota: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
-ERROR: Immunization/immunization-rota: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-rota: Immunization.encounter: Unable to resolve resource with reference 'Encounter/rota-admin-1'
-ERROR: Immunization/immunization-rota: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/rota-admin-1' at 'div/p/a' for 'Encounter/rota-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
 == fsh-generated/resources/Immunization-immunization-td.json ==
 INFORMATION: Immunization/immunization-td: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
 ERROR: Immunization/immunization-td: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Tetanus and diphtheria toxoid vaccine' for http://snomed.info/sct#871826000. There are no valid display names found for language(s) 'en-US'. Default display is 'Diphtheria and tetanus vaccine'
-ERROR: Immunization/immunization-td: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-td: Immunization.encounter: Unable to resolve resource with reference 'Encounter/td-admin-1'
-ERROR: Immunization/immunization-td: Immunization.location: Unable to resolve resource with reference 'Location/clinic-abc'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/td-admin-1' at 'div/p/a' for 'Encounter/td-admin-1' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Location/clinic-abc' at 'div/p/a' for 'Location/clinic-abc' does not resolve
+ERROR: Immunization/immunization-td: Immunization.vaccineCode: None of the codings provided are in the value set 'Vaccines (SNOMED CT)' (https://fhir.hmis.gov.np/ValueSet/vaccine|0.0.1-ballot), and a coding from this value set is required) (codes = http://snomed.info/sct#871826000)
 == fsh-generated/resources/Immunization-immunization-typhoid.json ==
 INFORMATION: Immunization/immunization-typhoid: Immunization.status: Reference to experimental CodeSystem http://hl7.org/fhir/event-status|5.0.0
-ERROR: Immunization/immunization-typhoid: Immunization.patient: Unable to resolve resource with reference 'Patient/example'
-ERROR: Immunization/immunization-typhoid: Immunization.encounter: Unable to resolve resource with reference 'Encounter/typhoid-admin-1'
-ERROR: Immunization.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-ERROR: Immunization.text.div: Hyperlink 'Encounter/typhoid-admin-1' at 'div/p/a' for 'Encounter/typhoid-admin-1' does not resolve
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.hmis.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
@@ -688,9 +541,10 @@ INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.p
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/hl7.fhir.hmis: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-== fsh-generated/resources/Location-location-bhsc.json ==
-ERROR: Location/location-bhsc: Location.managingOrganization: Unable to resolve resource with reference 'Organization/example-org'
-ERROR: Location.text.div: Hyperlink 'Organization/example-org' at 'div/p/a' for 'Organization/example-org' does not resolve
+== fsh-generated/resources/MedicationDispense-medication-dispense-iron.json ==
+WARNING: MedicationDispense/medication-dispense-iron: MedicationDispense.medication.concept.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: MedicationDispense/medication-dispense-iron: MedicationDispense.quantity.code: Unknown code 'tbl' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+INFORMATION: MedicationDispense/medication-dispense-iron: MedicationDispense.quantity.code: Error processing Unit: 'tbl': The unit "tbl" is unknown at character 1
 == fsh-generated/resources/NamingSystem-HealthID.json ==
 ERROR: NamingSystem.where(url = 'https://fhir.hmis.gov.np/NamingSystem/HealthID'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-HealthID.json - the canonical URL (http://fhir.hmis.gov.np/NamingSystem/HealthID) does not match the URL (https://fhir.hmis.gov.np/NamingSystem/HealthID)
 INFORMATION: NamingSystem/HealthID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
@@ -701,22 +555,25 @@ ERROR: NamingSystem.where(url = 'https://fhir.hmis.gov.np/NamingSystem/national-
 INFORMATION: NamingSystem/NationalID: NamingSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/NamingSystem-NationalID: URL Mismatch http://fhir.hmis.gov.np/NamingSystem/NationalID vs https://fhir.hmis.gov.np/NamingSystem/national-id
-== fsh-generated/resources/Observation-observation-child-weight.json ==
-ERROR: Observation/observation-child-weight: Observation.subject: Unable to resolve resource with reference 'Patient/example'
-WARNING: Observation/observation-child-weight: Observation: Best Practice Recommendation: In general, all observations should have a performer
-ERROR: Observation.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
-== fsh-generated/resources/Organization-organization-bhsc.json ==
-ERROR: Organization/organization-bhsc: Organization.identifier[0].type.coding[0]: Error performing tx5 operation 'validate-code: tx.fhir.org: nodename nor servname provided, or not known' (parameters = "")
 == fsh-generated/resources/Patient-patient-child.json ==
+ERROR: Patient/patient-child: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-child: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-child: Patient.identifier[2]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-child: Patient.identifier[3]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
 ERROR: Patient/patient-child: Patient.extension[0]: The extension http://fhir.hmis.gov.np/CodeSystem/ethnic-code could not be found so is not allowed here
 INFORMATION: Patient/patient-child: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'http://fhir.hmis.gov.np/CodeSystem/ethnic-code' could not be found, so the code cannot be validated
-WARNING: Patient/patient-child: Patient.identifier[0].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
-WARNING: Patient/patient-child: Patient.identifier[1].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+WARNING: Patient/patient-child: Patient.identifier[0].type.coding[0].system: A definition for CodeSystem 'https://fhir.hmis.gov.np/NamingSystem/national-id' could not be found, so the code cannot be validated
+WARNING: Patient/patient-child: Patient.identifier[1].type.coding[0].system: A definition for CodeSystem 'https://fhir.hmis.gov.np/NamingSystem/HealthID' could not be found, so the code cannot be validated
 == fsh-generated/resources/Patient-patient-pregnant.json ==
+ERROR: Patient/patient-pregnant: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-pregnant: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-pregnant: Patient.identifier[2]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-pregnant: Patient.identifier[3]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:SystemID in profile https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/patient-pregnant: Patient: Patient.telecom: max allowed = 1, but found 2 (from https://fhir.hmis.gov.np/StructureDefinition/np-core-patient|0.0.1-ballot)
 ERROR: Patient/patient-pregnant: Patient.extension[0]: The extension http://fhir.hmis.gov.np/CodeSystem/ethnic-code could not be found so is not allowed here
 INFORMATION: Patient/patient-pregnant: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'http://fhir.hmis.gov.np/CodeSystem/ethnic-code' could not be found, so the code cannot be validated
-WARNING: Patient/patient-pregnant: Patient.identifier[0].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
-WARNING: Patient/patient-pregnant: Patient.identifier[1].type.coding[0].code: No code provided for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '5.0.0'
+WARNING: Patient/patient-pregnant: Patient.identifier[0].type.coding[0].system: A definition for CodeSystem 'https://fhir.hmis.gov.np/NamingSystem/national-id' could not be found, so the code cannot be validated
+WARNING: Patient/patient-pregnant: Patient.identifier[1].type.coding[0].system: A definition for CodeSystem 'https://fhir.hmis.gov.np/NamingSystem/HealthID' could not be found, so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-NepalAddress.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/NepalAddress'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-NepalAddress.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/NepalAddress) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/NepalAddress)
 INFORMATION: StructureDefinition/NepalAddress: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
@@ -729,76 +586,35 @@ INFORMATION: StructureDefinition/ethnic-code: StructureDefinition.jurisdiction[0
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/ethnic-code'): The Implementation Guide contains no examples for this extension
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-ethnic-code: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/ethnic-code vs https://fhir.hmis.gov.np/StructureDefinition/ethnic-code
-== fsh-generated/resources/StructureDefinition-np-core-condition.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-condition'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-condition.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-condition) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-condition)
-INFORMATION: StructureDefinition/np-core-condition: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/np-core-condition: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Condition.participant.function' binds to the value set 'http://hl7.org/fhir/ValueSet/participation-role-type' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-nepal-person.json ==
+ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/nepal-person'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-nepal-person.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/nepal-person) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/nepal-person)
+INFORMATION: StructureDefinition/nepal-person: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-condition'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-condition: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-condition vs https://fhir.hmis.gov.np/StructureDefinition/np-core-condition
+WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/nepal-person'): The Implementation Guide contains no examples for this profile
+ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-nepal-person: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/nepal-person vs https://fhir.hmis.gov.np/StructureDefinition/nepal-person
 == fsh-generated/resources/StructureDefinition-np-core-encounter.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-encounter.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-encounter) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter)
 INFORMATION: StructureDefinition/np-core-encounter: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/np-core-encounter: StructureDefinition.snapshot.element[10]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
-WARNING: StructureDefinition/np-core-encounter: StructureDefinition.differential.element[10]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 WARNING: StructureDefinition/np-core-encounter: StructureDefinition.snapshot.element[10].binding: The definition for the element 'Encounter.status' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-status|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-encounter: StructureDefinition.snapshot.element[40].binding: The definition for the element 'Encounter.reason.value' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-reason' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/np-core-encounter: StructureDefinition.snapshot.element[44].binding: The definition for the element 'Encounter.reason.value' binds to the value set 'http://hl7.org/fhir/ValueSet/encounter-reason' which is experimental, but this structure is not labeled as experimental
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter'): The Implementation Guide contains no examples for this profile
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-encounter: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-encounter vs https://fhir.hmis.gov.np/StructureDefinition/np-core-encounter
 == fsh-generated/resources/StructureDefinition-np-core-immunization.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-immunization.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-immunization) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization)
 INFORMATION: StructureDefinition/np-core-immunization: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization'): The Implementation Guide contains no examples for this profile
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-immunization: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-immunization vs https://fhir.hmis.gov.np/StructureDefinition/np-core-immunization
-== fsh-generated/resources/StructureDefinition-np-core-measure.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-measure'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-measure) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-measure)
-ERROR: StructureDefinition/np-core-measure: StructureDefinition.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/structuredefinition-implements could not be found so is not allowed here
-ERROR: StructureDefinition/np-core-measure: StructureDefinition.extension[0].url: No definition could be found for URL value 'http://hl7.org/fhir/StructureDefinition/structuredefinition-implements'
-INFORMATION: StructureDefinition/np-core-measure: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/np-core-measure: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Measure.versionAlgorithm[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/version-algorithm' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-measure: StructureDefinition.snapshot.element[18].binding: The definition for the element 'Measure.subject[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/participant-resource-types' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-measure: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Measure.jurisdiction' binds to the value set 'http://hl7.org/fhir/ValueSet/jurisdiction' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-measure: StructureDefinition.snapshot.element[65].binding: The definition for the element 'Measure.group.subject[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/participant-resource-types' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-np-core-medication-dispense.json ==
+ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-dispense.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense)
+INFORMATION: StructureDefinition/np-core-medication-dispense: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/np-core-medication-dispense: StructureDefinition.snapshot.element[37].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-measure'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-measure vs https://fhir.hmis.gov.np/StructureDefinition/np-core-measure
-== fsh-generated/resources/StructureDefinition-np-core-measure-report.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure-report.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report)
-INFORMATION: StructureDefinition/np-core-measure-report: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-measure-report: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report vs https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report
-== fsh-generated/resources/StructureDefinition-np-core-medication-statement.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-statement.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement)
-INFORMATION: StructureDefinition/np-core-medication-statement: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-statement: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement vs https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement
-== fsh-generated/resources/StructureDefinition-np-core-observation.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-observation'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-observation.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-observation) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-observation)
-WARNING: NP Core Observation Profile.Observation.status: Unable to check if http://hl7.org/fhir/ValueSet/observation-codes is a proper subset of http://hl7.org/fhir/ValueSet/observation-status|5.0.0 - value set is too large to check
-INFORMATION: StructureDefinition/np-core-observation: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/np-core-observation: StructureDefinition.differential.element[9].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-codes' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-observation: StructureDefinition.snapshot.element[20].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-codes' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-observation: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/np-core-observation: StructureDefinition.snapshot.element[45].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning' which is experimental, but this structure is not labeled as experimental
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-observation'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-observation: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-observation vs https://fhir.hmis.gov.np/StructureDefinition/np-core-observation
-== fsh-generated/resources/StructureDefinition-np-core-organization.json ==
-ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-organization'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-organization.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-organization) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-organization)
-INFORMATION: StructureDefinition/np-core-organization: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-organization'): The Implementation Guide contains no examples for this profile
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-organization: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-organization vs https://fhir.hmis.gov.np/StructureDefinition/np-core-organization
+ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-medication-dispense: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense vs https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense
 == fsh-generated/resources/StructureDefinition-np-core-patient.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-patient'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-patient.json - the canonical URL (http://fhir.hmis.gov.np/StructureDefinition/np-core-patient) does not match the URL (https://fhir.hmis.gov.np/StructureDefinition/np-core-patient)
 INFORMATION: StructureDefinition.snapshot.element[50]: The slice definition for Patient.telecom has a maximum of 1 but the slices add up to a maximum of 2. Check that this is what is intended
 INFORMATION: StructureDefinition/np-core-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-WARNING: StructureDefinition.where(url = 'https://fhir.hmis.gov.np/StructureDefinition/np-core-patient'): The Implementation Guide contains no examples for this profile
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/StructureDefinition-np-core-patient: URL Mismatch http://fhir.hmis.gov.np/StructureDefinition/np-core-patient vs https://fhir.hmis.gov.np/StructureDefinition/np-core-patient
 == fsh-generated/resources/ValueSet-administrative-gender.json ==
 ERROR: ValueSet.where(url = 'https://fhir.hmis.gov.np/ValueSet/administrative-gender'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-administrative-gender.json - the canonical URL (http://fhir.hmis.gov.np/ValueSet/administrative-gender) does not match the URL (https://fhir.hmis.gov.np/ValueSet/administrative-gender)

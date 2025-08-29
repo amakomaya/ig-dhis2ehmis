@@ -117,61 +117,6 @@
         "ExtendedContactDetail",
         "Dosage",
         "Meta",
-        "uri",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "integer64",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "CodeableReference",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "RatioRange",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Availability",
-        "ExtendedContactDetail",
-        "Dosage",
-        "Meta",
         "string",
         "base64Binary",
         "boolean",
@@ -336,61 +281,6 @@
         "ExtendedContactDetail",
         "Dosage",
         "Meta",
-        "uri",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "integer64",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "CodeableReference",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "RatioRange",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Availability",
-        "ExtendedContactDetail",
-        "Dosage",
-        "Meta",
         "string",
         "base64Binary",
         "boolean",
@@ -501,61 +391,6 @@
         "Dosage",
         "Meta",
         "CodeableConcept",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "integer64",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "CodeableReference",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "RatioRange",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Availability",
-        "ExtendedContactDetail",
-        "Dosage",
-        "Meta",
-        "uri",
         "base64Binary",
         "boolean",
         "canonical",
@@ -894,10 +729,10 @@
     }
   ],
   "profiles": {
-    "Condition": [
+    "Person": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-condition",
-        "title": "NP Core Condition Profile"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/nepal-person",
+        "title": "Nepal Person Profile"
       }
     ],
     "Encounter": [
@@ -912,34 +747,10 @@
         "title": "NP Core Immunization Profile"
       }
     ],
-    "Measure": [
+    "MedicationDispense": [
       {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure",
-        "title": "NP Core Measure Profile"
-      }
-    ],
-    "MeasureReport": [
-      {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-measure-report",
-        "title": "NP Core MeasureReport Profile"
-      }
-    ],
-    "MedicationStatement": [
-      {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-statement",
-        "title": "NP Core Medication Statement Profile"
-      }
-    ],
-    "Observation": [
-      {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-observation",
-        "title": "NP Core Observation Profile"
-      }
-    ],
-    "Organization": [
-      {
-        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-organization",
-        "title": "NP Core Organization Profile"
+        "url": "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense",
+        "title": "NP Core Medication Dispense Profile"
       }
     ],
     "Patient": [
@@ -965,17 +776,11 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements": [
-      "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
       "StructureDefinition"

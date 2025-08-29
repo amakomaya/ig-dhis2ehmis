@@ -1,15 +1,15 @@
 Instance: patient-child
-InstanceOf: Patient
+InstanceOf: NPCorePatientProfile
 Title: "Patient – Child"
 Description: "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 12 visiting the Health Facility for routine immunizations."
 
 * identifier[0].use = #official
-* identifier[0].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* identifier[0].type.coding[0].system = "https://fhir.hmis.gov.np/NamingSystem/national-id"
 * identifier[0].type.text = "National ID"
 * identifier[0].value = "9876543210"
 
 * identifier[1].use = #official
-* identifier[1].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* identifier[1].type.coding[0].system = "https://fhir.hmis.gov.np/NamingSystem/HealthID"
 * identifier[1].type.text = "Health ID"
 * identifier[1].value = "9876543210"
 
@@ -23,6 +23,7 @@ Description: "1-year-old Suman Thapa from Kathmandu Metropolitan City Ward No. 1
 
 * name[0].family = "Thapa"
 * name[0].given[0] = "Suman"
+* name.text = "Suman Thapa"
 
 * telecom[0].system = #phone
 * telecom[0].value = "+9779801234567"

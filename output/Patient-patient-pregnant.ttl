@@ -9,9 +9,15 @@
 <http://fhir.hmis.gov.np/Patient/patient-pregnant> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "patient-pregnant"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-patient"^^xsd:anyURI ;
+       fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-patient>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-pregnant</b></p><a name=\"patient-pregnant\"> </a><a name=\"hcpatient-pregnant\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hiramaya Tamang  Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:hiramaya@hmis.com.np\">hiramaya@hmis.com.np</a></li><li>Ward No. 5, Ilam Municipality Ilam District Ilam NP </li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-pregnant</b></p><a name=\"patient-pregnant\"> </a><a name=\"hcpatient-pregnant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li><a href=\"mailto:hiramaya@hmis.com.np\">hiramaya@hmis.com.np</a></li><li>Ward No. 5, Ilam Municipality Ilam District Ilam NP </li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI ] ;
@@ -26,7 +32,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ]
+         fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/national-id"^^xsd:anyURI ]
        ] ) ;
        fhir:text [ fhir:v "National ID" ]
      ] ;
@@ -35,7 +41,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ]
+         fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/HealthID"^^xsd:anyURI ]
        ] ) ;
        fhir:text [ fhir:v "Health ID" ]
      ] ;
@@ -55,17 +61,19 @@
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Hiramaya Tamang" ] ;
      fhir:family [ fhir:v "Tamang" ] ;
      fhir:given ( [ fhir:v "Hiramaya" ] )
   ] ) ; # 
   fhir:telecom ( [
      fhir:system [ fhir:v "phone" ] ;
      fhir:value [ fhir:v "+9779801234567" ] ;
-     fhir:use [ fhir:v "mobile" ]
+     fhir:use [ fhir:v "home" ]
   ] [
      fhir:system [ fhir:v "email" ] ;
      fhir:value [ fhir:v "hiramaya@hmis.com.np" ] ;
-     fhir:use [ fhir:v "home" ]
+     fhir:use [ fhir:v "work" ]
   ] ) ; # 
   fhir:gender [ fhir:v "female"] ; # 
   fhir:birthDate [ fhir:v "2001-05-15"^^xsd:date] ; # 

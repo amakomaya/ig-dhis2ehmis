@@ -2,7 +2,7 @@ CodeSystem: FacilityType
 Id: facility-type
 Title: "Nepal Health Facility Type"
 Description: "Types of health facilities in Nepal, based on Ministry of Health and Population classifications."
-* ^url = "https://fhir.hmis.gov.np/CodeSystem/facility-type"
+* ^url = $facility-type
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true
