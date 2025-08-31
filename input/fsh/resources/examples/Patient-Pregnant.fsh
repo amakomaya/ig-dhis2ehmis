@@ -4,21 +4,19 @@ Title: "Patient – Pregnant Woman (Mom-to-Be)"
 Description: "21-year-old Hiramaya Tamang from Ilam Municipality Ward No. 5 visiting the district hospital for pregnancy-related care."
 
 * identifier[0].use = #official
-* identifier[0].type.coding[0].system = "https://fhir.hmis.gov.np/NamingSystem/national-id"
-* identifier[0].type.text = "National ID"
+* identifier[0].system = "https://fhir.hmis.gov.np/NamingSystem/national-id"
 * identifier[0].value = "1234567890"
 
 * identifier[1].use = #official
-* identifier[1].type.coding[0].system = "https://fhir.hmis.gov.np/NamingSystem/HealthID"
-* identifier[1].type.text = "Health ID"
+* identifier[1].system = "https://fhir.hmis.gov.np/NamingSystem/HealthID"
 * identifier[1].value = "1234567890"
 
 * identifier[2].use = #usual
-* identifier[2].type.text = "Person System ID"
+* identifier[2].system = "https://tokha.dhis2mis.org/NamingSystem/SystemID"
 * identifier[2].value = "SYS-001234"
 
 * identifier[3].use = #secondary
-* identifier[3].type.text = "Custom Identifier"
+* identifier[3].system = "https://tokha.dhis2mis.org/NamingSystem/CustomeID"
 * identifier[3].value = "MD-98765"
 
 * name[0].family = "Tamang"

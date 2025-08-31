@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID: SYS-005678 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/9876543210 (use: official, )</li><li>Health ID/9876543210 (use: official, )</li><li>Custom Identifier/MD-54321 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( https://tokha.dhis2mis.org/NamingSystem/SystemID#SYS-c001234 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li><code>https://fhir.hmis.gov.np/NamingSystem/national-id</code>/c1234567890 (use: official, )</li><li><code>https://fhir.hmis.gov.np/NamingSystem/HealthID</code>/c1234567890 (use: official, )</li><li><code>https://tokha.dhis2mis.org/NamingSystem/CustomeID</code>/MD-c98765 (use: secondary, )</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://fhir.hmis.gov.np/CodeSystem/ethnic-code"^^xsd:anyURI ] ;
@@ -30,34 +30,20 @@
   ] ) ; # 
   fhir:identifier ( [
      fhir:use [ fhir:v "official" ] ;
-     fhir:type [
-       fhir:coding ( [
-         fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/national-id"^^xsd:anyURI ]
-       ] ) ;
-       fhir:text [ fhir:v "National ID" ]
-     ] ;
-     fhir:value [ fhir:v "9876543210" ]
+     fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/national-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "c1234567890" ]
   ] [
      fhir:use [ fhir:v "official" ] ;
-     fhir:type [
-       fhir:coding ( [
-         fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/HealthID"^^xsd:anyURI ]
-       ] ) ;
-       fhir:text [ fhir:v "Health ID" ]
-     ] ;
-     fhir:value [ fhir:v "9876543210" ]
+     fhir:system [ fhir:v "https://fhir.hmis.gov.np/NamingSystem/HealthID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "c1234567890" ]
   ] [
      fhir:use [ fhir:v "usual" ] ;
-     fhir:type [
-       fhir:text [ fhir:v "Person System ID" ]
-     ] ;
-     fhir:value [ fhir:v "SYS-005678" ]
+     fhir:system [ fhir:v "https://tokha.dhis2mis.org/NamingSystem/SystemID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "SYS-c001234" ]
   ] [
      fhir:use [ fhir:v "secondary" ] ;
-     fhir:type [
-       fhir:text [ fhir:v "Custom Identifier" ]
-     ] ;
-     fhir:value [ fhir:v "MD-54321" ]
+     fhir:system [ fhir:v "https://tokha.dhis2mis.org/NamingSystem/CustomeID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "MD-c98765" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:name ( [

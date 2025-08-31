@@ -6,7 +6,7 @@
     <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-pregnant</b></p><a name="patient-pregnant"> </a><a name="hcpatient-pregnant"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( Person System ID: SYS-001234 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li>National ID/1234567890 (use: official, )</li><li>Health ID/1234567890 (use: official, )</li><li>Custom Identifier/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li><a href="tel:+9779801234567">+9779801234567</a></li><li><a href="mailto:hiramaya@hmis.com.np">hiramaya@hmis.com.np</a></li><li></li></ul></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-pregnant</b></p><a name="patient-pregnant"> </a><a name="hcpatient-pregnant"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-np-core-patient.html">NP Core Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( https://tokha.dhis2mis.org/NamingSystem/SystemID#SYS-001234 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li><code>https://fhir.hmis.gov.np/NamingSystem/national-id</code>/1234567890 (use: official, )</li><li><code>https://fhir.hmis.gov.np/NamingSystem/HealthID</code>/1234567890 (use: official, )</li><li><code>https://tokha.dhis2mis.org/NamingSystem/CustomeID</code>/MD-98765 (use: secondary, )</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li><a href="tel:+9779801234567">+9779801234567</a></li><li><a href="mailto:hiramaya@hmis.com.np">hiramaya@hmis.com.np</a></li><li></li></ul></td></tr></table></div>
   </text>
   <extension url="http://fhir.hmis.gov.np/CodeSystem/ethnic-code">
     <valueCoding>
@@ -17,36 +17,22 @@
   </extension>
   <identifier>
     <use value="official"/>
-    <type>
-      <coding>
-        <system value="https://fhir.hmis.gov.np/NamingSystem/national-id"/>
-      </coding>
-      <text value="National ID"/>
-    </type>
+    <system value="https://fhir.hmis.gov.np/NamingSystem/national-id"/>
     <value value="1234567890"/>
   </identifier>
   <identifier>
     <use value="official"/>
-    <type>
-      <coding>
-        <system value="https://fhir.hmis.gov.np/NamingSystem/HealthID"/>
-      </coding>
-      <text value="Health ID"/>
-    </type>
+    <system value="https://fhir.hmis.gov.np/NamingSystem/HealthID"/>
     <value value="1234567890"/>
   </identifier>
   <identifier>
     <use value="usual"/>
-    <type>
-      <text value="Person System ID"/>
-    </type>
+    <system value="https://tokha.dhis2mis.org/NamingSystem/SystemID"/>
     <value value="SYS-001234"/>
   </identifier>
   <identifier>
     <use value="secondary"/>
-    <type>
-      <text value="Custom Identifier"/>
-    </type>
+    <system value="https://tokha.dhis2mis.org/NamingSystem/CustomeID"/>
     <value value="MD-98765"/>
   </identifier>
   <active value="true"/>

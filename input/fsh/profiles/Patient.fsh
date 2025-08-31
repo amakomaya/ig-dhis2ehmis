@@ -17,11 +17,11 @@ Description: "The NP Core Patient Profile inherits from the FHIR [Patient](https
 * identifier contains SystemID 0..1
 * identifier contains MasterID 0..1
 
-* identifier[NationalID].use = #official
-* identifier[NationalID].system = "https://mohp.gov.np/health-id"
-* identifier[HealthID].use = #official
-* identifier[HealthID].system = "https://mohp.gov.np/health-id"
-* identifier[MasterID].system = "http://hmis.gov.np/master-id"
+// * identifier[NationalID].use = #official
+// * identifier[NationalID].system = "https://mohp.gov.np/health-id"
+// * identifier[HealthID].use = #official
+// * identifier[HealthID].system = "https://mohp.gov.np/health-id"
+// * identifier[MasterID].system = "http://hmis.gov.np/master-id"
 
 
 * name 1..1

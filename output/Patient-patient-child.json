@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( Person System ID:\u00a0SYS-005678\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>National ID/9876543210\u00a0(use:\u00a0official,\u00a0)</li><li>Health ID/9876543210\u00a0(use:\u00a0official,\u00a0)</li><li>Custom Identifier/MD-54321\u00a0(use:\u00a0secondary,\u00a0)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li></li></ul></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-child</b></p><a name=\"patient-child\"> </a><a name=\"hcpatient-child\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-np-core-patient.html\">NP Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Suman Thapa(official) Male, DoB: 2024-08-10 ( https://tokha.dhis2mis.org/NamingSystem/SystemID#SYS-c001234\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li><code>https://fhir.hmis.gov.np/NamingSystem/national-id</code>/c1234567890\u00a0(use:\u00a0official,\u00a0)</li><li><code>https://fhir.hmis.gov.np/NamingSystem/HealthID</code>/c1234567890\u00a0(use:\u00a0official,\u00a0)</li><li><code>https://tokha.dhis2mis.org/NamingSystem/CustomeID</code>/MD-c98765\u00a0(use:\u00a0secondary,\u00a0)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779801234567\">+9779801234567</a></li><li></li></ul></td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -18,37 +18,23 @@
   }],
   "identifier" : [{
     "use" : "official",
-    "type" : {
-      "coding" : [{
-        "system" : "https://fhir.hmis.gov.np/NamingSystem/national-id"
-      }],
-      "text" : "National ID"
-    },
-    "value" : "9876543210"
+    "system" : "https://fhir.hmis.gov.np/NamingSystem/national-id",
+    "value" : "c1234567890"
   },
   {
     "use" : "official",
-    "type" : {
-      "coding" : [{
-        "system" : "https://fhir.hmis.gov.np/NamingSystem/HealthID"
-      }],
-      "text" : "Health ID"
-    },
-    "value" : "9876543210"
+    "system" : "https://fhir.hmis.gov.np/NamingSystem/HealthID",
+    "value" : "c1234567890"
   },
   {
     "use" : "usual",
-    "type" : {
-      "text" : "Person System ID"
-    },
-    "value" : "SYS-005678"
+    "system" : "https://tokha.dhis2mis.org/NamingSystem/SystemID",
+    "value" : "SYS-c001234"
   },
   {
     "use" : "secondary",
-    "type" : {
-      "text" : "Custom Identifier"
-    },
-    "value" : "MD-54321"
+    "system" : "https://tokha.dhis2mis.org/NamingSystem/CustomeID",
+    "value" : "MD-c98765"
   }],
   "active" : true,
   "name" : [{

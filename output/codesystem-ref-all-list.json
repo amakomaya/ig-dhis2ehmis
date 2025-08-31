@@ -153,18 +153,6 @@
       "http://hl7.org/fhir/R5/valueset-immunization-status.html" : "Immunization Status Codes"
     },
     {
-      "url" : "http://hl7.org/fhir/identifier-use",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "IdentifierUse",
-      "title" : "IdentifierUse",
-      "description" : "Identifies the purpose for this identifier, if known .",
-      "oids" : ["2.16.840.1.113883.4.642.1.58"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R5/valueset-identifier-use.html" : "IdentifierUse"
-    },
-    {
       "url" : "http://hl7.org/fhir/identity-assuranceLevel",
       "version" : "5.0.0",
       "status" : "active",
@@ -425,18 +413,6 @@
       "http://hl7.org/fhir/R5/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
     },
     {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "IdentifierType",
-      "title" : "identifierType",
-      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
-      "oids" : ["2.16.840.1.113883.18.108"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
-    },
-    {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0443",
       "version" : "2.0.0",
       "status" : "active",
@@ -544,8 +520,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes",
-      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
+      "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
+      "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
@@ -625,9 +601,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-province.html" : "Province",
       "ValueSet-district.html" : "District",
-      "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-province.html" : "Province"
+      "ValueSet-localbody.html" : "LocalBody"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
