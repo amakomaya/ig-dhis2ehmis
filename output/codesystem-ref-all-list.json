@@ -446,8 +446,8 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType",
-      "http://terminology.hl7.org/6.5.0/ValueSet-encounter-class.html" : "Encounter class"
+      "http://terminology.hl7.org/6.5.0/ValueSet-encounter-class.html" : "Encounter class",
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
@@ -602,8 +602,8 @@
       "uses" : {
       },
       "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-district.html" : "District"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
@@ -648,8 +648,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     }
   ]
 }

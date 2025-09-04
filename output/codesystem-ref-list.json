@@ -67,8 +67,8 @@
       "uses" : {
       },
       "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-district.html" : "District"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",

@@ -421,6 +421,30 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
+        <reference value="MedicationDispense/medication-dispense-albendazole"/>
+      </reference>
+      <name value="MedicationDispense - Albendazole"/>
+      <description value="Example of albendazole to a pregnant woman according to NP Core MedicationDispense Profile."/>
+      <isExample value="true"/>
+      <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/medication-dispense-calcium"/>
+      </reference>
+      <name value="MedicationDispense - Calcium Dispense"/>
+      <description value="Example of dispensing 30 Calcium to a pregnant woman according to NP Core MedicationDispense Profile."/>
+      <isExample value="true"/>
+      <profile value="https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
         <reference value="MedicationDispense/medication-dispense-iron"/>
       </reference>
       <name value="MedicationDispense - Iron Tablet Dispense"/>

@@ -454,6 +454,32 @@
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
+        "reference" : "MedicationDispense/medication-dispense-albendazole"
+      },
+      "name" : "MedicationDispense - Albendazole",
+      "description" : "Example of albendazole to a pregnant woman according to NP Core MedicationDispense Profile.",
+      "isExample" : true,
+      "profile" : ["https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationDispense"
+      }],
+      "reference" : {
+        "reference" : "MedicationDispense/medication-dispense-calcium"
+      },
+      "name" : "MedicationDispense - Calcium Dispense",
+      "description" : "Example of dispensing 30 Calcium to a pregnant woman according to NP Core MedicationDispense Profile.",
+      "isExample" : true,
+      "profile" : ["https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationDispense"
+      }],
+      "reference" : {
         "reference" : "MedicationDispense/medication-dispense-iron"
       },
       "name" : "MedicationDispense - Iron Tablet Dispense",

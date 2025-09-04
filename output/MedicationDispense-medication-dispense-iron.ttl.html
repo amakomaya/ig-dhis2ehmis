@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.52"}
-    h3,h4,h5,h6{--heading-prefix:"17.52"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.54"}
+    h3,h4,h5,h6{--heading-prefix:"17.54"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -259,6 +259,7 @@
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix sct: &lt;http://snomed.info/id/&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
@@ -273,13 +274,16 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R5/medicationdispense.html#MedicationDispense.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "generated" ] ;
-fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: MedicationDispense medication-dispense-iron&lt;/b&gt;&lt;/p&gt;&lt;a name=\"medication-dispense-iron\"&gt; &lt;/a&gt;&lt;a name=\"hcmedication-dispense-iron\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"/&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"StructureDefinition-np-core-medication-dispense.html\"&gt;NP Core Medication Dispense Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;h3&gt;Medications&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\"Codes:\"&gt;IRON60&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\"Patient-patient-pregnant.html\"&gt;Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( https://tokha.dhis2mis.org/NamingSystem/SystemID#SYS-001234&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 60 tablet&lt;span style=\"background: LightGoldenRodYellow\"&gt; (Details: UCUM  codetbl = 'tbl')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;recorded&lt;/b&gt;: 2025-08-29&lt;/p&gt;&lt;/div&gt;"^^rdf:XMLLiteral
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: MedicationDispense medication-dispense-iron&lt;/b&gt;&lt;/p&gt;&lt;a name=\"medication-dispense-iron\"&gt; &lt;/a&gt;&lt;a name=\"hcmedication-dispense-iron\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"/&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profile: &lt;a href=\"StructureDefinition-np-core-medication-dispense.html\"&gt;NP Core Medication Dispense Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;h3&gt;Medications&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"display: none\"&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\"Codes:{http://snomed.info/sct 438641000124100}\"&gt;IRON supplement (substance)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\"Patient-patient-pregnant.html\"&gt;Hiramaya Tamang(official) Female, DoB: 2001-05-15 ( https://tokha.dhis2mis.org/NamingSystem/SystemID#SYS-001234&nbsp;(use:&nbsp;usual,&nbsp;))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 60 tablet&lt;span style=\"background: LightGoldenRodYellow\"&gt; (Details: UCUM  codetbl = 'tbl')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;recorded&lt;/b&gt;: 2025-08-29&lt;/p&gt;&lt;/div&gt;"^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R5/medicationdispense.html#MedicationDispense.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "completed"] ; # 
   <a href="http://hl7.org/fhir/R5/medicationdispense.html#MedicationDispense.medication">fhir:medication</a> [
 <a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">fhir:concept</a> [
       ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "IRON60" ]       ] )     ]
+a sct:438641000124100 ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> "438641000124100" ] ;
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "IRON supplement (substance)" ]       ] )     ]
   ] ; # 
   <a href="http://hl7.org/fhir/R5/medicationdispense.html#MedicationDispense.subject">fhir:subject</a> [
 <a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> "Patient/patient-pregnant" ]
@@ -317,9 +321,9 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Aug 31, 2025 08:05+0545">2025-08-31</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 17:52+0545">2025-09-04</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l564">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l576">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

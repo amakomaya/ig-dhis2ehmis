@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EthnicCodeVS"] ; # 
   fhir:title [ fhir:v "Ethnic Code"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-31T08:04:43+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-04T17:51:26+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

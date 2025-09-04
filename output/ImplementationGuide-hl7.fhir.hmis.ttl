@@ -607,6 +607,44 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/MedicationDispense/medication-dispense-albendazole> ;
+         fhir:reference [ fhir:v "MedicationDispense/medication-dispense-albendazole" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationDispense - Albendazole" ] ;
+       fhir:description [ fhir:v "Example of albendazole to a pregnant woman according to NP Core MedicationDispense Profile." ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/MedicationDispense/medication-dispense-calcium> ;
+         fhir:reference [ fhir:v "MedicationDispense/medication-dispense-calcium" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationDispense - Calcium Dispense" ] ;
+       fhir:description [ fhir:v "Example of dispensing 30 Calcium to a pregnant woman according to NP Core MedicationDispense Profile." ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense"^^xsd:anyURI ;
+         fhir:link <https://fhir.hmis.gov.np/StructureDefinition/np-core-medication-dispense>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://fhir.hmis.gov.np/MedicationDispense/medication-dispense-iron> ;
          fhir:reference [ fhir:v "MedicationDispense/medication-dispense-iron" ]
        ] ;
