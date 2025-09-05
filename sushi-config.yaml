@@ -42,6 +42,8 @@ pages:
     title: Code Systems
   valuesets.md:
     title: Value Sets
+  conceptmaps.md:
+    title: Concept Maps
   indicators.md:
     title: Indicators
   identifiers.md:
@@ -74,6 +76,7 @@ menu:
   Extensions and Profiles : profiles.html
   Code Systems: codesystems.html
   Value Set: valuesets.html
+  Concept Maps:  conceptmaps.html
   Indicators: indicators.html
   Identifier Systems: identifiers.html
   External Code Systems: external_terminologies.html

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Yes / No CodeSystem - JSON Representation - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
+    <title>HL7 Administrative Gender to SNOMED CT - JSON Representation - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.33"}
-    h3,h4,h5,h6{--heading-prefix:"17.33"}</style>
+    <style type="text/css">h2{--heading-prefix:"18.38"}
+    h3,h4,h5,h6{--heading-prefix:"18.38"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -80,6 +80,9 @@
   </li>
   <li>
     <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="conceptmaps.html">Concept Maps</a>
   </li>
   <li>
     <a href="indicators.html">Indicators</a>
@@ -185,7 +188,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Yes / No CodeSystem</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>HL7 Administrative Gender to SNOMED CT</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -211,14 +214,14 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CodeSystem-yes-no.html">Narrative Content</a>
+    <a href="ConceptMap-GenderHL7ToSNOMED.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="CodeSystem-yes-no.xml.html">XML</a>
+      <a href="ConceptMap-GenderHL7ToSNOMED.xml.html">XML</a>
     </li>
   
 
@@ -232,7 +235,7 @@
 
   
     <li>
-      <a href="CodeSystem-yes-no.ttl.html">TTL</a>
+      <a href="ConceptMap-GenderHL7ToSNOMED.ttl.html">TTL</a>
     </li>
   
 
@@ -244,14 +247,14 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Yes / No CodeSystem - JSON Representation</h2>
+<h2 id="root">: HL7 Administrative Gender to SNOMED CT - JSON Representation</h2>
 
-  <table class="colsi">
+  <table class="colsd">
     <tr>
 
       <td colspan="2">
         
-          Active
+          Draft
           
             as of 2025-09-04
           
@@ -262,7 +265,7 @@
   </table>
 
 
-<p><a href="CodeSystem-yes-no.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-yes-no.json">Download</a></p>
+<p><a href="ConceptMap-GenderHL7ToSNOMED.json" no-download="true">Raw json</a> | <a download="null" href="ConceptMap-GenderHL7ToSNOMED.json">Download</a></p>
 
     <!-- insert intro if present -->
   
@@ -270,20 +273,19 @@
 
 
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="json"><code style="white-space: pre; text-wrap: nowrap;" class="language-json">{
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.id">id</a>" : "yes-no",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.text">text</a>" : {
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap">resourceType</a>" : "ConceptMap",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.id">id</a>" : "GenderHL7ToSNOMED",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: CodeSystem yes-no&lt;/b&gt;&lt;/p&gt;&lt;a name=\"yes-no\"&gt; &lt;/a&gt;&lt;a name=\"hcyes-no\"&gt; &lt;/a&gt;&lt;p&gt;This  code system &lt;code&gt;https://fhir.hmis.gov.np/CodeSystem/yes-no&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;English (English, en)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;yes&lt;a name=\"yes-no-yes\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;हो&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;no&lt;a name=\"yes-no-no\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;होइन&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;1&lt;a name=\"yes-no-1\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;हो&lt;/td&gt;&lt;td&gt;Yes (numeric)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;0&lt;a name=\"yes-no-0\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;होइन&lt;/td&gt;&lt;td&gt;No (numeric)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ConceptMap GenderHL7ToSNOMED&lt;/b&gt;&lt;/p&gt;&lt;a name=\"GenderHL7ToSNOMED\"&gt; &lt;/a&gt;&lt;a name=\"hcGenderHL7ToSNOMED\"&gt; &lt;/a&gt;&lt;p&gt;Mapping from (not specified) to (not specified)&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;code&gt;http://terminology.hl7.org/CodeSystem/administrative-gender&lt;/code&gt; to &lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-snomed-CT.html\"&gt;SNOMED\u00a0CT International Edition&lt;/a&gt;&lt;/p&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;male&lt;/td&gt;&lt;td&gt;&lt;a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\"&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;248153007 (Male)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;female&lt;/td&gt;&lt;td&gt;&lt;a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\"&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;248152002 (Female)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;other&lt;/td&gt;&lt;td&gt;&lt;a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\"&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;446151000124106 (Other)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unknown&lt;/td&gt;&lt;td&gt;&lt;a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\"&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;261665006 (Unknown)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.url">url</a>" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.version">version</a>" : "0.0.1-ballot",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.name">name</a>" : "YesNoCS",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.title">title</a>" : "Yes / No CodeSystem",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.date">date</a>" : "2025-09-04T17:51:26+05:45",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.publisher">publisher</a>" : "Integrated Health Information Management Section",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.url">url</a>" : "https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.version">version</a>" : "0.0.1-ballot",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.title">title</a>" : "HL7 Administrative Gender to SNOMED CT",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.date">date</a>" : "2025-09-04T23:57:58+05:45",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.publisher">publisher</a>" : "Integrated Health Information Management Section",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.contact">contact</a>" : [
     {
       "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Integrated Health Information Management Section",
       "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
@@ -315,8 +317,8 @@
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.description">description</a>" : "For representing Yes and No values in Nepali.",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.description">description</a>" : "Maps HL7 Administrative Gender codes to SNOMED CT concepts.",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>" : [
     {
       "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
         {
@@ -326,47 +328,51 @@
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.copyright">copyright</a>" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.count">count</a>" : 4,
-  "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>" : [
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.copyright">copyright</a>" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group">group</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "yes",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "हो",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+      "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.source">source</a>" : "http://terminology.hl7.org/CodeSystem/administrative-gender",
+      "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.target">target</a>" : "http://snomed.info/sct",
+      "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element">element</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Yes"
-        }
-      ]
-    },
-    {
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "no",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "होइन",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.code">code</a>" : "male",
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "248153007",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Male",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.relationship">relationship</a>" : "equivalent"
+            }
+          ]
+        },
         {
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "No"
-        }
-      ]
-    },
-    {
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "1",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "हो",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.code">code</a>" : "female",
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "248152002",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Female",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.relationship">relationship</a>" : "equivalent"
+            }
+          ]
+        },
         {
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Yes (numeric)"
-        }
-      ]
-    },
-    {
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a>" : "0",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a>" : "होइन",
-      "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.code">code</a>" : "other",
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "446151000124106",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Other",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.relationship">relationship</a>" : "equivalent"
+            }
+          ]
+        },
         {
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
-          "<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "No (numeric)"
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.code">code</a>" : "unknown",
+          "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "261665006",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unknown",
+              "<a href="http://hl7.org/fhir/R5/conceptmap.html#ConceptMap.group.element.target.relationship">relationship</a>" : "equivalent"
+            }
+          ]
         }
       ]
     }
@@ -395,9 +401,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 17:52+0545">2025-09-04</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 23:58+0545">2025-09-04</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l648">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l654">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

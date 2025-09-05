@@ -131,6 +131,21 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/ValueSet/nutritional-status> ;
+         fhir:reference [ fhir:v "ValueSet/nutritional-status" ]
+       ] ;
+       fhir:name [ fhir:v "Child Nutritional Status (SNOMED CT)" ] ;
+       fhir:description [ fhir:v "Values representing a child's nutritional status" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://fhir.hmis.gov.np/ValueSet/condition-severity> ;
          fhir:reference [ fhir:v "ValueSet/condition-severity" ]
        ] ;
@@ -320,6 +335,21 @@
        ] ;
        fhir:name [ fhir:v "Free Service Eligibility" ] ;
        fhir:description [ fhir:v "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED> ;
+         fhir:reference [ fhir:v "ConceptMap/GenderHL7ToSNOMED" ]
+       ] ;
+       fhir:name [ fhir:v "HL7 Administrative Gender to SNOMED CT" ] ;
+       fhir:description [ fhir:v "Maps HL7 Administrative Gender codes to SNOMED CT concepts." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -817,8 +847,8 @@
          fhir:link <http://fhir.hmis.gov.np/ValueSet/option-set-yes-no> ;
          fhir:reference [ fhir:v "ValueSet/option-set-yes-no" ]
        ] ;
-       fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative" ] ;
-       fhir:description [ fhir:v "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)" ] ;
+       fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable" ] ;
+       fhir:description [ fhir:v "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -972,21 +1002,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/CodeSystem/yes-no> ;
-         fhir:reference [ fhir:v "CodeSystem/yes-no" ]
-       ] ;
-       fhir:name [ fhir:v "Yes / No CodeSystem" ] ;
-       fhir:description [ fhir:v "For representing Yes and No values in Nepali." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://fhir.hmis.gov.np/CodeSystem/free-cost> ;
          fhir:reference [ fhir:v "CodeSystem/free-cost" ]
        ] ;
@@ -1056,6 +1071,14 @@
          ] ;
          fhir:name [ fhir:v "valuesets.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Value Sets" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "conceptmaps.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "conceptmaps.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Concept Maps" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [

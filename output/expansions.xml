@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6728710e-4fb3-4d6f-9127-fa42542d04a7"/>
+  <id value="deb40534-0210-496a-9fd8-d8c464f0ef3e"/>
   <meta>
-    <lastUpdated value="2025-09-04T17:52:08.105+05:45"/>
+    <lastUpdated value="2025-09-04T23:58:34.844+05:45"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -77,7 +77,7 @@
         <name value="AdministrativeGenderVS"/>
         <title value="Administrative Gender"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -85,8 +85,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b0b2b0c8-5522-48a4-b524-3c0ecb8abde7"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:0fa0637c-0327-4357-be76-1b1ef53dea68"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -506,7 +506,7 @@
         <name value="AgeRangeVS"/>
         <title value="Age Range"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -514,8 +514,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:28b5c2b1-060a-4613-80c6-00a8260ae259"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:fea3960c-86e8-4de4-9786-94a64834293c"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="38"/>
           <offset value="0"/>
           <parameter>
@@ -8758,7 +8758,7 @@
         <name value="ConditionCodeVS"/>
         <title value="Condition/Problem/Diagnosis codes"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8769,8 +8769,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:7fea74de-82f7-46f1-963f-6ae159ce49df"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:ab19918b-2cb2-4e68-9bca-12774f252256"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -13855,7 +13855,7 @@
         <title value="Condition / Diagnosis Severity"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13863,8 +13863,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dd70e3db-0ced-49a0-8fa9-f3c982fe90db"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:e100d4a0-c174-41d3-8602-7effaf35f211"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -14558,7 +14558,7 @@
         <name value="DistrictVS"/>
         <title value="District"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14566,8 +14566,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:11f9af17-b26c-422d-aaec-82df0206c572"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:ae30dd86-137b-4763-888b-e4ced0317b64"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="77"/>
           <offset value="0"/>
           <parameter>
@@ -15958,7 +15958,7 @@
         <title value="Educational Level"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15969,8 +15969,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:8b83eeee-2070-4d5d-bb74-dab8d8af4ad4"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:aa17d9ef-8ad5-4d44-b7bf-6b93cdd1a632"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -16641,7 +16641,7 @@
         <name value="EmploymentStatusVS"/>
         <title value="Employment (रोजगारी स्थिति)"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16649,8 +16649,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7284110c-e376-41ea-94b0-1a4b69544636"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:11c95c63-bb30-45ff-8b97-2ae55ff2eb27"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -16771,7 +16771,7 @@
         <name value="EthnicCodeVS"/>
         <title value="Ethnic Code"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16779,8 +16779,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:75e7e832-e97f-43fa-aa29-aee2e84b858f"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:95b80e36-c4b4-4268-9177-7bf54216a4de"/>
+          <timestamp value="2025-09-04T23:59:18+05:45"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -16881,7 +16881,7 @@
         <name value="FreeCostVS"/>
         <title value="Free Cost"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16889,8 +16889,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9283445c-59c5-46a9-a224-9fcc35050a16"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:554b00bb-a442-468d-b865-29f688f6848a"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -17003,7 +17003,7 @@
         <name value="FreeServiceEligibilityVS"/>
         <title value="Free Service Eligibility"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17011,8 +17011,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5caed7f3-ebba-4db9-9926-dcb359ca4e6a"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:7d6a7594-6599-4755-a312-4719920e603d"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -23121,7 +23121,7 @@
         <name value="LocalBodyVS"/>
         <title value="LocalBody"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -23129,8 +23129,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9f687098-66a4-41df-87ad-2abb58035236"/>
-          <timestamp value="2025-09-04T17:53:00+05:45"/>
+          <identifier value="urn:uuid:c47d4c44-bf86-475c-87e8-0d70ee04f6be"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="753"/>
           <offset value="0"/>
           <parameter>
@@ -26988,7 +26988,7 @@
         <name value="MaritalStatusVS"/>
         <title value="Marital Status (वैवाहिक स्थिति)"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -26996,8 +26996,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b5a88535-1af5-412c-bc09-5ad441334934"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:a4ff33a8-0d00-459f-8840-c0e190593ac9"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -35083,7 +35083,7 @@
         <name value="MedicationVS"/>
         <title value="Dietary Supplements (SNOMED)"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -35094,8 +35094,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:ba39506b-e4cf-4de1-adfd-2237bc19415a"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:80420f33-877b-4ae1-af89-17391f839797"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -40126,26 +40126,15 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
+    <fullUrl value="https://fhir.hmis.gov.np/ValueSet/nutritional-status"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion from tx.fhir.org based on:</p>
-              <ul>
-                <li>SNOMED CT International edition 01-Feb 2025</li>
-                <li>
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a>
-                </li>
-                <li>
-                  <a href="CodeSystem-yes-no.html">codesystem Yes / No CodeSystem v0.0.1-ballot (CodeSystem)</a>
-                </li>
-              </ul>
-            </div>
-            <p>This value set contains 14 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -40157,146 +40146,32 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-373066001"> </a>  
-                  <a href="http://snomed.info/id/373066001">373066001</a>
+                  <a name="x-http://snomed.info/sct-190602008"> </a>  
+                  <a href="http://snomed.info/id/190602008">190602008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Yes (qualifier value)</td>
-                <td/>
+                <td>Moderate protein-calorie malnutrition (weight for age 60-74% of standard)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-373067005"> </a>  
-                  <a href="http://snomed.info/id/373067005">373067005</a>
+                  <a name="x-http://snomed.info/sct-190603003"> </a>  
+                  <a href="http://snomed.info/id/190603003">190603003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>No (qualifier value)</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-373068000"> </a>  
-                  <a href="http://snomed.info/id/373068000">373068000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Undetermined (qualifier value)</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-373069008"> </a>  
-                  <a href="http://snomed.info/id/373069008">373069008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Not applicable</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-10828004"> </a>  
-                  <a href="http://snomed.info/id/10828004">10828004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Positive</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-260385009"> </a>  
-                  <a href="http://snomed.info/id/260385009">260385009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Negative</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-https://fhir.hmis.gov.np/CodeSystem/yes-no-yes"> </a>  
-                  <a href="CodeSystem-yes-no.html#yes-no-yes">yes</a>
-                </td>
-                <td>https://fhir.hmis.gov.np/CodeSystem/yes-no</td>
-                <td>Yes</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-https://fhir.hmis.gov.np/CodeSystem/yes-no-no"> </a>  
-                  <a href="CodeSystem-yes-no.html#yes-no-no">no</a>
-                </td>
-                <td>https://fhir.hmis.gov.np/CodeSystem/yes-no</td>
-                <td>No</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-https://fhir.hmis.gov.np/CodeSystem/yes-no-1"> </a>  
-                  <a href="CodeSystem-yes-no.html#yes-no-1">1</a>
-                </td>
-                <td>https://fhir.hmis.gov.np/CodeSystem/yes-no</td>
-                <td>Yes</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-https://fhir.hmis.gov.np/CodeSystem/yes-no-0"> </a>  
-                  <a href="CodeSystem-yes-no.html#yes-no-0">0</a>
-                </td>
-                <td>https://fhir.hmis.gov.np/CodeSystem/yes-no</td>
-                <td>No</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-Y"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-N"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>Unknown</td>
-                <td>unknown</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NA"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>Not applicable</td>
-                <td>not applicable</td>
+                <td>Mild protein-calorie malnutrition (weight for age 75-89% of standard)</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
+        <url value="https://fhir.hmis.gov.np/ValueSet/nutritional-status"/>
         <version value="0.0.1-ballot"/>
-        <name value="OptionSetYesNoVS"/>
-        <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
+        <name value="NutritionalStatusVS"/>
+        <title value="Child Nutritional Status (SNOMED CT)"/>
         <status value="active"/>
-        <experimental value="false"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40304,9 +40179,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2c29a7e9-2784-45b0-97b8-844389acf1ee"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
-          <total value="14"/>
+          <identifier value="urn:uuid:55f349b4-b9f1-4fa0-98c5-2818520a117d"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <total value="2"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -40332,64 +40207,165 @@
             <name value="version"/>
             <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
           </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190602008"/>
+            <display value="Moderate protein-calorie malnutrition (weight for age 60-74% of standard)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190603003"/>
+            <display value="Mild protein-calorie malnutrition (weight for age 75-89% of standard)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-Y"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-N"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NI"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NI">NI</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>No Information</td>
+                <td>No Information</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NA"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not applicable</td>
+                <td>not applicable</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>unknown</td>
+                <td>unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NASK"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NASK">NASK</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not asked</td>
+                <td>not asked</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-ASKU"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-ASKU">ASKU</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>asked but unknown</td>
+                <td>asked but unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NAV"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NAV">NAV</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>temporarily unavailable</td>
+                <td>temporarily unavailable</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NP"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NP">NP</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not present</td>
+                <td>not present</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
+        <version value="0.0.1-ballot"/>
+        <name value="OptionSetYesNoVS"/>
+        <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:57e7f393-5a19-429f-8019-6242c93a81c7"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <total value="9"/>
+          <offset value="0"/>
           <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="https://fhir.hmis.gov.np/CodeSystem/yes-no|0.0.1-ballot"/>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"/>
           </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="373066001"/>
-            <display value="Yes (qualifier value)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="373067005"/>
-            <display value="No (qualifier value)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="373068000"/>
-            <display value="Undetermined (qualifier value)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="373069008"/>
-            <display value="Not applicable"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="10828004"/>
-            <display value="Positive"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="260385009"/>
-            <display value="Negative"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-            <code value="yes"/>
-            <display value="Yes"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-            <code value="no"/>
-            <display value="No"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-            <code value="1"/>
-            <display value="Yes"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-            <code value="0"/>
-            <display value="No"/>
-          </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
             <code value="Y"/>
@@ -40402,13 +40378,38 @@
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="UNK"/>
-            <display value="Unknown"/>
+            <code value="NI"/>
+            <display value="No Information"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
             <code value="NA"/>
-            <display value="Not applicable"/>
+            <display value="not applicable"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="UNK"/>
+            <display value="unknown"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NASK"/>
+            <display value="not asked"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="ASKU"/>
+            <display value="asked but unknown"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NAV"/>
+            <display value="temporarily unavailable"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NP"/>
+            <display value="not present"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -40468,7 +40469,7 @@
         <name value="PatientRegistrationTypeVS"/>
         <title value="Patient Registration Type"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40476,8 +40477,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e6009dcd-df4e-4ccb-8d15-98b370ee6fc8"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:48f72fc2-3a55-45e0-acc9-52d91832cba5"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -40611,7 +40612,7 @@
         <name value="ProvinceVS"/>
         <title value="Province"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40619,8 +40620,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e8214d7b-d9e9-4b18-bf8f-a165f645a1bb"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:d86aad16-2f3f-4ba2-83d8-06bc9dff0dad"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -40724,7 +40725,7 @@
         <name value="ServiceAreaAddressVS"/>
         <title value="Service Area Address Classification"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40732,8 +40733,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:75573912-1362-4d1e-88bd-64b562073517"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:561f766c-553a-4228-9e46-c1788403302f"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -43581,7 +43582,7 @@
         <title value="Service Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -43592,8 +43593,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:15ecdd9a-45f8-4f86-8c59-ea2bf0bd830e"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:6c77aa27-1841-4b76-8d38-e4089a03c5b9"/>
+          <timestamp value="2025-09-04T23:59:19+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -47191,7 +47192,7 @@
         <name value="VaccineVS"/>
         <title value="Vaccines (SNOMED CT)"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -47202,8 +47203,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:e3d58a1f-8afa-47c3-bb2e-8f13d8949c61"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:fbe0c713-1c21-4e0c-8a74-7045357c3385"/>
+          <timestamp value="2025-09-04T23:59:20+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -48444,7 +48445,7 @@
         <name value="VisitOrdinalVS"/>
         <title value="Patient Visit Ordinal"/>
         <status value="active"/>
-        <date value="2025-09-04T17:51:26+05:45"/>
+        <date value="2025-09-04T23:57:58+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -48455,8 +48456,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:5bc66b51-0aae-4ad7-a1e9-05342b94a3a9"/>
-          <timestamp value="2025-09-04T17:53:01+05:45"/>
+          <identifier value="urn:uuid:6766fbbb-ebc2-4ca1-ae0e-8490c46b711f"/>
+          <timestamp value="2025-09-04T23:59:20+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>

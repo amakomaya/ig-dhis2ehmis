@@ -56,11 +56,10 @@
     "name" : "ServiceTypeCS"
   },
   {
-    "id" : "yes-no",
-    "type" : "CodeSystem",
-    "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-    "version" : "0.0.1-ballot",
-    "name" : "YesNoCS"
+    "id" : "GenderHL7ToSNOMED",
+    "type" : "ConceptMap",
+    "url" : "https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED",
+    "version" : "0.0.1-ballot"
   },
   {
     "id" : "HealthID",
@@ -215,6 +214,13 @@
     "url" : "https://fhir.hmis.gov.np/ValueSet/medication",
     "version" : "0.0.1-ballot",
     "name" : "MedicationVS"
+  },
+  {
+    "id" : "nutritional-status",
+    "type" : "ValueSet",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/nutritional-status",
+    "version" : "0.0.1-ballot",
+    "name" : "NutritionalStatusVS"
   },
   {
     "id" : "option-set-yes-no",

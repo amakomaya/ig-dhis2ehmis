@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="option-set-yes-no"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet option-set-yes-no</b></p><a name="option-set-yes-no"> </a><a name="hcoption-set-yes-no"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href="http://snomed.info/id/373066001">373066001</a></td><td>Yes</td><td>गराएको</td></tr><tr><td><a href="http://snomed.info/id/373067005">373067005</a></td><td>No</td><td>नगराएको</td></tr><tr><td><a href="http://snomed.info/id/373068000">373068000</a></td><td>Don't know</td><td/></tr><tr><td><a href="http://snomed.info/id/373069008">373069008</a></td><td>Not applicable</td><td/></tr><tr><td><a href="http://snomed.info/id/10828004">10828004</a></td><td>Positive</td><td/></tr><tr><td><a href="http://snomed.info/id/260385009">260385009</a></td><td>Negative</td><td/></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-yes-no.html"><code>https://fhir.hmis.gov.np/CodeSystem/yes-no</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href="CodeSystem-yes-no.html#yes-no-yes">yes</a></td><td>Yes</td><td>गराएको</td></tr><tr><td><a href="CodeSystem-yes-no.html#yes-no-no">no</a></td><td>No</td><td>नगराएको</td></tr><tr><td><a href="CodeSystem-yes-no.html#yes-no-1">1</a></td><td>Yes</td><td/></tr><tr><td><a href="CodeSystem-yes-no.html#yes-no-0">0</a></td><td>No</td><td/></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>ne</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a></td><td>Yes</td><td>Yes</td><td>गराएको</td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a></td><td>No</td><td>No</td><td>नगराएको</td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a></td><td>Unknown</td><td>unknown</td><td/></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a></td><td>Not applicable</td><td>not applicable</td><td/></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-yes-no.html"><code>https://fhir.hmis.gov.np/CodeSystem/yes-no</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>ne</b></td></tr><tr><td><a href="CodeSystem-yes-no.html#yes-no-yes">yes</a></td><td>Yes only</td><td>हो</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet option-set-yes-no</b></p><a name="option-set-yes-no"> </a><a name="hcoption-set-yes-no"> </a><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></li></ul></div>
   </text>
   <url value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
   <version value="0.0.1-ballot"/>
   <name value="OptionSetYesNoVS"/>
-  <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
+  <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-04T17:51:26+05:45"/>
+  <date value="2025-09-04T23:57:58+05:45"/>
   <publisher value="Integrated Health Information Management Section"/>
   <contact>
     <name value="Integrated Health Information Management Section"/>
@@ -39,7 +39,7 @@
       <value value="+977-9851341921"/>
     </telecom>
   </contact>
-  <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, &#xA;हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)"/>
+  <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको&#xA;&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)&#xA;&#xA;| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |&#xA;|-----------------|----------------|--------------------|-----------------------------------------------------|&#xA;| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |&#xA;| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |&#xA;"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -49,128 +49,7 @@
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
   <compose>
     <include>
-      <system value="http://snomed.info/sct"/>
-      <concept>
-        <code value="373066001"/>
-        <display value="Yes"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="हो"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="गराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="373067005"/>
-        <display value="No"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="होइन"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="नगराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="373068000"/>
-        <display value="Don't know"/>
-      </concept>
-      <concept>
-        <code value="373069008"/>
-        <display value="Not applicable"/>
-      </concept>
-      <concept>
-        <code value="10828004"/>
-        <display value="Positive"/>
-      </concept>
-      <concept>
-        <code value="260385009"/>
-        <display value="Negative"/>
-      </concept>
-    </include>
-    <include>
-      <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-      <concept>
-        <code value="yes"/>
-        <display value="Yes"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="हो"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="गराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="no"/>
-        <display value="No"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="होइन"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="नगराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="1"/>
-        <display value="Yes"/>
-      </concept>
-      <concept>
-        <code value="0"/>
-        <display value="No"/>
-      </concept>
-    </include>
-    <include>
       <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-      <concept>
-        <code value="Y"/>
-        <display value="Yes"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="हो"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="गराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="N"/>
-        <display value="No"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="होइन"/>
-        </designation>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="नगराएको"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="UNK"/>
-        <display value="Unknown"/>
-      </concept>
-      <concept>
-        <code value="NA"/>
-        <display value="Not applicable"/>
-      </concept>
-    </include>
-    <include>
-      <system value="https://fhir.hmis.gov.np/CodeSystem/yes-no"/>
-      <concept>
-        <code value="yes"/>
-        <display value="Yes only"/>
-        <designation>
-          <language value="ne-NP"/>
-          <value value="हो"/>
-        </designation>
-      </concept>
     </include>
   </compose>
 </ValueSet>

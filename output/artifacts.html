@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17"}
-    h3,h4,h5,h6{--heading-prefix:"17.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"18"}
+    h3,h4,h5,h6{--heading-prefix:"18.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -80,6 +80,9 @@
   </li>
   <li>
     <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="conceptmaps.html">Concept Maps</a>
   </li>
   <li>
     <a href="indicators.html">Indicators</a>
@@ -229,7 +232,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#5">Terminology: Naming Systems</a>
       </li>
       <li>
-         <a href="#6">Example: Example Instances</a>
+         <a href="#6">Terminology: Concept Maps</a>
+      </li>
+      <li>
+         <a href="#7">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -331,6 +337,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-nutritional-status.html" title="ValueSet/nutritional-status">Child Nutritional Status (SNOMED CT)</a>
+            </td>
+            <td>
+<p>Values representing a child's nutritional status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-condition-severity.html" title="ValueSet/condition-severity">Condition / Diagnosis Severity</a>
             </td>
             <td>
@@ -419,12 +433,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-option-set-yes-no.html" title="ValueSet/option-set-yes-no">Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative</a>
+               <a href="ValueSet-option-set-yes-no.html" title="ValueSet/option-set-yes-no">Option Set - Yes / No / Yes-only / Don't know / Not applicable</a>
             </td>
             <td>
-<p>Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, 
-हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको
-Used for:</p>
+<p>Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको</p>
+
+<p>Used for:</p>
 <ul>
   <li>Presumptive TB Case (सम्भावित क्षयरोग विरामी)</li>
   <li>Gender Based Violence (लैंगिक हिंसा)</li>
@@ -437,6 +451,31 @@ Used for:</p>
   <li>Condom Use</li>
   <li>Lab test results (Positive/Negative)</li>
 </ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>HL7 v2-0532 Code</th>
+      <th>SNOMED CT Code</th>
+      <th>English Meaning</th>
+      <th>Nepali Variants</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Y</td>
+      <td>373066001</td>
+      <td>Yes / Affirmative</td>
+      <td>हो / गराएको / लिएको / भएको / पाएको</td>
+    </tr>
+    <tr>
+      <td>N</td>
+      <td>373067005</td>
+      <td>No / Negative</td>
+      <td>होइन / नगराएको / नलिएको / नभएको / नपाएको</td>
+    </tr>
+  </tbody>
+</table>
 </td>
          </tr>
          <tr>
@@ -550,14 +589,6 @@ S is the second designator that follows the value for the number of seconds.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-yes-no.html" title="CodeSystem/yes-no">Yes / No CodeSystem</a>
-            </td>
-            <td>
-<p>For representing Yes and No values in Nepali.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="CodeSystem-free-cost.html" title="CodeSystem/free-cost">निशुल्क/शुल्क रू</a>
             </td>
             <td>
@@ -599,6 +630,22 @@ S is the second designator that follows the value for the number of seconds.</p>
       </tbody>
    </table>
    <a name="6"> </a>
+   <h3>Terminology: Concept Maps </h3>
+    <p>These define transformations to convert between codes by systems conforming with this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ConceptMap-GenderHL7ToSNOMED.html" title="ConceptMap/GenderHL7ToSNOMED">HL7 Administrative Gender to SNOMED CT</a>
+            </td>
+            <td>
+<p>Maps HL7 Administrative Gender codes to SNOMED CT concepts.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="7"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -776,9 +823,9 @@ S is the second designator that follows the value for the number of seconds.</p>
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 17:52+0545">2025-09-04</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 23:58+0545">2025-09-04</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l1470">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1571">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

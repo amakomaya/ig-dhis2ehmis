@@ -22,7 +22,7 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"
+      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -66,9 +66,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
-      "ValueSet-province.html" : "Province",
       "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-district.html" : "District"
+      "ValueSet-district.html" : "District",
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
@@ -91,17 +91,6 @@
       "uses" : {
       },
       "ValueSet-service-type.html" : "Service Type"
-    },
-    {
-      "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-      "version" : "0.0.1-ballot",
-      "status" : "active",
-      "name" : "YesNoCS",
-      "title" : "Yes / No CodeSystem",
-      "description" : "For representing Yes and No values in Nepali.",
-      "uses" : {
-      },
-      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"
     }
   ]
 }

@@ -55,14 +55,6 @@
       "name" : "ServiceTypeCS",
       "title" : "सेवाको किसिम कोड सिस्टम",
       "description" : "स्वास्थ्य सेवाका विभिन्न किसिमहरूको कोड सूची"
-    },
-    {
-      "url" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-      "version" : "0.0.1-ballot",
-      "status" : "active",
-      "name" : "YesNoCS",
-      "title" : "Yes / No CodeSystem",
-      "description" : "For representing Yes and No values in Nepali."
     }
   ]
 }

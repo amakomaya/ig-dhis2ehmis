@@ -104,6 +104,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/nutritional-status"
+      },
+      "name" : "Child Nutritional Status (SNOMED CT)",
+      "description" : "Values representing a child's nutritional status",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/condition-severity"
       },
       "name" : "Condition / Diagnosis Severity",
@@ -253,6 +265,18 @@
       },
       "name" : "Free Service Eligibility",
       "description" : "Categories of individuals eligible for free health services (निशुल्क सेवा कोड)",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/GenderHL7ToSNOMED"
+      },
+      "name" : "HL7 Administrative Gender to SNOMED CT",
+      "description" : "Maps HL7 Administrative Gender codes to SNOMED CT concepts.",
       "isExample" : false
     },
     {
@@ -615,8 +639,8 @@
       "reference" : {
         "reference" : "ValueSet/option-set-yes-no"
       },
-      "name" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative",
-      "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)",
+      "name" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
+      "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |",
       "isExample" : false
     },
     {
@@ -735,18 +759,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/yes-no"
-      },
-      "name" : "Yes / No CodeSystem",
-      "description" : "For representing Yes and No values in Nepali.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/free-cost"
       },
       "name" : "निशुल्क/शुल्क रू",
@@ -798,6 +810,12 @@
         "sourceUrl" : "valuesets.html",
         "name" : "valuesets.html",
         "title" : "Value Sets",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "conceptmaps.html",
+        "name" : "conceptmaps.html",
+        "title" : "Concept Maps",
         "generation" : "markdown"
       },
       {

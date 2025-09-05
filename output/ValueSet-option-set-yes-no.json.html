@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative - JSON Representation - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
+    <title>Option Set - Yes / No / Yes-only / Don't know / Not applicable - JSON Representation - Nepal HMIS FHIR Implementation Guide – &#x1F6A8; DRAFT VERSION v0.0.1-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"17.21"}
-    h3,h4,h5,h6{--heading-prefix:"17.21"}</style>
+    <style type="text/css">h2{--heading-prefix:"18.22"}
+    h3,h4,h5,h6{--heading-prefix:"18.22"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
 
       <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
@@ -80,6 +80,9 @@
   </li>
   <li>
     <a href="valuesets.html">Value Set</a>
+  </li>
+  <li>
+    <a href="conceptmaps.html">Concept Maps</a>
   </li>
   <li>
     <a href="indicators.html">Indicators</a>
@@ -185,7 +188,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Option Set - Yes / No / Yes-only / Don't know / Not applicable</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -244,7 +247,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative - JSON Representation</h2>
+<h2 id="root">: Option Set - Yes / No / Yes-only / Don't know / Not applicable - JSON Representation</h2>
 
   <table class="colsi">
     <tr>
@@ -273,16 +276,16 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">id</a>" : "option-set-yes-no",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "extensions",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet option-set-yes-no&lt;/b&gt;&lt;/p&gt;&lt;a name=\"option-set-yes-no\"&gt; &lt;/a&gt;&lt;a name=\"hcoption-set-yes-no\"&gt; &lt;/a&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"http://www.snomed.org/\"&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ne&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/373066001\"&gt;373066001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;गराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/373067005\"&gt;373067005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;नगराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/373068000\"&gt;373068000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Don't know&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/373069008\"&gt;373069008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not applicable&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/10828004\"&gt;10828004&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Positive&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/260385009\"&gt;260385009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Negative&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-yes-no.html\"&gt;&lt;code&gt;https://fhir.hmis.gov.np/CodeSystem/yes-no&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ne&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-yes-no.html#yes-no-yes\"&gt;yes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;गराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-yes-no.html#yes-no-no\"&gt;no&lt;/a&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;नगराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-yes-no.html#yes-no-1\"&gt;1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-yes-no.html#yes-no-0\"&gt;0&lt;/a&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0532&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ne&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y\"&gt;Y&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;गराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N\"&gt;N&lt;/a&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;नगराएको&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK\"&gt;UNK&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;td&gt;unknown&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA\"&gt;NA&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not applicable&lt;/td&gt;&lt;td&gt;not applicable&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-yes-no.html\"&gt;&lt;code&gt;https://fhir.hmis.gov.np/CodeSystem/yes-no&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;ne&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-yes-no.html#yes-no-yes\"&gt;yes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes only&lt;/td&gt;&lt;td&gt;हो&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet option-set-yes-no&lt;/b&gt;&lt;/p&gt;&lt;a name=\"option-set-yes-no\"&gt; &lt;/a&gt;&lt;a name=\"hcoption-set-yes-no\"&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0532&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "0.0.1-ballot",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.name">name</a>" : "OptionSetYesNoVS",
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a>" : "active",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-09-04T17:51:26+05:45",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-09-04T23:57:58+05:45",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.publisher">publisher</a>" : "Integrated Health Information Management Section",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -316,7 +319,7 @@
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">description</a>" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, \nहो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">description</a>" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |\n",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
     {
       "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
@@ -331,150 +334,7 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">compose</a>" : {
     "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "373066001",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Yes",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "हो"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "गराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "373067005",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "No",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "होइन"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "नगराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "373068000",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Don't know"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "373069008",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Not applicable"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "10828004",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Positive"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "260385009",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Negative"
-          }
-        ]
-      },
-      {
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "yes",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Yes",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "हो"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "गराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "no",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "No",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "होइन"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "नगराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "1",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Yes"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "0",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "No"
-          }
-        ]
-      },
-      {
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "Y",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Yes",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "हो"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "गराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "N",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "No",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "होइन"
-              },
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "नगराएको"
-              }
-            ]
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "UNK",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Unknown"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "NA",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Not applicable"
-          }
-        ]
-      },
-      {
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "https://fhir.hmis.gov.np/CodeSystem/yes-no",
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "yes",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Yes only",
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.language">language</a>" : "ne-NP",
-                "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "हो"
-              }
-            ]
-          }
-        ]
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0532"
       }
     ]
   }
@@ -502,9 +362,9 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 17:52+0545">2025-09-04</span>
+    IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hmis.gov.np">Integrated Health Information Management Section</a>.  Package hl7.fhir.hmis#0.0.1-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Sep 4, 2025 23:58+0545">2025-09-04</span>
     <br/>
-    <span style="color: var(--footer-highlight-text-color)"><a name="l801">​</a>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l597">​</a>
                 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  

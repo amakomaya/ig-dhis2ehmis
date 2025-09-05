@@ -99,6 +99,17 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/nutritional-status"/>
+      </reference>
+      <name value="Child Nutritional Status (SNOMED CT)"/>
+      <description value="Values representing a child's nutritional status"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/condition-severity"/>
       </reference>
       <name value="Condition / Diagnosis Severity"/>
@@ -236,6 +247,17 @@ It is developed to support routine service delivery programs such as Maternal an
       </reference>
       <name value="Free Service Eligibility"/>
       <description value="Categories of individuals eligible for free health services (निशुल्क सेवा कोड)"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/GenderHL7ToSNOMED"/>
+      </reference>
+      <name value="HL7 Administrative Gender to SNOMED CT"/>
+      <description value="Maps HL7 Administrative Gender codes to SNOMED CT concepts."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -569,8 +591,8 @@ It is developed to support routine service delivery programs such as Maternal an
       <reference>
         <reference value="ValueSet/option-set-yes-no"/>
       </reference>
-      <name value="Option Set - Yes / No / Yes-only / Don't know / Not applicable / Positive / Negative"/>
-      <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, Positive/Negative questions, including Nepali designations:छ/छैन, &#xA;हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पास/फेल, पाएको/नपाएको&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)"/>
+      <name value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
+      <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको&#xA;&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)&#xA;&#xA;| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |&#xA;|-----------------|----------------|--------------------|-----------------------------------------------------|&#xA;| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |&#xA;| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -679,17 +701,6 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/yes-no"/>
-      </reference>
-      <name value="Yes / No CodeSystem"/>
-      <description value="For representing Yes and No values in Nepali."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/free-cost"/>
       </reference>
       <name value="निशुल्क/शुल्क रू"/>
@@ -740,6 +751,12 @@ It is developed to support routine service delivery programs such as Maternal an
         <sourceUrl value="valuesets.html"/>
         <name value="valuesets.html"/>
         <title value="Value Sets"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="conceptmaps.html"/>
+        <name value="conceptmaps.html"/>
+        <title value="Concept Maps"/>
         <generation value="markdown"/>
       </page>
       <page>

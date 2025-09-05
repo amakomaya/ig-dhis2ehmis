@@ -1,10 +1,10 @@
 NPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 151, warn = 75, info = 74
+err = 156, warn = 79, info = 74
 $--
 Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.hmis.gov.np)
- Build Errors : 371 / 4 / 0
+ Build Errors : 378 / 4 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-facility-type : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-cost : 2 / 2 / 2
@@ -12,7 +12,7 @@ Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.h
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-locations : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-period-range : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type : 2 / 2 / 2
- /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no : 2 / 3 / 3
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ConceptMap-GenderHL7ToSNOMED : 4 / 5 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Encounter-encounter-anc-visit : 1 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-bcg : 2 / 0 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/Immunization-immunization-dpt : 2 / 0 / 2
@@ -55,6 +55,7 @@ Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.h
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-localbody : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-marital-status : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-medication : 2 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-nutritional-status : 3 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-option-set-yes-no : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-patient-registration-type : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-province : 2 / 2 / 2
@@ -65,377 +66,384 @@ Generated $--. FHIR version $-- for hl7.fhir.hmis#$-- (canonical = http://fhir.h
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 430, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 396, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 408, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type.html#/html/body/div/div/div/p/span/a at Line 386, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type.json.html#/html/body/div/div/div/p/span/a at Line 439, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type.ttl.html#/html/body/div/div/div/p/span/a at Line 415, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-facility-type.xml.html#/html/body/div/div/div/p/span/a at Line 436, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost.html#/html/body/div/div/div/p/span/a at Line 352, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost.json.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost.ttl.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-cost.xml.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility.json.html#/html/body/div/div/div/p/span/a at Line 429, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility.ttl.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-free-service-eligibility.xml.html#/html/body/div/div/div/p/span/a at Line 407, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations.html#/html/body/div/div/div/p/span/a at Line 2859, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations.json.html#/html/body/div/div/div/p/span/a at Line 3886, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations.ttl.html#/html/body/div/div/div/p/span/a at Line 2125, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-locations.xml.html#/html/body/div/div/div/p/span/a at Line 3708, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range.html#/html/body/div/div/div/p/span/a at Line 588, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range.json.html#/html/body/div/div/div/p/span/a at Line 940, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range.ttl.html#/html/body/div/div/div/p/span/a at Line 702, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-period-range.xml.html#/html/body/div/div/div/p/span/a at Line 875, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type.html#/html/body/div/div/div/p/span/a at Line 379, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type.json.html#/html/body/div/div/div/p/span/a at Line 479, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 425, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 446, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no.html#/html/body/div/div/div/p/span/a at Line 358, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no.json.html#/html/body/div/div/div/p/span/a at Line 408, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no.ttl.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: CodeSystem-yes-no.xml.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/p/span/a at Line 324, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-fipv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-hpv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-je.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-mr.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-opv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-penta.xml.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-polio.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-rota.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-td.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/p/span/a at Line 315, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-albendazole.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-albendazole.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-albendazole.json.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-albendazole.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-albendazole.xml.html#/html/body/div/div/div/p/span/a at Line 323, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-calcium.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-calcium.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-calcium.json.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-calcium.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-calcium.xml.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-iron.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-iron.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-iron.json.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-iron.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: MedicationDispense-medication-dispense-iron.xml.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 345, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-HealthID.xml.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 345, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 372, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.json.html#/html/body/div/div/div/p/span/a at Line 433, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.ttl.html#/html/body/div/div/div/p/span/a at Line 396, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-child.xml.html#/html/body/div/div/div/p/span/a at Line 391, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.html#/html/body/div/div/div/p/span/a at Line 291, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.json.html#/html/body/div/div/div/p/span/a at Line 438, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/p/span/a at Line 400, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: Patient-patient-pregnant.xml.html#/html/body/div/div/div/p/span/a at Line 396, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress-definitions.html#/html/body/div/div/div/p/span/a at Line 940, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress-mappings.html#/html/body/div/div/div/p/span/a at Line 553, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.html#/html/body/div/div/div/p/span/a at Line 6275, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.json.html#/html/body/div/div/div/p/span/a at Line 5943, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3569, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-NepalAddress.profile.xml.html#/html/body/div/div/div/p/span/a at Line 5394, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code-definitions.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code-mappings.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 696, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code.profile.json.html#/html/body/div/div/div/p/span/a at Line 654, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 583, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-ethnic-code.profile.xml.html#/html/body/div/div/div/p/span/a at Line 604, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person-definitions.html#/html/body/div/div/div/p/span/a at Line 539, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person-examples.html#/html/body/div/div/div/p/span/a at Line 329, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person-mappings.html#/html/body/div/div/div/p/span/a at Line 564, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person-testing.html#/html/body/div/div/div/p/span/a at Line 336, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person.html#/html/body/div/div/div/p/span/a at Line 1298, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person.profile.history.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person.profile.json.html#/html/body/div/div/div/p/span/a at Line 1873, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1471, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-nepal-person.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1726, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-definitions.html#/html/body/div/div/div/p/span/a at Line 723, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-examples.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-mappings.html#/html/body/div/div/div/p/span/a at Line 1017, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.html#/html/body/div/div/div/p/span/a at Line 1890, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.json.html#/html/body/div/div/div/p/span/a at Line 3897, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2947, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-encounter.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3555, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 643, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-examples.html#/html/body/div/div/div/p/span/a at Line 422, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-mappings.html#/html/body/div/div/div/p/span/a at Line 1036, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.html#/html/body/div/div/div/p/span/a at Line 1750, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 3376, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2552, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3054, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense-definitions.html#/html/body/div/div/div/p/span/a at Line 651, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense-examples.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense-mappings.html#/html/body/div/div/div/p/span/a at Line 958, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense.html#/html/body/div/div/div/p/span/a at Line 1682, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense.profile.json.html#/html/body/div/div/div/p/span/a at Line 3006, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2292, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-medication-dispense.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2745, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-definitions.html#/html/body/div/div/div/p/span/a at Line 981, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-examples.html#/html/body/div/div/div/p/span/a at Line 356, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-mappings.html#/html/body/div/div/div/p/span/a at Line 1501, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient-testing.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.html#/html/body/div/div/div/p/span/a at Line 2629, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.history.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.json.html#/html/body/div/div/div/p/span/a at Line 4967, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3615, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: StructureDefinition-np-core-patient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 4513, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender.json.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/p/span/a at Line 361, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range.json.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-age-range.xml.html#/html/body/div/div/div/p/span/a at Line 361, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-code.xml.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity.json.html#/html/body/div/div/div/p/span/a at Line 404, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity.ttl.html#/html/body/div/div/div/p/span/a at Line 376, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-condition-severity.xml.html#/html/body/div/div/div/p/span/a at Line 386, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district.json.html#/html/body/div/div/div/p/span/a at Line 604, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district.ttl.html#/html/body/div/div/div/p/span/a at Line 437, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-district.xml.html#/html/body/div/div/div/p/span/a at Line 591, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level.json.html#/html/body/div/div/div/p/span/a at Line 379, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level.ttl.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-educational-level.xml.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status.ttl.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-employment-status.xml.html#/html/body/div/div/div/p/span/a at Line 368, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 360, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost.json.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-cost.xml.html#/html/body/div/div/div/p/span/a at Line 360, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility.json.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility.ttl.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-free-service-eligibility.xml.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody.json.html#/html/body/div/div/div/p/span/a at Line 2632, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody.ttl.html#/html/body/div/div/div/p/span/a at Line 1113, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-localbody.xml.html#/html/body/div/div/div/p/span/a at Line 2619, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status.json.html#/html/body/div/div/div/p/span/a at Line 393, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status.ttl.html#/html/body/div/div/div/p/span/a at Line 370, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-marital-status.xml.html#/html/body/div/div/div/p/span/a at Line 380, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-medication.xml.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no.html#/html/body/div/div/div/p/span/a at Line 436, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no.json.html#/html/body/div/div/div/p/span/a at Line 515, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no.ttl.html#/html/body/div/div/div/p/span/a at Line 430, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-option-set-yes-no.xml.html#/html/body/div/div/div/p/span/a at Line 496, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type.json.html#/html/body/div/div/div/p/span/a at Line 403, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type.ttl.html#/html/body/div/div/div/p/span/a at Line 375, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-patient-registration-type.xml.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province.json.html#/html/body/div/div/div/p/span/a at Line 401, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province.ttl.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-province.xml.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address.ttl.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-area-address.xml.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type.json.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine.html#/html/body/div/div/div/p/span/a at Line 387, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-vaccine.xml.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal-testing.html#/html/body/div/div/div/p/span/a at Line 313, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal.change.history.html#/html/body/div/div/div/p/span/a at Line 282, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal.json.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: ValueSet-visit-ordinal.xml.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: archimate-diagram.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 309, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
-ERROR: archimate-diagram.html#/html/body/div/div/div/p/span/a at Line 432, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 825, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: codesystems.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 242, column 7476: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
-ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: copyrights.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 260, column 8: The link 'package.r4.tgz' for "R4 NPM Package" cannot be resolved
-ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 266, column 8: The link 'package.r4b.tgz' for "R4B NPM Package" cannot be resolved
-ERROR: downloads.html#/html/body/div/div/div/p/span/a at Line 304, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 352, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 307, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: gov_concepts.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 263, column 10562: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
-ERROR: gov_concepts.html#/html/body/div/div/div/p/span/a at Line 317, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: health-journey-immunization.html#/html/body/div/div/div/p/span/a at Line 409, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: health-journey-mnch.html#/html/body/div/div/div/p/span/a at Line 402, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: health-journey-opd.html#/html/body/div/div/div/p/span/a at Line 406, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: health-journey.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 245, column 3764: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
-ERROR: health-journey.html#/html/body/div/div/div/p/span/a at Line 347, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/p/span/a at Line 425, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 299, column 16: The link 'l3_libraries.html' for "Library authoring" cannot be resolved
-ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 299, column 70: The link 'l3_cql.html' for "CQL authoring" cannot be resolved
-ERROR: indicators.html#/html/body/div/div/div/p/span/a at Line 411, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 283, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: security.html#/html/body/div/div/div/p/span/a at Line 271, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 441, column 14: The link 'smart-resources/family-planning/digital-adaption-kit-eng.pdf' for "Digital Adaptation Kit for Family Planning" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 442, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx' for "Core data dictionary" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 443, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.14-eng.xlsx' for "Decision support logic" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 444, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.15-eng.xlsx' for "Indicator table" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 445, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.16-eng.xlsx' for "Functional and non-functional requirements" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/div/div/p/a at Line 824, column 119: The link 'l2_templates.html' for "this location" cannot be resolved
-ERROR: smart-index.html#/html/body/div/div/div/p/span/a at Line 1042, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 238, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: valuesets.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 248, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
-ERROR: valuesets.html#/html/body/div/div/div/p/span/a at Line 393, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 433, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 399, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 411, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type.json.html#/html/body/div/div/div/p/span/a at Line 442, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type.ttl.html#/html/body/div/div/div/p/span/a at Line 418, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-facility-type.xml.html#/html/body/div/div/div/p/span/a at Line 439, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost.html#/html/body/div/div/div/p/span/a at Line 355, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost.json.html#/html/body/div/div/div/p/span/a at Line 392, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost.ttl.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-cost.xml.html#/html/body/div/div/div/p/span/a at Line 377, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility.json.html#/html/body/div/div/div/p/span/a at Line 432, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility.ttl.html#/html/body/div/div/div/p/span/a at Line 398, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-free-service-eligibility.xml.html#/html/body/div/div/div/p/span/a at Line 410, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations.html#/html/body/div/div/div/p/span/a at Line 2862, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations.json.html#/html/body/div/div/div/p/span/a at Line 3889, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations.ttl.html#/html/body/div/div/div/p/span/a at Line 2128, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-locations.xml.html#/html/body/div/div/div/p/span/a at Line 3711, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range.html#/html/body/div/div/div/p/span/a at Line 591, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range.json.html#/html/body/div/div/div/p/span/a at Line 943, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range.ttl.html#/html/body/div/div/div/p/span/a at Line 705, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-period-range.xml.html#/html/body/div/div/div/p/span/a at Line 878, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type.json.html#/html/body/div/div/div/p/span/a at Line 482, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 428, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 449, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED.html#/html/body/div/div/div/p/span/a at Line 346, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED.json.html#/html/body/div/div/div/p/span/a at Line 414, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED.ttl.html#/html/body/div/div/div/p/span/a at Line 386, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ConceptMap-GenderHL7ToSNOMED.xml.html#/html/body/div/div/div/p/span/a at Line 395, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.json.html#/html/body/div/div/div/p/span/a at Line 327, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Encounter-encounter-anc-visit.xml.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-bcg.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-dpt.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-fipv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-hpv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-je.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-mr.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-opv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-pcv.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-penta.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-polio.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-rota.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-td.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.json.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Immunization-immunization-typhoid.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-albendazole.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-albendazole.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-albendazole.json.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-albendazole.ttl.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-albendazole.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-calcium.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-calcium.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-calcium.json.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-calcium.ttl.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-calcium.xml.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.json.html#/html/body/div/div/div/p/span/a at Line 328, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.ttl.html#/html/body/div/div/div/p/span/a at Line 337, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: MedicationDispense-medication-dispense-iron.xml.html#/html/body/div/div/div/p/span/a at Line 325, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID.html#/html/body/div/div/div/p/span/a at Line 348, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID.ttl.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-HealthID.xml.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID.html#/html/body/div/div/div/p/span/a at Line 348, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID.json.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID.ttl.html#/html/body/div/div/div/p/span/a at Line 375, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: NamingSystem-NationalID.xml.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.json.html#/html/body/div/div/div/p/span/a at Line 436, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.ttl.html#/html/body/div/div/div/p/span/a at Line 399, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-child.xml.html#/html/body/div/div/div/p/span/a at Line 394, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.html#/html/body/div/div/div/p/span/a at Line 294, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.json.html#/html/body/div/div/div/p/span/a at Line 441, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.ttl.html#/html/body/div/div/div/p/span/a at Line 403, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: Patient-patient-pregnant.xml.html#/html/body/div/div/div/p/span/a at Line 399, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress-definitions.html#/html/body/div/div/div/p/span/a at Line 943, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress-mappings.html#/html/body/div/div/div/p/span/a at Line 556, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress-testing.html#/html/body/div/div/div/p/span/a at Line 339, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.html#/html/body/div/div/div/p/span/a at Line 6278, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.history.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.json.html#/html/body/div/div/div/p/span/a at Line 5946, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3572, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-NepalAddress.profile.xml.html#/html/body/div/div/div/p/span/a at Line 5397, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code-definitions.html#/html/body/div/div/div/p/span/a at Line 398, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code-mappings.html#/html/body/div/div/div/p/span/a at Line 352, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 339, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 699, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code.profile.history.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code.profile.json.html#/html/body/div/div/div/p/span/a at Line 657, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 586, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-ethnic-code.profile.xml.html#/html/body/div/div/div/p/span/a at Line 607, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-definitions.html#/html/body/div/div/div/p/span/a at Line 542, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-examples.html#/html/body/div/div/div/p/span/a at Line 332, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-mappings.html#/html/body/div/div/div/p/span/a at Line 567, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person-testing.html#/html/body/div/div/div/p/span/a at Line 339, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.html#/html/body/div/div/div/p/span/a at Line 1301, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.history.html#/html/body/div/div/div/p/span/a at Line 321, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.json.html#/html/body/div/div/div/p/span/a at Line 1876, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1474, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-nepal-person.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1729, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-definitions.html#/html/body/div/div/div/p/span/a at Line 726, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-examples.html#/html/body/div/div/div/p/span/a at Line 353, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-mappings.html#/html/body/div/div/div/p/span/a at Line 1020, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter-testing.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.html#/html/body/div/div/div/p/span/a at Line 1893, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.history.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.json.html#/html/body/div/div/div/p/span/a at Line 3900, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2950, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-encounter.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3558, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 646, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-examples.html#/html/body/div/div/div/p/span/a at Line 425, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-mappings.html#/html/body/div/div/div/p/span/a at Line 1039, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization-testing.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.html#/html/body/div/div/div/p/span/a at Line 1753, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 3379, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2555, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3057, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-definitions.html#/html/body/div/div/div/p/span/a at Line 654, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-examples.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-mappings.html#/html/body/div/div/div/p/span/a at Line 961, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense-testing.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.html#/html/body/div/div/div/p/span/a at Line 1685, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.history.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.json.html#/html/body/div/div/div/p/span/a at Line 3009, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2295, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-medication-dispense.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2748, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-definitions.html#/html/body/div/div/div/p/span/a at Line 984, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-examples.html#/html/body/div/div/div/p/span/a at Line 359, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-mappings.html#/html/body/div/div/div/p/span/a at Line 1504, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient-testing.html#/html/body/div/div/div/p/span/a at Line 349, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.html#/html/body/div/div/div/p/span/a at Line 2632, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.history.html#/html/body/div/div/div/p/span/a at Line 331, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.json.html#/html/body/div/div/div/p/span/a at Line 4970, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3618, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-np-core-patient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 4516, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender.json.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-administrative-gender.xml.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range.json.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-age-range.xml.html#/html/body/div/div/div/p/span/a at Line 364, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-code.xml.html#/html/body/div/div/div/p/span/a at Line 368, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity.json.html#/html/body/div/div/div/p/span/a at Line 407, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity.ttl.html#/html/body/div/div/div/p/span/a at Line 379, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-condition-severity.xml.html#/html/body/div/div/div/p/span/a at Line 389, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district.json.html#/html/body/div/div/div/p/span/a at Line 607, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district.ttl.html#/html/body/div/div/div/p/span/a at Line 440, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-district.xml.html#/html/body/div/div/div/p/span/a at Line 594, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level.json.html#/html/body/div/div/div/p/span/a at Line 382, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level.ttl.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-educational-level.xml.html#/html/body/div/div/div/p/span/a at Line 370, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status.json.html#/html/body/div/div/div/p/span/a at Line 384, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status.ttl.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-employment-status.xml.html#/html/body/div/div/div/p/span/a at Line 371, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code.json.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ethnic-code.xml.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost.json.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-cost.xml.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility.json.html#/html/body/div/div/div/p/span/a at Line 374, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-free-service-eligibility.xml.html#/html/body/div/div/div/p/span/a at Line 365, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody.json.html#/html/body/div/div/div/p/span/a at Line 2635, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody.ttl.html#/html/body/div/div/div/p/span/a at Line 1116, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-localbody.xml.html#/html/body/div/div/div/p/span/a at Line 2622, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status.json.html#/html/body/div/div/div/p/span/a at Line 396, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status.ttl.html#/html/body/div/div/div/p/span/a at Line 373, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-marital-status.xml.html#/html/body/div/div/div/p/span/a at Line 383, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medication.xml.html#/html/body/div/div/div/p/span/a at Line 368, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status.json.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status.ttl.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-nutritional-status.xml.html#/html/body/div/div/div/p/span/a at Line 375, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no.html#/html/body/div/div/div/p/span/a at Line 427, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no.json.html#/html/body/div/div/div/p/span/a at Line 375, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no.ttl.html#/html/body/div/div/div/p/span/a at Line 363, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-option-set-yes-no.xml.html#/html/body/div/div/div/p/span/a at Line 384, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type.json.html#/html/body/div/div/div/p/span/a at Line 406, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type.ttl.html#/html/body/div/div/div/p/span/a at Line 378, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-patient-registration-type.xml.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province.json.html#/html/body/div/div/div/p/span/a at Line 404, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province.ttl.html#/html/body/div/div/div/p/span/a at Line 377, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-province.xml.html#/html/body/div/div/div/p/span/a at Line 391, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address.json.html#/html/body/div/div/div/p/span/a at Line 384, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address.ttl.html#/html/body/div/div/div/p/span/a at Line 367, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-area-address.xml.html#/html/body/div/div/div/p/span/a at Line 372, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type.html#/html/body/div/div/div/p/span/a at Line 391, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type.json.html#/html/body/div/div/div/p/span/a at Line 385, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type.ttl.html#/html/body/div/div/div/p/span/a at Line 368, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-service-type.xml.html#/html/body/div/div/div/p/span/a at Line 372, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine.html#/html/body/div/div/div/p/span/a at Line 390, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-vaccine.xml.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal-testing.html#/html/body/div/div/div/p/span/a at Line 316, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal.change.history.html#/html/body/div/div/div/p/span/a at Line 285, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal.html#/html/body/div/div/div/p/span/a at Line 388, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal.json.html#/html/body/div/div/div/p/span/a at Line 381, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal.ttl.html#/html/body/div/div/div/p/span/a at Line 366, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-visit-ordinal.xml.html#/html/body/div/div/div/p/span/a at Line 369, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: archimate-diagram.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 312, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
+ERROR: archimate-diagram.html#/html/body/div/div/div/p/span/a at Line 435, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 874, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: codesystems.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 245, column 7476: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
+ERROR: codesystems.html#/html/body/div/div/div/p/span/a at Line 327, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: conceptmaps.html#/html/body/div/div/div/p/span/a at Line 280, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: copyrights.html#/html/body/div/div/div/p/span/a at Line 322, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 263, column 8: The link 'package.r4.tgz' for "R4 NPM Package" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 269, column 8: The link 'package.r4b.tgz' for "R4B NPM Package" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/p/span/a at Line 307, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 355, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 310, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: gov_concepts.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 266, column 10562: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
+ERROR: gov_concepts.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: health-journey-immunization.html#/html/body/div/div/div/p/span/a at Line 412, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: health-journey-mnch.html#/html/body/div/div/div/p/span/a at Line 405, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: health-journey-opd.html#/html/body/div/div/div/p/span/a at Line 409, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: health-journey.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 248, column 3764: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
+ERROR: health-journey.html#/html/body/div/div/div/p/span/a at Line 350, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: identifiers.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 428, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 302, column 16: The link 'l3_libraries.html' for "Library authoring" cannot be resolved
+ERROR: indicators.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 302, column 70: The link 'l3_cql.html' for "CQL authoring" cannot be resolved
+ERROR: indicators.html#/html/body/div/div/div/p/span/a at Line 414, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 286, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: security.html#/html/body/div/div/div/p/span/a at Line 274, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 444, column 14: The link 'smart-resources/family-planning/digital-adaption-kit-eng.pdf' for "Digital Adaptation Kit for Family Planning" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 445, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx' for "Core data dictionary" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 446, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.14-eng.xlsx' for "Decision support logic" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 447, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.15-eng.xlsx' for "Indicator table" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 448, column 12: The link 'smart-resources/family-planning/WHO-SRH-21.16-eng.xlsx' for "Functional and non-functional requirements" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/div/div/p/a at Line 827, column 119: The link 'l2_templates.html' for "this location" cannot be resolved
+ERROR: smart-index.html#/html/body/div/div/div/p/span/a at Line 1045, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 241, column 113: The link 'license.html' for "License" cannot be resolved
+ERROR: valuesets.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 251, column 4646: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
+ERROR: valuesets.html#/html/body/div/div/div/p/span/a at Line 397, column 113: The link 'license.html' for "License" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
@@ -479,14 +487,17 @@ INFORMATION: CodeSystem/service-type: CodeSystem.jurisdiction[0]: Reference to d
 WARNING: CodeSystem/service-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-service-type: URL Mismatch http://fhir.hmis.gov.np/CodeSystem/service-type vs https://fhir.hmis.gov.np/CodeSystem/service-type
-== fsh-generated/resources/CodeSystem-yes-no.json ==
-ERROR: CodeSystem.where(url = 'https://fhir.hmis.gov.np/CodeSystem/yes-no'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no.json - the canonical URL (http://fhir.hmis.gov.np/CodeSystem/yes-no) does not match the URL (https://fhir.hmis.gov.np/CodeSystem/yes-no)
-INFORMATION: CodeSystem/yes-no: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-INFORMATION: CodeSystem/yes-no: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/yes-no: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/yes-no: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
-ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-yes-no: URL Mismatch http://fhir.hmis.gov.np/CodeSystem/yes-no vs https://fhir.hmis.gov.np/CodeSystem/yes-no
+== fsh-generated/resources/ConceptMap-GenderHL7ToSNOMED.json ==
+ERROR: ConceptMap.where(url = 'https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ConceptMap-GenderHL7ToSNOMED.json - the canonical URL (http://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED) does not match the URL (https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED)
+ERROR: ConceptMap.where(url = 'https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ConceptMap-GenderHL7ToSNOMED.json - the canonical URL (http://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED) does not match the URL (https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED)
+INFORMATION: ConceptMap/GenderHL7ToSNOMED: ConceptMap.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ConceptMap/GenderHL7ToSNOMED: ConceptMap.group[0].source: A definition could not be found for Canonical URL 'http://terminology.hl7.org/CodeSystem/administrative-gender'
+WARNING: ConceptMap/GenderHL7ToSNOMED: ConceptMap.group[0].source: The Source Code System http://terminology.hl7.org/CodeSystem/administrative-gender is not fully defined and populated, and no sourceScope is specified, so the source code checking will not be performed
+WARNING: ConceptMap/GenderHL7ToSNOMED: ConceptMap.group[0].target: The Target Code System http://snomed.info/sct is not fully defined and populated, and no targetScope is specified, so the target code checking will not be performed
+WARNING: ConceptMap/GenderHL7ToSNOMED: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.name should be present, but it is not
+WARNING: ConceptMap/GenderHL7ToSNOMED: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
+WARNING: ConceptMap.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ConceptMap-GenderHL7ToSNOMED: URL Mismatch http://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED vs https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED
 == fsh-generated/resources/Encounter-encounter-anc-visit.json ==
 ERROR: Encounter/encounter-anc-visit: Encounter.serviceType[0].concept.coding[0].display: Wrong Display Name 'Antenatal care' for http://snomed.info/sct#698314001. Valid display is one of 2 choices: 'Consultation for treatment' (en) or 'Consultation for treatment (procedure)' (en) (for the language(s) 'en-US')
 == fsh-generated/resources/Immunization-immunization-bcg.json ==
@@ -752,6 +763,13 @@ INFORMATION: ValueSet/medication: ValueSet.jurisdiction[0]: Reference to depreca
 WARNING: ValueSet/medication: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
 ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-medication: URL Mismatch http://fhir.hmis.gov.np/ValueSet/medication vs https://fhir.hmis.gov.np/ValueSet/medication
+== fsh-generated/resources/ValueSet-nutritional-status.json ==
+ERROR: ValueSet.where(url = 'https://fhir.hmis.gov.np/ValueSet/nutritional-status'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-nutritional-status.json - the canonical URL (http://fhir.hmis.gov.np/ValueSet/nutritional-status) does not match the URL (https://fhir.hmis.gov.np/ValueSet/nutritional-status)
+INFORMATION: ValueSet/nutritional-status: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: ValueSet/nutritional-status: ValueSet.compose.include[0].concept[2]: The code '162384008' is not valid in the system http://snomed.info/sct (Unknown code '162384008' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')
+WARNING: ValueSet/nutritional-status: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.hmis, jurisdiction = urn:iso:std:iso:3166#HMIS instead of or as well as [urn:iso:std:iso:3166#NP]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#HMIS "null"')
+ERROR: /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-nutritional-status: URL Mismatch http://fhir.hmis.gov.np/ValueSet/nutritional-status vs https://fhir.hmis.gov.np/ValueSet/nutritional-status
 == fsh-generated/resources/ValueSet-option-set-yes-no.json ==
 ERROR: ValueSet.where(url = 'https://fhir.hmis.gov.np/ValueSet/option-set-yes-no'): Conformance resource /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/ValueSet-option-set-yes-no.json - the canonical URL (http://fhir.hmis.gov.np/ValueSet/option-set-yes-no) does not match the URL (https://fhir.hmis.gov.np/ValueSet/option-set-yes-no)
 INFORMATION: ValueSet/option-set-yes-no: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
