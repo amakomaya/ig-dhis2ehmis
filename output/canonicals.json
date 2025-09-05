@@ -56,9 +56,15 @@
     "name" : "ServiceTypeCS"
   },
   {
-    "id" : "GenderHL7ToSNOMED",
+    "id" : "AdministrativeGenderCM",
     "type" : "ConceptMap",
-    "url" : "https://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED",
+    "url" : "https://fhir.hmis.gov.np/ConceptMap/AdministrativeGenderCM",
+    "version" : "0.0.1-ballot"
+  },
+  {
+    "id" : "YesNoCM",
+    "type" : "ConceptMap",
+    "url" : "https://fhir.hmis.gov.np/ConceptMap/YesNoCM",
     "version" : "0.0.1-ballot"
   },
   {
@@ -223,13 +229,6 @@
     "name" : "NutritionalStatusVS"
   },
   {
-    "id" : "option-set-yes-no",
-    "type" : "ValueSet",
-    "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
-    "version" : "0.0.1-ballot",
-    "name" : "OptionSetYesNoVS"
-  },
-  {
     "id" : "patient-registration-type",
     "type" : "ValueSet",
     "url" : "https://fhir.hmis.gov.np/ValueSet/patient-registration-type",
@@ -270,5 +269,12 @@
     "url" : "https://fhir.hmis.gov.np/ValueSet/visit-ordinal",
     "version" : "0.0.1-ballot",
     "name" : "VisitOrdinalVS"
+  },
+  {
+    "id" : "yes-no",
+    "type" : "ValueSet",
+    "url" : "https://fhir.hmis.gov.np/ValueSet/yes-no",
+    "version" : "0.0.1-ballot",
+    "name" : "YesNoVS"
   }
 ]

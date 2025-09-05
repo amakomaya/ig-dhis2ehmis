@@ -1,17 +1,17 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "option-set-yes-no",
+  "id" : "yes-no",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet option-set-yes-no</b></p><a name=\"option-set-yes-no\"> </a><a name=\"hcoption-set-yes-no\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet yes-no</b></p><a name=\"yes-no\"> </a><a name=\"hcyes-no\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></li></ul></div>"
   },
-  "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
+  "url" : "https://fhir.hmis.gov.np/ValueSet/yes-no",
   "version" : "0.0.1-ballot",
-  "name" : "OptionSetYesNoVS",
+  "name" : "YesNoVS",
   "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-04T23:57:58+05:45",
+  "date" : "2025-09-05T08:09:57+05:45",
   "publisher" : "Integrated Health Information Management Section",
   "contact" : [{
     "name" : "Integrated Health Information Management Section",

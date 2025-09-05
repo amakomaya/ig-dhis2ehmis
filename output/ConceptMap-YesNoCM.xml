@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="YesNoCM"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap YesNoCM</b></p><a name="YesNoCM"> </a><a name="hcYesNoCM"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">expandedYes-NoIndicator</a> to <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-snomed-CT.html">SNOMED CT International Edition</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>Y (Yes / Affirmative)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>373066001 (Yes)</td></tr><tr><td>N (No / Negative)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>373067005 (No)</td></tr></table></div>
+  </text>
+  <url value="https://fhir.hmis.gov.np/ConceptMap/YesNoCM"/>
+  <version value="0.0.1-ballot"/>
+  <title value="Yes / No Concept Map"/>
+  <status value="active"/>
+  <date value="2025-09-05T08:09:57+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
+    </telecom>
+  </contact>
+  <description value="Mapping between HL7 v2-0532, SNOMED CT, and Nepali Yes/No custom codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <group>
+    <source value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+    <target value="http://snomed.info/sct"/>
+    <element>
+      <code value="Y"/>
+      <display value="Yes / Affirmative"/>
+      <target>
+        <code value="373066001"/>
+        <display value="Yes"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="N"/>
+      <display value="No / Negative"/>
+      <target>
+        <code value="373067005"/>
+        <display value="No"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

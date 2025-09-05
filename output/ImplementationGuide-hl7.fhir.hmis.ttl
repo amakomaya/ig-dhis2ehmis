@@ -345,8 +345,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/ConceptMap/GenderHL7ToSNOMED> ;
-         fhir:reference [ fhir:v "ConceptMap/GenderHL7ToSNOMED" ]
+         fhir:link <http://fhir.hmis.gov.np/ConceptMap/AdministrativeGenderCM> ;
+         fhir:reference [ fhir:v "ConceptMap/AdministrativeGenderCM" ]
        ] ;
        fhir:name [ fhir:v "HL7 Administrative Gender to SNOMED CT" ] ;
        fhir:description [ fhir:v "Maps HL7 Administrative Gender codes to SNOMED CT concepts." ] ;
@@ -844,8 +844,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.hmis.gov.np/ValueSet/option-set-yes-no> ;
-         fhir:reference [ fhir:v "ValueSet/option-set-yes-no" ]
+         fhir:link <http://fhir.hmis.gov.np/ValueSet/yes-no> ;
+         fhir:reference [ fhir:v "ValueSet/yes-no" ]
        ] ;
        fhir:name [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable" ] ;
        fhir:description [ fhir:v "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |" ] ;
@@ -998,6 +998,21 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.hmis.gov.np/ConceptMap/YesNoCM> ;
+         fhir:reference [ fhir:v "ConceptMap/YesNoCM" ]
+       ] ;
+       fhir:name [ fhir:v "Yes / No Concept Map" ] ;
+       fhir:description [ fhir:v "Mapping between HL7 v2-0532, SNOMED CT, and Nepali Yes/No custom codes" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -1043,10 +1058,10 @@
        ] [
          fhir:source [
            a fhir:url ;
-           fhir:v "smart-index.html"^^xsd:anyURI
+           fhir:v "guidelines.html"^^xsd:anyURI
          ] ;
-         fhir:name [ fhir:v "smart-index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "SMART Guidelines" ] ;
+         fhir:name [ fhir:v "guidelines.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Guidelines" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [

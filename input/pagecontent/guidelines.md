@@ -1,4 +1,7 @@
-**SMART Guidelines** — *Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable* — are a comprehensive set of reusable **digital health components** that include:
+Publications, Laws/Regulations, Notices, Guidelines, and other resources are available on <a href="https://hmis.gov.np" target="_blank"rel="noopener noreferrer">hmis.gov.np</a>
+
+
+**Guidelines** — *Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable* — are a comprehensive set of reusable **digital health components** that include:
 - Interoperability standards  
 - Code libraries  
 - Algorithms  

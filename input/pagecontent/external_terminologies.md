@@ -1,5 +1,33 @@
 This page lists all External Code Systems used in the DHIS2 Capture programs.
 
+
+#### Developed for use in Nepal (local registries and code systems)
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Owner / Maintainer</th>
+      <th>URI</th>
+      <th>Metadata Record</th>
+      <th>Use with HL7 Standards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://nhfr.mohp.gov.np/" target="_blank">Nepal Health Facility Registry (NHFR)</a></td>
+      <td>Ministry of Health and Population (MoHP), Nepal</td>
+      <td><a href="https://nhfr.mohp.gov.np/" target="_blank">https://nhfr.mohp.gov.np/</a></td>
+      <td>National Health Facility Registry</td>
+      <td>Can be aligned with FHIR <code>Location</code> and <code>Organization</code> resources</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+#### Used globally, maintained by international bodies
+
 <table>
   <thead>
     <tr>

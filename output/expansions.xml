@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="deb40534-0210-496a-9fd8-d8c464f0ef3e"/>
+  <id value="37c8ed11-9097-4589-a7f5-62189f2d9532"/>
   <meta>
-    <lastUpdated value="2025-09-04T23:58:34.844+05:45"/>
+    <lastUpdated value="2025-09-05T08:10:33.301+05:45"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -77,7 +77,7 @@
         <name value="AdministrativeGenderVS"/>
         <title value="Administrative Gender"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -85,8 +85,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0fa0637c-0327-4357-be76-1b1ef53dea68"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:047d8b7c-2f1a-4331-8a5d-90ecf32fd1a2"/>
+          <timestamp value="2025-09-05T08:11:09+05:45"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -506,7 +506,7 @@
         <name value="AgeRangeVS"/>
         <title value="Age Range"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -514,8 +514,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fea3960c-86e8-4de4-9786-94a64834293c"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:b895b963-2b9a-4048-ab60-dfaebbfbbe1b"/>
+          <timestamp value="2025-09-05T08:11:09+05:45"/>
           <total value="38"/>
           <offset value="0"/>
           <parameter>
@@ -8758,7 +8758,7 @@
         <name value="ConditionCodeVS"/>
         <title value="Condition/Problem/Diagnosis codes"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8769,8 +8769,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:ab19918b-2cb2-4e68-9bca-12774f252256"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:638f5086-2075-4ed2-86b0-ba88a04a9c57"/>
+          <timestamp value="2025-09-05T08:11:09+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -13855,7 +13855,7 @@
         <title value="Condition / Diagnosis Severity"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13863,8 +13863,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e100d4a0-c174-41d3-8602-7effaf35f211"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:1b83eb33-e9d7-4d48-91f3-6b2a0c7bb331"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -14558,7 +14558,7 @@
         <name value="DistrictVS"/>
         <title value="District"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14566,8 +14566,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae30dd86-137b-4763-888b-e4ced0317b64"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:eb1fe91a-b07e-4567-9f22-5e9684b4b919"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="77"/>
           <offset value="0"/>
           <parameter>
@@ -15958,7 +15958,7 @@
         <title value="Educational Level"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15969,8 +15969,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:aa17d9ef-8ad5-4d44-b7bf-6b93cdd1a632"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:37f9078d-ccbd-4105-a3f4-db66afeb9098"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -16641,7 +16641,7 @@
         <name value="EmploymentStatusVS"/>
         <title value="Employment (रोजगारी स्थिति)"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16649,8 +16649,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:11c95c63-bb30-45ff-8b97-2ae55ff2eb27"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:4d63ef2e-0d79-4f73-bbf4-a9e0a19cdbbd"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -16771,7 +16771,7 @@
         <name value="EthnicCodeVS"/>
         <title value="Ethnic Code"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16779,8 +16779,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:95b80e36-c4b4-4268-9177-7bf54216a4de"/>
-          <timestamp value="2025-09-04T23:59:18+05:45"/>
+          <identifier value="urn:uuid:9d5bf18c-a097-4551-8392-02b97286b960"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -16881,7 +16881,7 @@
         <name value="FreeCostVS"/>
         <title value="Free Cost"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16889,8 +16889,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:554b00bb-a442-468d-b865-29f688f6848a"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:a157fb56-c05a-46ce-8ffb-e629d17d6506"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -17003,7 +17003,7 @@
         <name value="FreeServiceEligibilityVS"/>
         <title value="Free Service Eligibility"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17011,8 +17011,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7d6a7594-6599-4755-a312-4719920e603d"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:8ae8cac1-728a-479c-8170-2dfa2108304c"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -23121,7 +23121,7 @@
         <name value="LocalBodyVS"/>
         <title value="LocalBody"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -23129,8 +23129,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c47d4c44-bf86-475c-87e8-0d70ee04f6be"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:a88344e9-d720-4005-8bf5-07a0e9b3e289"/>
+          <timestamp value="2025-09-05T08:11:10+05:45"/>
           <total value="753"/>
           <offset value="0"/>
           <parameter>
@@ -26988,7 +26988,7 @@
         <name value="MaritalStatusVS"/>
         <title value="Marital Status (वैवाहिक स्थिति)"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -26996,8 +26996,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4ff33a8-0d00-459f-8840-c0e190593ac9"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:5bda3f43-8e53-48c2-8dec-1a7c592d879f"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -35083,7 +35083,7 @@
         <name value="MedicationVS"/>
         <title value="Dietary Supplements (SNOMED)"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -35094,8 +35094,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:80420f33-877b-4ae1-af89-17391f839797"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:94da4afa-a4b1-4b55-aad8-338d8028104b"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -40171,7 +40171,7 @@
         <name value="NutritionalStatusVS"/>
         <title value="Child Nutritional Status (SNOMED CT)"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40179,8 +40179,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:55f349b4-b9f1-4fa0-98c5-2818520a117d"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:38b5314d-667b-4c71-acc8-71e265354665"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -40216,200 +40216,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="190603003"/>
             <display value="Mild protein-calorie malnutrition (weight for age 75-89% of standard)"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a>
-            </p>
-            <p>This value set contains 9 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-Y"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>Yes</td>
-                <td>Yes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-N"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>No</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NI"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NI">NI</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>No Information</td>
-                <td>No Information</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NA"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>not applicable</td>
-                <td>not applicable</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>unknown</td>
-                <td>unknown</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NASK"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NASK">NASK</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>not asked</td>
-                <td>not asked</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-ASKU"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-ASKU">ASKU</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>asked but unknown</td>
-                <td>asked but unknown</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NAV"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NAV">NAV</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>temporarily unavailable</td>
-                <td>temporarily unavailable</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NP"> </a>  
-                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NP">NP</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
-                <td>not present</td>
-                <td>not present</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"/>
-        <version value="0.0.1-ballot"/>
-        <name value="OptionSetYesNoVS"/>
-        <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NP"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:57e7f393-5a19-429f-8019-6242c93a81c7"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
-          <total value="9"/>
-          <offset value="0"/>
-          <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
-          </parameter>
-          <parameter>
-            <name value="offset"/>
-            <valueInteger value="0"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"/>
-          </parameter>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="Y"/>
-            <display value="Yes"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="N"/>
-            <display value="No"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="NI"/>
-            <display value="No Information"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="NA"/>
-            <display value="not applicable"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="UNK"/>
-            <display value="unknown"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="NASK"/>
-            <display value="not asked"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="ASKU"/>
-            <display value="asked but unknown"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="NAV"/>
-            <display value="temporarily unavailable"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
-            <code value="NP"/>
-            <display value="not present"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -40469,7 +40275,7 @@
         <name value="PatientRegistrationTypeVS"/>
         <title value="Patient Registration Type"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40477,8 +40283,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:48f72fc2-3a55-45e0-acc9-52d91832cba5"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:46f4a410-9c20-468e-967f-ec7d4324c1ed"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -40612,7 +40418,7 @@
         <name value="ProvinceVS"/>
         <title value="Province"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40620,8 +40426,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d86aad16-2f3f-4ba2-83d8-06bc9dff0dad"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:7db76d9c-3886-468b-a64e-301007782e58"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -40725,7 +40531,7 @@
         <name value="ServiceAreaAddressVS"/>
         <title value="Service Area Address Classification"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -40733,8 +40539,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:561f766c-553a-4228-9e46-c1788403302f"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:975170d3-60ac-4c0d-8472-9d7a3f82e090"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -43582,7 +43388,7 @@
         <title value="Service Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -43593,8 +43399,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:6c77aa27-1841-4b76-8d38-e4089a03c5b9"/>
-          <timestamp value="2025-09-04T23:59:19+05:45"/>
+          <identifier value="urn:uuid:d572d926-c81c-4f11-a075-ccf7cb693867"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -47192,7 +46998,7 @@
         <name value="VaccineVS"/>
         <title value="Vaccines (SNOMED CT)"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -47203,8 +47009,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:fbe0c713-1c21-4e0c-8a74-7045357c3385"/>
-          <timestamp value="2025-09-04T23:59:20+05:45"/>
+          <identifier value="urn:uuid:38615824-1754-4151-97b9-f14805dcac4d"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -48445,7 +48251,7 @@
         <name value="VisitOrdinalVS"/>
         <title value="Patient Visit Ordinal"/>
         <status value="active"/>
-        <date value="2025-09-04T23:57:58+05:45"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -48456,8 +48262,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:6766fbbb-ebc2-4ca1-ae0e-8490c46b711f"/>
-          <timestamp value="2025-09-04T23:59:20+05:45"/>
+          <identifier value="urn:uuid:d3888f66-ccc3-4607-a947-236f40026743"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -48517,6 +48323,200 @@
             <system value="http://snomed.info/sct"/>
             <code value="1264385008"/>
             <display value="Follow-up for combined therapy of surgery, radiation therapy, and chemotherapy (procedure)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hmis.gov.np/ValueSet/yes-no"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-Y"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y">Y</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-N"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N">N</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>No</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NI"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NI">NI</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>No Information</td>
+                <td>No Information</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NA"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA">NA</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not applicable</td>
+                <td>not applicable</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>unknown</td>
+                <td>unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NASK"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NASK">NASK</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not asked</td>
+                <td>not asked</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-ASKU"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-ASKU">ASKU</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>asked but unknown</td>
+                <td>asked but unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NAV"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NAV">NAV</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>temporarily unavailable</td>
+                <td>temporarily unavailable</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0532-NP"> </a>  
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NP">NP</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v2-0532</td>
+                <td>not present</td>
+                <td>not present</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.hmis.gov.np/ValueSet/yes-no"/>
+        <version value="0.0.1-ballot"/>
+        <name value="YesNoVS"/>
+        <title value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-05T08:09:57+05:45"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NP"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8d14c9aa-c0f7-4056-b6a5-f35251698055"/>
+          <timestamp value="2025-09-05T08:11:11+05:45"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="Y"/>
+            <display value="Yes"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="N"/>
+            <display value="No"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NI"/>
+            <display value="No Information"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NA"/>
+            <display value="not applicable"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="UNK"/>
+            <display value="unknown"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NASK"/>
+            <display value="not asked"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="ASKU"/>
+            <display value="asked but unknown"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NAV"/>
+            <display value="temporarily unavailable"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+            <code value="NP"/>
+            <display value="not present"/>
           </contains>
         </expansion>
       </ValueSet>

@@ -1,0 +1,70 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "YesNoCM",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap YesNoCM</b></p><a name=\"YesNoCM\"> </a><a name=\"hcYesNoCM\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\">expandedYes-NoIndicator</a> to <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-snomed-CT.html\">SNOMED\u00a0CT International Edition</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>Y (Yes / Affirmative)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>373066001 (Yes)</td></tr><tr><td>N (No / Negative)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>373067005 (No)</td></tr></table></div>"
+  },
+  "url" : "https://fhir.hmis.gov.np/ConceptMap/YesNoCM",
+  "version" : "0.0.1-ballot",
+  "title" : "Yes / No Concept Map",
+  "status" : "active",
+  "date" : "2025-09-05T08:09:57+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Mapping between HL7 v2-0532, SNOMED CT, and Nepali Yes/No custom codes",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "group" : [{
+    "source" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+    "target" : "http://snomed.info/sct",
+    "element" : [{
+      "code" : "Y",
+      "display" : "Yes / Affirmative",
+      "target" : [{
+        "code" : "373066001",
+        "display" : "Yes",
+        "relationship" : "equivalent"
+      }]
+    },
+    {
+      "code" : "N",
+      "display" : "No / Negative",
+      "target" : [{
+        "code" : "373067005",
+        "display" : "No",
+        "relationship" : "equivalent"
+      }]
+    }]
+  }]
+}

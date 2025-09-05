@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "deb40534-0210-496a-9fd8-d8c464f0ef3e",
+  "id" : "37c8ed11-9097-4589-a7f5-62189f2d9532",
   "meta" : {
-    "lastUpdated" : "2025-09-04T23:58:34.844+05:45"
+    "lastUpdated" : "2025-09-05T08:10:33.301+05:45"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,7 +18,7 @@
       "name" : "AdministrativeGenderVS",
       "title" : "Administrative Gender",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -26,8 +26,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0fa0637c-0327-4357-be76-1b1ef53dea68",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:047d8b7c-2f1a-4331-8a5d-90ecf32fd1a2",
+        "timestamp" : "2025-09-05T08:11:09+05:45",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -82,7 +82,7 @@
       "name" : "AgeRangeVS",
       "title" : "Age Range",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -90,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fea3960c-86e8-4de4-9786-94a64834293c",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:b895b963-2b9a-4048-ab60-dfaebbfbbe1b",
+        "timestamp" : "2025-09-05T08:11:09+05:45",
         "total" : 38,
         "offset" : 0,
         "parameter" : [{
@@ -316,7 +316,7 @@
       "name" : "ConditionCodeVS",
       "title" : "Condition/Problem/Diagnosis codes",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -328,8 +328,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:ab19918b-2cb2-4e68-9bca-12774f252256",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:638f5086-2075-4ed2-86b0-ba88a04a9c57",
+        "timestamp" : "2025-09-05T08:11:09+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -5372,7 +5372,7 @@
       "title" : "Condition / Diagnosis Severity",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5380,8 +5380,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e100d4a0-c174-41d3-8602-7effaf35f211",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:1b83eb33-e9d7-4d48-91f3-6b2a0c7bb331",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5439,7 +5439,7 @@
       "name" : "DistrictVS",
       "title" : "District",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5447,8 +5447,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ae30dd86-137b-4763-888b-e4ced0317b64",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:eb1fe91a-b07e-4567-9f22-5e9684b4b919",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 77,
         "offset" : 0,
         "parameter" : [{
@@ -5869,7 +5869,7 @@
       "title" : "Educational Level",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5881,8 +5881,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:aa17d9ef-8ad5-4d44-b7bf-6b93cdd1a632",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:37f9078d-ccbd-4105-a3f4-db66afeb9098",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -6519,7 +6519,7 @@
       "name" : "EmploymentStatusVS",
       "title" : "Employment (रोजगारी स्थिति)",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6527,8 +6527,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:11c95c63-bb30-45ff-8b97-2ae55ff2eb27",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:4d63ef2e-0d79-4f73-bbf4-a9e0a19cdbbd",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -6581,7 +6581,7 @@
       "name" : "EthnicCodeVS",
       "title" : "Ethnic Code",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6589,8 +6589,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:95b80e36-c4b4-4268-9177-7bf54216a4de",
-        "timestamp" : "2025-09-04T23:59:18+05:45",
+        "identifier" : "urn:uuid:9d5bf18c-a097-4551-8392-02b97286b960",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -6655,7 +6655,7 @@
       "name" : "FreeCostVS",
       "title" : "Free Cost",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6663,8 +6663,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:554b00bb-a442-468d-b865-29f688f6848a",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:a157fb56-c05a-46ce-8ffb-e629d17d6506",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -6709,7 +6709,7 @@
       "name" : "FreeServiceEligibilityVS",
       "title" : "Free Service Eligibility",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6717,8 +6717,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d6a7594-6599-4755-a312-4719920e603d",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:8ae8cac1-728a-479c-8170-2dfa2108304c",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -6783,7 +6783,7 @@
       "name" : "LocalBodyVS",
       "title" : "LocalBody",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6791,8 +6791,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c47d4c44-bf86-475c-87e8-0d70ee04f6be",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:a88344e9-d720-4005-8bf5-07a0e9b3e289",
+        "timestamp" : "2025-09-05T08:11:10+05:45",
         "total" : 753,
         "offset" : 0,
         "parameter" : [{
@@ -10592,7 +10592,7 @@
       "name" : "MaritalStatusVS",
       "title" : "Marital Status (वैवाहिक स्थिति)",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -10600,8 +10600,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a4ff33a8-0d00-459f-8840-c0e190593ac9",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:5bda3f43-8e53-48c2-8dec-1a7c592d879f",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -10669,7 +10669,7 @@
       "name" : "MedicationVS",
       "title" : "Dietary Supplements (SNOMED)",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -10681,8 +10681,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:80420f33-877b-4ae1-af89-17391f839797",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:94da4afa-a4b1-4b55-aad8-338d8028104b",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -15724,7 +15724,7 @@
       "name" : "NutritionalStatusVS",
       "title" : "Child Nutritional Status (SNOMED CT)",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -15732,8 +15732,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:55f349b4-b9f1-4fa0-98c5-2818520a117d",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:38b5314d-667b-4c71-acc8-71e265354665",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -15774,96 +15774,6 @@
     }
   },
   {
-    "fullUrl" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a></p><p>This value set contains 9 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-Y\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y\">Y</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>Yes</td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-N\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N\">N</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>No</td><td>No</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NI\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NI\">NI</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>No Information</td><td>No Information</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NA\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA\">NA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not applicable</td><td>not applicable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK\">UNK</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>unknown</td><td>unknown</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NASK\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NASK\">NASK</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not asked</td><td>not asked</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-ASKU\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-ASKU\">ASKU</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>asked but unknown</td><td>asked but unknown</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NAV\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NAV\">NAV</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>temporarily unavailable</td><td>temporarily unavailable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NP\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NP\">NP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not present</td><td>not present</td></tr></table></div>"
-      },
-      "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
-      "version" : "0.0.1-ballot",
-      "name" : "OptionSetYesNoVS",
-      "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2025-09-04T23:57:58+05:45",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NP"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:57e7f393-5a19-429f-8019-6242c93a81c7",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
-        "total" : 9,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"
-        }],
-        "contains" : [{
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "Y",
-          "display" : "Yes"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "N",
-          "display" : "No"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "NI",
-          "display" : "No Information"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "NA",
-          "display" : "not applicable"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "UNK",
-          "display" : "unknown"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "NASK",
-          "display" : "not asked"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "ASKU",
-          "display" : "asked but unknown"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "NAV",
-          "display" : "temporarily unavailable"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-          "code" : "NP",
-          "display" : "not present"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://fhir.hmis.gov.np/ValueSet/patient-registration-type",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -15876,7 +15786,7 @@
       "name" : "PatientRegistrationTypeVS",
       "title" : "Patient Registration Type",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -15884,8 +15794,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:48f72fc2-3a55-45e0-acc9-52d91832cba5",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:46f4a410-9c20-468e-967f-ec7d4324c1ed",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15943,7 +15853,7 @@
       "name" : "ProvinceVS",
       "title" : "Province",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -15951,8 +15861,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d86aad16-2f3f-4ba2-83d8-06bc9dff0dad",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:7db76d9c-3886-468b-a64e-301007782e58",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -16022,7 +15932,7 @@
       "name" : "ServiceAreaAddressVS",
       "title" : "Service Area Address Classification",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -16030,8 +15940,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:561f766c-553a-4228-9e46-c1788403302f",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:975170d3-60ac-4c0d-8472-9d7a3f82e090",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -16085,7 +15995,7 @@
       "title" : "Service Type",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -16097,8 +16007,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:6c77aa27-1841-4b76-8d38-e4089a03c5b9",
-        "timestamp" : "2025-09-04T23:59:19+05:45",
+        "identifier" : "urn:uuid:d572d926-c81c-4f11-a075-ccf7cb693867",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -17878,7 +17788,7 @@
       "name" : "VaccineVS",
       "title" : "Vaccines (SNOMED CT)",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -17890,8 +17800,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:fbe0c713-1c21-4e0c-8a74-7045357c3385",
-        "timestamp" : "2025-09-04T23:59:20+05:45",
+        "identifier" : "urn:uuid:38615824-1754-4151-97b9-f14805dcac4d",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -19058,7 +18968,7 @@
       "name" : "VisitOrdinalVS",
       "title" : "Patient Visit Ordinal",
       "status" : "active",
-      "date" : "2025-09-04T23:57:58+05:45",
+      "date" : "2025-09-05T08:09:57+05:45",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -19070,8 +18980,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:6766fbbb-ebc2-4ca1-ae0e-8490c46b711f",
-        "timestamp" : "2025-09-04T23:59:20+05:45",
+        "identifier" : "urn:uuid:d3888f66-ccc3-4607-a947-236f40026743",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -19131,6 +19041,96 @@
           "system" : "http://snomed.info/sct",
           "code" : "1264385008",
           "display" : "Follow-up for combined therapy of surgery, radiation therapy, and chemotherapy (procedure)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.hmis.gov.np/ValueSet/yes-no",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\">codesystem expandedYes-NoIndicator v2.0.0 (CodeSystem)</a></p><p>This value set contains 9 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-Y\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-Y\">Y</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>Yes</td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-N\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-N\">N</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>No</td><td>No</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NI\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NI\">NI</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>No Information</td><td>No Information</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NA\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NA\">NA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not applicable</td><td>not applicable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-UNK\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-UNK\">UNK</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>unknown</td><td>unknown</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NASK\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NASK\">NASK</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not asked</td><td>not asked</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-ASKU\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-ASKU\">ASKU</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>asked but unknown</td><td>asked but unknown</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NAV\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NAV\">NAV</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>temporarily unavailable</td><td>temporarily unavailable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v2-0532-NP\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html#v2-0532-NP\">NP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0532</td><td>not present</td><td>not present</td></tr></table></div>"
+      },
+      "url" : "https://fhir.hmis.gov.np/ValueSet/yes-no",
+      "version" : "0.0.1-ballot",
+      "name" : "YesNoVS",
+      "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-09-05T08:09:57+05:45",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NP"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:8d14c9aa-c0f7-4056-b6a5-f35251698055",
+        "timestamp" : "2025-09-05T08:11:11+05:45",
+        "total" : 9,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v2-0532|2.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "Y",
+          "display" : "Yes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "N",
+          "display" : "No"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NI",
+          "display" : "No Information"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NA",
+          "display" : "not applicable"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "UNK",
+          "display" : "unknown"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NASK",
+          "display" : "not asked"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "ASKU",
+          "display" : "asked but unknown"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NAV",
+          "display" : "temporarily unavailable"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+          "code" : "NP",
+          "display" : "not present"
         }]
       }
     }

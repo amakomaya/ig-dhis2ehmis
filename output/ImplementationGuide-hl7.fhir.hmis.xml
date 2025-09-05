@@ -254,7 +254,7 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/GenderHL7ToSNOMED"/>
+        <reference value="ConceptMap/AdministrativeGenderCM"/>
       </reference>
       <name value="HL7 Administrative Gender to SNOMED CT"/>
       <description value="Maps HL7 Administrative Gender codes to SNOMED CT concepts."/>
@@ -589,7 +589,7 @@ It is developed to support routine service delivery programs such as Maternal an
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/option-set-yes-no"/>
+        <reference value="ValueSet/yes-no"/>
       </reference>
       <name value="Option Set - Yes / No / Yes-only / Don't know / Not applicable"/>
       <description value="Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको&#xA;&#xA;Used for:&#xA;- Presumptive TB Case (सम्भावित क्षयरोग विरामी)&#xA;- Gender Based Violence (लैंगिक हिंसा)&#xA;- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)&#xA;- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)&#xA;- GDS Present (General Danger Sign Present)&#xA;- Chest Indrawing (Yes only)&#xA;- Stridor (Yes only)&#xA;- Wheezing (Yes only)&#xA;- Condom Use&#xA;- Lab test results (Positive/Negative)&#xA;&#xA;| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |&#xA;|-----------------|----------------|--------------------|-----------------------------------------------------|&#xA;| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |&#xA;| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |"/>
@@ -698,6 +698,17 @@ It is developed to support routine service delivery programs such as Maternal an
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/YesNoCM"/>
+      </reference>
+      <name value="Yes / No Concept Map"/>
+      <description value="Mapping between HL7 v2-0532, SNOMED CT, and Nepali Yes/No custom codes"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -730,9 +741,9 @@ It is developed to support routine service delivery programs such as Maternal an
         <generation value="markdown"/>
       </page>
       <page>
-        <sourceUrl value="smart-index.html"/>
-        <name value="smart-index.html"/>
-        <title value="SMART Guidelines"/>
+        <sourceUrl value="guidelines.html"/>
+        <name value="guidelines.html"/>
+        <title value="Guidelines"/>
         <generation value="markdown"/>
       </page>
       <page>

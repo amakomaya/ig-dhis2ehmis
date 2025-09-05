@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "AdministrativeGenderCM",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap AdministrativeGenderCM</b></p><a name=\"AdministrativeGenderCM\"> </a><a name=\"hcAdministrativeGenderCM\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://hl7.org/fhir/R5/codesystem-administrative-gender.html\">AdministrativeGender</a> to <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-snomed-CT.html\">SNOMED\u00a0CT International Edition</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>248153007 (Male)</td></tr><tr><td>female</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>248152002 (Female)</td></tr></table></div>"
+  },
+  "url" : "https://fhir.hmis.gov.np/ConceptMap/AdministrativeGenderCM",
+  "version" : "0.0.1-ballot",
+  "title" : "HL7 Administrative Gender to SNOMED CT",
+  "status" : "draft",
+  "date" : "2025-09-05T08:09:57+05:45",
+  "publisher" : "Integrated Health Information Management Section",
+  "contact" : [{
+    "name" : "Integrated Health Information Management Section",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hmis.gov.np"
+    },
+    {
+      "system" : "email",
+      "value" : "it@hmis.gov.np"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rcpoudel@amakomaya.com"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    },
+    {
+      "system" : "phone",
+      "value" : "+977-9851341921"
+    }]
+  }],
+  "description" : "Maps HL7 Administrative Gender codes to SNOMED CT concepts.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/administrative-gender",
+    "target" : "http://snomed.info/sct",
+    "element" : [{
+      "code" : "male",
+      "target" : [{
+        "code" : "248153007",
+        "display" : "Male",
+        "relationship" : "equivalent"
+      }]
+    },
+    {
+      "code" : "female",
+      "target" : [{
+        "code" : "248152002",
+        "display" : "Female",
+        "relationship" : "equivalent"
+      }]
+    }]
+  }]
+}

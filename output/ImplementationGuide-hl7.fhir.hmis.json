@@ -273,7 +273,7 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/GenderHL7ToSNOMED"
+        "reference" : "ConceptMap/AdministrativeGenderCM"
       },
       "name" : "HL7 Administrative Gender to SNOMED CT",
       "description" : "Maps HL7 Administrative Gender codes to SNOMED CT concepts.",
@@ -637,7 +637,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/option-set-yes-no"
+        "reference" : "ValueSet/yes-no"
       },
       "name" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
       "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |",
@@ -756,6 +756,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/YesNoCM"
+      },
+      "name" : "Yes / No Concept Map",
+      "description" : "Mapping between HL7 v2-0532, SNOMED CT, and Nepali Yes/No custom codes",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -789,9 +801,9 @@
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "smart-index.html",
-        "name" : "smart-index.html",
-        "title" : "SMART Guidelines",
+        "sourceUrl" : "guidelines.html",
+        "name" : "guidelines.html",
+        "title" : "Guidelines",
         "generation" : "markdown"
       },
       {

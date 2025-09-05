@@ -141,15 +141,6 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no",
-      "version" : "0.0.1-ballot",
-      "status" : "active",
-      "name" : "OptionSetYesNoVS",
-      "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
-      "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0532"]
-    },
-    {
       "url" : "https://fhir.hmis.gov.np/ValueSet/patient-registration-type",
       "version" : "0.0.1-ballot",
       "status" : "active",
@@ -214,6 +205,15 @@
       "title" : "Patient Visit Ordinal",
       "description" : "ValueSet combining SNOMED CT codes for first and follow-up visits with local codes for second, third, and repeat visits.",
       "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://fhir.hmis.gov.np/ValueSet/yes-no",
+      "version" : "0.0.1-ballot",
+      "status" : "active",
+      "name" : "YesNoVS",
+      "title" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
+      "description" : "Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको\n\nUsed for:\n- Presumptive TB Case (सम्भावित क्षयरोग विरामी)\n- Gender Based Violence (लैंगिक हिंसा)\n- Exclusively Breastfeeding (शिशुलाइ जन्मेको ६ महिना सम्म स्तनपान मात्र गराएको)\n- Complementary Food (६ महिना पछि स्तनपान साथै ठोस, अर्धठोस र नरम खाना सुरू)\n- GDS Present (General Danger Sign Present)\n- Chest Indrawing (Yes only)\n- Stridor (Yes only)\n- Wheezing (Yes only)\n- Condom Use\n- Lab test results (Positive/Negative)\n\n| HL7 v2-0532 Code | SNOMED CT Code | English Meaning       | Nepali Variants                                      |\n|-----------------|----------------|--------------------|-----------------------------------------------------|\n| Y               | 373066001      | Yes / Affirmative  | हो / गराएको / लिएको / भएको / पाएको              |\n| N               | 373067005      | No / Negative      | होइन / नगराएको / नलिएको / नभएको / नपाएको      |",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0532"]
     }
   ]
 }

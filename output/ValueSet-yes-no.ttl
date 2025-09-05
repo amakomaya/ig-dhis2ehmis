@@ -6,20 +6,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.hmis.gov.np/ValueSet/option-set-yes-no> a fhir:ValueSet ;
+<http://fhir.hmis.gov.np/ValueSet/yes-no> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "option-set-yes-no"] ; # 
+  fhir:id [ fhir:v "yes-no"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet option-set-yes-no</b></p><a name=\"option-set-yes-no\"> </a><a name=\"hcoption-set-yes-no\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet yes-no</b></p><a name=\"yes-no\"> </a><a name=\"hcyes-no\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.hmis.gov.np/ValueSet/option-set-yes-no"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://fhir.hmis.gov.np/ValueSet/yes-no"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1-ballot"] ; # 
-  fhir:name [ fhir:v "OptionSetYesNoVS"] ; # 
+  fhir:name [ fhir:v "YesNoVS"] ; # 
   fhir:title [ fhir:v "Option Set - Yes / No / Yes-only / Don't know / Not applicable"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-04T23:57:58+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-05T08:09:57+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Integrated Health Information Management Section"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Integrated Health Information Management Section" ] ;

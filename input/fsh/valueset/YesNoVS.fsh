@@ -1,5 +1,5 @@
-ValueSet: OptionSetYesNoVS
-Id: option-set-yes-no
+ValueSet: YesNoVS
+Id: yes-no
 Title: "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
 Description: """
 Master option set for Yes/No/Yes-only/Don't know/Not applicable, including Nepali designations:छ/छैन, हो/होइन, गराएको/नगराएको, लिएको/नलिएको, भएको/नभएको, पाएको/नपाएको

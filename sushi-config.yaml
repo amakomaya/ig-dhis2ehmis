@@ -34,8 +34,8 @@ copyright: >-
 pages:
   index.md:
     title: Home
-  smart-index.md:
-    title: SMART Guidelines
+  guidelines.md:
+    title: Guidelines
   profiles.md:
     title: Extensions and Profiles
   codesystems.md:
@@ -72,7 +72,7 @@ pages:
 
 menu:
   Home: index.html
-  SMART Guidelines: smart-index.html
+  Guidelines: guidelines.html
   Extensions and Profiles : profiles.html
   Code Systems: codesystems.html
   Value Set: valuesets.html

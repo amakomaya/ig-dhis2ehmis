@@ -10,6 +10,7 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
+      "ConceptMap-AdministrativeGenderCM.html" : "HL7 Administrative Gender to SNOMED CT",
       "ValueSet-administrative-gender.html" : "Administrative Gender"
     },
     {
@@ -22,7 +23,8 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "ValueSet-option-set-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
+      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
+      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -66,9 +68,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
-      "ValueSet-localbody.html" : "LocalBody",
+      "ValueSet-province.html" : "Province",
       "ValueSet-district.html" : "District",
-      "ValueSet-province.html" : "Province"
+      "ValueSet-localbody.html" : "LocalBody"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",

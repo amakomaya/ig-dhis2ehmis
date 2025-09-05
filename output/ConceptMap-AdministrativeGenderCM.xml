@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="AdministrativeGenderCM"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap AdministrativeGenderCM</b></p><a name="AdministrativeGenderCM"> </a><a name="hcAdministrativeGenderCM"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="http://hl7.org/fhir/R5/codesystem-administrative-gender.html">AdministrativeGender</a> to <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-snomed-CT.html">SNOMED CT International Edition</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>248153007 (Male)</td></tr><tr><td>female</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>248152002 (Female)</td></tr></table></div>
+  </text>
+  <url value="https://fhir.hmis.gov.np/ConceptMap/AdministrativeGenderCM"/>
+  <version value="0.0.1-ballot"/>
+  <title value="HL7 Administrative Gender to SNOMED CT"/>
+  <status value="draft"/>
+  <date value="2025-09-05T08:09:57+05:45"/>
+  <publisher value="Integrated Health Information Management Section"/>
+  <contact>
+    <name value="Integrated Health Information Management Section"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hmis.gov.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="it@hmis.gov.np"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rcpoudel@amakomaya.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+    <telecom>
+      <system value="phone"/>
+      <value value="+977-9851341921"/>
+    </telecom>
+  </contact>
+  <description value="Maps HL7 Administrative Gender codes to SNOMED CT concepts."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <group>
+    <source value="http://hl7.org/fhir/administrative-gender"/>
+    <target value="http://snomed.info/sct"/>
+    <element>
+      <code value="male"/>
+      <target>
+        <code value="248153007"/>
+        <display value="Male"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="female"/>
+      <target>
+        <code value="248152002"/>
+        <display value="Female"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>
