@@ -193,11 +193,11 @@ By adopting the SMART Guidelines approach, Nepal can:
       <td><strong>Family Planning</strong></td>
       <td>
 <ul>
-        <li><a href="smart-resources/family-planning/digital-adaption-kit-eng.pdf" target="_blank">Digital Adaptation Kit for Family Planning</a></li>
-      <li><a href="smart-resources/family-planning/WHO-SRH-21.13-eng.xlsx" target="_blank">Core data dictionary</a></li>
-      <li><a href="smart-resources/family-planning/WHO-SRH-21.14-eng.xlsx" target="_blank">Decision support logic</a></li>
-      <li><a href="smart-resources/family-planning/WHO-SRH-21.15-eng.xlsx" target="_blank">Indicator table</a></li>
-      <li><a href="smart-resources/family-planning/WHO-SRH-21.16-eng.xlsx" target="_blank">Functional and non-functional requirements</a></li>
+        <li><a href="family-planning/digital-adaption-kit-eng.pdf" target="_blank">Digital Adaptation Kit for Family Planning</a></li>
+      <li><a href="family-planning/WHO-SRH-21.13-eng.xlsx" target="_blank">Core data dictionary</a></li>
+      <li><a href="family-planning/WHO-SRH-21.14-eng.xlsx" target="_blank">Decision support logic</a></li>
+      <li><a href="family-planning/WHO-SRH-21.15-eng.xlsx" target="_blank">Indicator table</a></li>
+      <li><a href="family-planning/WHO-SRH-21.16-eng.xlsx" target="_blank">Functional and non-functional requirements</a></li>
 </ul>
       </td>
       <td><em>Coming soon!</em></td>

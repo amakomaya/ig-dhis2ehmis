@@ -56,8 +56,8 @@
       "uses" : {
       },
       "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
       "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
       "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
       "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },
@@ -636,8 +636,8 @@
       "uses" : {
       },
       "StructureDefinition-np-core-immunization.html" : "NP Core Immunization Profile",
-      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
       "StructureDefinition-np-core-medication-dispense.html" : "NP Core Medication Dispense Profile",
+      "StructureDefinition-nepal-person.html" : "Nepal Person Profile",
       "StructureDefinition-np-core-encounter.html" : "NP Core Encounter Profile",
       "StructureDefinition-np-core-patient.html" : "NP Core Patient Profile"
     },

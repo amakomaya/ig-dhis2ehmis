@@ -58,8 +58,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender",
       "ConceptMap-AdministrativeGenderCM.html" : "HL7 Administrative Gender to SNOMED CT",
+      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender",
       "ValueSet-administrative-gender.html" : "Administrative Gender"
     },
     {
@@ -435,8 +435,8 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
-      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map"
+      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map",
+      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -448,8 +448,8 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType",
-      "http://terminology.hl7.org/6.5.0/ValueSet-encounter-class.html" : "Encounter class"
+      "http://terminology.hl7.org/6.5.0/ValueSet-encounter-class.html" : "Encounter class",
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
@@ -473,8 +473,8 @@
       "oids" : ["2.16.840.1.113883.5.8"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason",
-      "http://hl7.org/fhir/R5/valueset-immunization-status-reason.html" : "Immunization Status Reason Codes"
+      "http://hl7.org/fhir/R5/valueset-immunization-status-reason.html" : "Immunization Status Reason Codes",
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
@@ -603,9 +603,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-localbody.html" : "LocalBody",
       "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-district.html" : "District"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
@@ -639,8 +639,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     }
   ]
 }

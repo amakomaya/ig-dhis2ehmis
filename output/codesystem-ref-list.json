@@ -23,8 +23,8 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
-      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map"
+      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map",
+      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/ethnic-code",
@@ -68,9 +68,9 @@
       "description" : "Comprehensive code system for Nepals provinces, districts, and municipalities.",
       "uses" : {
       },
+      "ValueSet-localbody.html" : "LocalBody",
       "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District",
-      "ValueSet-localbody.html" : "LocalBody"
+      "ValueSet-district.html" : "District"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
