@@ -3,8 +3,8 @@ NPCoreImplementationGuide : Validation Results
 
 err = 158, warn = 84, info = 75
 IG Publisher Version: 2.0.13 Out of date - current version is 2.0.16
-Generated Sun Sep 07 15:48:18 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = http://fhir.hmis.gov.np)
- Build Errors : 384 / 4 / 0
+Generated Mon Sep 08 06:46:03 NPT 2025. FHIR version 5.0.0 for hl7.fhir.hmis#0.0.1-ballot (canonical = http://fhir.hmis.gov.np)
+ Build Errors : 379 / 4 / 0
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-ethnic-code : 2 / 1 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-facility-type : 2 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-ihmis/fsh-generated/resources/CodeSystem-free-cost : 2 / 2 / 2
@@ -429,11 +429,6 @@ ERROR: examples.html#/html/body/div/div/div/p/span/a at Line 355, column 113: Th
 ERROR: external_terminologies.html#/html/body/div/div/div/p/span/a at Line 335, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: gov_concepts.html#/html/body/div/div/div/div/div/figure/svg/g/a at Line 266, column 10562: The link './diagram_legend.html#data-object-details-with-plantuml' for "legend" cannot be resolved
 ERROR: gov_concepts.html#/html/body/div/div/div/p/span/a at Line 320, column 113: The link 'license.html' for "License" cannot be resolved
-ERROR: guidelines.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 446, column 14: The link 'family-planning/digital-adaption-kit-eng.pdf' for "Digital Adaptation Kit for Family Planning" cannot be resolved
-ERROR: guidelines.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 447, column 12: The link 'family-planning/WHO-SRH-21.13-eng.xlsx' for "Core data dictionary" cannot be resolved
-ERROR: guidelines.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 448, column 12: The link 'family-planning/WHO-SRH-21.14-eng.xlsx' for "Decision support logic" cannot be resolved
-ERROR: guidelines.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 449, column 12: The link 'family-planning/WHO-SRH-21.15-eng.xlsx' for "Indicator table" cannot be resolved
-ERROR: guidelines.html#/html/body/div/div/div/div/div/table/tbody/tr/td/ul/li/a at Line 450, column 12: The link 'family-planning/WHO-SRH-21.16-eng.xlsx' for "Functional and non-functional requirements" cannot be resolved
 ERROR: guidelines.html#/html/body/div/div/div/div/div/p/a at Line 829, column 119: The link 'l2_templates.html' for "this location" cannot be resolved
 ERROR: guidelines.html#/html/body/div/div/div/p/span/a at Line 1047, column 113: The link 'license.html' for "License" cannot be resolved
 ERROR: health-journey-immunization.html#/html/body/div/div/div/p/span/a at Line 412, column 113: The link 'license.html' for "License" cannot be resolved

@@ -59,8 +59,8 @@
       "uses" : {
       },
       "ConceptMap-AdministrativeGenderCM.html" : "HL7 Administrative Gender to SNOMED CT",
-      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender",
-      "ValueSet-administrative-gender.html" : "Administrative Gender"
+      "ValueSet-administrative-gender.html" : "Administrative Gender",
+      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
       "url" : "http://hl7.org/fhir/contact-point-system",
@@ -435,8 +435,8 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map",
-      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable"
+      "ValueSet-yes-no.html" : "Option Set - Yes / No / Yes-only / Don't know / Not applicable",
+      "ConceptMap-YesNoCM.html" : "Yes / No Concept Map"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -604,8 +604,8 @@
       "uses" : {
       },
       "ValueSet-localbody.html" : "LocalBody",
-      "ValueSet-province.html" : "Province",
-      "ValueSet-district.html" : "District"
+      "ValueSet-district.html" : "District",
+      "ValueSet-province.html" : "Province"
     },
     {
       "url" : "https://fhir.hmis.gov.np/CodeSystem/period-range",
